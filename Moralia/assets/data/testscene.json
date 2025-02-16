@@ -1,0 +1,162 @@
+{
+  "Entities": [
+    {
+      "struct Client::CameraComponent": {
+        "direction": {
+          "x": -0.9987300634384155,
+          "y": -0.06710312515497208,
+          "z": -0.09570607542991638
+        },
+        "farPlane": 200.0,
+        "fov": 0.8726646304130554,
+        "nearPlane": 0.009999999776482582,
+        "up": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        }
+      },
+      "struct Client::TagComponent": {
+        "mTag": ""
+      },
+      "struct Geometry::Types::Transform": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 32.30918884277344,
+          "y": 1.8840938806533813,
+          "z": 3.2719767093658447
+        }
+      }
+    },
+    {
+      "struct Client::ModelComponent": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": ""
+      },
+      "struct Client::Script": {
+        "name": "Example"
+      },
+      "struct Client::TagComponent": {
+        "mTag": ""
+      },
+      "struct Darkness::PM::BoundingSphere": {
+        "center": {
+          "x": 11.0,
+          "y": 0.5,
+          "z": 1.2000000476837158
+        },
+        "radius": 1.0
+      },
+      "struct Darkness::PM::Particle": {
+        "acceleration": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": 0.0
+        },
+        "damp": 0.9900000095367432,
+        "force": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "invM": 0.05000000074505806,
+        "life": 1000.0,
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "struct Geometry::Types::Transform": {
+        "rotation": {
+          "x": 7224.87744140625,
+          "y": -4038.454345703125,
+          "z": -1592.367919921875
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "translation": {
+          "x": 11.0,
+          "y": 0.5,
+          "z": 1.2000000476837158
+        }
+      }
+    },
+    {
+      "struct Client::ModelComponent": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": ""
+      },
+      "struct Client::Script": {
+        "name": "Example"
+      },
+      "struct Client::TagComponent": {
+        "mTag": ""
+      },
+      "struct Darkness::PM::BoundingSphere": {
+        "center": {
+          "x": 11.0,
+          "y": 0.5,
+          "z": 1.2000000476837158
+        },
+        "radius": 1.0
+      },
+      "struct Darkness::PM::Particle": {
+        "acceleration": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": 0.0
+        },
+        "damp": 0.9900000095367432,
+        "force": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "invM": 0.05000000074505806,
+        "life": 1000.0,
+        "velocity": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "struct Geometry::Types::Transform": {
+        "rotation": {
+          "x": 7424.94677734375,
+          "y": -4038.454345703125,
+          "z": -1592.367919921875
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "translation": {
+          "x": 11.0,
+          "y": 0.5,
+          "z": 1.2000000476837158
+        }
+      }
+    }
+  ],
+  "SceneInfo": {
+    "entityCount": 3,
+    "name": "testscene",
+    "rootScene": false
+  }
+}
