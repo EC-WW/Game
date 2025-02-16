@@ -1,0 +1,84 @@
+/*********************************************************************
+ * file:   heightmap_shader.comp
+ * author: evan.gray(evan.gray@digpen.edu)
+ * date:   December 11, 2024
+ * Copyright 2024 DigiPen (USA) Corporation.
+ *
+ * brief:  Compute shader for deforming heightmaps
+ *********************************************************************/
+#version 450
+
+//#extension GL_EXT_debug_printf : enable
+
+layout (local_size_x = 256, local_size_y = 1, local_size_z = 1) in;
+
+//Image data going in and out
+layout ( binding = 0, rgba8 ) uniform image2D resultImage;
+
+struct Deformation 
+{
+  vec2 position; //Position of the deformation
+  float strength;  //Positive for up, negative for down
+  int diameter; 
+};
+
+//Buffer of data deformations going in
+layout (set = 0, binding = 1) readonly buffer DeformationsBuffer 
+{
+  Deformation deformations[]; // Array of deformations
+};
+
+void main() 
+{
+  //-----Locate deformation to use------------------------------------------------------------------------------------------------------------------------------
+  uint threadIndex = gl_GlobalInvocationID.x;
+  uint deformationIndex = 0;
+  uint currentPixelsDeformed = deformations[deformationIndex].diameter * deformations[deformationIndex].diameter;
+
+  //Check if this thread is a part of the current deformation
+  while(threadIndex >= currentPixelsDeformed)
+  {
+    //Remove the pixels deformed by the last deformation from the thread index
+    threadIndex -= currentPixelsDeformed;
+
+    //Move to the next deformation
+    ++deformationIndex;
+
+    //Update the number of pixels deformed too the new deformation
+    currentPixelsDeformed += deformations[deformationIndex].diameter * 2;
+  }
+  Deformation deformation = deformations[deformationIndex];
+
+  //------Get position data about the deformation----------------------------------------------------------------------------------------------------------------
+  ivec2 deformationCenter = ivec2(deformation.position.x, deformation.position.y);
+  int radius = deformation.diameter / 2;
+  ivec2 deformationTopLeft = ivec2(deformationCenter.x - radius, deformationCenter.y - radius);
+
+  //Get the position of the pixel this thread is responsible for (offset by index)
+  ivec2 deformationPos = ivec2(deformationTopLeft.x + mod(threadIndex, deformation.diameter), deformationTopLeft.y + (threadIndex / deformation.diameter));
+
+  //debugPrintfEXT("This thread is a part of Deformation %i is at (%f, %f) with strength %f and diameter %i, this thread (%i) offset is (%i, %i)", deformationIndex, deformation.position.x, deformation.position.y, deformation.strength, deformation.diameter, threadIndex, deformationPos.x, deformationPos.y);
+
+  //-----Check if the deformation is in the circle--------------------------------------------------------------------------------------------------------------
+  ivec2 deformationOffset = deformationPos - deformationCenter;
+  if(dot(deformationOffset, deformationOffset) > deformation.diameter * radius / 2)
+  {
+    return;
+  }
+
+  //-----Check if the deformation is in the image---------------------------------------------------------------------------------------------------------------
+  ivec2 imageSize = imageSize(resultImage);
+  if(deformationPos.x < 0 || deformationPos.x >= imageSize.x || deformationPos.y < 0 || deformationPos.y >= imageSize.y)
+  {
+    return;
+  }
+
+  //-----Scale the strength down based on how far away from the center of the deformation the pixel is (just off the circle is 0)-------------------------------
+  float squaredDistFromCenter = dot(deformationOffset, deformationOffset);
+  float floatRadius = deformation.diameter / 2.0;
+  float squaredRadius = radius * radius;
+  float strength = deformation.strength * (1.0 - squaredDistFromCenter / squaredRadius);
+
+  //Update the heightmap-----------------------------------------------------------------------------------------------------------------------------------
+  imageStore(resultImage, deformationPos, vec4(0.0, imageLoad(resultImage, deformationPos).y + strength, 0.0, 1.0));
+}
