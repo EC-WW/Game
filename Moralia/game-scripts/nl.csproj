@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework> <!-- Adjust as needed -->
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <!-- Move output generation to tmp foler-->
+    <BaseOutputPath>$(MSBuildThisFileDirectory)..\.nl\</BaseOutputPath>
+    <IntermediateOutputPath>$(MSBuildThisFileDirectory)..\.nl\</IntermediateOutputPath>
+    <MSBUildProjectExtensionsPath>$(MSBuildThisFileDirectory)..\.nl\</MSBUildProjectExtensionsPath>
+
+    <!-- Prevent compilation -->
+    <SkipCompilerExecution>true</SkipCompilerExecution>
+    <ResolveAssemblyReferences>false</ResolveAssemblyReferences>
+    <CoreCompileDependsOn></CoreCompileDependsOn>
+    <BuildProjectReferences>false</BuildProjectReferences>
+  </PropertyGroup>
+
+  <!-- Disable design-time builds -->
+  <PropertyGroup Condition="'$(DesignTimeBuild)' == 'true'">
+    <SkipCompilerExecution>true</SkipCompilerExecution>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NITELITE">
+      <HintPath>$(MSBuildThisFileDirectory)..\assemblies\NL_Script.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
