@@ -6,58 +6,6 @@
         {
           "Data": {
             "rotation": {
-              "x": 5.148721694946289,
-              "y": 6.038839340209961,
-              "z": 1.4486232995986938
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": 0.20000000298023224,
-              "y": 1.7000000476837158,
-              "z": -5.599999904632568
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": -0.05921822041273117,
-              "y": -0.24192190170288086,
-              "z": 0.9684869647026062
-            },
-            "editorCamera": false,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": true,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {
-            "mTag": "Camera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "4294967296"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
@@ -106,231 +54,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "0"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": -3.112075090408325,
-              "y": 1.1537065505981445,
-              "z": -14.810650825500488
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.08746612817049026,
-              "y": -0.09265221655368805,
-              "z": 0.9918481707572937
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "8589934592"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": -2.876086950302124,
-              "y": 4.954168796539307,
-              "z": -11.164487838745117
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.0634508803486824,
-              "y": -0.2929474115371704,
-              "z": 0.9539840221405029
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "12884901888"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": -4.289342403411865,
-              "y": 2.3074564933776855,
-              "z": -13.670248031616211
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.13354460895061493,
-              "y": -0.24991047382354736,
-              "z": 0.9589880704879761
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "17179869184"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": 11.3618745803833,
-              "y": 6.387107849121094,
-              "z": -11.386667251586914
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": -0.3307868540287018,
-              "y": -0.5189217925071716,
-              "z": 0.7881983518600464
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "21474836480"
+      "OldID": "236223201281"
     },
     {
       "Children": [],
@@ -386,7 +110,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "25769803776"
+      "OldID": "231928233985"
     },
     {
       "Children": [],
@@ -442,7 +166,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "30064771072"
+      "OldID": "227633266689"
     },
     {
       "Children": [],
@@ -498,7 +222,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "34359738368"
+      "OldID": "223338299393"
     },
     {
       "Children": [],
@@ -554,231 +278,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "38654705664"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 1.0
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "42949672960"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 1.0
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "47244640256"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 1.0
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "51539607552"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 1.0
-            },
-            "editorCamera": true,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        },
-        {
-          "Data": {
-            "mTag": "EditorCamera"
-          },
-          "Name": "struct Client::TagComponent"
-        }
-      ],
-      "OldID": "55834574848"
+      "OldID": "219043332097"
     },
     {
       "Children": [],
@@ -834,7 +334,119 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "60129542144"
+      "OldID": "214748364801"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "395136991233"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "390842023937"
     },
     {
       "Children": [],
@@ -890,7 +502,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "64424509440"
+      "OldID": "386547056641"
     },
     {
       "Children": [],
@@ -946,7 +558,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "68719476736"
+      "OldID": "382252089345"
     },
     {
       "Children": [],
@@ -1002,7 +614,119 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "73014444032"
+      "OldID": "377957122049"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "420906795009"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "416611827713"
     },
     {
       "Children": [],
@@ -1058,7 +782,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "77309411328"
+      "OldID": "412316860417"
     },
     {
       "Children": [],
@@ -1066,9 +790,1633 @@
         {
           "Data": {
             "rotation": {
-              "x": 433.53802490234375,
-              "y": 433.53802490234375,
-              "z": -433.53802490234375
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "408021893121"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "403726925825"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "399431958529"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "347892350977"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "343597383681"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "339302416385"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "335007449089"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -1.744541049003601,
+              "y": 1.0248987674713135,
+              "z": -7.3462934494018555
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.3121069669723511,
+              "y": -0.13793930411338806,
+              "z": 0.9399572610855103
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "330712481793"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "326417514497"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -2.95841646194458,
+              "y": 0.7614807486534119,
+              "z": -8.355549812316895
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.8095732927322388,
+              "y": -0.1706966906785965,
+              "z": 0.5616468191146851
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "322122547201"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -0.39558085799217224,
+              "y": 0.18231165409088135,
+              "z": -7.624017715454102
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.05184164643287659,
+              "y": -0.023977244272828102,
+              "z": 0.9983677864074707
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "317827579905"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -3.9069769382476807,
+              "y": 2.4095749855041504,
+              "z": -10.225181579589844
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.38866961002349854,
+              "y": -0.2155488282442093,
+              "z": 0.895796000957489
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "313532612609"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -1.8859084844589233,
+              "y": -0.060920871794223785,
+              "z": -1.1548136472702026
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.5999610424041748,
+              "y": 0.0004985455889254808,
+              "z": 0.8000284433364868
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "309237645313"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "304942678017"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.3051418364048004,
+              "y": 0.35606876015663147,
+              "z": -5.588809967041016
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -0.06103639677166939,
+              "y": -0.08051464706659317,
+              "z": 0.9948826432228088
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "300647710721"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -0.47653457522392273,
+              "y": 0.13957421481609344,
+              "z": 0.8680000901222229
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "296352743425"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.5690180063247681,
+              "y": 2.1690456867218018,
+              "z": -9.062263488769531
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.1368190050125122,
+              "y": -0.18005505204200745,
+              "z": 0.9740775227546692
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "292057776129"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -1.0463978052139282,
+              "y": 1.6524288654327393,
+              "z": -8.129254341125488
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.2913876175880432,
+              "y": -0.11970333755016327,
+              "z": 0.9490794539451599
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "287762808833"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "283467841537"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -3.112075090408325,
+              "y": 1.1537065505981445,
+              "z": -14.810650825500488
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.08746612817049026,
+              "y": -0.09265221655368805,
+              "z": 0.9918481707572937
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "279172874241"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -2.876086950302124,
+              "y": 4.954168796539307,
+              "z": -11.164487838745117
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0634508803486824,
+              "y": -0.2929474115371704,
+              "z": 0.9539840221405029
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "274877906945"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "270582939649"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -4.289342403411865,
+              "y": 2.3074564933776855,
+              "z": -13.670248031616211
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.13354460895061493,
+              "y": -0.24991047382354736,
+              "z": 0.9589880704879761
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "266287972353"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 11.3618745803833,
+              "y": 6.387107849121094,
+              "z": -11.386667251586914
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -0.3307868540287018,
+              "y": -0.5189217925071716,
+              "z": 0.7881983518600464
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "261993005057"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "257698037761"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "253403070465"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "249108103169"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "244813135873"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": true,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        },
+        {
+          "Data": {
+            "mTag": "EditorCamera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "240518168577"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 5760.087890625,
+              "y": 5760.087890625,
+              "z": -5760.087890625
             },
             "scale": {
               "x": 10.0,
@@ -1076,8 +2424,8 @@
               "z": 10.0
             },
             "translation": {
-              "x": -3.2093513011932373,
-              "y": -1.7359641790390015,
+              "x": 0.03387400880455971,
+              "y": 0.011911478824913502,
               "z": 6.039980411529541
             }
           },
@@ -1104,7 +2452,65 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "81604378624"
+      "OldID": "373662154753"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 120.54452514648438,
+              "y": 121.43456268310547,
+              "z": -113.9474868774414
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.03829335421323776,
+              "y": -0.015750115737318993,
+              "z": -5.599999904632568
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.00817504245787859,
+              "y": 0.9999340772628784,
+              "z": -0.00806413870304823
+            },
+            "editorCamera": false,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {
+            "name": "Camera"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "mTag": "Camera"
+          },
+          "Name": "struct Client::TagComponent"
+        }
+      ],
+      "OldID": "369367187457"
     },
     {
       "Children": [
@@ -1153,7 +2559,7 @@
               "Name": "struct Client::TagComponent"
             }
           ],
-          "OldID": "90194313216"
+          "OldID": "360777252865"
         },
         {
           "Children": [],
@@ -1200,7 +2606,7 @@
               "Name": "struct Client::TagComponent"
             }
           ],
-          "OldID": "94489280512"
+          "OldID": "356482285569"
         },
         {
           "Children": [],
@@ -1247,7 +2653,7 @@
               "Name": "struct Client::TagComponent"
             }
           ],
-          "OldID": "98784247808"
+          "OldID": "352187318273"
         }
       ],
       "Components": [
@@ -1278,7 +2684,7 @@
           "Name": "struct Client::TagComponent"
         }
       ],
-      "OldID": "85899345920"
+      "OldID": "365072220161"
     }
   ],
   "SceneHeader": "assets\\data\\omg_my_final_epic_test_scene_name.json"
