@@ -48,19 +48,19 @@ public class FirstPersonController : NL_Script
     Vec3 inputDirection = new Vec3(0, 0, 0);
 
     //update the vec2 based on input
-    if (NITELITE.Input.GetKeyPressed(Keys.I))
+    if (NITELITE.Input.GetKeyPressed(Keys.W))
     {
       inputDirection.z += 1;
     }
-    if (NITELITE.Input.GetKeyPressed(Keys.J))
+    if (NITELITE.Input.GetKeyPressed(Keys.A))
     {
       inputDirection.x -= 1;
     }
-    if (NITELITE.Input.GetKeyPressed(Keys.K))
+    if (NITELITE.Input.GetKeyPressed(Keys.S))
     {
       inputDirection.z -= 1;
     }
-    if (NITELITE.Input.GetKeyPressed(Keys.L))
+    if (NITELITE.Input.GetKeyPressed(Keys.D))
     {
       inputDirection.x += 1;
     }

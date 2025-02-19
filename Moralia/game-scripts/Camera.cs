@@ -15,7 +15,8 @@ using NITELITE;
 
 public class Camera : NL_Script
 {
-  Entity myent;
+  public float MoveSpeed = 5f;
+
 
   public Vec3 InitialPos;
   public double BobFrequency = 0.25;
@@ -26,8 +27,8 @@ public class Camera : NL_Script
   public float MaxLerp = 10f;
 
   Vec3 NewCamRot = new Vec3();
-  public float MouseSensitivityX = 0.1f;
-  public float MouseSensitivityY = 0.1f;
+  public float MouseSensitivityX = 0.3f;
+  public float MouseSensitivityY = 0.3f;
   public float CameraLerp = 40;
   public float matRotationFrame = 50f;
   float lastX = 0;
@@ -45,11 +46,69 @@ public class Camera : NL_Script
     //IdleBobbing();
     CameraController();
     PitchClamp();
+    MovementCopy();
+    SetEntityRotation();
   }
 
   public override void Exit()
   {
-    // This is called when the script is unloaded
+
+  }
+
+
+  private void SetEntityRotation()
+  {
+    ref Transform transform = ref self.GetComponent<Transform>();
+
+    //get camera rotation direction and translate into radians
+    float camYRot = self.GetComponent<CameraComponent>().rotation.x;
+    float radians = camYRot * (MathF.PI / 180f);
+    
+    //set the object y rotation based on the camera
+    transform.rotation.y = radians;
+  }
+
+  private void MovementCopy()
+  {
+    ref Transform transform = ref self.GetComponent<Transform>();
+
+    //create a vec2 for input
+    Vec3 inputDirection = new Vec3(0, 0, 0);
+
+    //update the vec2 based on input
+    if (NITELITE.Input.GetKeyPressed(Keys.W))
+    {
+      inputDirection.z += 1;
+    }
+    if (NITELITE.Input.GetKeyPressed(Keys.A))
+    {
+      inputDirection.x -= 1;
+    }
+    if (NITELITE.Input.GetKeyPressed(Keys.S))
+    {
+      inputDirection.z -= 1;
+    }
+    if (NITELITE.Input.GetKeyPressed(Keys.D))
+    {
+      inputDirection.x += 1;
+    }
+
+    //normalize input direction to prevent diagonal speed boost
+    if (inputDirection.x != 0 || inputDirection.z != 0)
+    {
+      inputDirection.Normalize();
+    }
+
+    //get the forward and right vectors based on rotation
+    float radians = transform.rotation.y;
+    Vec3 forward = new Vec3(MathF.Sin(radians), 0, MathF.Cos(radians));
+    Vec3 right = new Vec3(forward.z, 0, -forward.x);
+
+    //calculate movement based on forward and right
+    Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
+
+    //move the entity
+    transform.position += movement;
   }
 
 
