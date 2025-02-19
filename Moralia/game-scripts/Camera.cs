@@ -26,9 +26,11 @@ public class Camera : NL_Script
   public float MaxLerp = 10f;
 
   Vec3 NewCamRot = new Vec3();
-  public float MouseSensitivityX = 1f;
-  public float MouseSensitivityY = 1f;
-  public float CameraLerp = 0.99f;
+  public float MouseSensitivityX = 0.1f;
+  public float MouseSensitivityY = 0.1f;
+  public float CameraLerp = 40;
+  public float matRotationFrame = 50f;
+  float lastX = 0;
 
   public override void Init()
   {
@@ -42,6 +44,7 @@ public class Camera : NL_Script
   {
     //IdleBobbing();
     CameraController();
+    PitchClamp();
   }
 
   public override void Exit()
@@ -54,8 +57,6 @@ public class Camera : NL_Script
   {
     //get components
     ref Transform transform = ref self.GetComponent<Transform>();
-    //ref ModelComponent model = ref self.GetComponent<ModelComponent>();
-    //ref Particle particle = ref self.GetComponent<Particle>();
 
     //fun movement
     if (NITELITE.Input.GetKeyPressed(Keys.W))
@@ -80,10 +81,34 @@ public class Camera : NL_Script
 
   public void CameraController()
   {
-    NL_INFO(NITELITE.Input.MouseDelta.ToString());
-    NewCamRot += new Vec3(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -NITELITE.Input.MouseDelta.y * MouseSensitivityY, 0f);
+    NewCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -matRotationFrame, matRotationFrame), 
+                          -NITELITE.Input.MouseDelta.y * MouseSensitivityY, 0f);
 
+    //Check for looping and adjust to closer side for lerping
+    float rotationX = self.GetComponent<CameraComponent>().rotation.x;
+    if (Math.Abs(lastX - rotationX) > 350f)
+    {
+      if (Math.Abs(NewCamRot.x - rotationX) > Math.Abs((NewCamRot.x - 360) - rotationX))
+      {
+        NewCamRot.x -= 360;
+      }
+      if (Math.Abs(NewCamRot.x - rotationX) > Math.Abs((NewCamRot.x + 360) - rotationX))
+      {
+        NewCamRot.x += 360f;
+      }
+    }
+
+    lastX = rotationX;
     self.GetComponent<CameraComponent>().rotation = LerpVec3(self.GetComponent<CameraComponent>().rotation, NewCamRot, dt * CameraLerp);
+  }
+
+  public void PitchClamp()
+  {
+    Vec3 CurrentRotation = self.GetComponent<CameraComponent>().rotation;
+
+    float ClampedPitch = Math.Clamp(CurrentRotation.y, -60f, 70f);
+
+    self.GetComponent<CameraComponent>().rotation = new Vec3(CurrentRotation.x, ClampedPitch, CurrentRotation.z);
   }
 
   public Vec3 LerpVec3(Vec3 startPos, Vec3 endPos, float t)
