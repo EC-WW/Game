@@ -46,7 +46,6 @@ public class FirstPersonController : NL_Script
 
     //create a vec2 for input
     Vec3 inputDirection = new Vec3(0, 0, 0);
-
     //update the vec2 based on input
     if (NITELITE.Input.GetKeyPressed(Keys.W))
     {
