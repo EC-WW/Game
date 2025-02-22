@@ -1,10 +1,10 @@
 /**
-/ file:   CameraTest.cs
+/ file:   Camera.cs
 / author: jared
 / date:   January 21, 2025
 / Copyright (c) 2024 DigiPen (USA) Corporation. 
 / 
-/ brief:  Testing C# with the camera
+/ brief:  First person camera controller
 **/
 using System;
 using System.Diagnostics;
@@ -17,8 +17,8 @@ public class Camera : NL_Script
 {
   public float MoveSpeed = 5f;
 
-
-  public Vec3 InitialPos;
+  //Idle Bobbing
+  private Vec3 InitialPos;
   public double BobFrequency = 0.25;
   public double BobAmplitude = 0.1;
   private double Timer = Math.PI / 2;
@@ -26,12 +26,15 @@ public class Camera : NL_Script
   public float InitialLerp = 0.25f;
   public float MaxLerp = 10f;
 
+  //Camera Controller
   Vec3 NewCamRot = new Vec3();
   public float MouseSensitivityX = 0.3f;
   public float MouseSensitivityY = 0.3f;
-  public float CameraLerp = 40;
-  public float matRotationFrame = 50f;
-  float lastX = 0;
+  public float MinPitch = -60f;
+  public float MaxPitch = 70f;
+  public float LerpSpeed = 40;
+  public float maxRotationFrame = 50f;
+  private float lastX = 0;
 
   public override void Init()
   {
@@ -45,7 +48,6 @@ public class Camera : NL_Script
   {
     //IdleBobbing();
     CameraController();
-    PitchClamp();
     MovementCopy();
     SetEntityRotation();
   }
@@ -111,7 +113,6 @@ public class Camera : NL_Script
     transform.position += movement;
   }
 
-
   public void IdleBobbing()
   {
     //get components
@@ -140,7 +141,8 @@ public class Camera : NL_Script
 
   public void CameraController()
   {
-    NewCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -matRotationFrame, matRotationFrame), 
+    //Rotation based on mouse input
+    NewCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -maxRotationFrame, maxRotationFrame), 
                           -NITELITE.Input.MouseDelta.y * MouseSensitivityY, 0f);
 
     //Check for looping and adjust to closer side for lerping
@@ -158,15 +160,10 @@ public class Camera : NL_Script
     }
 
     lastX = rotationX;
-    self.GetComponent<CameraComponent>().rotation = LerpVec3(self.GetComponent<CameraComponent>().rotation, NewCamRot, dt * CameraLerp);
-  }
 
-  public void PitchClamp()
-  {
-    Vec3 CurrentRotation = self.GetComponent<CameraComponent>().rotation;
-
-    float ClampedPitch = Math.Clamp(CurrentRotation.y, -60f, 70f);
-
+    //Lerp rotation and clamp pitch
+    Vec3 CurrentRotation = LerpVec3(self.GetComponent<CameraComponent>().rotation, NewCamRot, dt * LerpSpeed);
+    float ClampedPitch = Math.Clamp(CurrentRotation.y, MinPitch, MaxPitch);
     self.GetComponent<CameraComponent>().rotation = new Vec3(CurrentRotation.x, ClampedPitch, CurrentRotation.z);
   }
 
