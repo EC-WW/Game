@@ -1,0 +1,90 @@
+/*********************************************************************
+ * file:   main_shader.comp
+ * author: aditya.prakash (aditya.prakash@digpen.edu)
+ * date:   November 21, 2024
+ * Copyright 2024 DigiPen (USA) Corporation.
+ *
+ * brief:  The main compute shader!
+ *********************************************************************/
+
+#version 460
+
+// lower sized workgroup ends up being better for lower instances (?)
+#define WORKGROUP_SIZE_X 32
+layout(local_size_x = WORKGROUP_SIZE_X) in;
+
+#include "camera_set.glsl"
+#include "instance_set.glsl"
+
+struct VkDrawIndexedIndirectCommand {
+    uint indexCount;
+    uint instanceCount;
+    uint firstIndex;
+    int  vertexOffset;
+    uint firstInstance;
+};
+
+layout(std430, set = 2, binding = 3) writeonly buffer ParticleDrawCommands {
+    VkDrawIndexedIndirectCommand cmds[];
+} particleDrawCommands;
+
+layout(std430, set = 2, binding = 4) buffer ParticleCounters {
+    uint particleDrawCommandCounter;
+    uint totalInstances;
+};
+
+///*
+void main() { 
+    uint instanceIndex = gl_GlobalInvocationID.x;
+    if (instanceIndex >= totalInstances) return;
+
+    Instance instance = particleInstanceData.instances[instanceIndex];
+
+    uint drawCounter = 0;
+    
+    vec4 sphere = instance.boundingSphere;
+    vec3 center = sphere.xyz;
+    float radius = sphere.w;
+    bool isText = particleInstanceData.instances[instanceIndex].charIndex != NL_INVALID_FONT_INDEX;
+    if (isText) return;
+
+    // Try culling diagetic entities
+    if ((instance.flags & 1) != 0 && !isText) {
+        vec4 clipSpaceCenter = particleUniforms.projectionView * vec4(center, 1.0);
+
+        // Check if the sphere is behind the near plane (fully behind the camera)
+        if (clipSpaceCenter.w < 1e-6) {
+            // return;
+        }
+
+        // Perspective divide (NDC space)
+        clipSpaceCenter.xyz /= clipSpaceCenter.w;
+
+        // Check if the sphere is outside the frustum
+        float absRadius = radius / abs(clipSpaceCenter.w); // Scale radius to clip space
+        bool isOutside = 
+            (clipSpaceCenter.x + absRadius < -1.0) || // Left
+            (clipSpaceCenter.x - absRadius >  1.0) || // Right
+            (clipSpaceCenter.y + absRadius < -1.0) || // Bottom
+            (clipSpaceCenter.y - absRadius >  1.0) || // Top
+            (clipSpaceCenter.z + absRadius < -1.0) || // Near
+            (clipSpaceCenter.z - absRadius >  1.0);   // Far
+
+        if (isOutside)
+        {
+            return;
+	    }
+    }
+
+    MeshData data = meshData.meshes[instance.meshIndex];
+
+    VkDrawIndexedIndirectCommand drawCommand;
+    drawCommand.indexCount    = data.indexCount;
+    drawCommand.instanceCount = 1;
+    drawCommand.firstIndex    = data.firstIndex;
+    drawCommand.vertexOffset  = data.vertexOffset;
+    drawCommand.firstInstance = instanceIndex;
+
+	drawCounter = atomicAdd(particleDrawCommandCounter, 1);
+    particleDrawCommands.cmds[drawCounter] = drawCommand;
+}

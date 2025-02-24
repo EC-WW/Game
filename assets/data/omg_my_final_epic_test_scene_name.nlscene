@@ -1,0 +1,400 @@
+{
+  "Entities": [
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -0.5510579943656921,
+              "y": 2.172258138656616,
+              "z": 6.354628086090088
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.12102463096380234,
+              "y": -0.23313073813915253,
+              "z": -1.0001006126403809
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "OldID": 25769803779,
+      "Tag": ""
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "translation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Geometry::Types::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "othercube",
+          "OldID": 12884901891,
+          "Tag": ""
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 1.2283222675323486,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 5,
+                "Name": "test",
+                "Size": 4,
+                "Type": 8,
+                "TypeName": "Int32"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 6,
+                    "Name": "dog",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 7,
+                    "Name": "cat",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  }
+                ],
+                "Name": "hi",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "hello"
+              },
+              {
+                "Align": 8,
+                "Data": 8589934595,
+                "Name": "myent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
+            "Name": "Example"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Cube",
+      "OldID": 30064771075,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 3.0718986988067627
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -3.8941436741879443e-07,
+              "y": 0.0,
+              "z": -1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        }
+      ],
+      "Name": "Camera",
+      "OldID": 17179869187,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -1.1096159219741821,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "jack_samba"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "stupid",
+      "OldID": 21474836483,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 3.180000066757202,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 5.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "mowo"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "mowo",
+      "OldID": 8589934595,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": -3.2100000381469727,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 0,
+                "Name": "test",
+                "Size": 4,
+                "Type": 8,
+                "TypeName": "Int32"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "dog",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "cat",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  }
+                ],
+                "Name": "hi",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "hello"
+              },
+              {
+                "Align": 8,
+                "Data": 17179869187,
+                "Name": "myent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
+            "Name": "Example"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "mowo"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "mowo",
+      "OldID": 4294967299,
+      "Tag": ""
+    }
+  ],
+  "SceneHeader": "assets//data/omg_my_final_epic_test_scene_name.nlscene"
+}
