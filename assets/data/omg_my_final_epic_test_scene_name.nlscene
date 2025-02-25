@@ -123,7 +123,49 @@
         },
         {
           "Data": {
-            "Fields": [],
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 0,
+                "Name": "test",
+                "Size": 4,
+                "Type": 8,
+                "TypeName": "Int32"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "dog",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "cat",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  }
+                ],
+                "Name": "hi",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "hello"
+              },
+              {
+                "Align": 8,
+                "Data": 18446744073709551615,
+                "Name": "myent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
             "Name": "Example"
           },
           "Name": "struct Client::Script"
@@ -294,7 +336,49 @@
         },
         {
           "Data": {
-            "Fields": [],
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 0,
+                "Name": "test",
+                "Size": 4,
+                "Type": 8,
+                "TypeName": "Int32"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "dog",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "cat",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  }
+                ],
+                "Name": "hi",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "hello"
+              },
+              {
+                "Align": 8,
+                "Data": 18446744073709551615,
+                "Name": "myent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
             "Name": "Example"
           },
           "Name": "struct Client::Script"

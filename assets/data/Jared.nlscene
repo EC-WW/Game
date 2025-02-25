@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -7.875525951385498,
-              "y": 2.671016216278076,
-              "z": -3.9737396240234375
+              "x": -9.14884090423584,
+              "y": 4.622851848602295,
+              "z": 2.6360526084899902
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.8698758482933044,
-              "y": -0.2689797878265381,
-              "z": 0.4897468388080597
+              "x": 0.9128332734107971,
+              "y": -0.43929949402809143,
+              "z": -0.20626264810562134
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771077,
+      "OldID": 55834574853,
       "Tag": ""
     },
     {
@@ -80,7 +80,7 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "smooth_vase"
+            "modelPath": "team_travis"
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -102,6 +102,14 @@
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 47244640261,
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
               }
             ],
             "Name": "FirstPersonController"
@@ -110,7 +118,7 @@
         }
       ],
       "Name": "Player",
-      "OldID": 25769803781,
+      "OldID": 51539607557,
       "Tag": ""
     },
     {
@@ -263,7 +271,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 21474836485,
+      "OldID": 47244640261,
       "Tag": ""
     },
     {
@@ -306,7 +314,7 @@
         }
       ],
       "Name": "Text",
-      "OldID": 12884901893,
+      "OldID": 38654705669,
       "Tag": ""
     }
   ],
