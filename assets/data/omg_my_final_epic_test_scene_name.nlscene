@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 25769803779,
+      "OldID": 4294967296,
       "Tag": ""
     },
     {
@@ -88,7 +88,7 @@
             }
           ],
           "Name": "othercube",
-          "OldID": 12884901891,
+          "OldID": 12884901888,
           "Tag": ""
         }
       ],
@@ -123,56 +123,14 @@
         },
         {
           "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 5,
-                "Name": "test",
-                "Size": 4,
-                "Type": 8,
-                "TypeName": "Int32"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 6,
-                    "Name": "dog",
-                    "Size": 4,
-                    "Type": 8,
-                    "TypeName": "Int32"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 7,
-                    "Name": "cat",
-                    "Size": 4,
-                    "Type": 8,
-                    "TypeName": "Int32"
-                  }
-                ],
-                "Name": "hi",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "hello"
-              },
-              {
-                "Align": 8,
-                "Data": 8589934595,
-                "Name": "myent",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              }
-            ],
+            "Fields": [],
             "Name": "Example"
           },
           "Name": "struct Client::Script"
         }
       ],
       "Name": "Cube",
-      "OldID": 30064771075,
+      "OldID": 8589934592,
       "Tag": ""
     },
     {
@@ -221,7 +179,7 @@
         }
       ],
       "Name": "Camera",
-      "OldID": 17179869187,
+      "OldID": 17179869184,
       "Tag": ""
     },
     {
@@ -257,7 +215,7 @@
         }
       ],
       "Name": "stupid",
-      "OldID": 21474836483,
+      "OldID": 21474836480,
       "Tag": ""
     },
     {
@@ -300,7 +258,7 @@
         }
       ],
       "Name": "mowo",
-      "OldID": 8589934595,
+      "OldID": 25769803776,
       "Tag": ""
     },
     {
@@ -336,49 +294,7 @@
         },
         {
           "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 0,
-                "Name": "test",
-                "Size": 4,
-                "Type": 8,
-                "TypeName": "Int32"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0,
-                    "Name": "dog",
-                    "Size": 4,
-                    "Type": 8,
-                    "TypeName": "Int32"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0,
-                    "Name": "cat",
-                    "Size": 4,
-                    "Type": 8,
-                    "TypeName": "Int32"
-                  }
-                ],
-                "Name": "hi",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "hello"
-              },
-              {
-                "Align": 8,
-                "Data": 17179869187,
-                "Name": "myent",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              }
-            ],
+            "Fields": [],
             "Name": "Example"
           },
           "Name": "struct Client::Script"
@@ -392,9 +308,9 @@
         }
       ],
       "Name": "mowo",
-      "OldID": 4294967299,
+      "OldID": 30064771072,
       "Tag": ""
     }
   ],
-  "SceneHeader": "assets//data/omg_my_final_epic_test_scene_name.nlscene"
+  "SceneHeader": "assets\\data\\omg_my_final_epic_test_scene_name.nlscene"
 }

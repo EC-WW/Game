@@ -13,6 +13,16 @@ using System.Runtime;
 using Microsoft.VisualBasic;
 using NITELITE;
 
+public struct CameraController
+{
+  public float MouseSensitivityX;
+  public float MouseSensitivityY;
+  public float MinPitch;
+  public float MaxPitch;
+  public float LerpSpeed;
+  public float maxRotationFrame;
+}
+
 public class Camera : NL_Script
 {
   public float MoveSpeed = 5f;
@@ -27,13 +37,8 @@ public class Camera : NL_Script
   public float MaxLerp = 10f;
 
   //Camera Controller
+  public CameraController CamCon;
   Vec3 NewCamRot = new Vec3();
-  public float MouseSensitivityX = 0.3f;
-  public float MouseSensitivityY = 0.3f;
-  public float MinPitch = -60f;
-  public float MaxPitch = 70f;
-  public float LerpSpeed = 40;
-  public float maxRotationFrame = 50f;
   private float lastX = 0;
 
   public override void Init()
@@ -46,71 +51,13 @@ public class Camera : NL_Script
 
   public override void Update()
   {
-    //IdleBobbing();
+    IdleBobbing();
     CameraController();
-    MovementCopy();
-    SetEntityRotation();
   }
 
   public override void Exit()
   {
 
-  }
-
-
-  private void SetEntityRotation()
-  {
-    ref Transform transform = ref self.GetComponent<Transform>();
-
-    //get camera rotation direction and translate into radians
-    float camYRot = self.GetComponent<CameraComponent>().rotation.x;
-    float radians = camYRot * (MathF.PI / 180f);
-    
-    //set the object y rotation based on the camera
-    transform.rotation.y = radians;
-  }
-
-  private void MovementCopy()
-  {
-    ref Transform transform = ref self.GetComponent<Transform>();
-
-    //create a vec2 for input
-    Vec3 inputDirection = new Vec3(0, 0, 0);
-
-    //update the vec2 based on input
-    if (NITELITE.Input.GetKeyPressed(Keys.W))
-    {
-      inputDirection.z += 1;
-    }
-    if (NITELITE.Input.GetKeyPressed(Keys.A))
-    {
-      inputDirection.x -= 1;
-    }
-    if (NITELITE.Input.GetKeyPressed(Keys.S))
-    {
-      inputDirection.z -= 1;
-    }
-    if (NITELITE.Input.GetKeyPressed(Keys.D))
-    {
-      inputDirection.x += 1;
-    }
-
-    //normalize input direction to prevent diagonal speed boost
-    if (inputDirection.x != 0 || inputDirection.z != 0)
-    {
-      inputDirection.Normalize();
-    }
-
-    //get the forward and right vectors based on rotation
-    float radians = transform.rotation.y;
-    Vec3 forward = new Vec3(MathF.Sin(radians), 0, MathF.Cos(radians));
-    Vec3 right = new Vec3(forward.z, 0, -forward.x);
-
-    //calculate movement based on forward and right
-    Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
-
-    //move the entity
-    transform.position -= movement;
   }
 
   public void IdleBobbing()
@@ -142,8 +89,8 @@ public class Camera : NL_Script
   public void CameraController()
   {
     //Rotation based on mouse input
-    NewCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -maxRotationFrame, maxRotationFrame), 
-                          -NITELITE.Input.MouseDelta.y * MouseSensitivityY, 0f);
+    NewCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * CamCon.MouseSensitivityX, -CamCon.maxRotationFrame, CamCon.maxRotationFrame), 
+                          -NITELITE.Input.MouseDelta.y * CamCon.MouseSensitivityY, 0f);
 
     //Check for looping and adjust to closer side for lerping
     float rotationX = self.GetComponent<CameraComponent>().rotation.x;
@@ -162,8 +109,8 @@ public class Camera : NL_Script
     lastX = rotationX;
 
     //Lerp rotation and clamp pitch
-    Vec3 CurrentRotation = LerpVec3(self.GetComponent<CameraComponent>().rotation, NewCamRot, dt * LerpSpeed);
-    float ClampedPitch = Math.Clamp(CurrentRotation.y, MinPitch, MaxPitch);
+    Vec3 CurrentRotation = LerpVec3(self.GetComponent<CameraComponent>().rotation, NewCamRot, dt * CamCon.LerpSpeed);
+    float ClampedPitch = Math.Clamp(CurrentRotation.y, CamCon.MinPitch, CamCon.MaxPitch);
     self.GetComponent<CameraComponent>().rotation = new Vec3(CurrentRotation.x, ClampedPitch, CurrentRotation.z);
   }
 

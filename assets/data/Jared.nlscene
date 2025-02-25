@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": 0.944678783416748,
-              "y": 3.6409428119659424,
-              "z": -8.218979835510254
+              "x": -7.875525951385498,
+              "y": 2.671016216278076,
+              "z": -3.9737396240234375
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": -0.08955639600753784,
-              "y": -0.5112259387969971,
-              "z": 0.8942538499832153
+              "x": 0.971045196056366,
+              "y": -0.24794360995292664,
+              "z": 0.2539333403110504
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,67 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 17179869190,
+      "OldID": 3,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "smooth_vase"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "RotationSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              }
+            ],
+            "Name": "FirstPersonController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Player",
+      "OldID": 34359738370,
       "Tag": ""
     },
     {
@@ -150,51 +210,60 @@
               },
               {
                 "Align": 4,
-                "Data": 0.30000001192092896,
-                "Name": "MouseSensitivityX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.30000001192092896,
-                "Name": "MouseSensitivityY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": -60.0,
-                "Name": "MinPitch",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 70.0,
-                "Name": "MaxPitch",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 40.0,
-                "Name": "LerpSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 50.0,
-                "Name": "maxRotationFrame",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.30000001192092896,
+                    "Name": "MouseSensitivityX",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.30000001192092896,
+                    "Name": "MouseSensitivityY",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": -60.0,
+                    "Name": "MinPitch",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 70.0,
+                    "Name": "MaxPitch",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 40.0,
+                    "Name": "LerpSpeed",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 50.0,
+                    "Name": "maxRotationFrame",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  }
+                ],
+                "Name": "CamCon",
+                "Size": 24,
+                "Type": 17,
+                "TypeName": "CameraController"
               }
             ],
             "Name": "Camera"
@@ -203,7 +272,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 12884901895,
+      "OldID": 38654705666,
       "Tag": ""
     },
     {
@@ -246,7 +315,7 @@
         }
       ],
       "Name": "Text",
-      "OldID": 4294967302,
+      "OldID": 42949672962,
       "Tag": ""
     }
   ],
