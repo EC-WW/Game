@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.40260642766952515,
-              "y": -0.28975287079811096,
-              "z": 0.9070568680763245
+              "x": 0.3703933358192444,
+              "y": -0.3131139576435089,
+              "z": 0.913001537322998
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 1,
+      "OldID": 30064771079,
       "Tag": ""
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 34359738368,
+      "OldID": 25769803783,
       "Tag": ""
     },
     {
@@ -147,117 +147,53 @@
             "Fields": [
               {
                 "Align": 4,
-                "Data": 5.0,
-                "Name": "MoveSpeed",
+                "Data": 2,
+                "Name": "test",
                 "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
+                "Type": 8,
+                "TypeName": "Int32"
               },
               {
                 "Align": 4,
                 "Children": [
                   {
                     "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
+                    "Data": 1,
+                    "Name": "dog",
                     "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
+                    "Type": 8,
+                    "TypeName": "Int32"
                   },
                   {
                     "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
+                    "Data": 1,
+                    "Name": "cat",
                     "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
+                    "Type": 8,
+                    "TypeName": "Int32"
                   }
                 ],
-                "Name": "InitialPos",
-                "Size": 12,
+                "Name": "hi",
+                "Size": 8,
                 "Type": 17,
-                "TypeName": "Vec3"
+                "TypeName": "hello"
               },
               {
                 "Align": 8,
-                "Data": 0.25,
-                "Name": "BobFrequency",
+                "Data": 18446744073709551615,
+                "Name": "myent",
                 "Size": 8,
-                "Type": 13,
-                "TypeName": "Double"
-              },
-              {
-                "Align": 8,
-                "Data": 0.1,
-                "Name": "BobAmplitude",
-                "Size": 8,
-                "Type": 13,
-                "TypeName": "Double"
-              },
-              {
-                "Align": 4,
-                "Data": 0.25,
-                "Name": "InitialLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 10.0,
-                "Name": "MaxLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.30000001192092896,
-                "Name": "MouseSensitivityX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.30000001192092896,
-                "Name": "MouseSensitivityY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 40.0,
-                "Name": "CameraLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 50.0,
-                "Name": "matRotationFrame",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
+                "Type": 17,
+                "TypeName": "Entity"
               }
             ],
-            "Name": "Camera_Tay"
+            "Name": "Example"
           },
           "Name": "struct Client::Script"
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 38654705664,
+      "OldID": 21474836487,
       "Tag": ""
     },
     {
@@ -293,7 +229,7 @@
         }
       ],
       "Name": "Cube",
-      "OldID": 42949672960,
+      "OldID": 12884901895,
       "Tag": ""
     },
     {
@@ -336,7 +272,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 47244640256,
+      "OldID": 17179869191,
       "Tag": ""
     }
   ],
