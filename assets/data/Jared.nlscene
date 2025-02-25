@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.971045196056366,
-              "y": -0.24794360995292664,
-              "z": 0.2539333403110504
+              "x": 0.8698758482933044,
+              "y": -0.2689797878265381,
+              "z": 0.4897468388080597
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 3,
+      "OldID": 30064771077,
       "Tag": ""
     },
     {
@@ -110,7 +110,7 @@
         }
       ],
       "Name": "Player",
-      "OldID": 34359738370,
+      "OldID": 25769803781,
       "Tag": ""
     },
     {
@@ -210,60 +210,51 @@
               },
               {
                 "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.30000001192092896,
-                    "Name": "MouseSensitivityX",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.30000001192092896,
-                    "Name": "MouseSensitivityY",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": -60.0,
-                    "Name": "MinPitch",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 70.0,
-                    "Name": "MaxPitch",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 40.0,
-                    "Name": "LerpSpeed",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 50.0,
-                    "Name": "maxRotationFrame",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  }
-                ],
-                "Name": "CamCon",
-                "Size": 24,
-                "Type": 17,
-                "TypeName": "CameraController"
+                "Data": 0.30000001192092896,
+                "Name": "MouseSensitivityX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.30000001192092896,
+                "Name": "MouseSensitivityY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": -60.0,
+                "Name": "MinPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 70.0,
+                "Name": "MaxPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 40.0,
+                "Name": "LerpSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "maxRotationFrame",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
               }
             ],
             "Name": "Camera"
@@ -272,7 +263,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 38654705666,
+      "OldID": 21474836485,
       "Tag": ""
     },
     {
@@ -315,7 +306,7 @@
         }
       ],
       "Name": "Text",
-      "OldID": 42949672962,
+      "OldID": 12884901893,
       "Tag": ""
     }
   ],
