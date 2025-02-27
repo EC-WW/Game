@@ -12,18 +12,24 @@ using NITELITE;
 public class FirstPersonController : NL_Script
 {
   public float MoveSpeed = 5f;
-
   public float RotationSpeed = 3f;
+
+  public Entity Camera;
+  Vec3 CamOffset = new Vec3(0f, 2f, 0f);
 
   public override void Init()
   {
-        
+    
   }
 
   public override void Update()
   {
-    Rotation();
+    //Rotation();
+    CameraRotation();
+    //CameraFollow();
     Movement();
+
+    
   }
 
   private void Rotation()
@@ -38,6 +44,19 @@ public class FirstPersonController : NL_Script
     {
       transform.rotation.y += dt * RotationSpeed;
     }
+  }
+
+  private void CameraRotation()
+  {
+    ref Transform transform = ref self.GetComponent<Transform>();
+
+    transform.rotation.y = Camera.GetComponent<CameraComponent>().rotation.x * ((float)Math.PI) / 180f - Camera.GetComponent<Transform>().rotation.x * ((float)Math.PI) / 180f;
+  }
+
+  private void CameraFollow()
+  {
+    ref Transform transform = ref self.GetComponent<Transform>();
+    Camera.GetComponent<Transform>().position = transform.position + CamOffset;
   }
 
   private void Movement()
