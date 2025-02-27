@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -9.14884090423584,
-              "y": 4.622851848602295,
-              "z": 2.6360526084899902
+              "x": -5.6296210289001465,
+              "y": 2.197002410888672,
+              "z": 6.905483722686768
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.9128332734107971,
-              "y": -0.43929949402809143,
-              "z": -0.20626264810562134
+              "x": 0.5687112808227539,
+              "y": -0.272650808095932,
+              "z": -0.8190997838973999
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 55834574853,
+      "OldID": 30064771073,
       "Tag": ""
     },
     {
@@ -71,7 +71,7 @@
             "translation": {
               "x": 0.0,
               "y": 0.0,
-              "z": 0.0
+              "z": 5.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -80,45 +80,20 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "team_travis"
+            "modelPath": "quad"
           },
           "Name": "struct Client::ModelComponent"
         },
         {
           "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 5.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 3.0,
-                "Name": "RotationSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 8,
-                "Data": 47244640261,
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              }
-            ],
-            "Name": "FirstPersonController"
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "Hi!"
           },
-          "Name": "struct Client::Script"
+          "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "Player",
-      "OldID": 51539607557,
+      "Name": "Text",
+      "OldID": 8589934593,
       "Tag": ""
     },
     {
@@ -194,7 +169,7 @@
               },
               {
                 "Align": 4,
-                "Data": 0.0,
+                "Data": 0.25,
                 "Name": "LerpValue",
                 "Size": 4,
                 "Type": 12,
@@ -271,7 +246,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 47244640261,
+      "OldID": 21474836481,
       "Tag": ""
     },
     {
@@ -292,7 +267,7 @@
             "translation": {
               "x": 0.0,
               "y": 0.0,
-              "z": 5.0
+              "z": 0.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -301,20 +276,45 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "quad"
+            "modelPath": "team_travis"
           },
           "Name": "struct Client::ModelComponent"
         },
         {
           "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "Hi!"
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "RotationSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 21474836481,
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
+            "Name": "FirstPersonController"
           },
-          "Name": "struct Client::TextComponent"
+          "Name": "struct Client::Script"
         }
       ],
-      "Name": "Text",
-      "OldID": 38654705669,
+      "Name": "Player",
+      "OldID": 12884901889,
       "Tag": ""
     }
   ],
