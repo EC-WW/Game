@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771079,
+      "OldID": 1,
       "Tag": ""
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 25769803783,
+      "OldID": 34359738368,
       "Tag": ""
     },
     {
@@ -193,7 +193,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 21474836487,
+      "OldID": 38654705664,
       "Tag": ""
     },
     {
@@ -229,7 +229,7 @@
         }
       ],
       "Name": "Cube",
-      "OldID": 12884901895,
+      "OldID": 42949672960,
       "Tag": ""
     },
     {
@@ -272,7 +272,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 17179869191,
+      "OldID": 47244640256,
       "Tag": ""
     }
   ],
