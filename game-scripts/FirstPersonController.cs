@@ -11,28 +11,33 @@ using NITELITE;
 
 public class FirstPersonController : NL_Script
 {
-  public float MoveSpeed = 5f;
+  public float WalkSpeed = 7f;
+  public float SprintSpeed = 24f;
   public float RotationSpeed = 3f;
 
   public Entity Camera;
-  Vec3 CamOffset = new Vec3(0f, 2f, 0f);
+  public Vec3 CamOffset = new Vec3(0f, 2f, 0f);
+
+  private Vec3 inputDirection = new Vec3(0f, 0f, 0f);
+  private bool isSprinting = false;
 
   public override void Init()
   {
-    
+    ref Transform transform = ref Camera.GetComponent<Transform>();
+    transform.rotation.x = 180f;
   }
 
   public override void Update()
   {
-    //Rotation();
+    //DebugRotation();
     CameraRotation();
-    //CameraFollow();
-    Movement();
+    CameraFollow();
 
-    
+    PlayerInput();
+    Movement();
   }
 
-  private void Rotation()
+  private void DebugRotation()
   {
     ref Transform transform = ref self.GetComponent<Transform>();
 
@@ -49,7 +54,6 @@ public class FirstPersonController : NL_Script
   private void CameraRotation()
   {
     ref Transform transform = ref self.GetComponent<Transform>();
-
     transform.rotation.y = Camera.GetComponent<CameraComponent>().rotation.x * ((float)Math.PI) / 180f - Camera.GetComponent<Transform>().rotation.x * ((float)Math.PI) / 180f;
   }
 
@@ -59,13 +63,11 @@ public class FirstPersonController : NL_Script
     Camera.GetComponent<Transform>().position = transform.position + CamOffset;
   }
 
-  private void Movement()
-    {
-    ref Transform transform = ref self.GetComponent<Transform>();
+  private void PlayerInput()
+  {
+    inputDirection = new Vec3(0f, 0f, 0f);
 
-    //create a vec2 for input
-    Vec3 inputDirection = new Vec3(0, 0, 0);
-    //update the vec2 based on input
+    //update input direction based on input
     if (NITELITE.Input.GetKeyPressed(Keys.W))
     {
       inputDirection.z += 1;
@@ -83,6 +85,21 @@ public class FirstPersonController : NL_Script
       inputDirection.x += 1;
     }
 
+    //sprint input check
+    if (NITELITE.Input.GetKeyPressed(Keys.LEFT_SHIFT))
+    {
+      isSprinting = true;
+    }
+    if (NITELITE.Input.GetKeyReleased(Keys.LEFT_SHIFT))
+    {
+      isSprinting = false;
+    }
+  }
+
+  private void Movement()
+    {
+    ref Transform transform = ref self.GetComponent<Transform>();
+    
     //normalize input direction to prevent diagonal speed boost
     if (inputDirection.x != 0 || inputDirection.z != 0)
     {
@@ -95,10 +112,16 @@ public class FirstPersonController : NL_Script
     Vec3 right = new Vec3(forward.z, 0, -forward.x);
 
     //calculate movement based on forward and right
-    Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
-
-    //move the entity
-    transform.position += movement;
+    if (!isSprinting)
+    {
+      Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * WalkSpeed);
+      transform.position += movement;
+    }
+    else
+    {
+      Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * SprintSpeed);
+      transform.position += movement;
+    }
   }
 
   public override void Exit()

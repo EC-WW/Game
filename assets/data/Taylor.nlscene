@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -13.015156745910645,
-              "y": 8.640989303588867,
-              "z": -23.456031799316406
+              "x": -6.485135078430176,
+              "y": 4.955909729003906,
+              "z": -9.841398239135742
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.3703933358192444,
-              "y": -0.3131139576435089,
-              "z": 0.913001537322998
+              "x": 0.743808925151825,
+              "y": -0.4232787787914276,
+              "z": 0.636220395565033
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,50 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 1,
+      "OldID": 42949672973,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -15.142934799194336,
+              "y": 2.7980525493621826,
+              "z": 33.03400421142578
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "Taylor Scene"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "SceneText",
+      "OldID": 15,
       "Tag": ""
     },
     {
@@ -95,7 +138,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 34359738368,
+      "OldID": 47244640270,
       "Tag": ""
     },
     {
@@ -104,7 +147,7 @@
         {
           "Data": {
             "rotation": {
-              "x": 360.0,
+              "x": 180.0,
               "y": 0.0,
               "z": 0.0
             },
@@ -124,9 +167,9 @@
         {
           "Data": {
             "direction": {
-              "x": -2.6226043701171875e-06,
+              "x": -2.5351816930196946e-06,
               "y": 0.0,
-              "z": 1.0
+              "z": -1.0
             },
             "editorCamera": 0,
             "farPlane": 2000.0,
@@ -147,53 +190,108 @@
             "Fields": [
               {
                 "Align": 4,
-                "Data": 2,
-                "Name": "test",
+                "Data": 5.0,
+                "Name": "MoveSpeed",
                 "Size": 4,
-                "Type": 8,
-                "TypeName": "Int32"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 1,
-                    "Name": "dog",
-                    "Size": 4,
-                    "Type": 8,
-                    "TypeName": "Int32"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 1,
-                    "Name": "cat",
-                    "Size": 4,
-                    "Type": 8,
-                    "TypeName": "Int32"
-                  }
-                ],
-                "Name": "hi",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "hello"
+                "Type": 12,
+                "TypeName": "Single"
               },
               {
                 "Align": 8,
-                "Data": 18446744073709551615,
-                "Name": "myent",
+                "Data": 0.25,
+                "Name": "BobFrequency",
                 "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
+                "Type": 13,
+                "TypeName": "Double"
+              },
+              {
+                "Align": 8,
+                "Data": 0.1,
+                "Name": "BobAmplitude",
+                "Size": 8,
+                "Type": 13,
+                "TypeName": "Double"
+              },
+              {
+                "Align": 4,
+                "Data": 0.25,
+                "Name": "LerpValue",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.25,
+                "Name": "InitialLerp",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "MaxLerp",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.30000001192092896,
+                "Name": "MouseSensitivityX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.30000001192092896,
+                "Name": "MouseSensitivityY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": -60.0,
+                "Name": "MinPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 70.0,
+                "Name": "MaxPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 40.0,
+                "Name": "LerpSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "maxRotationFrame",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
               }
             ],
-            "Name": "Example"
+            "Name": "Camera"
           },
           "Name": "struct Client::Script"
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 38654705664,
+      "OldID": 34359738382,
       "Tag": ""
     },
     {
@@ -214,7 +312,7 @@
             "translation": {
               "x": 0.0,
               "y": 0.0,
-              "z": 4.876513481140137
+              "z": -5.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -226,53 +324,83 @@
             "modelPath": "cube"
           },
           "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Cube",
-      "OldID": 42949672960,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": -15.142934799194336,
-              "y": 2.7980525493621826,
-              "z": 33.03400421142578
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
         },
         {
           "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 7.0,
+                "Name": "WalkSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 12.0,
+                "Name": "SprintSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "RotationSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 34359738382,
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  }
+                ],
+                "Name": "CamOffset",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3"
+              }
+            ],
+            "Name": "FirstPersonController"
           },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "Taylor Scene"
-          },
-          "Name": "struct Client::TextComponent"
+          "Name": "struct Client::Script"
         }
       ],
-      "Name": "SceneText",
-      "OldID": 47244640256,
+      "Name": "PlayerModel",
+      "OldID": 38654705676,
       "Tag": ""
     }
   ],
