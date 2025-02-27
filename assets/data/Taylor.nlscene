@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -6.485135078430176,
-              "y": 4.955909729003906,
-              "z": -9.841398239135742
+              "x": -10.537927627563477,
+              "y": 6.778082847595215,
+              "z": -12.025965690612793
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.743808925151825,
-              "y": -0.4232787787914276,
-              "z": 0.636220395565033
+              "x": 0.8226305246353149,
+              "y": -0.5025493502616882,
+              "z": 0.45599523186683655
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 42949672973,
+      "OldID": 8589934597,
       "Tag": ""
     },
     {
@@ -93,7 +93,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 15,
+      "OldID": 21474836485,
       "Tag": ""
     },
     {
@@ -138,7 +138,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 47244640270,
+      "OldID": 12884901893,
       "Tag": ""
     },
     {
@@ -188,14 +188,6 @@
         {
           "Data": {
             "Fields": [
-              {
-                "Align": 4,
-                "Data": 5.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
               {
                 "Align": 8,
                 "Data": 0.25,
@@ -283,6 +275,14 @@
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 25769803781,
+                "Name": "PivotTest",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
               }
             ],
             "Name": "Camera"
@@ -291,7 +291,43 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 34359738382,
+      "OldID": 17179869189,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "team_jack"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "PivotTest",
+      "OldID": 25769803781,
       "Tag": ""
     },
     {
@@ -354,7 +390,7 @@
               },
               {
                 "Align": 8,
-                "Data": 34359738382,
+                "Data": 17179869189,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -400,7 +436,7 @@
         }
       ],
       "Name": "PlayerModel",
-      "OldID": 38654705676,
+      "OldID": 4294967301,
       "Tag": ""
     }
   ],

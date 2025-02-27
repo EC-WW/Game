@@ -15,8 +15,6 @@ using NITELITE;
 
 public class Camera : NL_Script
 {
-  public float MoveSpeed = 5f;
-
   //Idle Bobbing
   private Vec3 InitialPos;
   public double BobFrequency = 0.25;
@@ -36,6 +34,8 @@ public class Camera : NL_Script
   public float LerpSpeed = 40f;
   public float maxRotationFrame = 50f;
 
+  public Entity PivotTest;
+
   public override void Init()
   {
     NewCamRot = self.GetComponent<CameraComponent>().rotation;
@@ -48,6 +48,7 @@ public class Camera : NL_Script
   {
     //IdleBobbing();
     CameraController();
+    UpdatePivotPosition();
   }
 
   public override void Exit()
@@ -109,6 +110,20 @@ public class Camera : NL_Script
     self.GetComponent<CameraComponent>().rotation = new Vec3(CurrentRotation.x, ClampedPitch, CurrentRotation.z);
   }
 
+  private void UpdatePivotPosition()
+  {
+    ref Transform transform = ref self.GetComponent<Transform>();
+    float radiansY = transform.rotation.y;
+
+    Vec3 forward = new Vec3(MathF.Sin(radiansY), 0, MathF.Cos(radiansY));
+    Vec3 right = new Vec3(forward.z, 0, -forward.x);
+
+    Vec3 newVec = forward + right;
+
+    ref Transform pivotTransform = ref PivotTest.GetComponent<Transform>();
+    pivotTransform.rotation = newVec;
+  }
+
   public Vec3 LerpVec3(Vec3 startPos, Vec3 endPos, float t)
   {
     float x = Lerp(startPos.x, endPos.x, t);
@@ -120,5 +135,10 @@ public class Camera : NL_Script
   public float Lerp(float a, float b, float t)
   {
     return a + (b - a) * t;
+  }
+
+  private float RadiansToDegrees(float radians)
+  {
+    return radians * ((float)Math.PI) / 180f;
   }
 }

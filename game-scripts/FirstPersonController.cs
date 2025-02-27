@@ -54,7 +54,7 @@ public class FirstPersonController : NL_Script
   private void CameraRotation()
   {
     ref Transform transform = ref self.GetComponent<Transform>();
-    transform.rotation.y = Camera.GetComponent<CameraComponent>().rotation.x * ((float)Math.PI) / 180f - Camera.GetComponent<Transform>().rotation.x * ((float)Math.PI) / 180f;
+    transform.rotation.y = RadiansToDegrees(Camera.GetComponent<CameraComponent>().rotation.x) - RadiansToDegrees(Camera.GetComponent<Transform>().rotation.x);
   }
 
   private void CameraFollow()
@@ -127,5 +127,10 @@ public class FirstPersonController : NL_Script
   public override void Exit()
   {
 
+  }
+
+  private float RadiansToDegrees(float radians)
+  {
+    return radians * ((float)Math.PI) / 180f;
   }
 }
