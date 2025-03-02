@@ -1,0 +1,790 @@
+{
+  "Entities": [
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -15.142934799194336,
+              "y": 2.0649914741516113,
+              "z": 33.03400421142578
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "PONG Scene"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "SceneText",
+      "OldID": 94489280514,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": -3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -4.0,
+              "y": 5.0,
+              "z": -10.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Score_R",
+      "OldID": 98784247810,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": -3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.7508988380432129,
+              "y": -5.0,
+              "z": -9.999999046325684
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "'Space'"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "SpaceTxt",
+      "OldID": 107374182402,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": -3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 4.0,
+              "y": 5.0,
+              "z": -10.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Score_L",
+      "OldID": 115964116994,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -0.15901336073875427,
+              "y": 5.085188388824463,
+              "z": 8.302268028259277
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.09841284900903702,
+              "y": -0.368399441242218,
+              "z": -0.9954794049263
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "OldID": 103079215106,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.4000000059604645,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 2.0,
+              "y": 1.0,
+              "z": 2.0
+            },
+            "translation": {
+              "x": -7.0,
+              "y": -5.0,
+              "z": -60.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.20999999344348907,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "heightmapFilename": "test_heightmap.png",
+            "peakColor": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "visibleBase": false
+          },
+          "Name": "struct Client::HeightmapComponent"
+        }
+      ],
+      "Name": "GroundHeightmap",
+      "OldID": 111669149698,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 180.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 6.930530071258545
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -2.5351816930196946e-06,
+              "y": 0.0,
+              "z": -1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        }
+      ],
+      "Name": "PlayerCamera",
+      "OldID": 90194313217,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.5,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 1.600000023841858,
+              "y": 0.0,
+              "z": 5.5
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Quad_L",
+      "OldID": 4294967298,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.5,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -1.600000023841858,
+              "y": 0.0,
+              "z": 5.5
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Quad_R",
+      "OldID": 25769803778,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 1.0499999523162842,
+              "z": 5.5
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Quad_T",
+      "OldID": 17179869186,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": -1.0499999523162842,
+              "z": 5.5
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Quad_B",
+      "OldID": 12884901890,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 12.0,
+              "y": 0.0,
+              "z": -10.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 6.0,
+                "Name": "maxYPos",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": -5.5,
+                "Name": "minYPos",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 1,
+                "Data": true,
+                "Name": "IsLeftPaddle",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "Boolean"
+              }
+            ],
+            "Name": "PONG_Paddle"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "|"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Paddle_L",
+      "OldID": 21474836482,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -12.0,
+              "y": 0.0,
+              "z": -10.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 6.0,
+                "Name": "maxYPos",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": -5.5,
+                "Name": "minYPos",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "IsLeftPaddle",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "Boolean"
+              }
+            ],
+            "Name": "PONG_Paddle"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "|"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Paddle_R",
+      "OldID": 8589934594,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": -1.5700000524520874,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": -10.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "acceleration": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "accelerationVariation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocityVariation": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 5.0
+            },
+            "color": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "drag": 0.10000000149011612,
+            "duration": 5.0,
+            "emissionAccumulator": 0.0,
+            "emissionRate": 20.0,
+            "fadeStyle": "FADE_OUT",
+            "isBillboard": false,
+            "isTextured": false,
+            "lifeTime": 1.0,
+            "lifeTimeVariation": 0.20000000298023224,
+            "looping": true,
+            "maxParticles": 250000,
+            "modelPath": "team_jack",
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "simulationAccumulator": 0.0,
+            "sizeBegin": 15.0,
+            "sizeEnd": 5.0,
+            "sizeVariation": 2.0,
+            "textureIndex": 0,
+            "texturePath": "particle",
+            "velocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "velocityVariation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::ParticleEmitter"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "jack_samba"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "DefaultSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 1.0700000524520874,
+                "Name": "SpeedMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.6000000238418579,
+                "Name": "paddleOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 1.5,
+                "Name": "paddleOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 21474836482,
+                "Name": "LeftPaddle",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 8589934594,
+                "Name": "RightPaddle",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
+            "Name": "PONG_Ball"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "New Ball",
+      "OldID": 30064771074,
+      "Tag": ""
+    }
+  ],
+  "SceneHeader": "assets//data/prototypes/PONG.nlscene"
+}

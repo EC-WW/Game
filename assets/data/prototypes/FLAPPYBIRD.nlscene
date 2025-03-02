@@ -11,14 +11,100 @@
               "z": 0.0
             },
             "scale": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -26.626636505126953,
+              "y": 31.055572509765625,
+              "z": 33.03400421142578
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "FLAPPYBIRD Scene"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "SceneText",
+      "OldID": 47244640261,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": -3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 3.0,
+              "z": 10.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Score",
+      "OldID": 42949672965,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0
             },
             "translation": {
-              "x": 1.6145634651184082,
-              "y": 1.7156041860580444,
-              "z": -4.169454097747803
+              "x": 5.462980270385742,
+              "y": 12.352347373962402,
+              "z": -9.89362621307373
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +112,9 @@
         {
           "Data": {
             "direction": {
-              "x": -0.5111085772514343,
-              "y": -0.23117493093013763,
-              "z": -0.9064907431602478
+              "x": -0.0855928286910057,
+              "y": -0.49288704991340637,
+              "z": 0.9410843253135681
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,50 +136,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 3,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": -15.142934799194336,
-              "y": 2.0649914741516113,
-              "z": 33.03400421142578
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "PONG Scene"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "SceneText",
-      "OldID": 34359738370,
+      "OldID": 68719476743,
       "Tag": ""
     },
     {
@@ -107,143 +150,14 @@
               "z": 0.0
             },
             "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": -4.0,
-              "y": 5.0,
-              "z": -10.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "0"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Score_R",
-      "OldID": 38654705666,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": -3.140000104904175,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.5,
-              "y": 0.5,
-              "z": 1.0
-            },
-            "translation": {
-              "x": 2.0,
-              "y": -5.0,
-              "z": -9.999999046325684
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "'Space' to Start"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "SpaceTxt",
-      "OldID": 42949672962,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": -3.140000104904175,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
               "x": 4.0,
-              "y": 5.0,
-              "z": -10.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "0"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Score_L",
-      "OldID": 47244640258,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.4000000059604645,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
+              "y": 2.0,
+              "z": 4.0
             },
             "translation": {
-              "x": -7.0,
-              "y": -5.0,
-              "z": -60.0
+              "x": 0.0,
+              "y": -25.6893367767334,
+              "z": 0.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -251,15 +165,15 @@
         {
           "Data": {
             "baseColor": {
-              "x": 0.20999999344348907,
-              "y": 0.0,
-              "z": 1.0
+              "x": 0.3799999952316284,
+              "y": 0.7200000286102295,
+              "z": 0.0
             },
             "heightmapFilename": "test_heightmap.png",
             "peakColor": {
               "x": 0.0,
-              "y": 1.0,
-              "z": 1.0
+              "y": 0.25999999046325684,
+              "z": 0.0
             },
             "visibleBase": false
           },
@@ -267,7 +181,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 77309411330,
+      "OldID": 38654705669,
       "Tag": ""
     },
     {
@@ -276,7 +190,7 @@
         {
           "Data": {
             "rotation": {
-              "x": 180.0,
+              "x": 0.0,
               "y": 0.0,
               "z": 0.0
             },
@@ -288,7 +202,7 @@
             "translation": {
               "x": 0.0,
               "y": 0.0,
-              "z": 6.930530071258545
+              "z": 0.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -296,9 +210,9 @@
         {
           "Data": {
             "direction": {
-              "x": -2.5351816930196946e-06,
+              "x": 0.0,
               "y": 0.0,
-              "z": -1.0
+              "z": 1.0
             },
             "editorCamera": 0,
             "farPlane": 2000.0,
@@ -316,7 +230,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 51539607554,
+      "OldID": 34359738373,
       "Tag": ""
     },
     {
@@ -335,45 +249,9 @@
               "z": 1.0
             },
             "translation": {
-              "x": 1.600000023841858,
-              "y": 0.0,
-              "z": 5.5
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Quad_L",
-      "OldID": 55834574850,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
               "x": 1.0,
-              "y": 1.5,
-              "z": 1.0
-            },
-            "translation": {
-              "x": -1.600000023841858,
               "y": 0.0,
-              "z": 5.5
+              "z": 1.5
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -388,7 +266,43 @@
         }
       ],
       "Name": "Quad_R",
-      "OldID": 60129542146,
+      "OldID": 6,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.5,
+              "z": 1.0
+            },
+            "translation": {
+              "x": -1.0,
+              "y": 0.0,
+              "z": 1.5
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Quad_L",
+      "OldID": 25769803782,
       "Tag": ""
     },
     {
@@ -409,7 +323,7 @@
             "translation": {
               "x": 0.0,
               "y": 1.0499999523162842,
-              "z": 5.5
+              "z": 1.5
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -424,7 +338,7 @@
         }
       ],
       "Name": "Quad_T",
-      "OldID": 64424509442,
+      "OldID": 115964116998,
       "Tag": ""
     },
     {
@@ -445,7 +359,7 @@
             "translation": {
               "x": 0.0,
               "y": -1.0499999523162842,
-              "z": 5.5
+              "z": 1.5
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -460,7 +374,7 @@
         }
       ],
       "Name": "Quad_B",
-      "OldID": 68719476738,
+      "OldID": 103079215110,
       "Tag": ""
     },
     {
@@ -474,14 +388,14 @@
               "z": 0.0
             },
             "scale": {
-              "x": 1.0,
-              "y": 1.0,
+              "x": 4.0,
+              "y": 4.0,
               "z": 1.0
             },
             "translation": {
-              "x": 12.0,
-              "y": 0.0,
-              "z": -10.0
+              "x": 4.25,
+              "y": -2.5,
+              "z": 15.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -498,39 +412,23 @@
           "Data": {
             "Fields": [
               {
-                "Align": 4,
-                "Data": 10.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
+                "Align": 8,
+                "Data": 18446744073709551615,
+                "Name": "TopPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
               },
               {
-                "Align": 4,
-                "Data": 6.0,
-                "Name": "maxYPos",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": -5.5,
-                "Name": "minYPos",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 1,
-                "Data": true,
-                "Name": "IsLeftPaddle",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "Boolean"
+                "Align": 8,
+                "Data": 18446744073709551615,
+                "Name": "BottomPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
               }
             ],
-            "Name": "PONG_Paddle"
+            "Name": "FLAPPY_Pipe"
           },
           "Name": "struct Client::Script"
         },
@@ -542,91 +440,8 @@
           "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "Paddle_L",
-      "OldID": 81604378626,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 3.140000104904175,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": -12.0,
-              "y": 0.0,
-              "z": -10.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 10.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 6.0,
-                "Name": "maxYPos",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": -5.5,
-                "Name": "minYPos",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "IsLeftPaddle",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "Boolean"
-              }
-            ],
-            "Name": "PONG_Paddle"
-          },
-          "Name": "struct Client::Script"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "|"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Paddle_R",
-      "OldID": 85899345922,
+      "Name": "Pipe",
+      "OldID": 111669149702,
       "Tag": ""
     },
     {
@@ -645,9 +460,9 @@
               "z": 1.0
             },
             "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": -10.0
+              "x": -1.0,
+              "y": -0.5,
+              "z": 15.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -683,7 +498,7 @@
             "drag": 0.10000000149011612,
             "duration": 5.0,
             "emissionAccumulator": 0.0,
-            "emissionRate": 20.0,
+            "emissionRate": 0.0,
             "fadeStyle": "FADE_OUT",
             "isBillboard": false,
             "isTextured": false,
@@ -729,62 +544,38 @@
             "Fields": [
               {
                 "Align": 4,
-                "Data": 5.0,
-                "Name": "DefaultSpeed",
+                "Data": 1.0,
+                "Name": "UpwardTime",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
               },
               {
                 "Align": 4,
-                "Data": 1.0700000524520874,
-                "Name": "SpeedMult",
+                "Data": 6.0,
+                "Name": "UpwardForce",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
               },
               {
                 "Align": 4,
-                "Data": 0.6000000238418579,
-                "Name": "paddleOffX",
+                "Data": 3.5,
+                "Name": "Gravity",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 1.5,
-                "Name": "paddleOffY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 8,
-                "Data": 81604378626,
-                "Name": "LeftPaddle",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 85899345922,
-                "Name": "RightPaddle",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
               }
             ],
-            "Name": "PONG_Ball"
+            "Name": "FLAPPY_Bird"
           },
           "Name": "struct Client::Script"
         }
       ],
-      "Name": "New Ball",
-      "OldID": 73014444035,
+      "Name": "Bird",
+      "OldID": 90194313221,
       "Tag": ""
     }
   ],
-  "SceneHeader": "assets//data/PONG.nlscene"
+  "SceneHeader": "assets//data/prototypes/FLAPPYBIRD.nlscene"
 }
