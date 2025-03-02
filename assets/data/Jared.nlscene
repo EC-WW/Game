@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -5.6296210289001465,
-              "y": 2.197002410888672,
-              "z": 6.905483722686768
+              "x": -9.445746421813965,
+              "y": 3.901623487472534,
+              "z": 7.642754077911377
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.5687112808227539,
-              "y": -0.272650808095932,
-              "z": -0.8190997838973999
+              "x": 0.8964324593544006,
+              "y": -0.4120659828186035,
+              "z": -0.6467602849006653
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771073,
+      "OldID": 30064771075,
       "Tag": ""
     },
     {
@@ -93,7 +93,52 @@
         }
       ],
       "Name": "Text",
-      "OldID": 8589934593,
+      "OldID": 8589934595,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": -14.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "heightmapFilename": "charles_heightmap.png",
+            "peakColor": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "visibleBase": false
+          },
+          "Name": "struct Client::HeightmapComponent"
+        }
+      ],
+      "Name": "Empty",
+      "OldID": 21474836483,
       "Tag": ""
     },
     {
@@ -122,9 +167,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.0,
+              "x": -3.8941436741879443e-07,
               "y": 0.0,
-              "z": 1.0
+              "z": -1.0
             },
             "editorCamera": 0,
             "farPlane": 2000.0,
@@ -143,14 +188,6 @@
         {
           "Data": {
             "Fields": [
-              {
-                "Align": 4,
-                "Data": 5.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
               {
                 "Align": 8,
                 "Data": 0.25,
@@ -238,6 +275,14 @@
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 18446744073709551615,
+                "Name": "PivotTest",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
               }
             ],
             "Name": "Camera"
@@ -246,7 +291,43 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 21474836481,
+      "OldID": 12884901891,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 10.0,
+              "y": 1.0,
+              "z": 10.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Floor",
+      "OldID": 17179869187,
       "Tag": ""
     },
     {
@@ -285,8 +366,16 @@
             "Fields": [
               {
                 "Align": 4,
-                "Data": 5.0,
-                "Name": "MoveSpeed",
+                "Data": 7.0,
+                "Name": "WalkSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 24.0,
+                "Name": "SprintSpeed",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
@@ -301,11 +390,44 @@
               },
               {
                 "Align": 8,
-                "Data": 21474836481,
+                "Data": 12884901891,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
                 "TypeName": "Entity"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  }
+                ],
+                "Name": "CamOffset",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3"
               }
             ],
             "Name": "FirstPersonController"
@@ -314,7 +436,100 @@
         }
       ],
       "Name": "Player",
-      "OldID": 12884901889,
+      "OldID": 25769803779,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.10000000149011612,
+              "y": 0.10000000149011612,
+              "z": 0.10000000149011612
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 3.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "team_jack"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": 12884901891,
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "LerpSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 3.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  }
+                ],
+                "Name": "DepthOffset",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3"
+              }
+            ],
+            "Name": "Hands"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Cube",
+      "OldID": 4294967299,
       "Tag": ""
     }
   ],
