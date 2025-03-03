@@ -48,7 +48,6 @@ public class Camera : NL_Script
   {
     //IdleBobbing();
     CameraController();
-    UpdatePivotPosition();
   }
 
   public override void Exit()
@@ -108,20 +107,6 @@ public class Camera : NL_Script
     Vec3 CurrentRotation = LerpVec3(self.GetComponent<CameraComponent>().rotation, NewCamRot, dt * LerpSpeed);
     float ClampedPitch = Math.Clamp(CurrentRotation.y, MinPitch, MaxPitch);
     self.GetComponent<CameraComponent>().rotation = new Vec3(CurrentRotation.x, ClampedPitch, CurrentRotation.z);
-  }
-
-  private void UpdatePivotPosition()
-  {
-    ref Transform transform = ref self.GetComponent<Transform>();
-    float radiansY = transform.rotation.y;
-
-    Vec3 forward = new Vec3(MathF.Sin(radiansY), 0, MathF.Cos(radiansY));
-    Vec3 right = new Vec3(forward.z, 0, -forward.x);
-
-    Vec3 newVec = forward + right;
-
-    ref Transform pivotTransform = ref PivotTest.GetComponent<Transform>();
-    pivotTransform.rotation = newVec;
   }
 
   public Vec3 LerpVec3(Vec3 startPos, Vec3 endPos, float t)

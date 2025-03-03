@@ -11,6 +11,59 @@
               "z": 0.0
             },
             "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -6.218297481536865,
+              "y": 4.590444564819336,
+              "z": -13.122100830078125
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.40049630403518677,
+              "y": -0.3042541742324829,
+              "z": 0.9403383731842041
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "OldID": 30064771075,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
               "x": 5.0,
               "y": 5.0,
               "z": 1.0
@@ -40,60 +93,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 111669149697,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "translation": {
-              "x": -10.537927627563477,
-              "y": 6.778082847595215,
-              "z": -12.025965690612793
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": 0.8226305246353149,
-              "y": -0.5025493502616882,
-              "z": 0.45599523186683655
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        }
-      ],
-      "Name": "EditorCamera",
-      "OldID": 115964116993,
+      "OldID": 4294967299,
       "Tag": ""
     },
     {
@@ -138,116 +138,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 107374182401,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": -5.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 7.0,
-                "Name": "WalkSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 12.0,
-                "Name": "SprintSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 3.0,
-                "Name": "RotationSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 8,
-                "Data": 94489280513,
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 2.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  }
-                ],
-                "Name": "CamOffset",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3"
-              }
-            ],
-            "Name": "FirstPersonController"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "PlayerModel",
-      "OldID": 98784247809,
+      "OldID": 38654705667,
       "Tag": ""
     },
     {
@@ -387,7 +278,7 @@
               },
               {
                 "Align": 8,
-                "Data": 103079215105,
+                "Data": 34359738371,
                 "Name": "PivotTest",
                 "Size": 8,
                 "Type": 17,
@@ -400,7 +291,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 94489280513,
+      "OldID": 4,
       "Tag": ""
     },
     {
@@ -436,7 +327,116 @@
         }
       ],
       "Name": "PivotTest",
-      "OldID": 103079215105,
+      "OldID": 34359738371,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": -5.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 7.0,
+                "Name": "WalkSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 12.0,
+                "Name": "SprintSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "RotationSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 4,
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "Single"
+                  }
+                ],
+                "Name": "CamOffset",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3"
+              }
+            ],
+            "Name": "FirstPersonController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "PlayerModel",
+      "OldID": 42949672963,
       "Tag": ""
     }
   ],

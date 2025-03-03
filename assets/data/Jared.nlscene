@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -9.445746421813965,
-              "y": 3.901623487472534,
-              "z": 7.642754077911377
+              "x": -5.568875789642334,
+              "y": 0.957897424697876,
+              "z": -5.831099033355713
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.8964324593544006,
-              "y": -0.4120659828186035,
-              "z": -0.6467602849006653
+              "x": 1.1690396070480347,
+              "y": -0.1479598432779312,
+              "z": 0.055381495505571365
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771075,
+      "OldID": 4294967318,
       "Tag": ""
     },
     {
@@ -93,7 +93,7 @@
         }
       ],
       "Name": "Text",
-      "OldID": 8589934595,
+      "OldID": 25769803798,
       "Tag": ""
     },
     {
@@ -138,7 +138,7 @@
         }
       ],
       "Name": "Empty",
-      "OldID": 21474836483,
+      "OldID": 17179869206,
       "Tag": ""
     },
     {
@@ -278,7 +278,7 @@
               },
               {
                 "Align": 8,
-                "Data": 18446744073709551615,
+                "Data": 30064771094,
                 "Name": "PivotTest",
                 "Size": 8,
                 "Type": 17,
@@ -291,7 +291,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 12884901891,
+      "OldID": 12884901910,
       "Tag": ""
     },
     {
@@ -327,7 +327,7 @@
         }
       ],
       "Name": "Floor",
-      "OldID": 17179869187,
+      "OldID": 21474836502,
       "Tag": ""
     },
     {
@@ -390,7 +390,7 @@
               },
               {
                 "Align": 8,
-                "Data": 12884901891,
+                "Data": 12884901910,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -436,7 +436,7 @@
         }
       ],
       "Name": "Player",
-      "OldID": 25769803779,
+      "OldID": 8589934614,
       "Tag": ""
     },
     {
@@ -450,9 +450,9 @@
               "z": 0.0
             },
             "scale": {
-              "x": 0.10000000149011612,
-              "y": 0.10000000149011612,
-              "z": 0.10000000149011612
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
             },
             "translation": {
               "x": 0.0,
@@ -475,7 +475,7 @@
             "Fields": [
               {
                 "Align": 8,
-                "Data": 12884901891,
+                "Data": 12884901910,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -483,7 +483,7 @@
               },
               {
                 "Align": 4,
-                "Data": 0.0,
+                "Data": 2.0,
                 "Name": "LerpSpeed",
                 "Size": 4,
                 "Type": 12,
@@ -491,36 +491,27 @@
               },
               {
                 "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 3.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  }
-                ],
-                "Name": "DepthOffset",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3"
+                "Data": 1.0,
+                "Name": "tempDepthX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.30000001192092896,
+                "Name": "tempDepthY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.6000000238418579,
+                "Name": "tempDepthZ",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
               }
             ],
             "Name": "Hands"
@@ -529,7 +520,7 @@
         }
       ],
       "Name": "Cube",
-      "OldID": 4294967299,
+      "OldID": 30064771094,
       "Tag": ""
     }
   ],
