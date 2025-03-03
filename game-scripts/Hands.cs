@@ -14,9 +14,13 @@ public class Hands : NL_Script
   public Entity Camera;
 
   //private Vec3 DepthOffset = new Vec3(1f, -0.3f, 0.6f);
-  public float tempDepthX = 1f;
-  public float tempDepthY = -0.3f;
-  public float tempDepthZ = 0.6f;
+  public float tempOffsetX = 1f;
+  public float tempOffsetY = -0.3f;
+  public float tempOffsetZ = 0.6f;
+
+  public float tempRotOffX = 180f;
+  public float tempRotOffY = 0f;
+  public float tempRotOffZ = 180f;
 
   public float MoveLerpSpeed = 1f;
   public float RotateLerpSpeed = 1f;
@@ -53,18 +57,18 @@ public class Hands : NL_Script
 
     //calculate target position w/ depth offset
     targetPos = camTrans.position +
-      (camForward * tempDepthX) +
-      (camUp * -tempDepthY) +
-      (camRight * tempDepthZ);
+      (camForward * tempOffsetX) +
+      (camUp * -tempOffsetY) +
+      (camRight * tempOffsetZ);
 
     //calculate target rotation
     //flipping camera's x and y rotations accordingly to the entity's x and y
     //idk why, but the camera x and y values are flipped for some silly reason
     //x needs to be flipped again with the -1 so it correctly rotates to face outward
     targetRot = new Vec3(
-      (DegreesToRadians(camComp.rotation.y) - DegreesToRadians(camTrans.rotation.y)) * -1,
-      DegreesToRadians(camComp.rotation.x) - DegreesToRadians(camTrans.rotation.x),
-      0);
+      (DegreesToRadians(camComp.rotation.y) - DegreesToRadians(camTrans.rotation.y)) * -1 + DegreesToRadians(tempRotOffX),
+      DegreesToRadians(camComp.rotation.x) - DegreesToRadians(camTrans.rotation.x) + DegreesToRadians(tempRotOffY),
+      DegreesToRadians(tempRotOffZ));
   }
 
   private void UpdateChildTransform()

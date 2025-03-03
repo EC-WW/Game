@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -5.568875789642334,
-              "y": 0.957897424697876,
-              "z": -5.831099033355713
+              "x": -7.966705799102783,
+              "y": 9.348129272460938,
+              "z": -0.6139643788337708
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.8605700135231018,
-              "y": -0.32878577709198,
-              "z": 0.73683762550354
+              "x": 0.7184639573097229,
+              "y": -0.7517570853233337,
+              "z": 0.1448790729045868
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,50 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771077,
+      "OldID": 5,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 1.8074182271957397,
+              "y": 0.0,
+              "z": -6.397956848144531
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "Breaks"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Text",
+      "OldID": 34359738372,
       "Tag": ""
     },
     {
@@ -92,8 +135,8 @@
           "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "Text",
-      "OldID": 8589934597,
+      "Name": "Text_Hi",
+      "OldID": 38654705668,
       "Tag": ""
     },
     {
@@ -138,7 +181,7 @@
         }
       ],
       "Name": "Empty",
-      "OldID": 21474836485,
+      "OldID": 42949672964,
       "Tag": ""
     },
     {
@@ -278,7 +321,7 @@
               },
               {
                 "Align": 8,
-                "Data": 4294967301,
+                "Data": 51539607556,
                 "Name": "PivotTest",
                 "Size": 8,
                 "Type": 17,
@@ -291,7 +334,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 12884901893,
+      "OldID": 47244640260,
       "Tag": ""
     },
     {
@@ -327,7 +370,7 @@
         }
       ],
       "Name": "Floor",
-      "OldID": 17179869189,
+      "OldID": 25769803781,
       "Tag": ""
     },
     {
@@ -390,7 +433,7 @@
               },
               {
                 "Align": 8,
-                "Data": 12884901893,
+                "Data": 47244640260,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -436,7 +479,7 @@
         }
       ],
       "Name": "Player",
-      "OldID": 25769803781,
+      "OldID": 55834574852,
       "Tag": ""
     },
     {
@@ -475,7 +518,7 @@
             "Fields": [
               {
                 "Align": 8,
-                "Data": 12884901893,
+                "Data": 47244640260,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -484,7 +527,7 @@
               {
                 "Align": 4,
                 "Data": 1.0,
-                "Name": "tempDepthX",
+                "Name": "tempOffsetX",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
@@ -492,7 +535,7 @@
               {
                 "Align": 4,
                 "Data": -0.30000001192092896,
-                "Name": "tempDepthY",
+                "Name": "tempOffsetY",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
@@ -500,7 +543,31 @@
               {
                 "Align": 4,
                 "Data": 0.6000000238418579,
-                "Name": "tempDepthZ",
+                "Name": "tempOffsetZ",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 180.0,
+                "Name": "tempRotOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "tempRotOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 180.0,
+                "Name": "tempRotOffZ",
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
@@ -528,7 +595,7 @@
         }
       ],
       "Name": "Cube",
-      "OldID": 4294967301,
+      "OldID": 51539607556,
       "Tag": ""
     }
   ],
