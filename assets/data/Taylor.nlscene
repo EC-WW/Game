@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -6.218297481536865,
-              "y": 4.590444564819336,
-              "z": -13.122100830078125
+              "x": -1.7704001665115356,
+              "y": 1.9074974060058594,
+              "z": 5.285856246948242
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.40049630403518677,
-              "y": -0.3042541742324829,
-              "z": 0.9403383731842041
+              "x": 0.4996269643306732,
+              "y": -0.08181025832891464,
+              "z": -0.938494861125946
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771075,
+      "OldID": 47244640272,
       "Tag": ""
     },
     {
@@ -93,7 +93,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 4294967299,
+      "OldID": 51539607568,
       "Tag": ""
     },
     {
@@ -138,7 +138,7 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 38654705667,
+      "OldID": 55834574864,
       "Tag": ""
     },
     {
@@ -159,7 +159,7 @@
             "translation": {
               "x": 0.0,
               "y": 0.0,
-              "z": -5.0
+              "z": 8.393814086914063
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -184,114 +184,10 @@
             }
           },
           "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": 0.25,
-                "Name": "BobFrequency",
-                "Size": 8,
-                "Type": 13,
-                "TypeName": "Double"
-              },
-              {
-                "Align": 8,
-                "Data": 0.1,
-                "Name": "BobAmplitude",
-                "Size": 8,
-                "Type": 13,
-                "TypeName": "Double"
-              },
-              {
-                "Align": 4,
-                "Data": 0.25,
-                "Name": "LerpValue",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.25,
-                "Name": "InitialLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 10.0,
-                "Name": "MaxLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.30000001192092896,
-                "Name": "MouseSensitivityX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.30000001192092896,
-                "Name": "MouseSensitivityY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": -60.0,
-                "Name": "MinPitch",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 70.0,
-                "Name": "MaxPitch",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 40.0,
-                "Name": "LerpSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 50.0,
-                "Name": "maxRotationFrame",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 8,
-                "Data": 34359738371,
-                "Name": "PivotTest",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              }
-            ],
-            "Name": "Camera"
-          },
-          "Name": "struct Client::Script"
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 4,
+      "OldID": 25769803793,
       "Tag": ""
     },
     {
@@ -311,7 +207,7 @@
             },
             "translation": {
               "x": 0.0,
-              "y": 0.0,
+              "y": 2.0,
               "z": 0.0
             }
           },
@@ -321,13 +217,13 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "team_jack"
+            "modelPath": "cube"
           },
           "Name": "struct Client::ModelComponent"
         }
       ],
-      "Name": "PivotTest",
-      "OldID": 34359738371,
+      "Name": "ChildTest",
+      "OldID": 60129542158,
       "Tag": ""
     },
     {
@@ -341,14 +237,14 @@
               "z": 0.0
             },
             "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
             },
             "translation": {
-              "x": 0.0,
+              "x": 1.495142936706543,
               "y": 0.0,
-              "z": -5.0
+              "z": 0.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -365,78 +261,69 @@
           "Data": {
             "Fields": [
               {
-                "Align": 4,
-                "Data": 7.0,
-                "Name": "WalkSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 12.0,
-                "Name": "SprintSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 3.0,
-                "Name": "RotationSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
                 "Align": 8,
-                "Data": 4,
-                "Name": "Camera",
+                "Data": 60129542158,
+                "Name": "Child",
                 "Size": 8,
                 "Type": 17,
                 "TypeName": "Entity"
               },
               {
                 "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 2.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  }
-                ],
-                "Name": "CamOffset",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3"
+                "Data": 0.0,
+                "Name": "tempOffsetX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 2.0,
+                "Name": "tempOffsetY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "tempOffsetZ",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "tempRotOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "tempRotOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "tempRotOffZ",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
               }
             ],
-            "Name": "FirstPersonController"
+            "Name": "ParentingTest"
           },
           "Name": "struct Client::Script"
         }
       ],
-      "Name": "PlayerModel",
-      "OldID": 42949672963,
+      "Name": "PivotTest",
+      "OldID": 64424509454,
       "Tag": ""
     }
   ],
