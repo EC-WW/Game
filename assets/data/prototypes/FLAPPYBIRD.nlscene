@@ -11,6 +11,59 @@
               "z": 0.0
             },
             "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 8.68533706665039,
+              "y": 36.88104248046875,
+              "z": -43.9154052734375
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -0.04981250315904617,
+              "y": -0.18889932334423065,
+              "z": 1.0477172136306763
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "OldID": 30064771073,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
               "x": 5.0,
               "y": 5.0,
               "z": 1.0
@@ -40,7 +93,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 47244640261,
+      "OldID": 8589934593,
       "Tag": ""
     },
     {
@@ -83,7 +136,7 @@
         }
       ],
       "Name": "Score",
-      "OldID": 42949672965,
+      "OldID": 21474836481,
       "Tag": ""
     },
     {
@@ -97,46 +150,79 @@
               "z": 0.0
             },
             "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 4.0,
+              "y": 4.0,
+              "z": 1.0
             },
             "translation": {
-              "x": 5.462980270385742,
-              "y": 12.352347373962402,
-              "z": -9.89362621307373
+              "x": 4.25,
+              "y": 4.25,
+              "z": 15.0
             }
           },
           "Name": "struct Geometry::Types::Transform"
         },
         {
           "Data": {
-            "direction": {
-              "x": -0.0855928286910057,
-              "y": -0.49288704991340637,
-              "z": 0.9410843253135681
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
           },
-          "Name": "struct Client::CameraComponent"
+          "Name": "struct Client::ModelComponent"
         },
         {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "|"
+          },
+          "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "EditorCamera",
-      "OldID": 68719476743,
+      "Name": "T_Pipe1",
+      "OldID": 12884901889,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 4.0,
+              "y": 4.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 10.25,
+              "y": 4.25,
+              "z": 15.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "|"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "T_Pipe2",
+      "OldID": 17179869185,
       "Tag": ""
     },
     {
@@ -166,13 +252,13 @@
           "Data": {
             "baseColor": {
               "x": 0.3799999952316284,
-              "y": 0.7200000286102295,
+              "y": 0.5400000214576721,
               "z": 0.0
             },
             "heightmapFilename": "test_heightmap.png",
             "peakColor": {
-              "x": 0.0,
-              "y": 0.25999999046325684,
+              "x": 0.20000000298023224,
+              "y": 0.1899999976158142,
               "z": 0.0
             },
             "visibleBase": false
@@ -181,7 +267,52 @@
         }
       ],
       "Name": "GroundHeightmap",
-      "OldID": 38654705669,
+      "OldID": 25769803777,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 1.600000023841858,
+              "y": -3.140000104904175,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 4.0,
+              "y": 2.0,
+              "z": 4.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": -28.92262840270996,
+              "z": 206.79844665527344
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.0,
+              "y": 0.3799999952316284,
+              "z": 0.36000001430511475
+            },
+            "heightmapFilename": "test_heightmap.png",
+            "peakColor": {
+              "x": 1.0,
+              "y": 0.9599999785423279,
+              "z": 0.44999998807907104
+            },
+            "visibleBase": false
+          },
+          "Name": "struct Client::HeightmapComponent"
+        }
+      ],
+      "Name": "SkyHeightmap",
+      "OldID": 4294967297,
       "Tag": ""
     },
     {
@@ -230,7 +361,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 34359738373,
+      "OldID": 94489280512,
       "Tag": ""
     },
     {
@@ -266,7 +397,7 @@
         }
       ],
       "Name": "Quad_R",
-      "OldID": 6,
+      "OldID": 98784247808,
       "Tag": ""
     },
     {
@@ -302,7 +433,7 @@
         }
       ],
       "Name": "Quad_L",
-      "OldID": 25769803782,
+      "OldID": 103079215104,
       "Tag": ""
     },
     {
@@ -338,7 +469,7 @@
         }
       ],
       "Name": "Quad_T",
-      "OldID": 115964116998,
+      "OldID": 107374182400,
       "Tag": ""
     },
     {
@@ -374,7 +505,7 @@
         }
       ],
       "Name": "Quad_B",
-      "OldID": 103079215110,
+      "OldID": 111669149696,
       "Tag": ""
     },
     {
@@ -394,7 +525,7 @@
             },
             "translation": {
               "x": 4.25,
-              "y": -2.5,
+              "y": -3.75,
               "z": 15.0
             }
           },
@@ -413,7 +544,15 @@
             "Fields": [
               {
                 "Align": 8,
-                "Data": 18446744073709551615,
+                "Data": 124554051584,
+                "Name": "Bird",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 12884901889,
                 "Name": "TopPart",
                 "Size": 8,
                 "Type": 17,
@@ -421,11 +560,35 @@
               },
               {
                 "Align": 8,
-                "Data": 18446744073709551615,
+                "Data": 115964116992,
                 "Name": "BottomPart",
                 "Size": 8,
                 "Type": 17,
                 "TypeName": "Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 1.0,
+                "Name": "pipeOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 1.7000000476837158,
+                "Name": "pipeOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.10000000149011612,
+                "Name": "dtMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
               }
             ],
             "Name": "FLAPPY_Pipe"
@@ -440,8 +603,107 @@
           "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "Pipe",
-      "OldID": 111669149702,
+      "Name": "B_Pipe1",
+      "OldID": 115964116992,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 4.0,
+              "y": 4.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 10.25,
+              "y": -3.75,
+              "z": 15.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": 124554051584,
+                "Name": "Bird",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 17179869185,
+                "Name": "TopPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 120259084288,
+                "Name": "BottomPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 1.0,
+                "Name": "pipeOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 1.7000000476837158,
+                "Name": "pipeOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.10000000149011612,
+                "Name": "dtMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              }
+            ],
+            "Name": "FLAPPY_Pipe"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "|"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "B_Pipe2",
+      "OldID": 120259084288,
       "Tag": ""
     },
     {
@@ -573,7 +835,7 @@
         }
       ],
       "Name": "Bird",
-      "OldID": 90194313221,
+      "OldID": 124554051584,
       "Tag": ""
     }
   ],
