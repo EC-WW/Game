@@ -6,6 +6,59 @@
         {
           "Data": {
             "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -3.290194272994995,
+              "y": 1.1978815793991089,
+              "z": -5.0941548347473145
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.7789784073829651,
+              "y": -0.5899402499198914,
+              "z": -0.7761900424957275
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "OldID": 30064771073,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
               "x": 180.0,
               "y": 0.0,
               "z": 0.0
@@ -17,7 +70,7 @@
             },
             "translation": {
               "x": 0.0,
-              "y": 0.0,
+              "y": 2.0,
               "z": -5.0
             }
           },
@@ -137,7 +190,7 @@
               },
               {
                 "Align": 8,
-                "Data": 47244640258,
+                "Data": 25769803777,
                 "Name": "PivotTest",
                 "Size": 8,
                 "Type": 17,
@@ -150,7 +203,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 3,
+      "OldID": 8589934593,
       "Tag": ""
     },
     {
@@ -164,46 +217,29 @@
               "z": 0.0
             },
             "scale": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 20.0,
+              "y": 1.0,
+              "z": 20.0
             },
             "translation": {
-              "x": -3.1424601078033447,
-              "y": 3.246124744415283,
-              "z": 2.828010320663452
+              "x": 0.0,
+              "y": 0.0,
+              "z": 18.842557907104492
             }
           },
           "Name": "struct Geometry::Types::Transform"
         },
         {
           "Data": {
-            "direction": {
-              "x": 0.19876188039779663,
-              "y": -0.28585192561149597,
-              "z": -1.1984329223632813
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
           },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
+          "Name": "struct Client::ModelComponent"
         }
       ],
-      "Name": "EditorCamera",
-      "OldID": 34359738370,
+      "Name": "Floor",
+      "OldID": 21474836481,
       "Tag": ""
     },
     {
@@ -217,38 +253,29 @@
               "z": 0.0
             },
             "scale": {
-              "x": 1.0,
+              "x": 20.0,
               "y": 1.0,
-              "z": 1.0
+              "z": 20.0
             },
             "translation": {
               "x": 0.0,
-              "y": -14.0,
-              "z": 0.0
+              "y": 7.5,
+              "z": 17.05280303955078
             }
           },
           "Name": "struct Geometry::Types::Transform"
         },
         {
           "Data": {
-            "baseColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "heightmapFilename": "charles_heightmap.png",
-            "peakColor": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "visibleBase": false
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
           },
-          "Name": "struct Client::HeightmapComponent"
+          "Name": "struct Client::ModelComponent"
         }
       ],
-      "Name": "Empty",
-      "OldID": 38654705666,
+      "Name": "Floor",
+      "OldID": 12884901889,
       "Tag": ""
     },
     {
@@ -311,7 +338,7 @@
               },
               {
                 "Align": 8,
-                "Data": 3,
+                "Data": 8589934593,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -357,7 +384,7 @@
         }
       ],
       "Name": "Player",
-      "OldID": 42949672962,
+      "OldID": 17179869185,
       "Tag": ""
     },
     {
@@ -396,7 +423,7 @@
             "Fields": [
               {
                 "Align": 8,
-                "Data": 3,
+                "Data": 8589934593,
                 "Name": "Camera",
                 "Size": 8,
                 "Type": 17,
@@ -473,7 +500,7 @@
         }
       ],
       "Name": "Cube",
-      "OldID": 47244640258,
+      "OldID": 25769803777,
       "Tag": ""
     },
     {
@@ -525,7 +552,7 @@
         }
       ],
       "Name": "Wall",
-      "OldID": 51539607554,
+      "OldID": 4294967297,
       "Tag": ""
     },
     {
@@ -577,195 +604,7 @@
         }
       ],
       "Name": "Suzanne",
-      "OldID": 55834574850,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "acceleration": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "accelerationVariation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "angularVelocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "angularVelocityVariation": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 5.0
-            },
-            "color": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "drag": 0.10000000149011612,
-            "duration": 5.0,
-            "emissionAccumulator": 0.0,
-            "emissionRate": 100.0,
-            "fadeStyle": "FADE_OUT",
-            "isBillboard": true,
-            "isTextured": false,
-            "lifeTime": 10.0,
-            "lifeTimeVariation": 0.20000000298023224,
-            "looping": true,
-            "maxParticles": 250000,
-            "modelPath": "quad",
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "simulationAccumulator": 0.0,
-            "sizeBegin": 15.0,
-            "sizeEnd": 5.0,
-            "sizeVariation": 2.0,
-            "textureIndex": 0,
-            "texturePath": "particle",
-            "velocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "velocityVariation": {
-              "x": 25.0,
-              "y": 25.0,
-              "z": 25.0
-            }
-          },
-          "Name": "struct Client::ParticleEmitter"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Cube",
-      "OldID": 60129542146,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 20.0,
-              "y": 1.0,
-              "z": 20.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": -5.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Floor",
-      "OldID": 64424509442,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": -5.0,
-              "y": 0.0,
-              "z": -2.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Cube",
-      "OldID": 68719476738,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 20.0,
-              "y": 1.0,
-              "z": 20.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 7.5,
-              "z": -5.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Floor",
-      "OldID": 73014444034,
+      "OldID": 64424509440,
       "Tag": ""
     }
   ],
