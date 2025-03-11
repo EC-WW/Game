@@ -1,1 +1,1 @@
-Compilation failed: 72 error(s), 0 warnings
+Compilation succeeded - 3 warning(s)

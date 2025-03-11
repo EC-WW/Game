@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\flappy_bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:flappy_bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\thirdexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:thirdexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\suzanne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:suzanne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\rotateent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:rotateent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\pong_paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:pong_paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\pong_ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:pong_ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\parentingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:parentingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\hands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:hands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\flappy_pipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:flappy_pipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\anotherexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:anotherexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|c:\\users\\tcadd\\desktop\\nl_game\\game-scripts\\example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1221E44-C58E-4D5E-97CF-CDDFA0F09CC7}|nl.csproj|solutionrelative:example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +62,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\FirstPersonController.cs",
+              "RelativeDocumentMoniker": "FirstPersonController.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\FirstPersonController.cs",
+              "RelativeToolTip": "FirstPersonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:36:01.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Camera.cs",
+              "RelativeDocumentMoniker": "Camera.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Camera.cs",
+              "RelativeToolTip": "Camera.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwFIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:31:59.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThirdExample.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\ThirdExample.cs",
+              "RelativeDocumentMoniker": "ThirdExample.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\ThirdExample.cs",
+              "RelativeToolTip": "ThirdExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:29:45.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Suzanne.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Suzanne.cs",
+              "RelativeDocumentMoniker": "Suzanne.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Suzanne.cs",
+              "RelativeToolTip": "Suzanne.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:26:17.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RotateEnt.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\RotateEnt.cs",
+              "RelativeDocumentMoniker": "RotateEnt.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\RotateEnt.cs",
+              "RelativeToolTip": "RotateEnt.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvx8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:23:44.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PONG_Paddle.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\PONG_Paddle.cs",
+              "RelativeDocumentMoniker": "PONG_Paddle.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\PONG_Paddle.cs",
+              "RelativeToolTip": "PONG_Paddle.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv0AAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:21:00.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PONG_Ball.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\PONG_Ball.cs",
+              "RelativeDocumentMoniker": "PONG_Ball.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\PONG_Ball.cs",
+              "RelativeToolTip": "PONG_Ball.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwKsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:05:44.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParentingTest.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\ParentingTest.cs",
+              "RelativeDocumentMoniker": "ParentingTest.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\ParentingTest.cs",
+              "RelativeToolTip": "ParentingTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:58:57.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hands.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Hands.cs",
+              "RelativeDocumentMoniker": "Hands.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Hands.cs",
+              "RelativeToolTip": "Hands.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA2wDkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:54:18.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FLAPPY_Pipe.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\FLAPPY_Pipe.cs",
+              "RelativeDocumentMoniker": "FLAPPY_Pipe.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\FLAPPY_Pipe.cs",
+              "RelativeToolTip": "FLAPPY_Pipe.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:38:57.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FLAPPY_Bird.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\FLAPPY_Bird.cs",
+              "RelativeDocumentMoniker": "FLAPPY_Bird.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\FLAPPY_Bird.cs",
+              "RelativeToolTip": "FLAPPY_Bird.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:34:50.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnotherExample.cs",
+              "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\AnotherExample.cs",
+              "RelativeDocumentMoniker": "AnotherExample.cs",
+              "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\AnotherExample.cs",
+              "RelativeToolTip": "AnotherExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:34:47.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Example.cs",
               "DocumentMoniker": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Example.cs",
               "RelativeDocumentMoniker": "Example.cs",
               "ToolTip": "C:\\Users\\tcadd\\Desktop\\NL_Game\\game-scripts\\Example.cs",
               "RelativeToolTip": "Example.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T07:18:55.494Z",
               "EditorCaption": ""

@@ -24,12 +24,13 @@ public class RotateEnt : NL_Script
   public override void Init()
   {
     transform = entity.GetComponent<Transform>();
-
   }
 
   public override void Update()
   {
-    transform.rotation.y += RotSpeed * dt;
+    Vec3 rot = transform.GetRotation();
+    rot.y += RotSpeed * dt;
+    transform.SetRotation(rot);
   }
 
   public override void Exit()

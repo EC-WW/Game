@@ -19,13 +19,20 @@ public class Suzanne : NL_Script
   private Vec3 EndPos;
   public float EndY = 0f;
 
+  private Transform transform;
+
   public override void Init()
   {
-    EndPos = new Vec3(self.GetComponent<Transform>().position.x, EndY, self.GetComponent<Transform>().position.z);
+    transform = self.GetComponent<Transform>();
+
+    Vec3 pos = transform.GetPosition();
+    EndPos = new Vec3(pos.x, EndY, pos.z);
   }
 
   public override void Update()
   {
+    Vec3 pos = transform.GetPosition();
+
     if (NITELITE.Input.GetKeyTriggered(Keys.MOUSE_LEFT))
     {
       Clicked = true;
@@ -33,7 +40,8 @@ public class Suzanne : NL_Script
 
     if (Clicked)
     {
-      self.GetComponent<Transform>().position = LerpVec3(self.GetComponent<Transform>().position, EndPos, dt);
+      Vec3 newPos = LerpVec3(pos, EndPos, dt);
+      transform.SetPosition(newPos);
     }
   }
 

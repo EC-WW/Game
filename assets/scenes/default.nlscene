@@ -122,6 +122,49 @@
         },
         {
           "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 0,
+                "Name": "test",
+                "Size": 4,
+                "Type": 8,
+                "TypeName": "System.Int32"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "dog",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "System.Int32"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0,
+                    "Name": "cat",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "System.Int32"
+                  }
+                ],
+                "Name": "hi",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "hello"
+              },
+              {
+                "Align": 8,
+                "Data": 0,
+                "Name": "myent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              }
+            ],
             "Name": "Example"
           },
           "Name": "struct Client::Script"

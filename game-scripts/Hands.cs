@@ -57,9 +57,11 @@ public class Hands : NL_Script
     Vec3 camUp = CrossProduct(camRight, camForward);
     camUp.Normalize();
 
+    Vec3 camPos = camTrans.GetPosition();
+    Vec3 camRot = camTrans.GetRotation();
 
     //calculate target position w/ depth offset
-    targetPos = camTrans.position +
+    targetPos = camPos +
       (camForward * tempOffsetX) +
       (camUp * -tempOffsetY) +
       (camRight * tempOffsetZ);
@@ -69,15 +71,15 @@ public class Hands : NL_Script
     //idk why, but the camera x and y values are flipped for some silly reason
     //x needs to be flipped again with the -1 so it correctly rotates to face outward
     targetRot = new Vec3(
-      (DegreesToRadians(camComp.rotation.y) - DegreesToRadians(camTrans.rotation.y)) * -1 + DegreesToRadians(tempRotOffX),
-      DegreesToRadians(camComp.rotation.x) - DegreesToRadians(camTrans.rotation.x) + DegreesToRadians(tempRotOffY),
+      (DegreesToRadians(camComp.rotation.y) - DegreesToRadians(camRot.y)) * -1 + DegreesToRadians(tempRotOffX),
+      DegreesToRadians(camComp.rotation.x) - DegreesToRadians(camRot.x) + DegreesToRadians(tempRotOffY),
       DegreesToRadians(tempRotOffZ));
   }
 
   private void UpdateChildTransform()
   {
-    transform.position = targetPos;
-    transform.rotation = targetRot;
+    transform.SetPosition(targetPos);
+    transform.SetPosition(targetRot);
 
     //lerp the positions and rotations of the hands
     //transform.position = LerpVec3(transform.position, targetPos, dt * MoveLerpSpeed);

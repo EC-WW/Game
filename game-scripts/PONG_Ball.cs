@@ -45,7 +45,7 @@ public class PONG_Ball : NL_Script
     leftPadTransform = LeftPaddle.GetComponent<Transform>();
     rightPadTransform = RightPaddle.GetComponent<Transform>();
 
-    startPosition = transform.position;
+    startPosition = transform.GetPosition();
   }
 
   public override void Update()
@@ -56,7 +56,7 @@ public class PONG_Ball : NL_Script
     if (NITELITE.Input.GetKeyPressed(Keys.R))
     {
       move = false;
-      transform.position = startPosition;
+      transform.SetPosition(startPosition);
     }
 
     //handle bounces and scores
@@ -66,23 +66,25 @@ public class PONG_Ball : NL_Script
 
   private void HandleScoring()
   {
+    Vec3 pos = transform.GetPosition();
+
     //RIGHT player should score
-    if (transform.position.x >= 12.5)
+    if (pos.x >= 12.5)
     {
       NL_INFO("Right player scored.");
       move = false;
-      transform.position = startPosition;
+      transform.SetPosition(startPosition);
 
       //ref TextComponent text = ref SpaceText.GetComponent<TextComponent>();
       //text.Text = "'Space' to Start";
     }
 
     //LEFT player should score
-    if (transform.position.x <= -13)
+    if (pos.x <= -13)
     {
       NL_INFO("Left player scored.");
       move = false;
-      transform.position = startPosition;
+      transform.SetPosition(startPosition);
 
       //ref TextComponent text = ref SpaceText.GetComponent<TextComponent>();
       //text.Text = "'Space' to Start";
@@ -91,15 +93,20 @@ public class PONG_Ball : NL_Script
 
   private void HandleMovement()
   {
+    Vec3 pos = transform.GetPosition();
+    Vec3 leftPadPos = leftPadTransform.GetPosition();
+    Vec3 rightPadPos = rightPadTransform.GetPosition();
+
     //bouncing off of left paddle
-    if (transform.position.x >= leftPadTransform.position.x - paddleOffX)
+    if (pos.x >= leftPadPos.x - paddleOffX)
     {
-      if (transform.position.y <= leftPadTransform.position.y + paddleOffY &&
-      transform.position.y >= leftPadTransform.position.y - paddleOffY)
+      if (pos.y <= leftPadPos.y + paddleOffY &&
+      pos.y >= leftPadPos.y - paddleOffY)
       {
         //set ball position to hopefully avoid repeats
         moveDirection.x = -moveDirection.x;
-        transform.position.x = leftPadTransform.position.x - paddleOffX - 0.1f;
+        pos.x = leftPadPos.x - paddleOffX - 0.1f;
+        transform.SetPosition(pos);
 
         //faster
         currentSpeed *= SpeedMult;
@@ -107,14 +114,15 @@ public class PONG_Ball : NL_Script
     }
 
     //bouncing off of right paddle
-    if (transform.position.x <= rightPadTransform.position.x + paddleOffX)
+    if (pos.x <= rightPadPos.x + paddleOffX)
     {
-      if (transform.position.y <= rightPadTransform.position.y + paddleOffY &&
-      transform.position.y >= rightPadTransform.position.y - paddleOffY)
+      if (pos.y <= rightPadPos.y + paddleOffY &&
+      pos.y >= rightPadPos.y - paddleOffY)
       {
         //set ball position to hopefully avoid repeats
         moveDirection.x = -moveDirection.x;
-        transform.position.x = rightPadTransform.position.x + paddleOffX + 0.1f;
+        pos.x = rightPadPos.x + paddleOffX + 0.1f;
+        transform.SetPosition(pos);
 
         //faster
         currentSpeed *= SpeedMult;
@@ -122,22 +130,24 @@ public class PONG_Ball : NL_Script
     }
 
     // Bouncing off top and bottom of the screen
-    if (transform.position.y <= -6.5)
+    if (pos.y <= -6.5)
     {
       moveDirection.y = -moveDirection.y;
-      transform.position.y = -6.5f + 0.1f;
+      pos.y = -6.4f;
+      transform.SetPosition(pos);
     }
-    if (transform.position.y >= 5.5)
+    if (pos.y >= 5.5)
     {
       moveDirection.y = -moveDirection.y;
-      transform.position.y = 5.5f - 0.1f;
+      pos.y = 5.4f;
+      transform.SetPosition(pos);
     }
 
     //ball movement
     if (!move) return;
     moveDirection.Normalize();
     Vec3 movement = moveDirection * dt * currentSpeed;
-    transform.position += movement;
+    transform.SetPosition(pos + movement);
   }
 
   private void HandleInitialLaunch()

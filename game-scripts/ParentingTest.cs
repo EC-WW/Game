@@ -33,22 +33,28 @@ public class ParentingTest : NL_Script
     transform = self.GetComponent<Transform>();
     childTransform = Child.GetComponent<Transform>();
 
-    tempOffsetX = childTransform.position.x;
-    tempOffsetY = childTransform.position.y;
-    tempOffsetZ = childTransform.position.z;
+    Vec3 childPos = childTransform.GetPosition();
+    Vec3 childRot = childTransform.GetRotation();
 
-    tempRotOffX = childTransform.rotation.x;
-    tempRotOffY = childTransform.rotation.y;
-    tempRotOffZ = childTransform.rotation.z;
+    tempOffsetX = childPos.x;
+    tempOffsetY = childPos.y;
+    tempOffsetZ = childPos.z;
+
+    tempRotOffX = childRot.x;
+    tempRotOffY = childRot.y;
+    tempRotOffZ = childRot.z;
   }
 
   public override void Update()
   {
+    Vec3 pos = transform.GetPosition();
+    Vec3 rot = transform.GetRotation();
+
     //get the camera's forward direction
     // Convert rotation angles to radians
-    float radX = transform.rotation.x;
-    float radY = transform.rotation.y;
-    float radZ = transform.rotation.z;
+    float radX = rot.x;
+    float radY = rot.y;
+    float radZ = rot.z;
 
     // Calculate the full rotation matrix using Euler angles
     Vec3 forward = new Vec3(
@@ -74,32 +80,23 @@ public class ParentingTest : NL_Script
     up.Normalize();
 
     //calculate target position w/ depth offset
-    targetPos = transform.position +
+    targetPos = pos +
       (forward * -tempOffsetX) +
       (up * tempOffsetY) +
       (right * -tempOffsetZ);
 
     //calculate target rotation
     targetRot = new Vec3(
-      transform.rotation.x + tempRotOffX,
-      transform.rotation.y + tempRotOffY,
-      transform.rotation.z + tempRotOffZ);
+      rot.x + tempRotOffX,
+      rot.y + tempRotOffY,
+      rot.z + tempRotOffZ);
 
-    childTransform.position = targetPos;
-    childTransform.rotation = targetRot;
+    childTransform.SetPosition(targetPos);
+    childTransform.SetRotation(targetRot);
   }
 
   public override void Exit()
   {
 
-  }
-
-  private Vec3 CrossProduct(Vec3 a, Vec3 b)
-  {
-    return new Vec3(
-        (a.y * b.z) - (a.z * b.y),
-        (a.z * b.x) - (a.x * b.z),
-        (a.x * b.y) - (a.y * b.x)
-    );
   }
 }

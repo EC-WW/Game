@@ -31,30 +31,36 @@ public class PONG_Paddle : NL_Script
 
   public override void Update()
   {
+    Vec3 pos = transform.GetPosition();
+
     if (IsLeftPaddle)
     {
-      if (NITELITE.Input.GetKeyPressed(Keys.W) && transform.position.y < maxYPos)
+      if (NITELITE.Input.GetKeyPressed(Keys.W) && pos.y < maxYPos)
       {
         Vec3 movement = new Vec3(0, 1, 0) * dt * MoveSpeed;
-        transform.position += movement;
+        pos += movement;
+        transform.SetPosition(pos);
       }
-      if (NITELITE.Input.GetKeyPressed(Keys.S) && transform.position.y > minYPos)
+      if (NITELITE.Input.GetKeyPressed(Keys.S) && pos.y > minYPos)
       {
         Vec3 movement = new Vec3(0, -1, 0) * dt * MoveSpeed;
-        transform.position += movement;
+        pos += movement;
+        transform.SetPosition(pos);
       }
     }
     else
     {
-      if (NITELITE.Input.GetKeyPressed(Keys.I) && transform.position.y < maxYPos)
+      if (NITELITE.Input.GetKeyPressed(Keys.I) && pos.y < maxYPos)
       {
         Vec3 movement = new Vec3(0, 1, 0) * dt * MoveSpeed;
-        transform.position += movement;
+        pos += movement;
+        transform.SetPosition(pos);
       }
-      if (NITELITE.Input.GetKeyPressed(Keys.K) && transform.position.y > minYPos)
+      if (NITELITE.Input.GetKeyPressed(Keys.K) && pos.y > minYPos)
       {
         Vec3 movement = new Vec3(0, -1, 0) * dt * MoveSpeed;
-        transform.position += movement;
+        pos += movement;
+        transform.SetPosition(pos);
       }
     }
   }

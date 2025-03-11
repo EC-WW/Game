@@ -27,8 +27,6 @@ public class FLAPPY_Bird : NL_Script
 
   private Vec3 startPos = Vec3.Zero;
 
-  private Entity newEntity;
-
   private Transform transform;
 
   public override void Init()
@@ -36,12 +34,13 @@ public class FLAPPY_Bird : NL_Script
     Events.Subscribe<PipeHitPlayer>(self, HitPipe);
 
     transform = self.GetComponent<Transform>();
-    startPos = transform.position;
+    startPos = transform.GetPosition();
   }
 
   public override void Update()
   {
-    if (NITELITE.Input.GetKeyTriggered(Keys.SPACE) && transform.position.y < 8)
+    Vec3 pos = transform.GetPosition();
+    if (NITELITE.Input.GetKeyTriggered(Keys.SPACE) && pos.y < 8)
     {
       currentTime = UpwardTime;
       currentForce = UpwardForce;
@@ -49,14 +48,15 @@ public class FLAPPY_Bird : NL_Script
 
     BirdMovement();
 
-    if (transform.position.y <= -8)
+    if (pos.y <= -8)
       LoseCondition();
   }
 
   private void BirdMovement()
   {
+    Vec3 pos = transform.GetPosition();
     Vec3 movement = new Vec3(0, 1, 0) * dt * currentTime * currentForce;
-    transform.position += movement;
+    transform.SetPosition(pos + movement);
 
     if(currentTime > lowestFallTime)
       currentTime -= dt * Gravity;
@@ -66,7 +66,7 @@ public class FLAPPY_Bird : NL_Script
   {
     currentTime = 0f;
     currentForce = 0f;
-    transform.position = startPos;
+    transform.SetPosition(startPos);
   }
 
   public void HitPipe(ref PipeHitPlayer yes)
