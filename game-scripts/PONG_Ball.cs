@@ -35,9 +35,16 @@ public class PONG_Ball : NL_Script
   public Entity LeftPaddle;
   public Entity RightPaddle;
 
+  private Transform transform;
+  private Transform leftPadTransform;
+  private Transform rightPadTransform;
+
   public override void Init()
   {
-    ref Transform transform = ref self.GetComponent<Transform>();
+    transform = self.GetComponent<Transform>();
+    leftPadTransform = LeftPaddle.GetComponent<Transform>();
+    rightPadTransform = RightPaddle.GetComponent<Transform>();
+
     startPosition = transform.position;
   }
 
@@ -49,7 +56,6 @@ public class PONG_Ball : NL_Script
     if (NITELITE.Input.GetKeyPressed(Keys.R))
     {
       move = false;
-      ref Transform transform = ref self.GetComponent<Transform>();
       transform.position = startPosition;
     }
 
@@ -60,8 +66,6 @@ public class PONG_Ball : NL_Script
 
   private void HandleScoring()
   {
-    ref Transform transform = ref self.GetComponent<Transform>();
-
     //RIGHT player should score
     if (transform.position.x >= 12.5)
     {
@@ -87,10 +91,6 @@ public class PONG_Ball : NL_Script
 
   private void HandleMovement()
   {
-    ref Transform transform = ref self.GetComponent<Transform>();
-    ref Transform leftPadTransform = ref LeftPaddle.GetComponent<Transform>();
-    ref Transform rightPadTransform = ref RightPaddle.GetComponent<Transform>();
-
     //bouncing off of left paddle
     if (transform.position.x >= leftPadTransform.position.x - paddleOffX)
     {

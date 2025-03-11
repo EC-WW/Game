@@ -41,24 +41,25 @@ public class FLAPPY_Pipe : NL_Script
 
   public float dtMult = 0.075f;
 
+  private Transform birdTransform;
+  private Transform topTransform;
+  private Transform bottomTransform;
+
   public override void Init()
   {
+    birdTransform = Bird.GetComponent<Transform>();
+    topTransform = TopPart.GetComponent<Transform>();
+    bottomTransform = BottomPart.GetComponent<Transform>();
+
     Events.Subscribe<PipeHitPlayer>(self, HitPipe);
     currentSpeed = moveSpeed;
 
-    ref Transform birdTransform = ref Bird.GetComponent<Transform>();
-    ref Transform topTransform = ref TopPart.GetComponent<Transform>();
-    ref Transform bottomTransform = ref BottomPart.GetComponent<Transform>();
     topStartingPos = topTransform.position;
     bottomStartingPos = bottomTransform.position;
   }
 
   public override void Update()
   {
-    ref Transform birdTransform = ref Bird.GetComponent<Transform>();
-    ref Transform topTransform = ref TopPart.GetComponent<Transform>();
-    ref Transform bottomTransform = ref BottomPart.GetComponent<Transform>();
-
     if (NITELITE.Input.GetKeyTriggered(Keys.SPACE) && !move) move = true;
 
     if (move)
@@ -110,9 +111,6 @@ public class FLAPPY_Pipe : NL_Script
 
   public void HitPipe(ref PipeHitPlayer yes)
   {
-    ref Transform topTransform = ref TopPart.GetComponent<Transform>();
-    ref Transform bottomTransform = ref BottomPart.GetComponent<Transform>();
-
     if (yes.hit)
     {
       move = false;

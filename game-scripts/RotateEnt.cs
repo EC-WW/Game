@@ -19,17 +19,17 @@ public class RotateEnt : NL_Script
 {
   public Entity entity;
   public float RotSpeed = 1f;
+
+  private Transform transform;
   public override void Init()
   {
-
+    transform = entity.GetComponent<Transform>();
 
   }
 
   public override void Update()
   {
-    ref Transform transform = ref entity.GetComponent<Transform>();
     transform.rotation.y += RotSpeed * dt;
-
   }
 
   public override void Exit()

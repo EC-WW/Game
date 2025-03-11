@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -3.290194272994995,
-              "y": 1.1978815793991089,
-              "z": -5.0941548347473145
+              "x": -2.6605384349823,
+              "y": 3.9740636348724365,
+              "z": -9.568095207214355
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.7789784073829651,
-              "y": -0.5899402499198914,
-              "z": -0.7761900424957275
+              "x": 0.2712537944316864,
+              "y": -0.43987372517585754,
+              "z": 0.9368576407432556
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,118 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 30064771073,
+      "OldID": 1,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 5.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "Hi!"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Text",
+      "OldID": 25769803776,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "team_travis"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "RotationSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
+              {
+                "Align": 8,
+                "Data": 34359738368,
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
+            "Name": "FirstPersonController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Player",
+      "OldID": 30064771072,
       "Tag": ""
     },
     {
@@ -70,7 +181,7 @@
             },
             "translation": {
               "x": 0.0,
-              "y": 2.0,
+              "y": 0.0,
               "z": -5.0
             }
           },
@@ -79,9 +190,9 @@
         {
           "Data": {
             "direction": {
-              "x": -3.8941436741879443e-07,
+              "x": 0.0,
               "y": 0.0,
-              "z": -1.0
+              "z": 1.0
             },
             "editorCamera": 0,
             "farPlane": 2000.0,
@@ -100,6 +211,14 @@
         {
           "Data": {
             "Fields": [
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "Single"
+              },
               {
                 "Align": 8,
                 "Data": 0.25,
@@ -187,14 +306,6 @@
                 "Size": 4,
                 "Type": 12,
                 "TypeName": "Single"
-              },
-              {
-                "Align": 8,
-                "Data": 25769803777,
-                "Name": "PivotTest",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
               }
             ],
             "Name": "Camera"
@@ -203,408 +314,7 @@
         }
       ],
       "Name": "PlayerCamera",
-      "OldID": 8589934593,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 20.0,
-              "y": 1.0,
-              "z": 20.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 18.842557907104492
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Floor",
-      "OldID": 21474836481,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 20.0,
-              "y": 1.0,
-              "z": 20.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 7.5,
-              "z": 17.05280303955078
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "Floor",
-      "OldID": 12884901889,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "team_travis"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 7.0,
-                "Name": "WalkSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 24.0,
-                "Name": "SprintSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 3.0,
-                "Name": "RotationSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 8,
-                "Data": 8589934593,
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 2.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "Single"
-                  }
-                ],
-                "Name": "CamOffset",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3"
-              }
-            ],
-            "Name": "FirstPersonController"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Player",
-      "OldID": 17179869185,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.5,
-              "y": 0.5,
-              "z": 0.5
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 3.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "team_jack"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": 8589934593,
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              },
-              {
-                "Align": 4,
-                "Data": 1.0,
-                "Name": "tempOffsetX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": -0.30000001192092896,
-                "Name": "tempOffsetY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.6000000238418579,
-                "Name": "tempOffsetZ",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 180.0,
-                "Name": "tempRotOffX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "tempRotOffY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 180.0,
-                "Name": "tempRotOffZ",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 1.0,
-                "Name": "MoveLerpSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 1.0,
-                "Name": "RotateLerpSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              }
-            ],
-            "Name": "Hands"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Cube",
-      "OldID": 25769803777,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 20.0,
-              "y": 20.0,
-              "z": 20.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 4.5,
-              "z": -5.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "Wall"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 12.5,
-                "Name": "EndY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              }
-            ],
-            "Name": "Suzanne"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Wall",
-      "OldID": 4294967297,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 21.649999618530273,
-              "y": 21.649999618530273,
-              "z": 21.649999618530273
-            },
-            "translation": {
-              "x": 0.0,
-              "y": -3.490000009536743,
-              "z": -5.849999904632568
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "Suzanne"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 4.510000228881836,
-                "Name": "EndY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              }
-            ],
-            "Name": "Suzanne"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Suzanne",
-      "OldID": 64424509440,
+      "OldID": 34359738368,
       "Tag": ""
     }
   ],

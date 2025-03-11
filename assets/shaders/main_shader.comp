@@ -61,7 +61,7 @@ void main() {
 
         // Check if the sphere is behind the near plane (fully behind the camera)
         if (clipSpaceCenter.w < 1e-6) {
-            return;
+          //  return;
         }
 
         // Perspective divide (NDC space)

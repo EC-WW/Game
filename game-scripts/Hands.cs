@@ -28,9 +28,16 @@ public class Hands : NL_Script
   private Vec3 targetPos;
   private Vec3 targetRot;
 
+  private Transform transform;
+  private Transform camTrans;
+
+  private CameraComponent camComp;
+
   public override void Init()
   {
-    
+    transform = self.GetComponent<Transform>();
+    camTrans = Camera.GetComponent<Transform>();
+    camComp = Camera.GetComponent<CameraComponent>();
   }
 
   public override void Update()
@@ -41,10 +48,6 @@ public class Hands : NL_Script
 
   private void FakeParenting()
   {
-    ref Transform transform = ref self.GetComponent<Transform>();
-    Transform camTrans = Camera.GetComponent<Transform>();
-    CameraComponent camComp = Camera.GetComponent<CameraComponent>();
-
     //get the camera's forward direction
     Vec3 camForward = camComp.facingDirection;
     //calculate the right direction of the camera
@@ -73,8 +76,6 @@ public class Hands : NL_Script
 
   private void UpdateChildTransform()
   {
-    ref Transform transform = ref self.GetComponent<Transform>();
-
     transform.position = targetPos;
     transform.rotation = targetRot;
 

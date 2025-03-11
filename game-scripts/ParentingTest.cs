@@ -25,9 +25,13 @@ public class ParentingTest : NL_Script
   private Vec3 targetPos;
   private Vec3 targetRot;
 
+  private Transform transform;
+  private Transform childTransform;
+
   public override void Init()
   {
-    ref Transform childTransform = ref Child.GetComponent<Transform>();
+    transform = self.GetComponent<Transform>();
+    childTransform = Child.GetComponent<Transform>();
 
     tempOffsetX = childTransform.position.x;
     tempOffsetY = childTransform.position.y;
@@ -40,14 +44,6 @@ public class ParentingTest : NL_Script
 
   public override void Update()
   {
-    FakeParenting(); // :3
-  }
-
-  private void FakeParenting()
-  {
-    ref Transform transform = ref self.GetComponent<Transform>();
-    ref Transform childTransform = ref Child.GetComponent<Transform>();
-
     //get the camera's forward direction
     // Convert rotation angles to radians
     float radX = transform.rotation.x;

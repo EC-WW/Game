@@ -1,0 +1,144 @@
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Bird.cs(39,26): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Bird.cs(44,65): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Bird.cs(52,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Bird.cs(59,15): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Bird.cs(69,15): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(57,35): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(58,41): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(68,20): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(69,23): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(71,27): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(73,22): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(74,25): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(81,22): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(82,25): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(90,23): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(92,24): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(95,23): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(104,22): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(119,20): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Pipe.cs(120,23): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Hands.cs(62,26): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Hands.cs(72,73): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Hands.cs(73,72): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Hands.cs(79,15): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Hands.cs(80,15): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(36,34): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(37,34): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(38,34): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(40,34): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(41,34): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(42,34): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(49,28): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(50,28): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(51,28): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(77,27): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(84,17): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(85,17): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(86,17): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(88,20): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\ParentingTest.cs(89,20): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(48,31): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(59,17): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(70,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(74,17): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(81,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(85,17): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(95,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(97,21): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(102,49): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(102,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(110,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(112,21): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(117,50): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(117,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(125,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(128,17): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(130,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(133,17): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Ball.cs(140,15): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(36,61): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(39,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(41,61): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(44,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(49,61): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(52,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(54,61): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\PONG_Paddle.cs(57,19): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\RotateEnt.cs(32,15): error CS1061: Type `Transform' does not contain a definition for `rotation' and no extension method `rotation' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Suzanne.cs(24,54): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Suzanne.cs(24,103): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Suzanne.cs(36,89): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)
+C:\Users\tcadd\Desktop\NL_Game\game-scripts\Suzanne.cs(36,38): error CS1061: Type `Transform' does not contain a definition for `position' and no extension method `position' of type `Transform' could be found. Are you missing an assembly reference?
+C:\Program Files (x86)\DigiPen\KnightLight\NiteLite\assemblies\NL_Script.dll (Location of the symbol related to previous error)

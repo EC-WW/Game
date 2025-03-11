@@ -16,9 +16,9 @@
               "z": 0.0
             },
             "translation": {
-              "x": -1.7704001665115356,
-              "y": 1.9074974060058594,
-              "z": 5.285856246948242
+              "x": -13.015156745910645,
+              "y": 8.640989303588867,
+              "z": -23.456031799316406
             }
           },
           "Name": "struct Geometry::Types::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.4996269643306732,
-              "y": -0.08181025832891464,
-              "z": -0.938494861125946
+              "x": 0.3703933358192444,
+              "y": -0.3131139576435089,
+              "z": 0.913001537322998
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,7 +50,186 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 47244640272,
+      "OldID": 30064771079,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 2.0,
+              "y": 1.0,
+              "z": 2.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": -9.806994438171387,
+              "z": -1.2551555633544922
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.20999999344348907,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "heightmapFilename": "test_heightmap.png",
+            "peakColor": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "visibleBase": false
+          },
+          "Name": "struct Client::HeightmapComponent"
+        }
+      ],
+      "Name": "GroundHeightmap",
+      "OldID": 25769803783,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 360.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": -5.0
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -2.6226043701171875e-06,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 2,
+                "Name": "test",
+                "Size": 4,
+                "Type": 8,
+                "TypeName": "Int32"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 1,
+                    "Name": "dog",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 1,
+                    "Name": "cat",
+                    "Size": 4,
+                    "Type": 8,
+                    "TypeName": "Int32"
+                  }
+                ],
+                "Name": "hi",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "hello"
+              },
+              {
+                "Align": 8,
+                "Data": 18446744073709551615,
+                "Name": "myent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "Entity"
+              }
+            ],
+            "Name": "Example"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "PlayerCamera",
+      "OldID": 21474836487,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 4.876513481140137
+            }
+          },
+          "Name": "struct Geometry::Types::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Cube",
+      "OldID": 12884901895,
       "Tag": ""
     },
     {
@@ -93,237 +272,7 @@
         }
       ],
       "Name": "SceneText",
-      "OldID": 51539607568,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": -9.806994438171387,
-              "z": -1.2551555633544922
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "baseColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "heightmapFilename": "test_heightmap.png",
-            "peakColor": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "visibleBase": false
-          },
-          "Name": "struct Client::HeightmapComponent"
-        }
-      ],
-      "Name": "GroundHeightmap",
-      "OldID": 55834574864,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 180.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 8.393814086914063
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": -2.5351816930196946e-06,
-              "y": 0.0,
-              "z": -1.0
-            },
-            "editorCamera": 0,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": true,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        }
-      ],
-      "Name": "PlayerCamera",
-      "OldID": 25769803793,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "translation": {
-              "x": 0.0,
-              "y": 2.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        }
-      ],
-      "Name": "ChildTest",
-      "OldID": 60129542158,
-      "Tag": ""
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "scale": {
-              "x": 0.5,
-              "y": 0.5,
-              "z": 0.5
-            },
-            "translation": {
-              "x": 1.495142936706543,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Geometry::Types::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": 60129542158,
-                "Name": "Child",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "Entity"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "tempOffsetX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 2.0,
-                "Name": "tempOffsetY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "tempOffsetZ",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "tempRotOffX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "tempRotOffY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "tempRotOffZ",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "Single"
-              }
-            ],
-            "Name": "ParentingTest"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "PivotTest",
-      "OldID": 64424509454,
+      "OldID": 17179869191,
       "Tag": ""
     }
   ],

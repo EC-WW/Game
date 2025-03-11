@@ -22,15 +22,15 @@ public class PONG_Paddle : NL_Script
 
   public bool IsLeftPaddle = true;
 
+  private Transform transform;
+
   public override void Init()
   {
-
+    transform = self.GetComponent<Transform>();
   }
 
   public override void Update()
   {
-    ref Transform transform = ref self.GetComponent<Transform>();
-
     if (IsLeftPaddle)
     {
       if (NITELITE.Input.GetKeyPressed(Keys.W) && transform.position.y < maxYPos)

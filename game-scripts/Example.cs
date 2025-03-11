@@ -31,7 +31,8 @@ public class Example : NL_Script
   //public float a;
   //public int b;
 
-
+  private Transform transform;
+  private Transform camtransform;
 
   void mycooleventhandler(ref mycoolevent e)
   {
@@ -54,6 +55,9 @@ public class Example : NL_Script
   }
   public override void Init()
   {
+    transform = self.GetComponent<Transform>();
+    camtransform = myent.GetComponent<Transform>();
+
     //Heres your basic debug print, it will get better at some point
     NL_INFO("Hello NITELITE from C#!");
 
@@ -84,7 +88,6 @@ public class Example : NL_Script
 
     //Components are accessed like this, if you want to write
     //data into them, you need to use the ref keyword, like so:
-    ref Transform transform = ref self.GetComponent<Transform>();
     //Because of reasons, these data references are only guranteed to be good
     //for a single frame, so they should generally be locals that you re-get
     //every frame
@@ -92,12 +95,15 @@ public class Example : NL_Script
 
     //dt is a variable that you have access to inside of anything that
     //inherits from NL_Script, and has its value refreshed automatically
-    transform.rotation.x += 5f * dt;
-    transform.rotation.y += 5f * dt;
-    transform.rotation.z -= 5f * dt;
+    Vec3 rot = transform.GetRotation();
+    rot.x += 5f * dt;
+    rot.y += 5f * dt;
+    rot.z -= 5f * dt;
+    transform.SetRotation(rot);
 
-    ref Transform camtransform = ref myent.GetComponent<Transform>();
-    camtransform.position.x += dt;
+    Vec3 camPos = camtransform.GetPosition();
+    camPos.x += dt;
+    camtransform.SetPosition(camPos);
 
     if (NITELITE.Input.GetKeyPressed(Keys.W))
     {
@@ -119,28 +125,28 @@ public class Example : NL_Script
       Entity[] entities = Entity.GetEntitiesByName("mowo");
       foreach (Entity e in entities)
       {
-        ref Transform t = ref e.GetComponent<Transform>();
-        NL_INFO(t.position.x.ToString());
+        Transform t = e.GetComponent<Transform>();
+        NL_INFO(t.GetPosition().x.ToString());
       }
     }
 
-
+    Vec3 pos = transform.GetPosition();
     //input stuff can be found in NITELITE.Input
     if (NITELITE.Input.GetKeyPressed(Keys.I))
     {
-      transform.position.y += 0.08f;
+      pos.y += 0.08f;
     }
     if (NITELITE.Input.GetKeyPressed(Keys.J))
     {
-      transform.position.x -= 0.08f;
+      pos.x -= 0.08f;
     }
     if (NITELITE.Input.GetKeyPressed(Keys.K))
     {
-      transform.position.y -= 0.08f;
+      pos.y -= 0.08f;
     }
     if (NITELITE.Input.GetKeyPressed(Keys.L))
     {
-      transform.position.x += 0.08f;
+      pos.x += 0.08f;
     }
 
     //heres mouse stuff
@@ -165,40 +171,33 @@ public class Example : NL_Script
 
       //Entities can have components added to them like so,
       //you get back an empty component that you fill out data for
-      ref Transform t = ref myent.AddComponent<Transform>();
-      t.position.x = 1.0f;
-      t.position.y = 2.0f;
-      t.position.z = 3.0f;
-      t.rotation.x = 4.0f;
-      t.rotation.y = 5.0f;
-      t.rotation.z = 6.0f;
+      Vec3 camNewPos = camtransform.GetPosition();
+      camNewPos.x = 1.0f;
+      camNewPos.y = 2.0f;
+      camNewPos.z = 3.0f;
+      camNewPos.x = 4.0f;
+      camNewPos.y = 5.0f;
+      camNewPos.z = 6.0f;
+      camtransform.SetPosition(camNewPos);
 
-      t.scale.x = 2.0f;
-      t.scale.y = 2.0f;
-      t.scale.z = 2.0f;
+      Vec3 camScale = camtransform.GetScale();
+      camScale.x = 2.0f;
+      camScale.y = 2.0f;
+      camScale.z = 2.0f;
+      camtransform.SetScale(camScale);
 
-      ref ModelComponent m = ref myent.AddComponent<ModelComponent>();
+      ModelComponent m = myent.AddComponent<ModelComponent>();
       m.modelPath = "trotting_cat";
 
       //if you want to do something simple like adding a tag
       //you can do it in one line like so:
-      myent.AddComponent<TagComponent>().tag = "mowo";
+      myent.tag = "mowo";
     }
 
     if (NITELITE.Input.GetKeyTriggered(Keys.O))
     {
       //you can destroy an entity like so:
       myent.Destroy();
-
-      //entities are only actually destroyed at the end of the frame,
-      //so you can still access their data until then
-      ref Transform t = ref myent.GetComponent<Transform>();
-      NL_INFO(t.position.x.ToString());
-      NL_INFO(t.position.y.ToString());
-      NL_INFO(t.position.z.ToString());
-
-      ref TagComponent tag = ref myent.GetComponent<TagComponent>();
-      NL_INFO(tag.tag);
     }
   }
 
