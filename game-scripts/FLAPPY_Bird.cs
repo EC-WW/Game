@@ -27,8 +27,12 @@ public class FLAPPY_Bird : NL_Script
 
   private Vec3 startPos = Vec3.Zero;
 
+  private Entity newEntity;
+
   public override void Init()
   {
+    Events.Subscribe<PipeHitPlayer>(self, HitPipe);
+
     ref Transform transform = ref self.GetComponent<Transform>();
     startPos = transform.position;
   }
@@ -43,8 +47,21 @@ public class FLAPPY_Bird : NL_Script
       currentForce = UpwardForce;
     }
 
+    //if (NITELITE.Input.GetKeyTriggered(Keys.P))
+    //{
+    //  NL_INFO("SOME SHIT");
+    //  newEntity = new Entity();
+    //  ref Transform t = ref newEntity.AddComponent<Transform>();
+    //  t.position = startPos;
+
+    //  ref ModelComponent m = ref newEntity.AddComponent<ModelComponent>();
+    //  m.modelPath = "cube";
+    //}
+
     BirdMovement();
-    LoseCondition();
+
+    if (transform.position.y <= -8)
+      LoseCondition();
   }
 
   private void BirdMovement()
@@ -62,11 +79,16 @@ public class FLAPPY_Bird : NL_Script
   {
     ref Transform transform = ref self.GetComponent<Transform>();
 
-    if (transform.position.y <= -8)
+    currentTime = 0f;
+    currentForce = 0f;
+    transform.position = startPos;
+  }
+
+  public void HitPipe(ref PipeHitPlayer yes)
+  {
+    if (yes.hit)
     {
-      currentTime = 0f;
-      currentForce = 0f;
-      transform.position = startPos;
+      LoseCondition();
     }
   }
 
