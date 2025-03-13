@@ -1,0 +1,548 @@
+{
+  "Entities": [
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -2.9756131172180176,
+              0.13017866015434265,
+              -6.8345046043396
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 0.6257224678993225,
+              "y": -0.0503157414495945,
+              "z": 0.7783734202384949
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "OldID": 17179869184,
+      "Tag": ""
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  -2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "bottom",
+          "OldID": 38654705664,
+          "Tag": ""
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "top",
+          "OldID": 42949672960,
+          "Tag": ""
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              -0.3425237536430359,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": 21474836480,
+                "Name": "Score",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 30064771072,
+                "Name": "Bird",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 42949672960,
+                "Name": "TopPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 38654705664,
+                "Name": "BottomPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "pipeOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "pipeOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.07500000298023224,
+                "Name": "dtMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "FLAPPY_Pipe"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Pipe1",
+      "OldID": 34359738368,
+      "Tag": ""
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  5.0,
+                  -2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "bottom",
+          "OldID": 51539607552,
+          "Tag": ""
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  5.0,
+                  2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "top",
+          "OldID": 55834574848,
+          "Tag": ""
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              5.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": 21474836480,
+                "Name": "Score",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 30064771072,
+                "Name": "Bird",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 55834574848,
+                "Name": "TopPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 51539607552,
+                "Name": "BottomPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "pipeOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.33000001311302185,
+                "Name": "pipeOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.07500000298023224,
+                "Name": "dtMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "FLAPPY_Pipe"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Pipe2",
+      "OldID": 47244640256,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              -5.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": 2.6226043701171875e-06,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        }
+      ],
+      "Name": "Camera",
+      "OldID": 25769803776,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.10000000149011612,
+              0.10000000149011612,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              -0.37867826223373413,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 1.0,
+                "Name": "UpwardTime",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 6.0,
+                "Name": "UpwardForce",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.5,
+                "Name": "Gravity",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "FLAPPY_Bird"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Bird",
+      "OldID": 30064771072,
+      "Tag": ""
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -1.5,
+              1.600000023841858,
+              -0.10000000149011612
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Score",
+      "OldID": 21474836480,
+      "Tag": ""
+    }
+  ],
+  "SceneHeader": "assets//scenes/bird.nlscene"
+}

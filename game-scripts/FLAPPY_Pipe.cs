@@ -22,6 +22,10 @@ public struct PipeHitPlayer : Event
 
 public class FLAPPY_Pipe : NL_Script
 {
+  static int score = 0;
+
+  public Entity Score;
+
   public Entity Bird;
 
   public Entity TopPart;
@@ -45,11 +49,15 @@ public class FLAPPY_Pipe : NL_Script
   private Transform topTransform;
   private Transform bottomTransform;
 
+  private TextComponent scoreText;
+
   public override void Init()
   {
     birdTransform = Bird.GetComponent<Transform>();
     topTransform = TopPart.GetComponent<Transform>();
     bottomTransform = BottomPart.GetComponent<Transform>();
+
+    scoreText = Score.GetComponent<TextComponent>();
 
     Events.Subscribe<PipeHitPlayer>(self, HitPipe);
     currentSpeed = moveSpeed;
@@ -63,6 +71,10 @@ public class FLAPPY_Pipe : NL_Script
     Vec3 birdPos = birdTransform.GetPosition();
     Vec3 topPos = topTransform.GetPosition();
     Vec3 bottomPos = bottomTransform.GetPosition();
+
+    Vec3 birdScale = birdTransform.GetScale();
+    Vec3 topScale = topTransform.GetScale();
+    Vec3 bottomScale = bottomTransform.GetScale();
 
     if (NITELITE.Input.GetKeyTriggered(Keys.SPACE) && !move) move = true;
 
@@ -85,11 +97,14 @@ public class FLAPPY_Pipe : NL_Script
         topPos.y = topStartingPos.y + ran;
         bottomPos.y = bottomStartingPos.y + ran;
 
-        topPos.x = 8;
-        bottomPos.x = 8;
+        topPos.x = 5;
+        bottomPos.x = 5;
 
         topTransform.SetPosition(topPos);
         bottomTransform.SetPosition(bottomPos);
+
+        score++;
+        scoreText.Text = score.ToString();
       }
 
       //speed increase over time
@@ -97,9 +112,24 @@ public class FLAPPY_Pipe : NL_Script
     }
 
     //super real collision checks
-    if (birdPos.x >= bottomPos.x - (pipeOffX * 2) && birdPos.x <= bottomPos.x - pipeOffX)
+    if ((birdPos.x <= bottomPos.x + (bottomScale.x / 2)) && (birdPos.x >= bottomPos.x - (bottomScale.x / 2)))
     {
-      if(birdPos.y <= bottomPos.y + pipeOffY || birdPos.y >= topPos.y - (pipeOffY * 2.2f))
+      if ((birdPos.y <= bottomPos.y + (bottomScale.y / 2)) && (birdPos.y >= bottomPos.y - (bottomScale.y / 2)))
+      {
+        //KILL HIM
+        birdPos.y = -8f;
+        birdTransform.SetPosition(birdPos);
+
+        PipeHitPlayer pipeHitPlayer;
+        pipeHitPlayer.hit = true;
+        Events.Signal<PipeHitPlayer>(ref pipeHitPlayer);
+      }
+    }
+
+    if ((birdPos.x <= topPos.x + (topScale.x / 2)) && (birdPos.x >= topPos.x - (topScale.x / 2)))
+    {
+      NL_INFO("Bird X Collision");
+      if ((birdPos.y <= topPos.y + (topScale.y / 2)) && (birdPos.y >= topPos.y - (topScale.y / 2)))
       {
         //KILL HIM
         birdPos.y = -8f;
@@ -112,7 +142,7 @@ public class FLAPPY_Pipe : NL_Script
     }
 
     //murder
-    if(birdPos.y <= -7f)
+    if (birdPos.y <= -4f)
     {
       PipeHitPlayer pipeHitPlayer;
       pipeHitPlayer.hit = true;
@@ -129,6 +159,8 @@ public class FLAPPY_Pipe : NL_Script
 
       topTransform.SetPosition(topStartingPos);
       bottomTransform.SetPosition(bottomStartingPos);
+      score = 0;
+      scoreText.Text = score.ToString();
     }
   }
 
