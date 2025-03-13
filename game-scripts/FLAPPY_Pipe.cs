@@ -129,7 +129,7 @@ public class FLAPPY_Pipe : NL_Script
     if ((birdPos.x <= topPos.x + (topScale.x / 2)) && (birdPos.x >= topPos.x - (topScale.x / 2)))
     {
       NL_INFO("Bird X Collision");
-      if ((birdPos.y <= topPos.y + (topScale.y / 2)) && (birdPos.y >= topPos.y - (topScale.y / 2)))
+      if (birdPos.y >= topPos.y - (topScale.y / 2))
       {
         //KILL HIM
         birdPos.y = -8f;
