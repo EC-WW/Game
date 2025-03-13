@@ -1,5 +1,6 @@
 imgui.ini
 .nl
-game-scripts/.vs
+*.vs
+
 dump.dmp
 assemblies/Game.dll
