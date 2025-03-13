@@ -1,3 +1,0 @@
-C:\Users\tcadd\Desktop\NL_Game\game-scripts\FirstPersonController.cs(41,10): warning CS0219: The variable `camPos' is assigned but its value is never used
-C:\Users\tcadd\Desktop\NL_Game\game-scripts\FirstPersonController.cs(89,10): warning CS0219: The variable `rot' is assigned but its value is never used
-C:\Users\tcadd\Desktop\NL_Game\game-scripts\FLAPPY_Bird.cs(30,18): warning CS0169: The private field `FLAPPY_Bird.newEntity' is never used
