@@ -16,9 +16,9 @@
               1.0
             ],
             "translation": [
-              -2.9756131172180176,
-              0.13017866015434265,
-              -6.8345046043396
+              -4.706780910491943,
+              0.14969581365585327,
+              -6.267750263214111
             ]
           },
           "Name": "struct Client::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": 0.6257224678993225,
-              "y": -0.0503157414495945,
-              "z": 0.7783734202384949
+              "x": 0.5743027329444885,
+              "y": 0.0065279193222522736,
+              "z": 0.8185653686523438
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -50,84 +50,11 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 21474836481,
+      "OldID": 17179869184,
       "Tag": ""
     },
     {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "scale": [
-                  0.30000001192092896,
-                  3.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  -2.5,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "quad"
-              },
-              "Name": "struct Client::ModelComponent"
-            }
-          ],
-          "Name": "bottom",
-          "OldID": 25769803777,
-          "Tag": ""
-        },
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "scale": [
-                  0.30000001192092896,
-                  3.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  2.5,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "quad"
-              },
-              "Name": "struct Client::ModelComponent"
-            }
-          ],
-          "Name": "top",
-          "OldID": 47244640257,
-          "Tag": ""
-        }
-      ],
+      "Children": [],
       "Components": [
         {
           "Data": {
@@ -142,245 +69,31 @@
               1.0
             ],
             "translation": [
-              0.0,
-              -0.3425237536430359,
-              0.0
+              -1.5,
+              1.600000023841858,
+              -0.10000000149011612
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": 17179869185,
-                "Name": "Score",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 38654705665,
-                "Name": "Bird",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 47244640257,
-                "Name": "TopPart",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 25769803777,
-                "Name": "BottomPart",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "pipeOffX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 3.0,
-                "Name": "pipeOffY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.07500000298023224,
-                "Name": "dtMult",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              }
-            ],
-            "Name": "FLAPPY_Pipe"
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
           },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Pipe1",
-      "OldID": 30064771073,
-      "Tag": ""
-    },
-    {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "scale": [
-                  0.30000001192092896,
-                  3.0,
-                  1.0
-                ],
-                "translation": [
-                  5.0,
-                  -2.5,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "quad"
-              },
-              "Name": "struct Client::ModelComponent"
-            }
-          ],
-          "Name": "bottom",
-          "OldID": 55834574849,
-          "Tag": ""
-        },
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                "scale": [
-                  0.30000001192092896,
-                  3.0,
-                  1.0
-                ],
-                "translation": [
-                  5.0,
-                  2.5,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "quad"
-              },
-              "Name": "struct Client::ModelComponent"
-            }
-          ],
-          "Name": "top",
-          "OldID": 51539607553,
-          "Tag": ""
-        }
-      ],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              5.0,
-              0.0,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
+          "Name": "struct Client::ModelComponent"
         },
         {
           "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": 17179869185,
-                "Name": "Score",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 38654705665,
-                "Name": "Bird",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 51539607553,
-                "Name": "TopPart",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 8,
-                "Data": 55834574849,
-                "Name": "BottomPart",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity"
-              },
-              {
-                "Align": 4,
-                "Data": 0.0,
-                "Name": "pipeOffX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.33000001311302185,
-                "Name": "pipeOffY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.07500000298023224,
-                "Name": "dtMult",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              }
-            ],
-            "Name": "FLAPPY_Pipe"
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
           },
-          "Name": "struct Client::Script"
+          "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "Pipe2",
-      "OldID": 34359738369,
+      "Name": "Score",
+      "OldID": 55834574848,
       "Tag": ""
     },
     {
@@ -429,7 +142,7 @@
         }
       ],
       "Name": "Camera",
-      "OldID": 42949672961,
+      "OldID": 47244640256,
       "Tag": ""
     },
     {
@@ -497,11 +210,84 @@
         }
       ],
       "Name": "Bird",
-      "OldID": 38654705665,
+      "OldID": 51539607552,
       "Tag": ""
     },
     {
-      "Children": [],
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  -2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "bottom",
+          "OldID": 25769803776,
+          "Tag": ""
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "top",
+          "OldID": 30064771072,
+          "Tag": ""
+        }
+      ],
       "Components": [
         {
           "Data": {
@@ -516,31 +302,245 @@
               1.0
             ],
             "translation": [
-              -1.5,
-              1.600000023841858,
-              -0.10000000149011612
+              0.0,
+              -0.3425237536430359,
+              0.0
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": 55834574848,
+                "Name": "Score",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 51539607552,
+                "Name": "Bird",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 30064771072,
+                "Name": "TopPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 25769803776,
+                "Name": "BottomPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "pipeOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "pipeOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.07500000298023224,
+                "Name": "dtMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "FLAPPY_Pipe"
           },
-          "Name": "struct Client::ModelComponent"
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Pipe1",
+      "OldID": 21474836480,
+      "Tag": ""
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  5.0,
+                  -2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "bottom",
+          "OldID": 38654705664,
+          "Tag": ""
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  3.0,
+                  1.0
+                ],
+                "translation": [
+                  5.0,
+                  2.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad"
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "top",
+          "OldID": 42949672960,
+          "Tag": ""
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              5.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "0"
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": 55834574848,
+                "Name": "Score",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 51539607552,
+                "Name": "Bird",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 42949672960,
+                "Name": "TopPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 8,
+                "Data": 38654705664,
+                "Name": "BottomPart",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "pipeOffX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.33000001311302185,
+                "Name": "pipeOffY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.07500000298023224,
+                "Name": "dtMult",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "FLAPPY_Pipe"
           },
-          "Name": "struct Client::TextComponent"
+          "Name": "struct Client::Script"
         }
       ],
-      "Name": "Score",
-      "OldID": 17179869185,
+      "Name": "Pipe2",
+      "OldID": 34359738368,
       "Tag": ""
     }
   ],

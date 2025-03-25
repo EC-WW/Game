@@ -16,9 +16,9 @@
               1.0
             ],
             "translation": [
-              2.7178797721862793,
-              -2.3214356899261475,
-              -12.28103256225586
+              3.4597065448760986,
+              -2.88417649269104,
+              -14.366854667663574
             ]
           },
           "Name": "struct Client::Transform"
@@ -50,7 +50,7 @@
         }
       ],
       "Name": "EditorCamera",
-      "OldID": 0,
+      "OldID": 12884901889,
       "Tag": ""
     },
     {
@@ -86,7 +86,7 @@
         }
       ],
       "Name": "Cube",
-      "OldID": 4294967296,
+      "OldID": 8589934593,
       "Tag": ""
     },
     {
@@ -158,7 +158,7 @@
               },
               {
                 "Align": 8,
-                "Data": 0,
+                "Data": 12884901889,
                 "Name": "myent",
                 "Size": 8,
                 "Type": 17,
@@ -178,7 +178,7 @@
         }
       ],
       "Name": "Text",
-      "OldID": 8589934592,
+      "OldID": 4294967297,
       "Tag": ""
     },
     {
@@ -227,9 +227,9 @@
         }
       ],
       "Name": "Camera",
-      "OldID": 12884901888,
+      "OldID": 1,
       "Tag": ""
     }
   ],
-  "SceneHeader": "assets\\scenes\\default.nlscene"
+  "SceneHeader": "assets//scenes/default.nlscene"
 }
