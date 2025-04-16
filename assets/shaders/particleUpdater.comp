@@ -1,0 +1,136 @@
+/*********************************************************************
+ * file:   particleUpdater.comp
+ * author: aditya.prakash (aditya.prakash@digpen.edu)
+ * date:   February 25, 2025
+ * Copyright  2024 DigiPen (USA) Corporation.
+ *
+ * brief:  Updates Particles
+ *********************************************************************/
+
+#version 460
+
+#define WORKGROUP_SIZE_X 32
+layout(local_size_x = WORKGROUP_SIZE_X) in;
+
+#include "include/camera_set.glsl"
+#include "include/instance_set.glsl"
+#include "include/particles.glsl"
+#include "include/random.glsl"
+
+struct ParticleInstance {
+  mat4 transformMat;    // 64 bytes
+  vec4 textureIndexTint;// 4  bytes
+  uint meshIndex;       // 4  bytes
+};
+
+layout(std430, set = 1, binding = 2) buffer writeonly ParticleInstanceDataBuffer {
+  ParticleInstance instances[NL_MAX_PARTICLES];
+} particleInstanceData;
+
+layout(std430, set = 2, binding = 4) buffer ParticleCounters {
+    uint particleDrawCommandCounter;
+    uint totalInstances;
+};
+
+layout(std430, set = 2, binding = 5) buffer readonly ParticleBufferIn {
+  Particle particles[NL_MAX_PARTICLES];
+} particleBufferIn;
+
+layout(std430, set = 2, binding = 6) buffer writeonly ParticleBufferOut {
+  Particle particles[NL_MAX_PARTICLES];
+} particleBufferOut;
+
+mat4 GetModelMatrix(Particle p) {
+    // Billboarding: simply scale and translate.
+    if (p.isBillboard != 0u) {
+        return mat4(
+            vec4(p.accelSize.w, 0.0, 0.0, 0.0),
+            vec4(0.0, p.accelSize.w, 0.0, 0.0),
+            vec4(0.0, 0.0, p.accelSize.w, 0.0),
+            vec4(p.posSize.xyz, 1.0)
+        );
+    }
+
+    // Precompute sine and cosine for each Euler angle.
+    float cx = cos(p.rotLife.x);
+    float sx = sin(p.rotLife.x);
+    float cy = cos(p.rotLife.y);
+    float sy = sin(p.rotLife.y);
+    float cz = cos(p.rotLife.z);
+    float sz = sin(p.rotLife.z);
+
+    // Compute rotation matrix components using ZYX order.
+    vec3 right = vec3(cy * cz, cy * sz, -sy);
+    vec3 up    = vec3(sx * sy * cz - cx * sz, sx * sy * sz + cx * cz, sx * cy);
+    vec3 forward = vec3(cx * sy * cz + sx * sz, cx * sy * sz - sx * cz, cx * cy);
+
+    // Combine rotation, uniform scale and translation into a single matrix.
+    return mat4(
+        vec4(right * p.accelSize.w, 0.0),
+        vec4(up * p.accelSize.w, 0.0),
+        vec4(forward * p.accelSize.w, 0.0),
+        vec4(p.posSize.xyz, 1.0)
+    );
+}
+
+struct GravitationalForce {
+  vec3 position;
+  float strength;
+};
+
+GravitationalForce gravitationalForces[1] = GravitationalForce[](
+  GravitationalForce(vec3(0.0, 0.0, 0.0), 0.1)
+);
+
+void main()
+{
+    if (gl_GlobalInvocationID.x >= particleCounterBuffer.aliveParticleCount1) return;
+    uint particleIndex = aliveList1.indices[gl_GlobalInvocationID.x];
+
+    Particle particle = particleBufferIn.particles[particleIndex];
+
+    // --- Update particle properties ---
+    particle.posSize.xyz += particle.velSize.xyz * deltaTime;
+    particle.velSize.xyz += particle.accelSize.xyz * deltaTime;
+    particle.rotLife.xyz += particle.angularVelAge.xyz * deltaTime;
+    particle.accelSize.w = mix(particle.posSize.w, particle.velSize.w, particle.angularVelAge.w / particle.rotLife.w);
+    particle.angularVelAge.w += deltaTime;
+
+    // --- Check for death ---
+    if (particle.angularVelAge.w >= particle.rotLife.w)
+    {
+        uint deadCounter = uint(atomicAdd(particleCounterBuffer.deadParticleCount, 1));
+        deadListBuffer.deadList[deadCounter] = particleIndex;
+    }
+    else {
+        uint aliveCounter = uint(atomicAdd(particleCounterBuffer.aliveParticleCount2, 1));
+        aliveList2.indices[aliveCounter] = particleIndex;
+    }
+
+    particleBufferOut.particles[particleIndex] = particle; // Write back updated particle
+
+    mat4 modelMatrix = GetModelMatrix(particle);
+    mat4 proj = particle.isDiagetic != 0u ? uniforms.projectionView : uniforms.projection;
+
+    ParticleInstance instance;
+    instance.transformMat = proj * modelMatrix;
+
+    uint numMeshes = modelData.models[particle.modelIndex].numMeshes;
+    uint instanceIndex = atomicAdd(totalInstances, numMeshes);
+    for (int i = 0; i < numMeshes; ++i)
+    {
+        uint textureIndex = particle.textureIndex;
+        if (textureIndex == NL_WHITE_TEXTURE) textureIndex = modelData.models[particle.modelIndex].textureIndices[i];
+        if (textureIndex == NL_NO_TEXTURES) textureIndex = NL_WHITE_TEXTURE;
+        instance.textureIndexTint = vec4(textureIndex, particle.tint.xyz);
+
+        instance.meshIndex = modelData.models[particle.modelIndex].meshIndices[i];
+
+        particleInstanceData.instances[instanceIndex++] = instance;
+
+        uint meshCounter = atomicAdd(particleCounterBuffer.meshCounts[instance.meshIndex].count, 1u);
+        if (meshCounter == 0) {
+            atomicAdd(particleCounterBuffer.numMeshes, 1);
+        }
+    }
+}

@@ -1,0 +1,435 @@
+{
+  "1": {
+    "Children": {
+      "12884901889": {
+        "Children": {},
+        "Components": {
+          "struct Client::CameraComponent": {
+            "direction": {
+              "x": 0.610243022441864,
+              "y": -0.7360435724258423,
+              "z": -0.3238004744052887
+            },
+            "editorCamera": false,
+            "farPlane": 200.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "struct Client::Script": {
+            "fields": [
+              {
+                "align": 1,
+                "children": [],
+                "data": -51,
+                "name": "BOOL",
+                "size": 1,
+                "type": 2
+              },
+              {
+                "align": 2,
+                "children": [],
+                "data": -51,
+                "name": "CHAR",
+                "size": 2,
+                "type": 3
+              },
+              {
+                "align": 1,
+                "children": [],
+                "data": -51,
+                "name": "SBYTE",
+                "size": 1,
+                "type": 4
+              },
+              {
+                "align": 1,
+                "children": [],
+                "data": -51,
+                "name": "BYTE",
+                "size": 1,
+                "type": 5
+              },
+              {
+                "align": 2,
+                "children": [],
+                "data": -51,
+                "name": "SHORT",
+                "size": 2,
+                "type": 6
+              },
+              {
+                "align": 2,
+                "children": [],
+                "data": -51,
+                "name": "USHORT",
+                "size": 2,
+                "type": 7
+              },
+              {
+                "align": 4,
+                "children": [],
+                "data": -51,
+                "name": "INT",
+                "size": 4,
+                "type": 8
+              },
+              {
+                "align": 4,
+                "children": [],
+                "data": -51,
+                "name": "UINT",
+                "size": 4,
+                "type": 9
+              },
+              {
+                "align": 8,
+                "children": [],
+                "data": -51,
+                "name": "LONG",
+                "size": 8,
+                "type": 10
+              },
+              {
+                "align": 8,
+                "children": [],
+                "data": -51,
+                "name": "ULONG",
+                "size": 8,
+                "type": 11
+              },
+              {
+                "align": 4,
+                "children": [],
+                "data": -51,
+                "name": "FLOAT",
+                "size": 4,
+                "type": 12
+              },
+              {
+                "align": 8,
+                "children": [],
+                "data": -51,
+                "name": "DOUBLE",
+                "size": 8,
+                "type": 13
+              },
+              {
+                "align": 8,
+                "children": [],
+                "data": -51,
+                "name": "STRING",
+                "size": 8,
+                "type": 14
+              },
+              {
+                "align": 4,
+                "children": [
+                  {
+                    "align": 4,
+                    "children": [],
+                    "data": -51,
+                    "name": "integer",
+                    "size": 4,
+                    "type": 8
+                  },
+                  {
+                    "align": 4,
+                    "children": [],
+                    "data": -51,
+                    "name": "floating_point",
+                    "size": 4,
+                    "type": 12
+                  }
+                ],
+                "name": "myA",
+                "size": 8,
+                "type": 17
+              },
+              {
+                "align": 8,
+                "children": [
+                  {
+                    "align": 8,
+                    "children": [],
+                    "data": -51,
+                    "name": "double_precision",
+                    "size": 8,
+                    "type": 13
+                  },
+                  {
+                    "align": 4,
+                    "children": [
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "integer",
+                        "size": 4,
+                        "type": 8
+                      },
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "floating_point",
+                        "size": 4,
+                        "type": 12
+                      }
+                    ],
+                    "name": "A",
+                    "size": 8,
+                    "type": 17
+                  }
+                ],
+                "name": "myB",
+                "size": 16,
+                "type": 17
+              },
+              {
+                "align": 8,
+                "children": [
+                  {
+                    "align": 4,
+                    "children": [
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "x",
+                        "size": 4,
+                        "type": 12
+                      },
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "y",
+                        "size": 4,
+                        "type": 12
+                      },
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "z",
+                        "size": 4,
+                        "type": 12
+                      }
+                    ],
+                    "name": "V",
+                    "size": 12,
+                    "type": 17
+                  },
+                  {
+                    "align": 8,
+                    "children": [
+                      {
+                        "align": 8,
+                        "children": [],
+                        "data": -51,
+                        "name": "double_precision",
+                        "size": 8,
+                        "type": 13
+                      },
+                      {
+                        "align": 4,
+                        "children": [
+                          {
+                            "align": 4,
+                            "children": [],
+                            "data": -51,
+                            "name": "integer",
+                            "size": 4,
+                            "type": 8
+                          },
+                          {
+                            "align": 4,
+                            "children": [],
+                            "data": -51,
+                            "name": "floating_point",
+                            "size": 4,
+                            "type": 12
+                          }
+                        ],
+                        "name": "A",
+                        "size": 8,
+                        "type": 17
+                      }
+                    ],
+                    "name": "B",
+                    "size": 16,
+                    "type": 17
+                  },
+                  {
+                    "align": 4,
+                    "children": [
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "integer",
+                        "size": 4,
+                        "type": 8
+                      },
+                      {
+                        "align": 4,
+                        "children": [],
+                        "data": -51,
+                        "name": "floating_point",
+                        "size": 4,
+                        "type": 12
+                      }
+                    ],
+                    "name": "A",
+                    "size": 8,
+                    "type": 17
+                  }
+                ],
+                "name": "myC",
+                "size": 40,
+                "type": 17
+              },
+              {
+                "align": 4,
+                "children": [
+                  {
+                    "align": 4,
+                    "children": [],
+                    "data": -51,
+                    "name": "x",
+                    "size": 4,
+                    "type": 12
+                  },
+                  {
+                    "align": 4,
+                    "children": [],
+                    "data": -51,
+                    "name": "y",
+                    "size": 4,
+                    "type": 12
+                  }
+                ],
+                "name": "VEC2",
+                "size": 8,
+                "type": 17
+              }
+            ],
+            "name": "Example"
+          },
+          "struct Client::TagComponent": {
+            "mTag": "Camera"
+          },
+          "struct Geometry::Types::Transform": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": -32.860618591308594,
+              "y": 35.17633056640625,
+              "z": 19.96788215637207
+            }
+          },
+          "struct NLE::ForwardRelation<class NLE::ParentMarker>": {
+            "target": "1"
+          }
+        }
+      },
+      "4294967297": {
+        "Children": {},
+        "Components": {
+          "struct Client::TagComponent": {
+            "mTag": "test child 2 "
+          },
+          "struct Geometry::Types::Transform": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "struct NLE::ForwardRelation<class NLE::ParentMarker>": {
+            "target": "1"
+          }
+        }
+      },
+      "8589934593": {
+        "Children": {},
+        "Components": {
+          "struct Client::TagComponent": {
+            "mTag": "test child "
+          },
+          "struct Geometry::Types::Transform": {
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "struct NLE::ForwardRelation<class NLE::ParentMarker>": {
+            "target": "1"
+          }
+        }
+      }
+    },
+    "Components": {
+      "struct Client::SceneComponent": {
+        "lazyLoad": false,
+        "loaded": false,
+        "sceneName": "scenecompoennts"
+      },
+      "struct Client::TagComponent": {
+        "mTag": "test parent"
+      },
+      "struct Geometry::Types::Transform": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    }
+  }
+}

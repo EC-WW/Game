@@ -1,0 +1,6 @@
+imgui.ini
+.nl/
+*.vs
+*.vscode
+dump.dmp
+assemblies/TheGame.dll

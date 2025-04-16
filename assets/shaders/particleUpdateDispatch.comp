@@ -1,0 +1,54 @@
+/*********************************************************************
+ * file:   particle.comp
+ * author: aditya.prakash (aditya.prakash@digpen.edu)
+ * date:   November 21, 2024
+ * Copyright 2024 DigiPen (USA) Corporation.
+ *
+ * brief:  The particle compute shader!
+ *********************************************************************/
+
+#version 460
+
+layout(local_size_x = 1, local_size_y = 1, local_size_z = 1) in;
+
+struct MeshCountData {
+  uint meshIndex;
+  uint count;
+  uint firstInstance;
+  uint instanceCounter;
+};
+
+layout(std430, set = 1, binding = 5) buffer ParticleCountersBuffer {
+  int numEmitters;          // Number of emitters
+  int aliveParticleCount1;   // Size of alive list
+  int aliveParticleCount2;   // Size of alive list
+  int deadParticleCount;    // Size of dead list
+  int countAfterSimulation; // Really just for debug purposes
+  uint numMeshes;
+  MeshCountData meshCounts[NL_MAX_MODELS * NL_MAX_MESHES];
+} particleCounterBuffer;
+
+struct VkDispatchIndirectCommand {
+  uint x;
+  uint y;
+  uint z;
+};
+
+layout(std430, set = 2, binding = 10) buffer ParticleDispatchBuffer {
+  VkDispatchIndirectCommand updateDispatchCommand;
+  VkDispatchIndirectCommand sortDispatchCommand;
+} particleDispatchBuffer;
+
+void main() { 
+    particleDispatchBuffer.updateDispatchCommand.x = uint((particleCounterBuffer.aliveParticleCount1 + 31) / 32);
+    particleDispatchBuffer.updateDispatchCommand.y = 1u;
+    particleDispatchBuffer.updateDispatchCommand.z = 1u;
+
+    particleCounterBuffer.numMeshes = 0;
+    for (int i = 0; i < NL_MAX_MODELS * NL_MAX_MESHES; ++i) {
+        particleCounterBuffer.meshCounts[i].meshIndex = 0;
+        particleCounterBuffer.meshCounts[i].count = 0;
+        particleCounterBuffer.meshCounts[i].firstInstance = 0;
+        particleCounterBuffer.meshCounts[i].instanceCounter = 0;
+    }
+}
