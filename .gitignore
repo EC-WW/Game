@@ -4,3 +4,4 @@ imgui.ini
 *.vscode
 dump.dmp
 assemblies/TheGame.dll
+editor.nlsettings

@@ -16,9 +16,9 @@
               1.0
             ],
             "translation": [
-              -0.4115731716156006,
-              6.428747653961182,
-              -18.322580337524414
+              9.794715881347656,
+              4.675652980804443,
+              -6.326600074768066
             ]
           },
           "Name": "struct Client::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": -0.09778381139039993,
-              "y": -0.15171876549720764,
-              "z": 1.003360629081726
+              "x": -0.9290660619735718,
+              "y": -0.25878360867500305,
+              "z": 0.3295833170413971
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -54,61 +54,24 @@
       "UUID": "SVF6-Lmgw-wLDd-b7M2"
     },
     {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  1.7738189697265625,
-                  6.127192497253418,
-                  0.49150222539901733
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.030363798141479492,
-                  1.222807765007019,
-                  4.240592956542969
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "cube"
-              },
-              "Name": "struct Client::ModelComponent"
-            }
-          ],
-          "Name": "Child",
-          "Tag": "",
-          "UUID": "r31v-CXWQ-KSN6-6cZk"
-        }
-      ],
+      "Children": [],
       "Components": [
         {
           "Data": {
             "rotation": [
-              5.7238664627075195,
               0.0,
-              0.6518324017524719
+              0.0,
+              0.0
             ],
             "scale": [
-              1.0,
-              1.0,
+              20.0,
+              10.0,
               1.0
             ],
             "translation": [
-              -0.26411259174346924,
               0.0,
-              0.4920042157173157
+              2.379255771636963,
+              9.41923999786377
             ]
           },
           "Name": "struct Client::Transform"
@@ -120,87 +83,11 @@
             "modelPath": "cube"
           },
           "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "j0tV-s3Dm-ztgS-3hwh",
-                "Name": "ent",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 8,
-                "Data": "gH8L-RCG0-h40N-Rl2D",
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Data": 12,
-                "Name": "a",
-                "Size": 4,
-                "Type": 8,
-                "TypeName": "System.Int32"
-              },
-              {
-                "Align": 8,
-                "Data": "46Zv-1W44-vlzj-04bH",
-                "Name": "particleEmitter",
-                "Size": 8,
-                "Type": 18,
-                "TypeName": "ParticleEmitter",
-                "isComponent": true
-              },
-              {
-                "Align": 8,
-                "Name": "ae",
-                "Size": 8,
-                "Type": 18,
-                "TypeName": "AnotherExample",
-                "isComponent": false
-              }
-            ],
-            "Name": "Example"
-          },
-          "Name": "struct Client::Script"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              0.5,
-              0.5,
-              0.5
-            ],
-            "layer": 1,
-            "motionType": 2,
-            "position": [
-              -0.26411259174346924,
-              0.0,
-              0.4920042157173157
-            ],
-            "radius": 0.5,
-            "rotation": [
-              -0.5593187808990479,
-              -8.940696716308594e-08,
-              0.6518324017524719
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
         }
       ],
-      "Name": "Parent",
+      "Name": "Cube",
       "Tag": "",
-      "UUID": "j0tV-s3Dm-ztgS-3hwh"
+      "UUID": "FKjp-319N-kTgP-GPf2"
     },
     {
       "Children": [],
@@ -218,8 +105,94 @@
               1.0
             ],
             "translation": [
-              1.0893666744232178,
-              1.232558250427246,
+              -3.5149600505828857,
+              4.17031717300415,
+              8.674215316772461
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "Game Time >:)"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Text_1",
+      "Tag": "",
+      "UUID": "XxwV-W3Ch-vk72-xCfx"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -9.199260711669922,
+              2.646605968475342,
+              8.674215316772461
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "(Stay out of this scene for now, I'm working on the main scene.)"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Text_2",
+      "Tag": "",
+      "UUID": "3MW6-c2wT-G5Xm-6Xv6"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              6.908568382263184,
+              -0.7540227174758911,
               1.7792607545852661
             ]
           },
@@ -300,12 +273,41 @@
           "Name": "struct Client::ModelComponent"
         }
       ],
-      "Name": "particle boy",
+      "Name": "ParticleTest",
       "Tag": "",
       "UUID": "46Zv-1W44-vlzj-04bH"
     },
     {
-      "Children": [],
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  2.720039129257202,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "CamFollow",
+          "Tag": "",
+          "UUID": "rngN-pX16-5hZZ-Kh6B"
+        }
+      ],
       "Components": [
         {
           "Data": {
@@ -320,38 +322,50 @@
               1.0
             ],
             "translation": [
-              -0.3131524622440338,
-              0.2695031762123108,
-              -5.45181131362915
+              0.0,
+              0.0,
+              -6.0
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "direction": {
-              "x": 0.15693099796772003,
-              "y": -0.13356898725032806,
-              "z": 0.9785356521606445
-            },
-            "editorCamera": 0,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": true,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
           },
-          "Name": "struct Client::CameraComponent"
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "camEnt",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "FirstPersonController_NEW"
+          },
+          "Name": "struct Client::Script"
         }
       ],
-      "Name": "Camera",
+      "Name": "Player",
       "Tag": "",
-      "UUID": "gH8L-RCG0-h40N-Rl2D"
+      "UUID": "HKP4-1Hzd-tgCL-PnRd"
     },
     {
       "Children": [],
@@ -364,9 +378,9 @@
               0.0
             ],
             "scale": [
-              10.10099983215332,
+              20.0,
               1.0,
-              12.5
+              20.0
             ],
             "translation": [
               0.0,
@@ -410,7 +424,7 @@
           "Name": "struct Client::PhysicsComponent"
         }
       ],
-      "Name": "floor",
+      "Name": "Floor",
       "Tag": "",
       "UUID": "7KBG-tHg8-C3VH-9dtr"
     },
@@ -421,7 +435,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
+              -0.0,
               0.0
             ],
             "scale": [
@@ -430,75 +444,152 @@
               1.0
             ],
             "translation": [
-              -3.5149600505828857,
-              4.17031717300415,
-              8.674215316772461
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "Game Time >:)"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Text",
-      "Tag": "",
-      "UUID": "XxwV-W3Ch-vk72-xCfx"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
               0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              0.5,
               1.0,
-              1.0
-            ],
-            "translation": [
-              -9.199260711669922,
-              2.646605968475342,
-              8.674215316772461
+              -6.0
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
+            "direction": {
+              "x": 2.6226043701171875e-06,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 1.0,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
           },
-          "Name": "struct Client::ModelComponent"
+          "Name": "struct Client::CameraComponent"
         },
         {
           "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "(Stay out of this scene for now, I'm working on the main scene.)"
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "rngN-pX16-5hZZ-Kh6B",
+                "Name": "FollowPoint",
+                "Size": 8,
+                "Type": 18,
+                "TypeName": "Transform",
+                "isComponent": true
+              },
+              {
+                "Align": 8,
+                "Data": "HKP4-1Hzd-tgCL-PnRd",
+                "Name": "Player",
+                "Size": 8,
+                "Type": 18,
+                "TypeName": "Transform",
+                "isComponent": true
+              },
+              {
+                "Align": 4,
+                "Data": 0.25,
+                "Name": "LerpValue",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.25,
+                "Name": "InitialLerp",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "MaxLerp",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": 0.25,
+                "Name": "BobFrequency",
+                "Size": 8,
+                "Type": 13,
+                "TypeName": "System.Double"
+              },
+              {
+                "Align": 8,
+                "Data": 0.1,
+                "Name": "BobAmplitude",
+                "Size": 8,
+                "Type": 13,
+                "TypeName": "System.Double"
+              },
+              {
+                "Align": 4,
+                "Data": 0.30000001192092896,
+                "Name": "MouseSensitivityX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.30000001192092896,
+                "Name": "MouseSensitivityY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": -60.0,
+                "Name": "MinPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 70.0,
+                "Name": "MaxPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 40.0,
+                "Name": "LerpSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "maxRotationFrame",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "FirstPersonCamera"
           },
-          "Name": "struct Client::TextComponent"
+          "Name": "struct Client::Script"
         }
       ],
-      "Name": "Text",
+      "Name": "Camera",
       "Tag": "",
-      "UUID": "3MW6-c2wT-G5Xm-6Xv6"
+      "UUID": "gH8L-RCG0-h40N-Rl2D"
     }
   ],
   "SceneHeader": "assets\\scenes\\default.nlscene"
