@@ -1,0 +1,556 @@
+{
+  "Entities": [
+    {
+      "Children": [
+        {
+          "Children": [
+            {
+              "Children": [],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ],
+                    "translation": [
+                      0.0,
+                      0.0,
+                      10.0
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                }
+              ],
+              "Name": "CameraPivot",
+              "Tag": "",
+              "UUID": "H9HP-jSjJ-MBcZ-Vqs1"
+            }
+          ],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "PitchPivot",
+          "Tag": "",
+          "UUID": "xdLH-jr03-tSh4-fNkr"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              5.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "YawPivot",
+      "Tag": "",
+      "UUID": "55Kw-Gggj-kMkJ-Q6lJ"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              6.168062686920166,
+              12.906972885131836,
+              -13.862096786499023
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -0.008004102855920792,
+              "y": -0.44614797830581665,
+              "z": 0.9541752338409424
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "Tag": "",
+      "UUID": "SVF6-Lmgw-wLDd-b7M2"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              5.0,
+              5.0,
+              5.0
+            ],
+            "translation": [
+              0.0,
+              3.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Cube",
+      "Tag": "",
+      "UUID": "58t6-CwQz-xqkw-HwnH"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.10000000149011612,
+              7.0,
+              0.10000000149011612
+            ],
+            "translation": [
+              0.0,
+              4.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Dropper",
+      "Tag": "",
+      "UUID": "ZfSq-2swj-mk8J-3kWr"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              25.0,
+              1.0,
+              25.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              12.5,
+              0.5,
+              12.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "radius": 0.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "Cube",
+      "Tag": "",
+      "UUID": "v733-PGzs-rwbh-8dz7"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              5.603755950927734,
+              8.022537231445313,
+              -0.16220349073410034
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "sphere"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "layer": 1,
+            "motionType": 2,
+            "position": [
+              5.603755950927734,
+              8.022537231445313,
+              -0.16220349073410034
+            ],
+            "radius": 0.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 0
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "BallA",
+      "Tag": "",
+      "UUID": "ZRwM-Xjmn-tKJX-ZVvf"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              12.5,
+              9.1411771774292,
+              -12.5
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -3.8941436741879443e-07,
+              "y": 0.0,
+              "z": -1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        }
+      ],
+      "Name": "Camera",
+      "Tag": "",
+      "UUID": "3MGK-nrN8-86bL-9vm0"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "55Kw-Gggj-kMkJ-Q6lJ",
+                    "Name": "YawPivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.00800000037997961,
+                    "Name": "Increment",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "Yaw",
+                "Size": 16,
+                "Type": 17,
+                "TypeName": "Suika.YawVariables",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "xdLH-jr03-tSh4-fNkr",
+                    "Name": "PitchPivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 4,
+                    "Data": -0.8999999761581421,
+                    "Name": "Min",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.20000000298023224,
+                    "Name": "Max",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.004000000189989805,
+                    "Name": "Increment",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "Pitch",
+                "Size": 24,
+                "Type": 17,
+                "TypeName": "Suika.PitchVariables",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "3MGK-nrN8-86bL-9vm0",
+                    "Name": "Main",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 8,
+                    "Data": "H9HP-jSjJ-MBcZ-Vqs1",
+                    "Name": "Pivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  }
+                ],
+                "Name": "Camera",
+                "Size": 16,
+                "Type": 17,
+                "TypeName": "Suika.CameraVariables",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "ZfSq-2swj-mk8J-3kWr",
+                    "Name": "DropperPivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.5,
+                    "Name": "MoveSpeed",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.5,
+                    "Name": "Boundary",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "Dropper",
+                "Size": 16,
+                "Type": 17,
+                "TypeName": "Suika.DropperVariables",
+                "isComponent": false
+              }
+            ],
+            "Name": "Suika.SuikaController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "SuikaController",
+      "Tag": "",
+      "UUID": "BpWd-HpSX-8QpC-s3wv"
+    }
+  ],
+  "SceneHeader": "C:\\Users\\jared\\Desktop\\NL_Game\\assets\\scenes\\Suika.nlscene"
+}
