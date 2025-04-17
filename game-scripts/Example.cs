@@ -40,7 +40,7 @@ public class testclass
 public class Example : NL_Script
 {
   public Entity ent;
-  public Entity Camera;
+  //public Entity Camera;
 
   public int a;
 
@@ -57,7 +57,7 @@ public class Example : NL_Script
   {
     NL_INFO("Hello NITELITE from C#!");
     NL_INFO(a.ToString());
-    CamTrans = Camera.GetComponent<Transform>();
+    //CamTrans = Camera.GetComponent<Transform>();
     EntTrans = ent.GetComponent<Transform>();
 
     p = ent.GetComponent<PhysicsComponent>();
