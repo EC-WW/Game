@@ -100,6 +100,7 @@ void main()
     uint16_t flags = instanceData.instances[instanceIndex].flags;
     bool diagetic = (flags & 1) != 0;
     bool billboard = (flags & 2) != 0;
+    bool shaded = (flags & 4) != 0;
 
     // Extract camera's right and up vectors
     if (billboard) 
@@ -136,7 +137,12 @@ void main()
     float lightIntensity = cAmbient + max(dot(normalWorldSpace, uniforms.directionToLight), 0.0);
 
     // Pass the color and texture coordinates to the fragment shader
-    fragColor = lightIntensity * color;
+    if (shaded) {
+        fragColor = lightIntensity * color;
+    }
+    else {
+        fragColor = color;
+    }
 
     if (instanceData.instances[instanceIndex].charIndex != NL_INVALID_FONT_INDEX) 
     {

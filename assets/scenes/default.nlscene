@@ -1,6 +1,2993 @@
 {
   "Entities": [
     {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer1(White)",
+          "Tag": "Layer1 (White)",
+          "UUID": "hLTK-sNG7-14Wh-HNQx"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer1(White)",
+          "Tag": "",
+          "UUID": "wNL1-gZCV-L4bX-ZFLm"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest",
+          "Tag": "",
+          "UUID": "bpjM-CZc9-Kg4C-HxqZ"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9012739062309265,
+                  "y": 0.9012739062309265,
+                  "z": 0.9012739062309265
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest",
+          "Tag": "",
+          "UUID": "w3Nm-vXgZ-rG97-SX0z"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.8057324886322021,
+                  "y": 0.8057324886322021,
+                  "z": 0.8057324886322021
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest",
+          "Tag": "",
+          "UUID": "K2jR-D25m-6Ddg-ZFC1"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7070063352584839,
+                  "y": 0.7070063352584839,
+                  "z": 0.7070063352584839
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest",
+          "Tag": "",
+          "UUID": "J606-CsSB-3sRm-PgRW"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest1",
+          "Tag": "",
+          "UUID": "jsCH-xl3r-qhPm-rF55"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9012739062309265,
+                  "y": 0.9012739062309265,
+                  "z": 0.9012739062309265
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest1",
+          "Tag": "",
+          "UUID": "dxG1-RCrr-xwS3-pw9m"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.8057324886322021,
+                  "y": 0.8057324886322021,
+                  "z": 0.8057324886322021
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest1",
+          "Tag": "",
+          "UUID": "lHg6-Rgtf-xTRg-j0fG"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.30000001192092896
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.10000000149011612,
+                  "y": 0.0,
+                  "z": -2.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.33295750617980957,
+                "emissionRate": 150.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.2999999523162842,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 1.395817756652832,
+                "sizeBegin": 0.30000001192092896,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7070063352584839,
+                  "y": 0.7070063352584839,
+                  "z": 0.7070063352584839
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ParticleTest1",
+          "Tag": "",
+          "UUID": "F15v-W9pQ-GBhX-sNnB"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  0.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7834395170211792,
+                  "y": 0.7834395170211792,
+                  "z": 0.7834395170211792
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer2",
+          "Tag": "",
+          "UUID": "VTWx-97db-8D00-n7zN"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  0.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7834395170211792,
+                  "y": 0.7834395170211792,
+                  "z": 0.7834395170211792
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer2",
+          "Tag": "",
+          "UUID": "zVQX-jLJ6-6L0c-PCXR"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.5882353186607361,
+                  "y": 0.5882353186607361,
+                  "z": 0.5882353186607361
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer3",
+          "Tag": "",
+          "UUID": "6DpD-dpH0-T7jc-Ddqh"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.5882353186607361,
+                  "y": 0.5882353186607361,
+                  "z": 0.5882353186607361
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer3",
+          "Tag": "",
+          "UUID": "Csfq-WPqR-dmCc-cbW3"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  1.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.3917197585105896,
+                  "y": 0.3917197585105896,
+                  "z": 0.3917197585105896
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer4",
+          "Tag": "",
+          "UUID": "bvtB-bMM8-btnX-22TW"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  1.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.3917197585105896,
+                  "y": 0.3917197585105896,
+                  "z": 0.3917197585105896
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer4",
+          "Tag": "",
+          "UUID": "dwPB-XkSb-ttrj-6ldJ"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.19745224714279175,
+                  "y": 0.19745224714279175,
+                  "z": 0.19745224714279175
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer5",
+          "Tag": "",
+          "UUID": "WvMq-kNgx-9qN1-W0Mv"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.19745224714279175,
+                  "y": 0.19745224714279175,
+                  "z": 0.19745224714279175
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer5",
+          "Tag": "",
+          "UUID": "LlxJ-5PSS-Nq0K-hsmT"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  2.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer6(Black)",
+          "Tag": "",
+          "UUID": "Xhrr-X6vJ-zBbh-c6MM"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  2.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 2.0,
+                "sizeEnd": 2.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer6(Black)",
+          "Tag": "",
+          "UUID": "FCsd-RcSM-qDh9-LM1m"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  1.5,
+                  4.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 4.0,
+                "sizeEnd": 4.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer6End",
+          "Tag": "",
+          "UUID": "8r2q-Qcpm-rs29-FVs0"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0010000000474974513,
+                  0.0010000000474974513,
+                  0.0010000000474974513
+                ],
+                "translation": [
+                  0.0,
+                  -0.5,
+                  4.5
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.856654167175293,
+                "emissionRate": 1.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 1.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 3.701275110244751,
+                "sizeBegin": 4.0,
+                "sizeEnd": 4.0,
+                "sizeVariation": 0.0,
+                "spawnCount": 0,
+                "textureIndex": 4294967295,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Layer6End",
+          "Tag": "",
+          "UUID": "bkj2-wPpD-ccXb-hwlc"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              4.0,
+              5.6204584097940824e-08,
+              2.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "TestParticles",
+      "Tag": "",
+      "UUID": "cmsC-SFb5-2Mdn-tWpj"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  1.5699999332427979,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  19.950000762939453,
+                  1.899999737739563,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.0349998474121094,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.2165604829788208,
+                  "y": 0.033794473856687546,
+                  "z": 0.033794473856687546
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_B(Black)",
+          "Tag": "",
+          "UUID": "Mwl4-STtH-2h0l-gSpz"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  1.5699999332427979,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  1.5,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.0250000953674316,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.8184713125228882,
+                  "y": 0.0886242687702179,
+                  "z": 0.0886242687702179
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_B(Color)",
+          "Tag": "",
+          "UUID": "pJMZ-43Rt-hmKf-6bwk"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  4.0,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.384185791015625e-07,
+                  -1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_L",
+          "Tag": "",
+          "UUID": "mW7F-mSgc-Z2Dq-1TB8"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  4.0,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.384185791015625e-07,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_R",
+          "Tag": "",
+          "UUID": "5rQG-Httd-KL6T-vCSJ"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  1.5699999332427979,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  1.999999761581421,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  1.9499998092651367,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_T",
+          "Tag": "",
+          "UUID": "XLKl-pHHD-BrXP-hNJW"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -9.958561897277832,
+              0.5,
+              7.556243419647217
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Hallway",
+      "Tag": "",
+      "UUID": "XrL0-vmrM-WVjW-H44W"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  1.5699999332427979,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  19.950000762939453,
+                  1.899999737739563,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.0349998474121094,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.2165604829788208,
+                  "y": 0.033794473856687546,
+                  "z": 0.033794473856687546
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_B(Black)",
+          "Tag": "",
+          "UUID": "fdXl-vRRn-Kd8x-hSLh"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  1.5699999332427979,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  1.5,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.0250000953674316,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.8184713125228882,
+                  "y": 0.0886242687702179,
+                  "z": 0.0886242687702179
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_B(Color)",
+          "Tag": "",
+          "UUID": "mFK6-tQ4v-J3vt-31FN"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  4.0,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.384185791015625e-07,
+                  -1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_L",
+          "Tag": "",
+          "UUID": "5qfq-Dfzn-Wp5Z-tG6p"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  4.0,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  -2.384185791015625e-07,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_R",
+          "Tag": "",
+          "UUID": "3XBK-Xj4t-tKJj-qtZC"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  1.5699999332427979,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  20.0,
+                  1.999999761581421,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  -9.999999046325684,
+                  1.9499998092651367,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Hall_T",
+          "Tag": "",
+          "UUID": "LLsG-rhQ2-B8tr-MMnk"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -7.517000198364258,
+              0.5,
+              -1.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Hallway",
+      "Tag": "",
+      "UUID": "DmPF-cSDL-C3L2-nJzk"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  4.0,
+                  2.0999999046325684
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.11464965343475342,
+                  "y": 0.06430874019861221,
+                  "z": 0.014605051837861538
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Model",
+          "Tag": "",
+          "UUID": "9pkN-MNtJ-c4gM-lMml"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -7.400000095367432,
+              0.5,
+              -2.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Door",
+      "Tag": "",
+      "UUID": "3s0j-L5L9-NcK2-8tXG"
+    },
+    {
       "Children": [],
       "Components": [
         {
@@ -16,42 +3003,230 @@
               1.0
             ],
             "translation": [
-              8.314291954040527,
-              12.044059753417969,
-              -10.328043937683105
+              0.0,
+              0.0,
+              0.0
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "direction": {
-              "x": -0.590269923210144,
-              "y": -0.7628514170646667,
-              "z": 0.3286876380443573
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
+            "Fields": [],
+            "Name": "TaylorTest"
           },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
+          "Name": "struct Client::Script"
         }
       ],
-      "Name": "EditorCamera",
+      "Name": "TestingScript",
       "Tag": "",
-      "UUID": "SVF6-Lmgw-wLDd-b7M2"
+      "UUID": "mz7N-TWVd-njKl-PZL0"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  2.0,
+                  0.5,
+                  2.0
+                ],
+                "translation": [
+                  0.0,
+                  2.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "CamFollow",
+          "Tag": "",
+          "UUID": "rngN-pX16-5hZZ-Kh6B"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              2.0,
+              0.5
+            ],
+            "translation": [
+              0.0,
+              -0.5,
+              -6.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "usePhysics",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 14.0,
+                "Name": "JumpForce",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 4.099999904632568,
+                "Name": "Gravity",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "camEnt",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "FirstPersonController_NEW"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Player",
+      "Tag": "",
+      "UUID": "HKP4-1Hzd-tgCL-PnRd"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -3.5149600505828857,
+              4.17031717300415,
+              8.674215316772461
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "Game Time >:)"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Text_1",
+      "Tag": "",
+      "UUID": "XxwV-W3Ch-vk72-xCfx"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -9.199260711669922,
+              2.646605968475342,
+              8.674215316772461
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "(Stay out of this scene for now, I'm working on the main scene.)"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "Text_2",
+      "Tag": "",
+      "UUID": "3MW6-c2wT-G5Xm-6Xv6"
     },
     {
       "Children": [],
@@ -80,7 +3255,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -141,7 +3323,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -202,7 +3391,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -263,7 +3459,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -324,7 +3527,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -385,7 +3595,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -446,7 +3663,14 @@
           "Data": {
             "diagetic": true,
             "materialSetID": 4294967295,
-            "modelPath": "cube"
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
           },
           "Name": "struct Client::ModelComponent"
         },
@@ -481,137 +3705,6 @@
       "UUID": "cT0J-fkJT-gQGS-C5XK"
     },
     {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  2.3499999046325684,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            }
-          ],
-          "Name": "CamFollow",
-          "Tag": "",
-          "UUID": "rngN-pX16-5hZZ-Kh6B"
-        }
-      ],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              0.5,
-              0.5,
-              0.5
-            ],
-            "translation": [
-              0.0,
-              -1.25,
-              -6.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 12000.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 14.0,
-                "Name": "JumpForce",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 4.099999904632568,
-                "Name": "Gravity",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 8,
-                "Data": "gH8L-RCG0-h40N-Rl2D",
-                "Name": "camEnt",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              }
-            ],
-            "Name": "FirstPersonController_NEW"
-          },
-          "Name": "struct Client::Script"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              0.25,
-              1.0,
-              0.25
-            ],
-            "layer": 1,
-            "motionType": 2,
-            "position": [
-              0.0,
-              -1.25,
-              -6.0
-            ],
-            "radius": 0.25,
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
-        }
-      ],
-      "Name": "Player",
-      "Tag": "",
-      "UUID": "HKP4-1Hzd-tgCL-PnRd"
-    },
-    {
       "Children": [],
       "Components": [
         {
@@ -627,177 +3720,42 @@
               1.0
             ],
             "translation": [
-              -3.5149600505828857,
-              4.17031717300415,
-              8.674215316772461
+              4.332731246948242,
+              5.019261837005615,
+              -9.098033905029297
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "Game Time >:)"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Text_1",
-      "Tag": "",
-      "UUID": "XxwV-W3Ch-vk72-xCfx"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              0.5,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              -9.199260711669922,
-              2.646605968475342,
-              8.674215316772461
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "(Stay out of this scene for now, I'm working on the main scene.)"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Text_2",
-      "Tag": "",
-      "UUID": "3MW6-c2wT-G5Xm-6Xv6"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              6.908568382263184,
-              -0.998183012008667,
-              1.7792607545852661
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "acceleration": {
+            "direction": {
+              "x": -0.8305598497390747,
+              "y": -0.32140234112739563,
+              "z": 0.5140438079833984
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
               "x": 0.0,
-              "y": 0.0,
+              "y": -1.0,
               "z": 0.0
-            },
-            "accelerationVariation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "angularVelocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "angularVelocityVariation": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 5.0
-            },
-            "drag": 0.10000000149011612,
-            "duration": 5.0,
-            "emissionAccumulator": 0.0,
-            "emissionRate": 10.0,
-            "fadeStyle": "FADE_OUT",
-            "isActive": true,
-            "isBillboard": false,
-            "isDiagetic": true,
-            "isTextured": false,
-            "lifeTime": 2.0,
-            "looping": true,
-            "maxParticles": 1000,
-            "modelPath": "quad",
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "simulationAccumulator": 0.0,
-            "sizeBegin": 1.0,
-            "sizeEnd": 0.009999999776482582,
-            "sizeVariation": 0.20000000298023224,
-            "spawnCount": 0,
-            "textureIndex": 0,
-            "texturePath": "particle",
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "velocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "velocityVariation": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 5.0
             }
           },
-          "Name": "struct Client::ParticleEmitter"
+          "Name": "struct Client::CameraComponent"
         },
         {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
+          "Data": {},
+          "Name": "struct Client::HideComponent"
         }
       ],
-      "Name": "ParticleTest",
+      "Name": "EditorCamera",
       "Tag": "",
-      "UUID": "46Zv-1W44-vlzj-04bH"
+      "UUID": "SVF6-Lmgw-wLDd-b7M2"
     },
     {
       "Children": [],

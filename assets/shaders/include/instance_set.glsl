@@ -15,11 +15,12 @@
 struct Instance {
   mat4 modelMatrix;    // 64 bytes
   vec4 boundingSphere; // 16 bytes (center, radius)
+  vec4 tintColor;      // 16 bytes
   uint textureIndex;   // 4  bytes
   uint animationIndex; // 4  bytes
   uint meshIndex;      // 4  bytes
   uint16_t charIndex;  // 2 bytes (if it's NL_INVALID_FONT_INDEX it's not a char)
-  uint16_t flags;      // 2 bytes 1 = diagetic, 2 = billboard
+  uint16_t flags;      // 2 bytes 1 = diagetic, 2 = billboard, 4 = shading
 };
 
 layout(std430, set = 1, binding = 0) buffer readonly InstanceDataBuffer {

@@ -1,7 +1,7 @@
 /**
 / file:   FirstPersonCamera.cs
 / author: taylor.cadwallader
-/ date:   April 16, 2024
+/ date:   April 16, 2025
 / Copyright (c) 2024 DigiPen (USA) Corporation. 
 / 
 / brief:  Camera controller for a first person player controller.
@@ -42,6 +42,10 @@ public class FirstPersonCamera : NL_Script
   private Transform transform;
   private CameraComponent camera;
 
+
+  //debug
+  private bool canLook = true;
+
   public override void Init()
   {
     transform = self.GetComponent<Transform>();
@@ -58,6 +62,10 @@ public class FirstPersonCamera : NL_Script
     //IdleBobbing();
     CameraLook();
     CameraFollow();
+
+    //freeze ability to look for debugging
+    if (NITELITE.Input.GetKeyTriggered(Keys.O))
+      canLook = !canLook;
   }
 
   private void IdleBobbing()
@@ -86,6 +94,8 @@ public class FirstPersonCamera : NL_Script
 
   private void CameraLook()
   {
+    if (!canLook) return;
+
     //set rotation based on mouse input
     newCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -maxRotationFrame, maxRotationFrame),
                           -NITELITE.Input.MouseDelta.y * MouseSensitivityY, 0f);

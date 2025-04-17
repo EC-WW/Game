@@ -93,6 +93,224 @@
           "Data": {
             "rotation": [
               0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              12.5,
+              9.1411771774292,
+              -12.5
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "direction": {
+              "x": -3.8941436741879443e-07,
+              "y": 0.0,
+              "z": -1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        }
+      ],
+      "Name": "Camera",
+      "Tag": "",
+      "UUID": "3MGK-nrN8-86bL-9vm0"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "55Kw-Gggj-kMkJ-Q6lJ",
+                    "Name": "YawPivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.00800000037997961,
+                    "Name": "Increment",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "Yaw",
+                "Size": 16,
+                "Type": 17,
+                "TypeName": "Suika.YawVariables",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "xdLH-jr03-tSh4-fNkr",
+                    "Name": "PitchPivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 4,
+                    "Data": -0.8999999761581421,
+                    "Name": "Min",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.20000000298023224,
+                    "Name": "Max",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.004000000189989805,
+                    "Name": "Increment",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "Pitch",
+                "Size": 24,
+                "Type": 17,
+                "TypeName": "Suika.PitchVariables",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "3MGK-nrN8-86bL-9vm0",
+                    "Name": "Main",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 8,
+                    "Data": "H9HP-jSjJ-MBcZ-Vqs1",
+                    "Name": "Pivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  }
+                ],
+                "Name": "Camera",
+                "Size": 16,
+                "Type": 17,
+                "TypeName": "Suika.CameraVariables",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Children": [
+                  {
+                    "Align": 8,
+                    "Data": "ZfSq-2swj-mk8J-3kWr",
+                    "Name": "DropperPivot",
+                    "Size": 8,
+                    "Type": 17,
+                    "TypeName": "NITELITE.Entity",
+                    "isComponent": false
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.5,
+                    "Name": "MoveSpeed",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 2.5,
+                    "Name": "Boundary",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "Dropper",
+                "Size": 16,
+                "Type": 17,
+                "TypeName": "Suika.DropperVariables",
+                "isComponent": false
+              }
+            ],
+            "Name": "Suika.SuikaController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "SuikaController",
+      "Tag": "",
+      "UUID": "BpWd-HpSX-8QpC-s3wv"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
               0.0,
               0.0
             ],
@@ -332,225 +550,7 @@
       "Name": "BallA",
       "Tag": "",
       "UUID": "ZRwM-Xjmn-tKJX-ZVvf"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              -0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              12.5,
-              9.1411771774292,
-              -12.5
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "direction": {
-              "x": -3.8941436741879443e-07,
-              "y": 0.0,
-              "z": -1.0
-            },
-            "editorCamera": 0,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": true,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        }
-      ],
-      "Name": "Camera",
-      "Tag": "",
-      "UUID": "3MGK-nrN8-86bL-9vm0"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Children": [
-                  {
-                    "Align": 8,
-                    "Data": "55Kw-Gggj-kMkJ-Q6lJ",
-                    "Name": "YawPivot",
-                    "Size": 8,
-                    "Type": 17,
-                    "TypeName": "NITELITE.Entity",
-                    "isComponent": false
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.00800000037997961,
-                    "Name": "Increment",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "Yaw",
-                "Size": 16,
-                "Type": 17,
-                "TypeName": "Suika.YawVariables",
-                "isComponent": false
-              },
-              {
-                "Align": 8,
-                "Children": [
-                  {
-                    "Align": 8,
-                    "Data": "xdLH-jr03-tSh4-fNkr",
-                    "Name": "PitchPivot",
-                    "Size": 8,
-                    "Type": 17,
-                    "TypeName": "NITELITE.Entity",
-                    "isComponent": false
-                  },
-                  {
-                    "Align": 4,
-                    "Data": -0.8999999761581421,
-                    "Name": "Min",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.20000000298023224,
-                    "Name": "Max",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.004000000189989805,
-                    "Name": "Increment",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "Pitch",
-                "Size": 24,
-                "Type": 17,
-                "TypeName": "Suika.PitchVariables",
-                "isComponent": false
-              },
-              {
-                "Align": 8,
-                "Children": [
-                  {
-                    "Align": 8,
-                    "Data": "3MGK-nrN8-86bL-9vm0",
-                    "Name": "Main",
-                    "Size": 8,
-                    "Type": 17,
-                    "TypeName": "NITELITE.Entity",
-                    "isComponent": false
-                  },
-                  {
-                    "Align": 8,
-                    "Data": "H9HP-jSjJ-MBcZ-Vqs1",
-                    "Name": "Pivot",
-                    "Size": 8,
-                    "Type": 17,
-                    "TypeName": "NITELITE.Entity",
-                    "isComponent": false
-                  }
-                ],
-                "Name": "Camera",
-                "Size": 16,
-                "Type": 17,
-                "TypeName": "Suika.CameraVariables",
-                "isComponent": false
-              },
-              {
-                "Align": 8,
-                "Children": [
-                  {
-                    "Align": 8,
-                    "Data": "ZfSq-2swj-mk8J-3kWr",
-                    "Name": "DropperPivot",
-                    "Size": 8,
-                    "Type": 17,
-                    "TypeName": "NITELITE.Entity",
-                    "isComponent": false
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 2.5,
-                    "Name": "MoveSpeed",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 2.5,
-                    "Name": "Boundary",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "Dropper",
-                "Size": 16,
-                "Type": 17,
-                "TypeName": "Suika.DropperVariables",
-                "isComponent": false
-              }
-            ],
-            "Name": "Suika.SuikaController"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "SuikaController",
-      "Tag": "",
-      "UUID": "BpWd-HpSX-8QpC-s3wv"
     }
   ],
-  "SceneHeader": "C:\\Users\\jared\\Desktop\\NL_Game\\assets\\scenes\\Suika.nlscene"
+  "SceneHeader": "assets/scenes/Suika.nlscene"
 }

@@ -61,12 +61,12 @@ void main()
     if (fragTextureIndex == NL_NO_TEXTURES) 
     {
         // No textures, use vertex colors instead!
-        outColor = vec4(fragColor, 1.0);
+        outColor = vec4(fragColor, 1.0) * instanceData.instances[instanceIndex].tintColor;
     }
     else if (instanceData.instances[instanceIndex].charIndex == NL_INVALID_FONT_INDEX)
     {
         // Directly use the texture color
-		outColor = texture(uTextures[fragTextureIndex], fragTexCoord);
+		outColor = texture(uTextures[fragTextureIndex], fragTexCoord) * instanceData.instances[instanceIndex].tintColor;
         if (outColor.a < 0.1) {
             discard;
         }
@@ -101,7 +101,7 @@ void main()
         }
         else
         {
-            outColor = vec4(vec3(newColor), newAlpha);
+            outColor = vec4(vec3(newColor), newAlpha) * instanceData.instances[instanceIndex].tintColor;
         }
     }
 }
