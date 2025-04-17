@@ -16,9 +16,9 @@
               1.0
             ],
             "translation": [
-              9.794715881347656,
-              4.675652980804443,
-              -6.326600074768066
+              8.314291954040527,
+              12.044059753417969,
+              -10.328043937683105
             ]
           },
           "Name": "struct Client::Transform"
@@ -26,9 +26,9 @@
         {
           "Data": {
             "direction": {
-              "x": -0.9290660619735718,
-              "y": -0.25878360867500305,
-              "z": 0.3295833170413971
+              "x": -0.590269923210144,
+              "y": -0.7628514170646667,
+              "z": 0.3286876380443573
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -64,14 +64,14 @@
               0.0
             ],
             "scale": [
-              20.0,
-              10.0,
-              1.0
+              30.0,
+              1.0,
+              30.0
             ],
             "translation": [
               0.0,
-              2.379255771636963,
-              9.41923999786377
+              -2.0176327228546143,
+              0.0
             ]
           },
           "Name": "struct Client::Transform"
@@ -83,11 +83,533 @@
             "modelPath": "cube"
           },
           "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              15.0,
+              0.5,
+              15.0
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              0.0,
+              -2.0176327228546143,
+              0.0
+            ],
+            "radius": 0.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
         }
       ],
-      "Name": "Cube",
+      "Name": "Floor",
+      "Tag": "",
+      "UUID": "7KBG-tHg8-C3VH-9dtr"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              10.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              2.379255771636963,
+              9.197244644165039
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              10.0,
+              5.0,
+              0.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              0.0,
+              2.379255771636963,
+              9.197244644165039
+            ],
+            "radius": 0.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "Wall",
       "Tag": "",
       "UUID": "FKjp-319N-kTgP-GPf2"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              3.0,
+              3.0,
+              3.0
+            ],
+            "translation": [
+              8.0,
+              -1.0,
+              -6.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              8.0,
+              -1.0,
+              -6.0
+            ],
+            "radius": 1.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "ParkourBlock",
+      "Tag": "",
+      "UUID": "gTjC-h6kT-3p1Q-CN9F"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              3.0,
+              3.0,
+              3.0
+            ],
+            "translation": [
+              8.0,
+              1.0,
+              -12.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              8.0,
+              1.0,
+              -12.0
+            ],
+            "radius": 1.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "ParkourBlock",
+      "Tag": "",
+      "UUID": "pzkP-jLHs-w9C4-9GPF"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              3.0,
+              3.0,
+              3.0
+            ],
+            "translation": [
+              2.0,
+              3.0,
+              -12.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              2.0,
+              3.0,
+              -12.0
+            ],
+            "radius": 1.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "ParkourBlock",
+      "Tag": "",
+      "UUID": "xgWT-gM5f-334T-XK2T"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              3.0,
+              3.0,
+              3.0
+            ],
+            "translation": [
+              -4.0,
+              5.0,
+              -12.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              -4.0,
+              5.0,
+              -12.0
+            ],
+            "radius": 1.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "ParkourBlock",
+      "Tag": "",
+      "UUID": "wr6N-cbgk-sfmx-sXgb"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              3.0,
+              3.0,
+              3.0
+            ],
+            "translation": [
+              -10.0,
+              7.0,
+              -12.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              1.5,
+              1.5,
+              1.5
+            ],
+            "layer": 0,
+            "motionType": 0,
+            "position": [
+              -10.0,
+              7.0,
+              -12.0
+            ],
+            "radius": 1.5,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "ParkourBlock",
+      "Tag": "",
+      "UUID": "cT0J-fkJT-gQGS-C5XK"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  2.3499999046325684,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "CamFollow",
+          "Tag": "",
+          "UUID": "rngN-pX16-5hZZ-Kh6B"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "translation": [
+              0.0,
+              -1.25,
+              -6.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube"
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 4,
+                "Data": 12000.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 14.0,
+                "Name": "JumpForce",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 4.099999904632568,
+                "Name": "Gravity",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "camEnt",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "FirstPersonController_NEW"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              0.25,
+              1.0,
+              0.25
+            ],
+            "layer": 1,
+            "motionType": 2,
+            "position": [
+              0.0,
+              -1.25,
+              -6.0
+            ],
+            "radius": 0.25,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "Player",
+      "Tag": "",
+      "UUID": "HKP4-1Hzd-tgCL-PnRd"
     },
     {
       "Children": [],
@@ -192,7 +714,7 @@
             ],
             "translation": [
               6.908568382263184,
-              -0.7540227174758911,
+              -0.998183012008667,
               1.7792607545852661
             ]
           },
@@ -278,157 +800,6 @@
       "UUID": "46Zv-1W44-vlzj-04bH"
     },
     {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  2.720039129257202,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            }
-          ],
-          "Name": "CamFollow",
-          "Tag": "",
-          "UUID": "rngN-pX16-5hZZ-Kh6B"
-        }
-      ],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              0.0,
-              0.0,
-              -6.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 4,
-                "Data": 5.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 8,
-                "Data": "gH8L-RCG0-h40N-Rl2D",
-                "Name": "camEnt",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              }
-            ],
-            "Name": "FirstPersonController_NEW"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Player",
-      "Tag": "",
-      "UUID": "HKP4-1Hzd-tgCL-PnRd"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              20.0,
-              1.0,
-              20.0
-            ],
-            "translation": [
-              0.0,
-              -2.0176327228546143,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube"
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              5.05049991607666,
-              0.5,
-              6.25
-            ],
-            "layer": 0,
-            "motionType": 0,
-            "position": [
-              0.0,
-              -2.0176327228546143,
-              0.0
-            ],
-            "radius": 0.5,
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
-        }
-      ],
-      "Name": "Floor",
-      "Tag": "",
-      "UUID": "7KBG-tHg8-C3VH-9dtr"
-    },
-    {
       "Children": [],
       "Components": [
         {
@@ -445,8 +816,8 @@
             ],
             "translation": [
               0.0,
-              1.0,
-              -6.0
+              1.8068063259124756,
+              -3.070340394973755
             ]
           },
           "Name": "struct Client::Transform"
@@ -462,7 +833,7 @@
             "farPlane": 2000.0,
             "fov": 0.8726646304130554,
             "main": true,
-            "nearPlane": 1.0,
+            "nearPlane": 0.10000000149011612,
             "roll": 0.0,
             "up": {
               "x": 0.0,

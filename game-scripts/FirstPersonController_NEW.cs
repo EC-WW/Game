@@ -13,30 +13,42 @@ using NITELITE;
 public class FirstPersonController_NEW : NL_Script
 {
   public float MoveSpeed = 5f;
-
+  public float JumpForce = 10f;
+  public float Gravity = 1.5f;
   public Entity camEnt;
+
+  private Transform transform;
   private CameraComponent camera;
   private Transform camTransform;
-  private Transform transform;
-  private Vec3 newRotation;
+  private PhysicsComponent rigidbody;
 
   public override void Init()
   {
+    transform = self.GetComponent<Transform>();
     camera = camEnt.GetComponent<CameraComponent>();
     camTransform = camEnt.GetComponent<Transform>();
+    rigidbody = self.GetComponent<PhysicsComponent>();
 
-    transform = self.GetComponent<Transform>();
+    rigidbody.GravityFactor = Gravity;
   }
 
   public override void Update()
   {
     RotateWithCam();
-    Movement();
+    HandleMovement();
+    HandleJumping();
+
+    //some weird physics stuff happens which is why this doesn't work as i originally intended
+    ////attempt to lock the collider rotations
+    //Vec3 testVec = Vec3.Zero;
+    //transform.SetRotation(testVec);
+    //NL_INFO(transform.GetRotation().ToString());
   }
 
 
   private void RotateWithCam()
   {
+    Vec3 newRotation = Vec3.Zero;
     //set the new rotation to the camera's
     newRotation.y = camera.rotation.x * ((float)Math.PI) / 180f - camTransform.GetRotation().x * ((float)Math.PI) / 180f;
 
@@ -44,19 +56,19 @@ public class FirstPersonController_NEW : NL_Script
     transform.SetRotation(newRotation);
   }
 
-  private void Movement()
+  private void HandleMovement()
   {
     //create a new vec for input
     Vec3 inputDirection = Vec3.Zero;
     //update the vec accordingly
     if (NITELITE.Input.GetKeyPressed(Keys.W))
-      inputDirection.z -= 1;
+      inputDirection.z += -1;
     if (NITELITE.Input.GetKeyPressed(Keys.A))
       inputDirection.x += 1;
     if (NITELITE.Input.GetKeyPressed(Keys.S))
       inputDirection.z += 1;
     if (NITELITE.Input.GetKeyPressed(Keys.D))
-      inputDirection.x -= 1;
+      inputDirection.x += -1;
 
     //normalize input direction to prevent diagonal speed boost
     if (inputDirection.x != 0 || inputDirection.z != 0)
@@ -71,8 +83,25 @@ public class FirstPersonController_NEW : NL_Script
     Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
 
     //move the entity
-    Vec3 currentPos = transform.GetPosition();
-    transform.SetPosition(currentPos += movement);
+    //Vec3 currentPos = transform.GetPosition();
+    //transform.SetPosition(currentPos += movement);
+
+    Vec3 vel = rigidbody.Velocity;
+    vel.x = movement.x;
+    vel.z = movement.z;
+    rigidbody.Velocity = vel;
+
+    NL_INFO(vel.ToString());
+  }
+
+  private void HandleJumping()
+  {
+    if (NITELITE.Input.GetKeyTriggered(Keys.SPACE))
+    {
+      Vec3 vel = rigidbody.Velocity;
+      vel.y = JumpForce;
+      rigidbody.Velocity = vel;
+    }
   }
 
   public override void Exit()

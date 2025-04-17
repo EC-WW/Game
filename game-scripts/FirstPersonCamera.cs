@@ -116,7 +116,7 @@ public class FirstPersonCamera : NL_Script
     Vec3 playerPos = Player.GetPosition();
     Vec3 followPos = FollowPoint.GetPosition();
     //follow point is a child object of the player that essentially is being used as just an offset
-    transform.SetPosition(new Vec3(playerPos.x + followPos.x, playerPos.y + followPos.y, playerPos.z + followPos.z));
+    transform.SetPosition(playerPos + followPos);
   }
 
   public override void Exit()
