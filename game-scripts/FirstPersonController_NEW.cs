@@ -23,29 +23,43 @@ public class FirstPersonController_NEW : NL_Script
   private Transform camTransform;
   private PhysicsComponent rigidbody;
 
+  public bool StopEverything = false;
+
+  private bool mouseLocked = true;
+
+  public bool ConfineMovement = false;
+  public Vec3 maxMovePos;
+  public Vec3 minMovePos;
+
   public override void Init()
   {
     transform = self.GetComponent<Transform>();
     camera = camEnt.GetComponent<CameraComponent>();
     camTransform = camEnt.GetComponent<Transform>();
-    //rigidbody = self.GetComponent<PhysicsComponent>();
+    rigidbody = self.GetComponent<PhysicsComponent>();
+    rigidbody.GravityFactor = Gravity;
 
-    //rigidbody.GravityFactor = Gravity;
+    //omg lock the cursor
+    NITELITE.Window.ToggleCursorLock(true);
   }
 
   public override void Update()
   {
+    if (StopEverything) return;
+
     RotateWithCam();
     HandleMovement();
     HandleJumping();
 
     StupidMovement();
 
-    //some weird physics stuff happens which is why this doesn't work as i originally intended
-    ////attempt to lock the collider rotations
-    //Vec3 testVec = Vec3.Zero;
-    //transform.SetRotation(testVec);
-    //NL_INFO(transform.GetRotation().ToString());
+
+    //DEBUGGING
+    if (NITELITE.Input.GetKeyTriggered(Keys.MOUSE_RIGHT))
+    {
+      mouseLocked = !mouseLocked;
+      NITELITE.Window.ToggleCursorLock(mouseLocked);
+    }
   }
 
 
@@ -87,12 +101,6 @@ public class FirstPersonController_NEW : NL_Script
     //calculate movement based on forward and right
     Vec3 movement = (forward * inputDirection.z + right * inputDirection.x);
 
-    //move the entity
-    //Vec3 currentPos = transform.GetPosition();
-    //transform.SetPosition(currentPos += movement);
-
-    NL_INFO(movement.ToString());
-
     Vec3 vel = rigidbody.Velocity;
     vel.x = movement.x * MoveSpeed;
     vel.z = movement.z * MoveSpeed;
@@ -115,8 +123,11 @@ public class FirstPersonController_NEW : NL_Script
   {
     if (usePhysics) return;
 
+    Vec3 currentPos = transform.GetPosition();
+
     //create a new vec for input
     Vec3 inputDirection = Vec3.Zero;
+
     //update the vec accordingly
     if (NITELITE.Input.GetKeyPressed(Keys.W))
       inputDirection.z += -1;
@@ -139,8 +150,20 @@ public class FirstPersonController_NEW : NL_Script
     //calculate movement based on forward and right
     Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
 
+    //please for the love of god
+    if (ConfineMovement)
+    {
+      Vec3 predictedPos = currentPos + movement;
+
+      // Clamp the predicted position to the allowed bounds
+      predictedPos.x = MathF.Min(MathF.Max(predictedPos.x, minMovePos.x), maxMovePos.x);
+      predictedPos.z = MathF.Min(MathF.Max(predictedPos.z, minMovePos.z), maxMovePos.z);
+
+      // Now recalculate the final movement based on clamped position
+      movement = predictedPos - currentPos;
+    }
+
     //move the entity
-    Vec3 currentPos = transform.GetPosition();
     transform.SetPosition(currentPos += movement);
   }
 

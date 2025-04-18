@@ -1,0 +1,141 @@
+{
+  "Children": [
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              2.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "CamFollow",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "rngN-pX16-5hZZ-Kh6B"
+    }
+  ],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          2.0,
+          0.5
+        ],
+        "translation": [
+          0.0,
+          -0.5,
+          0.0
+        ]
+      },
+      "Name": "struct Client::Transform"
+    },
+    {
+      "Data": {
+        "Fields": [
+          {
+            "Align": 1,
+            "Data": false,
+            "Name": "usePhysics",
+            "Size": 1,
+            "Type": 2,
+            "TypeName": "System.Boolean"
+          },
+          {
+            "Align": 4,
+            "Data": -10.0,
+            "Name": "MoveSpeed",
+            "Size": 4,
+            "Type": 12,
+            "TypeName": "System.Single"
+          },
+          {
+            "Align": 4,
+            "Data": 14.0,
+            "Name": "JumpForce",
+            "Size": 4,
+            "Type": 12,
+            "TypeName": "System.Single"
+          },
+          {
+            "Align": 4,
+            "Data": 4.099999904632568,
+            "Name": "Gravity",
+            "Size": 4,
+            "Type": 12,
+            "TypeName": "System.Single"
+          },
+          {
+            "Align": 8,
+            "Data": "gH8L-RCG0-h40N-Rl2D",
+            "Name": "camEnt",
+            "Size": 8,
+            "Type": 17,
+            "TypeName": "NITELITE.Entity",
+            "isComponent": false
+          },
+          {
+            "Align": 1,
+            "Data": false,
+            "Name": "StopEverything",
+            "Size": 1,
+            "Type": 2,
+            "TypeName": "System.Boolean"
+          }
+        ],
+        "Name": "FirstPersonController_NEW"
+      },
+      "Name": "struct Client::Script"
+    },
+    {
+      "Data": {
+        "activationMode": 0,
+        "halfExtents": [
+          0.25,
+          1.0,
+          0.25
+        ],
+        "layer": 1,
+        "motionType": 2,
+        "position": [
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "radius": 0.25,
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shape": 1
+      },
+      "Name": "struct Client::PhysicsComponent"
+    }
+  ],
+  "Name": "Player(FPS)",
+  "Signature": 321,
+  "Tag": "",
+  "UUID": "HKP4-1Hzd-tgCL-PnRd"
+}

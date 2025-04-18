@@ -15,6 +15,7 @@ using NITELITE;
 public class DoorManager : NL_Script
 {
   public Entity Camera;
+  public Entity Player;
   public Vec3 StartingPoint;
   public Vec3 TargetPoint;
   public Vec3 OpenedRotation;
@@ -26,6 +27,7 @@ public class DoorManager : NL_Script
 
   private FirstPersonCamera camScript;
   private Transform camTransform;
+  private FirstPersonController_NEW playerScript;
 
   private bool openSequence = false;
   private bool exitSequence = false;
@@ -35,18 +37,27 @@ public class DoorManager : NL_Script
 
   public override void Init()
   {
+    //prevent the player from making any inputs
+    playerScript = Player.GetComponent<FirstPersonController_NEW>();
+    playerScript.StopEverything = true;
     camScript = Camera.GetComponent<FirstPersonCamera>();
     camScript.StopEverything = true;
 
+    //set player position for opening sequence
+    Transform playerTransform = Player.GetComponent<Transform>();
+    playerTransform.SetPosition(new Vec3(TargetPoint.x, playerTransform.GetPosition().y, TargetPoint.z));
+    //set camera position
     camTransform = Camera.GetComponent<Transform>();
     camTransform.SetPosition(StartingPoint);
 
+    //begin the sequence
     openSequence = true;
   }
 
   public override void Update()
   {
-    //basically stops making any future calls since we can't destroy/disable comps
+    //basically stops making any future calls when finished
+    //there is no way of destroying or disabling a component
     if (end) return;
 
     
@@ -79,6 +90,7 @@ public class DoorManager : NL_Script
       {
         exitSequence = false;
         DoorParent.SetRotation(Vec3.Zero);
+        playerScript.StopEverything = false;
         camScript.StopEverything = false;
         end = true;
       }

@@ -16,6 +16,7 @@ public class Door : NL_Script
 {
   public string SceneName = "default";
   public string DoorPrompt = "E";
+  public string HallColor = "Red";
   public Transform MainParent;
   public Transform DoorParent;
   public TextComponent TextPrompt;
@@ -46,6 +47,7 @@ public class Door : NL_Script
 
   private Vec3 camPos;
   private Vec3 parentPos;
+  private bool triggered = false;
 
   public bool NeverEnter = false;
 
@@ -91,13 +93,14 @@ public class Door : NL_Script
   {
     if (NeverEnter) return;
 
-    Vec3 aPos = CamPointA.GetPosition() + parentPos;
+    Vec3 aPos = CamPointA.GetGlobalPosition();
 
     //trigger the chain of events
-    if (canTrigger && NITELITE.Input.GetKeyTriggered(Keys.E))
+    if (!triggered && canTrigger && NITELITE.Input.GetKeyTriggered(Keys.E))
     {
       camScript.StopEverything = true;
       camSequenceA = true;
+      triggered = true;
     }
 
     #region Part 1
@@ -125,8 +128,9 @@ public class Door : NL_Script
         openSequence = true;
 
         //spawn hall
-        Entity newHall = Scene.LoadPrefab("assets/prefabs/Hallway(Black).nlprefab");
+        Entity newHall = Scene.LoadPrefab($"assets/prefabs/Hallway({HallColor}).nlprefab");
         Transform hall = newHall.GetComponent<Transform>();
+        hall.SetRotation(MainParent.GetRotation());
         hall.SetPosition(parentPos);
       }
     }
@@ -149,7 +153,7 @@ public class Door : NL_Script
     #region Part 3
     if (transitionSequence)
     {
-      Vec3 bPos =  CamPointB.GetPosition() + parentPos;
+      Vec3 bPos = CamPointB.GetGlobalPosition();
       Vec3 diffB = bPos - camPos;
       if (diffB.Magnitude() > 0.1f)
       {
@@ -160,7 +164,7 @@ public class Door : NL_Script
       {
         dtMult = 1f;
         transitionSequence = false;
-        //load minigame
+        //finally load scene
         Scene.LoadScene($"assets/scenes/{SceneName}.nlscene");
       }
     }

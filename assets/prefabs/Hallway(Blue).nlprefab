@@ -1,0 +1,294 @@
+{
+  "Children": [
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              1.5699999332427979,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              19.950000762939453,
+              1.899999737739563,
+              0.10000000149011612
+            ],
+            "translation": [
+              -9.999999046325684,
+              -2.0349998474121094,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.03529411926865578,
+              "y": 0.08627451211214066,
+              "z": 0.21568627655506134
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Hall_B(Dark)",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "NN6l-DK5D-X9kJ-6FMQ"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              1.5699999332427979,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              1.5,
+              0.10000000149011612
+            ],
+            "translation": [
+              -9.999999046325684,
+              -2.0250000953674316,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.09019608050584793,
+              "y": 0.3176470696926117,
+              "z": 0.8196078538894653
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Hall_B(Light)",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "Q6sH-6GFR-D76d-cCfN"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              4.0,
+              0.10000000149011612
+            ],
+            "translation": [
+              -9.999999046325684,
+              -2.384185791015625e-07,
+              -1.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Hall_L",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "wc3K-650l-rT9C-Rxt2"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              4.0,
+              0.10000000149011612
+            ],
+            "translation": [
+              -9.999999046325684,
+              -2.384185791015625e-07,
+              1.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Hall_R",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "NnXt-gmdD-Cmd5-gdqh"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              1.5699999332427979,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              1.999999761581421,
+              0.10000000149011612
+            ],
+            "translation": [
+              -9.999999046325684,
+              1.9499998092651367,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "Hall_T",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "wVXb-Czbx-xsDG-7XnT"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              0.20000000298023224,
+              3.9000000953674316,
+              1.8949999809265137
+            ],
+            "translation": [
+              -20.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.7843137383460999,
+              "y": 0.7843137383460999,
+              "z": 0.7843137383460999
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "End",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "m68f-SpqP-khnc-bGTk"
+    }
+  ],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translation": [
+          0.0,
+          0.5,
+          0.0
+        ]
+      },
+      "Name": "struct Client::Transform"
+    }
+  ],
+  "Name": "Hallway(Blue)",
+  "Signature": 1,
+  "Tag": "",
+  "UUID": "gcqX-C09G-RDT5-7LdN"
+}
