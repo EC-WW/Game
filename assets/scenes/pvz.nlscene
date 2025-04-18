@@ -1,0 +1,6401 @@
+{
+  "Entities": [
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  2.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "RdkM-rK9J-Rsxf-K3lC"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  1.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "lgBH-5SJn-0J9D-XpTw"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "5hzh-SR32-Rlpv-2Z5w"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  8.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "Sw98-m6Kr-BSz3-XQ8V"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  1.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "xd4k-XNQZ-ldMD-7nqM"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  6.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "qSJj-h5m3-Z64m-qHL5"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  5.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "cFVP-t6mR-t6c0-VTHm"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  3.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "tBRC-lPDW-TD7N-sbg3"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "9rfq-Cbpn-6lf7-DhsW"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  2.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "n48g-93NM-CkHX-FPcK"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "7cH3-dfmt-Mr3M-nsrG"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  8.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "VMGz-C4WM-H8K7-k1qK"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  8.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "07FJ-zLKn-vJXJ-mcKl"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  7.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "dbwX-WJ6j-TrCk-5SKs"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  6.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "bqZk-v7gJ-5gsB-JJWm"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  5.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "BscF-PfMB-d84j-v2tM"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  3.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "53Rs-ntWp-9ZMM-sHWV"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  4.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "x4cm-LhL8-5Rzq-vMQg"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  2.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "2P3k-Q0Pc-qMbd-3rw3"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  1.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "nBs7-PDnM-Mr6T-KgMr"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "cLVL-kGwV-NS7R-4012"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  8.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "xtjQ-50hF-GF0b-2sCF"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  7.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "TXBR-SlPS-30c9-MnfH"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  6.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "Dmfw-fMGC-Pw0l-ntlV"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  4.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "wwtN-82Cb-GX8Q-jvtQ"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  5.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "jTgX-0rzC-h4jp-GXb2"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  3.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "XGXX-0mRq-Wv8H-GcBK"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "nBS7-6pqb-jGcd-Vv7J"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "F15j-0LbF-7NG8-C7FL"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "l5cl-cNbp-sdk5-pqJv"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  7.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "xcm4-PpZZ-KVhC-M0Th"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  6.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "clt2-NrKP-Cx6Q-3l0t"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  4.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "kC6X-538x-Pr2V-LgTf"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  3.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "md4z-zk2Q-63gx-68VX"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  2.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "BsJ6-fNrL-KvGL-L3qF"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  1.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "kJnZ-ksZc-71N3-TK5j"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "rGgv-PfC5-bVQj-RLx0"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  5.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "Z3bH-Ng1P-pr6p-S4mC"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  7.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "FLrg-Qzsq-KJHG-sT06"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  6.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "G5th-p8s5-gCNl-Gdcf"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  5.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "LHhq-KCT4-BnTd-jXpp"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  4.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "7LPD-Kz6G-nCSW-xcRh"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  7.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "4pt1-MgTg-SKbK-L1Rt"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  8.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "dsdF-MGlc-bcGx-RN2b"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9000827074050903,
+                  1.0,
+                  0.8999999761581421
+                ],
+                "translation": [
+                  3.0,
+                  0.0,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 0.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "team_evan",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "lightGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "6krm-Sj3C-2hxW-c9Qp"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "grid",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "4SVn-NqSN-9FFW-bjxj"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1415927410125732,
+                  -1.4761559963226318,
+                  3.1415927410125732
+                ],
+                "scale": [
+                  1.25,
+                  1.25,
+                  1.25
+                ],
+                "translation": [
+                  -1.1441218852996826,
+                  0.8009195923805237,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "Rei chikita",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "mower",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "bPZB-TxkX-DrKW-bpwS"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1415927410125732,
+                  -1.4761559963226318,
+                  3.1415927410125732
+                ],
+                "scale": [
+                  1.25,
+                  1.25,
+                  1.25
+                ],
+                "translation": [
+                  -1.1441218852996826,
+                  0.8009195923805237,
+                  4.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "Rei chikita",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "mower",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "Gxpb-kmbs-vm1z-Pcq8"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1415927410125732,
+                  -1.4761559963226318,
+                  3.1415927410125732
+                ],
+                "scale": [
+                  1.25,
+                  1.25,
+                  1.25
+                ],
+                "translation": [
+                  -1.1441218852996826,
+                  0.8009195923805237,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "Rei chikita",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "mower",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "18gW-sqs0-1F1n-Hrzn"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1415927410125732,
+                  -1.4761559963226318,
+                  3.1415927410125732
+                ],
+                "scale": [
+                  1.25,
+                  1.25,
+                  1.25
+                ],
+                "translation": [
+                  -1.1441218852996826,
+                  0.8009195923805237,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "Rei chikita",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "mower",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "Ht0q-P5mS-DLKv-HVzX"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1415927410125732,
+                  -1.4761559963226318,
+                  3.1415927410125732
+                ],
+                "scale": [
+                  1.25,
+                  1.25,
+                  1.25
+                ],
+                "translation": [
+                  -1.1441218852996826,
+                  0.8009195923805237,
+                  1.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "Rei chikita",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "mower",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "z9Qd-stPG-4M1q-vRxP"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Mowers",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "9gt6-55Jq-q1CH-lCS4"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  12.0,
+                  1.0,
+                  5.0
+                ],
+                "translation": [
+                  2.4903111457824707,
+                  -0.35825812816619873,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.012445680797100067,
+                  "y": 0.004462654702365398,
+                  "z": 0.03503185510635376
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Ground",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "8c7J-zbPs-MBJr-3wNQ"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  10.0,
+                  1.0,
+                  5.0
+                ],
+                "translation": [
+                  13.600000381469727,
+                  0.0,
+                  2.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "darkGridCell",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.26433122158050537,
+                  "z": 0.26433122158050537
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "ZombieGround",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "PJ4w-tg9J-rFHc-5B4n"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Ground",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "lZF2-j0Q0-tHhW-mNZm"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.15000000596046448,
+                  0.15000000596046448,
+                  0.15000000596046448
+                ],
+                "translation": [
+                  2.715271472930908,
+                  2.040832757949829,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Space to place fruit"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "Text",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "qjJ2-Mnj7-5xrJ-Sl6J"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.15000000596046448,
+                  0.15000000596046448,
+                  0.15000000596046448
+                ],
+                "translation": [
+                  -2.1812150478363037,
+                  2.031352996826172,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "WASD to move Cursor"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "Text",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "q1tD-MVfc-B0GD-FdCk"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.15000000596046448,
+                  0.15000000596046448,
+                  0.15000000596046448
+                ],
+                "translation": [
+                  0.3033507764339447,
+                  2.029064893722534,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Arrows to select fruit"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "Text",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "Gj8m-FD00-8BSJ-pBrp"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Controls",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "nwp9-ZBH5-NJRH-PJmg"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.20000000298023224
+                ],
+                "translation": [
+                  -4.146307945251465,
+                  2.0062780380249023,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Level 1/5"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "LevelText",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "MqDn-2Lqd-Qrn0-VJ9s"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "translation": [
+                  -2.170862913131714,
+                  2.0062780380249023,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Wave 1/6"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "WaveText",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "ZXpV-CDvb-8jMr-HW6g"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "UI",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "SvVD-xMqc-8pNp-8x8S"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  -0.19999995827674866,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.07500000298023224,
+                  0.7500000596046448,
+                  0.7500000596046448
+                ],
+                "translation": [
+                  -0.23262406885623932,
+                  0.303682804107666,
+                  -1.0850948095321655
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "Sliced sourdough bread on board",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "bread",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "RHdl-M2L2-xsrF-sVbS"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  -0.19999998807907104,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.07500000298023224,
+                  0.7500000596046448,
+                  0.7500000596046448
+                ],
+                "translation": [
+                  -0.08575703203678131,
+                  0.303682804107666,
+                  -1.0850948095321655
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "Snickers Bar",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "snickers",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "Qlmh-csHw-HHRk-3x1F"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  -0.19999998807907104,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.07500000298023224,
+                  0.7500000596046448,
+                  0.7500000596046448
+                ],
+                "translation": [
+                  0.3668334484100342,
+                  0.2686363458633423,
+                  -1.081578254699707
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "materwelon",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "watermelon",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "9Hxb-SHLF-5ZQX-TR7S"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  4.199999809265137,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.05999999865889549,
+                  0.6000000238418579,
+                  0.6000000238418579
+                ],
+                "translation": [
+                  0.056537359952926636,
+                  0.26863622665405273,
+                  -1.0815784931182861
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "apple",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "apple",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "XkRk-0pQ7-sr17-JhN3"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  -0.19999998807907104,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.05999999865889549,
+                  0.6000000238418579,
+                  0.6000000238418579
+                ],
+                "translation": [
+                  0.21486760675907135,
+                  0.26863622665405273,
+                  -1.0815784931182861
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "green apple",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "green apple",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "6kjn-8h3v-222m-rGRh"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1000001430511475,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.07999999821186066,
+                  0.800000011920929,
+                  0.800000011920929
+                ],
+                "translation": [
+                  -0.4000000059604645,
+                  0.19328761100769043,
+                  -0.7462122440338135
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "selectionHighlight",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "ZPQM-JzPG-KTRV-8Hcf"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  -0.10000000149011612,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.05000000074505806,
+                  0.5,
+                  0.5
+                ],
+                "translation": [
+                  -0.38270652294158936,
+                  0.22278153896331787,
+                  -1.0767197608947754
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "1 banana bread or 3 bananas",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "banana",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "TvkC-1Fp1-gFZl-7vpw"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.10000000149011612,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              10.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -0.008747190237045288,
+              -2.6526401042938232,
+              7.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": false,
+            "materialSetID": 4294967295,
+            "modelPath": "quad",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "pickerPlate",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "jvtm-qZdl-xqpl-2fFL"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              3.1415927410125732,
+              0.0,
+              3.1415927410125732
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "translation": [
+              0.0,
+              0.75,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "acceleration": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "accelerationVariation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocityVariation": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 5.0
+            },
+            "drag": 0.10000000149011612,
+            "duration": 5.0,
+            "emissionAccumulator": 0.0,
+            "emissionRate": 0.0,
+            "fadeStyle": "FADE_OUT",
+            "isActive": true,
+            "isBillboard": false,
+            "isDiagetic": true,
+            "isTextured": false,
+            "lifeTime": 2.0,
+            "looping": false,
+            "maxParticles": 1000,
+            "modelPath": "quad",
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "simulationAccumulator": 0.0,
+            "sizeBegin": 1.0,
+            "sizeEnd": 0.009999999776482582,
+            "sizeVariation": 0.20000000298023224,
+            "spawnCount": 0,
+            "textureIndex": 0,
+            "texturePath": "particle",
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "velocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "velocityVariation": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 5.0
+            }
+          },
+          "Name": "struct Client::ParticleEmitter"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "Cat Plushy",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "pFbX-j2Qf-rck5-rNfm",
+                "Name": "ent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Data": "ZPQM-JzPG-KTRV-8Hcf",
+                "Name": "highlight",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "PlantManager"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "PlantPlacer",
+      "Signature": 85,
+      "Tag": "",
+      "UUID": "pFbX-j2Qf-rck5-rNfm"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              2.215553045272827,
+              6.124682426452637,
+              -7.091907024383545
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": 0.06401199847459793,
+              "y": -0.6330188512802124,
+              "z": 0.823596179485321
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "Signature": 11,
+      "Tag": "",
+      "UUID": "SVF6-Lmgw-wLDd-b7M2"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -2.0,
+              0.44999998807907104,
+              3.5
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "minecraft_llama_plush",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "K2c4-DWb1-Wf5G-6pcS",
+                "Name": "cat",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "RunningCat"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "cat",
+      "Signature": 81,
+      "Tag": "",
+      "UUID": "K2c4-DWb1-Wf5G-6pcS"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [],
+            "Name": "GameManager"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "ZombieManager",
+      "Signature": 65,
+      "Tag": "",
+      "UUID": "HCBp-CDVH-nvqP-skCk"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              11.01099967956543,
+              -31.375999450683594,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              3.677861452102661,
+              6.291597843170166,
+              -5.1742939949035645
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": -0.003403536044061184,
+              "y": -0.7337693572044373,
+              "z": 0.6793901324272156
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "1V9d-HTfn-Kvh0-kTWZ",
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "moveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "lookSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "CameraController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Camera",
+      "Signature": 67,
+      "Tag": "",
+      "UUID": "1V9d-HTfn-Kvh0-kTWZ"
+    }
+  ],
+  "SceneHeader": "assets\\scenes\\default.nlscene"
+}

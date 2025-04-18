@@ -39,6 +39,7 @@ public class testclass
 
 public class Example : NL_Script
 {
+
   public Entity ent;
   //public Entity Camera;
 
@@ -88,8 +89,8 @@ public class Example : NL_Script
 
 
       Vec3 RotVel = p.AngularVelocity;
-      RotVel.y = 10;
-      RotVel.x = 7;
+      RotVel.y = 100;
+      RotVel.x = 70;
       p.AngularVelocity = RotVel;
       //p.SetLinearVelocity(new Vec3(0, 10.0f, 0));
       //p.SetAngularVelocity(new Vec3(5.0f, 5.0f, 0.0f));
