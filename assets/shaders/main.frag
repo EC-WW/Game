@@ -86,7 +86,7 @@ void main()
         // Set the color based on the distance
         float opacity = clamp(screenPxDistance + 0.5, 0.0, 1.0);
 
-        vec4 textColor = vec4(1.0, 0.0, 0.0, 1.0);
+        vec4 textColor = vec4(1.0, 1.0, 1.0, 1.0);
         vec4 bgColor = vec4(0.0, 0.0, 0.0, 0.0); 
 
         vec3 newColor = bgColor.rgb * (1.0 - opacity) + textColor.rgb * opacity;

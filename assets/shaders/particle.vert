@@ -22,6 +22,7 @@ layout(location = 5) in vec4 weights;
 // INSTANCE INPUTS ---------------------------------------------------
 layout(location = 6) in mat4 transform;
 layout(location = 10) in vec4 textureIndexTint;
+layout(location = 11) in vec4 meshIndex;
 
 // -------------------------------------------------------------------
 // VERTEX OUTPUTS ----------------------------------------------------

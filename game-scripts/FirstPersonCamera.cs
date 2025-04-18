@@ -36,6 +36,9 @@ public class FirstPersonCamera : NL_Script
   public float LerpSpeed = 40f;
   public float maxRotationFrame = 50f;
 
+
+  public bool StopEverything = false;
+
   Vec3 newCamRot = Vec3.Zero;
   private float lastX = 0;
 
@@ -59,6 +62,8 @@ public class FirstPersonCamera : NL_Script
 
   public override void Update()
   {
+    if (StopEverything) return;
+
     //IdleBobbing();
     CameraLook();
     CameraFollow();

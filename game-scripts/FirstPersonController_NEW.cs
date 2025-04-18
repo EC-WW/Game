@@ -28,9 +28,9 @@ public class FirstPersonController_NEW : NL_Script
     transform = self.GetComponent<Transform>();
     camera = camEnt.GetComponent<CameraComponent>();
     camTransform = camEnt.GetComponent<Transform>();
-    rigidbody = self.GetComponent<PhysicsComponent>();
+    //rigidbody = self.GetComponent<PhysicsComponent>();
 
-    rigidbody.GravityFactor = Gravity;
+    //rigidbody.GravityFactor = Gravity;
   }
 
   public override void Update()

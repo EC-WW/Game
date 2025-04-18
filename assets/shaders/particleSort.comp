@@ -32,6 +32,7 @@ layout(std430, set = 2, binding = 4) buffer ParticleCounters {
 struct VertexInstanceData {
     mat4 transform;
     vec4 textureIndexTint;
+    vec4 meshIndex;
 };
 
 layout(std430, set = 1, binding = 6) buffer VertexInstanceBuffer {
@@ -66,4 +67,5 @@ void main() {
 
     vertexInstanceBuffer.vertexData[newIndex].transform = instance.transformMat;
     vertexInstanceBuffer.vertexData[newIndex].textureIndexTint = instance.textureIndexTint;
+    vertexInstanceBuffer.vertexData[newIndex].meshIndex.x = meshIndex;
 }

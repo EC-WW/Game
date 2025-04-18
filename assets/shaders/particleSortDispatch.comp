@@ -49,7 +49,7 @@ void main() {
     particleCounterBuffer.aliveParticleCount2 = 0;
 
     uint iCounter = 0;
-    for (int i = 0; i < NL_MAX_MESHES; ++i) {
+    for (int i = 0; i < NL_MAX_MODELS * NL_MAX_MESHES; ++i) {
         particleCounterBuffer.meshCounts[i].firstInstance = iCounter;
         particleCounterBuffer.meshCounts[i].instanceCounter = iCounter;
         iCounter += particleCounterBuffer.meshCounts[i].count;
