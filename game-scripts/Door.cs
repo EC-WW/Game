@@ -14,9 +14,10 @@ using NITELITE;
 
 public class Door : NL_Script
 {
-  public string SceneName;
-  public Transform Parent;
-  public Transform DoorHinge;
+  public string SceneName = "default";
+  public string DoorPrompt = "E";
+  public Transform MainParent;
+  public Transform DoorParent;
   public TextComponent TextPrompt;
   public float DistanceCheck = 2f;
 
@@ -46,7 +47,7 @@ public class Door : NL_Script
   private Vec3 camPos;
   private Vec3 parentPos;
 
-  private Vec3 targetPos;
+  public bool NeverEnter = false;
 
   public override void Init()
   {
@@ -57,7 +58,7 @@ public class Door : NL_Script
 
   public override void Update()
   {
-    parentPos = Parent.GetPosition();
+    parentPos = MainParent.GetPosition();
     camPos = camTransform.GetPosition();
 
     TriggerCheck();
@@ -71,7 +72,7 @@ public class Door : NL_Script
     {
       if (!canTrigger)
       {
-        TextPrompt.Text = "E";
+        TextPrompt.Text = DoorPrompt;
         dtMult = 1f;
         canTrigger = true;
       }
@@ -88,8 +89,11 @@ public class Door : NL_Script
 
   private void HandleTransition()
   {
+    if (NeverEnter) return;
+
     Vec3 aPos = CamPointA.GetPosition() + parentPos;
 
+    //trigger the chain of events
     if (canTrigger && NITELITE.Input.GetKeyTriggered(Keys.E))
     {
       camScript.StopEverything = true;
@@ -104,7 +108,14 @@ public class Door : NL_Script
       if (diffA.Magnitude() > 0.1f)
       {
         camTransform.SetPosition(LerpVec3(camPos, aPos, dt * CamAMoveSpeed * dtMult));
-        CameraRotation();
+
+        Vec3 lookDir = (parentPos - camPos);
+        lookDir.Normalize();
+
+        // Manually invert the direction if needed
+        Vec3 flippedDir = new Vec3(lookDir.x, lookDir.y, lookDir.z);
+        camComponent.facingDirection = flippedDir;
+
         dtMult += dt;
       }
       else
@@ -123,14 +134,13 @@ public class Door : NL_Script
     #region Part 2
     if (openSequence)
     {
-      Vec3 hingeRot = DoorHinge.GetRotation();
-      DoorHinge.SetRotation(LerpVec3(DoorHinge.GetRotation(), OpenedRotation, dt * OpenSpeed * dtMult));
+      Vec3 hingeRot = DoorParent.GetRotation();
+      DoorParent.SetRotation(LerpVec3(DoorParent.GetRotation(), OpenedRotation, dt * OpenSpeed * dtMult));
       dtMult += dt;
 
       Vec3 rotDiff = hingeRot - OpenedRotation;
       if (rotDiff.Magnitude() <= 0.1f)
       {
-        NL_INFO("Done rotating");
         openSequence = false;
         transitionSequence = true;
       }
@@ -151,23 +161,10 @@ public class Door : NL_Script
         dtMult = 1f;
         transitionSequence = false;
         //load minigame
-        Scene.LoadScene("assets/scenes/minigameTemplate.nlscene");
+        Scene.LoadScene($"assets/scenes/{SceneName}.nlscene");
       }
     }
     #endregion
-  }
-
-
-
-  public void CameraRotation()
-  {
-    Vec3 camPos = camTransform.GetPosition();
-    Vec3 lookDir = (parentPos - camPos);
-    lookDir.Normalize();
-
-    // Manually invert the direction if needed
-    Vec3 flippedDir = new Vec3(lookDir.x, lookDir.y, lookDir.z);
-    camComponent.facingDirection = flippedDir;
   }
 
   public override void Exit()

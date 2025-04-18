@@ -5664,6 +5664,126 @@
       "UUID": "SvVD-xMqc-8pNp-8x8S"
     },
     {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              -2.0,
+              0.44999998807907104,
+              3.5
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "minecraft_llama_plush",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "K2c4-DWb1-Wf5G-6pcS",
+                "Name": "cat",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "RunningCat"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "cat",
+      "Signature": 81,
+      "Tag": "",
+      "UUID": "K2c4-DWb1-Wf5G-6pcS"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              2.6952011585235596,
+              6.087650775909424,
+              -6.622095584869385
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": -0.005292206536978483,
+              "y": -0.5062645077705383,
+              "z": 0.9092779755592346
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "Signature": 11,
+      "Tag": "",
+      "UUID": "SVF6-Lmgw-wLDd-b7M2"
+    },
+    {
       "Children": [
         {
           "Children": [],
@@ -6022,6 +6142,130 @@
         {
           "Data": {
             "rotation": [
+              11.01099967956543,
+              -31.375999450683594,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              3.677861452102661,
+              6.291597843170166,
+              -5.1742939949035645
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": -0.003403536044061184,
+              "y": -0.7337693572044373,
+              "z": 0.6793901324272156
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": true,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "1V9d-HTfn-Kvh0-kTWZ",
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "moveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "lookSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "CameraController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Camera",
+      "Signature": 67,
+      "Tag": "",
+      "UUID": "1V9d-HTfn-Kvh0-kTWZ"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [],
+            "Name": "GameManager"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "ZombieManager",
+      "Signature": 65,
+      "Tag": "",
+      "UUID": "HCBp-CDVH-nvqP-skCk"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
               3.1415927410125732,
               0.0,
               3.1415927410125732
@@ -6151,251 +6395,7 @@
       "Signature": 85,
       "Tag": "",
       "UUID": "pFbX-j2Qf-rck5-rNfm"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              2.215553045272827,
-              6.124682426452637,
-              -7.091907024383545
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "clearColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "direction": {
-              "x": 0.06401199847459793,
-              "y": -0.6330188512802124,
-              "z": 0.823596179485321
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        }
-      ],
-      "Name": "EditorCamera",
-      "Signature": 11,
-      "Tag": "",
-      "UUID": "SVF6-Lmgw-wLDd-b7M2"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              -0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              -2.0,
-              0.44999998807907104,
-              3.5
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "minecraft_llama_plush",
-            "shaded": true,
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "K2c4-DWb1-Wf5G-6pcS",
-                "Name": "cat",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              }
-            ],
-            "Name": "RunningCat"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "cat",
-      "Signature": 81,
-      "Tag": "",
-      "UUID": "K2c4-DWb1-Wf5G-6pcS"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "Fields": [],
-            "Name": "GameManager"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "ZombieManager",
-      "Signature": 65,
-      "Tag": "",
-      "UUID": "HCBp-CDVH-nvqP-skCk"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              11.01099967956543,
-              -31.375999450683594,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              3.677861452102661,
-              6.291597843170166,
-              -5.1742939949035645
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "clearColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "direction": {
-              "x": -0.003403536044061184,
-              "y": -0.7337693572044373,
-              "z": 0.6793901324272156
-            },
-            "editorCamera": 0,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": true,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "1V9d-HTfn-Kvh0-kTWZ",
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Data": 5.0,
-                "Name": "moveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 50.0,
-                "Name": "lookSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              }
-            ],
-            "Name": "CameraController"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Camera",
-      "Signature": 67,
-      "Tag": "",
-      "UUID": "1V9d-HTfn-Kvh0-kTWZ"
     }
   ],
-  "SceneHeader": "assets\\scenes\\default.nlscene"
+  "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\pvz.nlscene"
 }

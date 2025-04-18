@@ -139,6 +139,8 @@ public class FirstPersonCamera : NL_Script
 
   }
 
+  
+
   #region Math Functions
   private Vec3 LerpVec3(Vec3 startPos, Vec3 endPos, float t)
   {
