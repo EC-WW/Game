@@ -14,6 +14,7 @@ using NITELITE;
 
 public class Door : NL_Script
 {
+  public string SceneName;
   public Transform Parent;
   public Transform DoorHinge;
   public TextComponent TextPrompt;
@@ -150,7 +151,7 @@ public class Door : NL_Script
         dtMult = 1f;
         transitionSequence = false;
         //load minigame
-        Scene.LoadScene("assets/scenes/Suika.nlscene");
+        Scene.LoadScene("assets/scenes/minigameTemplate.nlscene");
       }
     }
     #endregion
