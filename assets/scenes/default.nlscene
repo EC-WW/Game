@@ -5876,9 +5876,9 @@
               1.0
             ],
             "translation": [
-              9.262288093566895,
-              3.571619987487793,
-              -2.320760726928711
+              14.006507873535156,
+              13.848090171813965,
+              6.683108329772949
             ]
           },
           "Name": "struct Client::Transform"
@@ -5891,9 +5891,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.967065691947937,
-              "y": -0.18417988717556,
-              "z": -0.1770288050174713
+              "x": -0.6812868118286133,
+              "y": -0.4740179479122162,
+              "z": -0.5581227540969849
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -5918,6 +5918,85 @@
       "Signature": 11,
       "Tag": "",
       "UUID": "SVF6-Lmgw-wLDd-b7M2"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.8999999761581421,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              2.0,
+              20.0
+            ],
+            "translation": [
+              -1.4390392303466797,
+              -2.5,
+              -67.22227478027344
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.10000000149011612,
+              "y": 0.10000000149011612,
+              "z": 0.10000000149011612
+            },
+            "heightmapFilename": "Lobby_HM.png",
+            "peakColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "visibleBase": true
+          },
+          "Name": "struct Client::HeightmapComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "HKP4-1Hzd-tgCL-PnRd",
+                "Name": "Player",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "Xf",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.20000000298023224,
+                "Name": "ScaleRate",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "LobbyHeightmap"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Heightmap",
+      "Signature": 97,
+      "Tag": "",
+      "UUID": "mB1t-97lW-WFQD-tzDl"
     },
     {
       "Children": [],
@@ -7149,5 +7228,5 @@
       "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
-  "SceneHeader": "assets\\scenes\\default.nlscene"
+  "SceneHeader": "assets/scenes/default.nlscene"
 }
