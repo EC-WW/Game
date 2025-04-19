@@ -42,7 +42,7 @@ namespace Suika
 
     public override void Init()
     {
-      
+      NITELITE.Window.ToggleCursorLock(true);
     }
 
     public override void Update()
@@ -50,9 +50,13 @@ namespace Suika
       YawRotation();
       PitchRotation();
       DropperMovement();
-      Drop();
       CameraFollow();
       CameraRotation();
+
+      if (NITELITE.Input.GetKeyTriggered(Keys.MOUSE_RIGHT))
+      {
+        NITELITE.Window.ToggleCursorLock(false);
+      }
     }
 
     public void YawRotation()
@@ -61,7 +65,7 @@ namespace Suika
 
       float MouseDeltaX = NITELITE.Input.MouseDelta.x;
       float DeltaYaw = MouseDeltaX * Yaw.Increment;
-      float NewY = CurrentRot.y - DeltaYaw;
+      float NewY = CurrentRot.y + DeltaYaw;
 
       Vec3 NewRot = new Vec3(CurrentRot.x, NewY, CurrentRot.z);
       Yaw.YawPivot.GetComponent<Transform>().SetRotation(NewRot);
@@ -73,7 +77,7 @@ namespace Suika
 
       float MouseDeltaY = NITELITE.Input.MouseDelta.y;
       float DeltaPitch = MouseDeltaY * Pitch.Increment;
-      float NewX = CurrentRot.x + DeltaPitch;
+      float NewX = CurrentRot.x - DeltaPitch;
 
       NewX = Math.Clamp(NewX, Pitch.Min, Pitch.Max);
       Vec3 NewRot = new Vec3(NewX, CurrentRot.y, CurrentRot.z);
@@ -124,21 +128,6 @@ namespace Suika
       NewPos.z = Math.Clamp(NewPos.z, -Dropper.Boundary, Dropper.Boundary);
 
       DropperTransform.SetPosition(NewPos);
-    }
-
-    public void Drop()
-    {
-      if (NITELITE.Input.GetKeyReleased(Keys.MOUSE_LEFT))
-      {
-        Entity Fruit = Entity.Create();
-
-        Transform FruitTransform = Fruit.AddComponent<Transform>();
-        Vec3 Offset = new Vec3(0f, 3f, 0f);
-        Vec3 DropperPos = Dropper.DropperPivot.GetComponent<Transform>().GetPosition();
-        FruitTransform.SetPosition(DropperPos + Offset);
-        ModelComponent FruitModel = Fruit.AddComponent<ModelComponent>();
-        FruitModel.modelPath = "sphere";
-      }
     }
 
     private void CameraFollow()
@@ -197,10 +186,9 @@ namespace Suika
       Camera.Main.GetComponent<CameraComponent>().facingDirection = flippedDir;
     }
 
-
     public override void Exit()
     {
-      
+
     }
   }
 }

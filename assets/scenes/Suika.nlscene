@@ -105,9 +105,9 @@
               1.0
             ],
             "translation": [
-              6.168062686920166,
-              12.906972885131836,
-              -13.862096786499023
+              -0.5612025260925293,
+              13.731029510498047,
+              -16.990314483642578
             ]
           },
           "Name": "struct Client::Transform"
@@ -120,9 +120,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.2037009745836258,
-              "y": -0.36052313446998596,
-              "z": 0.9685454964637756
+              "x": 0.10908335447311401,
+              "y": -0.5026534199714661,
+              "z": 0.9192256331443787
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -600,5 +600,5 @@
       "UUID": "BpWd-HpSX-8QpC-s3wv"
     }
   ],
-  "SceneHeader": "assets/scenes/Suika.nlscene"
+  "SceneHeader": "C:\\Users\\jared\\Desktop\\NL_Game\\\\assets\\scenes\\Suika.nlscene"
 }

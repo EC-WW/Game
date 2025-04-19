@@ -1,0 +1,76 @@
+{
+  "Children": [],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.35,
+          1.35,
+          1.35
+        ],
+        "translation": [
+          0.0,
+          7.5,
+          0.0
+        ]
+      },
+      "Name": "struct Client::Transform"
+    },
+    {
+      "Data": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": "sphere",
+        "shaded": false,
+        "tint": {
+          "w": 1.0,
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "Name": "struct Client::ModelComponent"
+    },
+    {
+      "Data": {
+        "Fields": [],
+        "Name": "Suika.Balls"
+      },
+      "Name": "struct Client::Script"
+    },
+    {
+      "Data": {
+        "activationMode": 0,
+        "halfExtents": [
+          0.44999998807907104,
+          0.44999998807907104,
+          0.44999998807907104
+        ],
+        "layer": 1,
+        "motionType": 2,
+        "position": [
+          0.0,
+          7.5,
+          0.0
+        ],
+        "radius": 0.675,
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shape": 0
+      },
+      "Name": "struct Client::PhysicsComponent"
+    }
+  ],
+  "Name": "BallC",
+  "Signature": 273,
+  "Tag": "",
+  "UUID": "W2th-ncZh-rKLL-l3QB"
+}

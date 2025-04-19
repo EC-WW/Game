@@ -1,0 +1,43 @@
+{
+  "Children": [],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          3.15,
+          3.15,
+          3.15
+        ],
+        "translation": [
+          0.0,
+          7.5,
+          0.0
+        ]
+      },
+      "Name": "struct Client::Transform"
+    },
+    {
+      "Data": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": "sphere",
+        "shaded": false,
+        "tint": {
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        }
+      },
+      "Name": "struct Client::ModelComponent"
+    }
+  ],
+  "Name": "BallI_Static",
+  "Tag": "",
+  "UUID": "8Qdj-LNBP-0Kgp-0d9t"
+}

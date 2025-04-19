@@ -1,0 +1,76 @@
+{
+  "Children": [],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.25,
+          2.25,
+          2.25
+        ],
+        "translation": [
+          0.0,
+          7.5,
+          0.0
+        ]
+      },
+      "Name": "struct Client::Transform"
+    },
+    {
+      "Data": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": "sphere",
+        "shaded": false,
+        "tint": {
+          "w": 1.0,
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        }
+      },
+      "Name": "struct Client::ModelComponent"
+    },
+    {
+      "Data": {
+        "Fields": [],
+        "Name": "Suika.Balls"
+      },
+      "Name": "struct Client::Script"
+    },
+    {
+      "Data": {
+        "activationMode": 0,
+        "halfExtents": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "layer": 1,
+        "motionType": 2,
+        "position": [
+          0.0,
+          7.5,
+          0.0
+        ],
+        "radius": 1.125,
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shape": 0
+      },
+      "Name": "struct Client::PhysicsComponent"
+    }
+  ],
+  "Name": "BallF",
+  "Signature": 273,
+  "Tag": "",
+  "UUID": "CTMl-kT4H-zzHr-0V6J"
+}
