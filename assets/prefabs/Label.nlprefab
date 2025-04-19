@@ -1,0 +1,51 @@
+{
+  "Children": [],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          1.5699999332427979,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.4999999701976776,
+          0.4999999701976776
+        ],
+        "translation": [
+          -27.20348358154297,
+          15.716054916381836,
+          19.342557907104492
+        ]
+      },
+      "Name": "struct Client::Transform"
+    },
+    {
+      "Data": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": "quad",
+        "shaded": true,
+        "tint": {
+          "w": 1.0,
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "Name": "struct Client::ModelComponent"
+    },
+    {
+      "Data": {
+        "fontPath": "Baloo-Regular.ttf",
+        "text": "0"
+      },
+      "Name": "struct Client::TextComponent"
+    }
+  ],
+  "Name": "Label",
+  "Signature": 145,
+  "Tag": "",
+  "UUID": "xjbx-9L2F-NS5T-vLtX"
+}

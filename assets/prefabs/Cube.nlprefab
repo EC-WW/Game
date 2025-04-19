@@ -1,0 +1,44 @@
+{
+  "Children": [],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translation": [
+          -27.25741195678711,
+          15.21371841430664,
+          19.296382904052734
+        ]
+      },
+      "Name": "struct Client::Transform"
+    },
+    {
+      "Data": {
+        "diagetic": true,
+        "materialSetID": 4294967295,
+        "modelPath": "cube",
+        "shaded": false,
+        "tint": {
+          "w": 1.0,
+          "x": 0.11940300464630127,
+          "y": 1.0,
+          "z": 0.0
+        }
+      },
+      "Name": "struct Client::ModelComponent"
+    }
+  ],
+  "Name": "Cube",
+  "Signature": 17,
+  "Tag": "",
+  "UUID": "5bXS-HV7n-47fJ-HBSb"
+}
