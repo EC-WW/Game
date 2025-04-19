@@ -69,6 +69,7 @@ public class PlantManager : NL_Script
   private const int GridHeight = 5;  // Y indices 0..4
   private const float InitialKeyDelay = 0.5f;
   private const float RepeatKeyDelay = 0.1f;
+  private Vec3 cursScale;
 
   // ——— Plant definitions —————————————————————————————————————————————
 
@@ -95,13 +96,30 @@ public class PlantManager : NL_Script
   // ——— Editor‐assigned references ————————————————————————————————————
   public Entity ent;
   public Entity highlight;
+  public Entity preview;
+
+  public Entity bananaCost;
+  public Entity breadCost;
+  public Entity snickersCost;
+  public Entity appleCost;
+  public Entity gAppleCost;
+  public Entity watermelonCost;
+
+  public Entity moneyText;
 
   // ——— Internal state —————————————————————————————————————————————
+  private int bananaPrice;
+  private int breadPrice;
+  private int snickersPrice;
+  private int applePrice;
+  private int gApplePrice;
+  private int watermelonPrice;
   private Transform entTransform;
   private float originalCursorY;
   private float timeElapsed;
   private int gridPosX;
   private int gridPosY;
+  private float currentMoney = 0;
   private int currentPlant = 0;
   private float keyPressTimer = 0.0f;
   private readonly float[] emitTimers = new float[45];
@@ -112,10 +130,14 @@ public class PlantManager : NL_Script
   private List<BananaPlant> bananaPlants = new List<BananaPlant>();
   private List<BananaBullet> bananaBullets = new List<BananaBullet>();
 
+  private bool cursorOnPlant = false;
+  private float moneyTimer = 0f;
+  private GameStates gameState = GameStates.MenuControls;
   public override void Init()
   {
     entTransform = ent.GetComponent<Transform>();
     originalCursorY = entTransform.GetPosition().y;
+    cursScale = entTransform.GetScale();
 
     ParticleEmitter emitter = ent.GetComponent<ParticleEmitter>();
     emitter.looping = false;
@@ -135,14 +157,50 @@ public class PlantManager : NL_Script
       cube.GetComponent<ParticleEmitter>().lifeTime = 0.0f;
       cube.GetComponent<ParticleEmitter>().ModelPath = "team_evan";
     }
+
+    bananaPrice = int.Parse(bananaCost.GetComponent<TextComponent>().Text.Substring(1));
+    breadPrice = int.Parse(breadCost.GetComponent<TextComponent>().Text.Substring(1));
+    snickersPrice = int.Parse(snickersCost.GetComponent<TextComponent>().Text.Substring(1));
+    applePrice = int.Parse(appleCost.GetComponent<TextComponent>().Text.Substring(1));
+    gApplePrice = int.Parse(gAppleCost.GetComponent<TextComponent>().Text.Substring(1));
+    watermelonPrice = int.Parse(watermelonCost.GetComponent<TextComponent>().Text.Substring(1));
   }
 
   public override void Update()
   {
+    // Update GameState text
+    Entity[] gameStateText = Entity.GetEntitiesByName("GameState");
+    if (gameStateText.Length > 0)
+    {
+      string txt = gameStateText[0].GetComponent<TextComponent>().Text;
+      gameState = (GameStates)Enum.Parse(typeof(GameStates), txt);
+    }
+
+    switch (gameState)
+    {
+      case GameStates.MenuControls:
+        MenuControlsUpdate();
+        break;
+      case GameStates.Pause:
+        break;
+      case GameStates.Game:
+        GameUpdate();
+        break;
+    }
+  }
+
+  private void MenuControlsUpdate()
+  {
+
+  }
+
+  private void GameUpdate()
+  {
     timeElapsed += dt;
+    moneyTimer += dt;
     entTransform = ent.GetComponent<Transform>();
     Vec3 entPos = entTransform.GetPosition();
-    entPos = new Vec3(entPos.x, originalCursorY + Sin(timeElapsed) * 0.1f + 0.1f, entPos.z);
+    entPos = new Vec3(entPos.x, originalCursorY + Sin(timeElapsed) * 0.05f, entPos.z);
     //Vec3 entRot = entTransform.GetRotation();
     //entTransform.SetRotation(new Vec3(entRot.x, entRot.y + dt * 0.3f, entRot.z));
     entTransform.SetPosition(entPos);
@@ -212,7 +270,12 @@ public class PlantManager : NL_Script
       keyPressTimer = 0f;
     }
 
-    // create an array of size 6 of vec3s
+    if (moneyTimer > 1f)
+    {
+      currentMoney += 5;
+      moneyTimer -= 1f;
+    }
+    moneyText.GetComponent<TextComponent>().Text = "Money: $" + currentMoney.ToString();
 
     if (NITELITE.Input.GetKeyTriggered(Keys.RIGHT))
     {
@@ -241,12 +304,44 @@ public class PlantManager : NL_Script
       var tfX = tf.GetPosition().x;
       var tfZ = tf.GetPosition().z;
 
-      if (tfX == gridPosX && tfZ == gridPosY)
-      {
-        entTransform.SetPosition(new Vec3(tfX, entPos.y, tfZ));
+      if (tfX != gridPosX || tfZ != gridPosY) continue;
 
-        if (NITELITE.Input.GetKeyTriggered(Keys.SPACE))
+      entTransform.SetPosition(new Vec3(tfX, entPos.y, tfZ));
+
+      if (NITELITE.Input.GetKeyTriggered(Keys.SPACE) && !cursorOnPlant)
+      {
+        bool canPlace = true;
+        switch (PlantTypes[currentPlant])
         {
+          case "1 banana bread or 3 bananas":
+            if (currentMoney >= bananaPrice) currentMoney -= bananaPrice;
+            else canPlace = false;
+            break;
+          case "Sliced sourdough bread on board":
+            if (currentMoney >= breadPrice) currentMoney -= breadPrice;
+            else canPlace = false;
+            break;
+          case "Snickers bar":
+            if (currentMoney >= snickersPrice) currentMoney -= snickersPrice;
+            else canPlace = false;
+            break;
+          case "apple":
+            if (currentMoney >= applePrice) currentMoney -= applePrice;
+            else canPlace = false;
+            break;
+          case "green apple":
+            if (currentMoney >= gApplePrice) currentMoney -= gApplePrice;
+            else canPlace = false;
+            break;
+          case "materwelon":
+            if (currentMoney >= watermelonPrice) currentMoney -= watermelonPrice;
+            else canPlace = false;
+            break;
+        }
+
+        if (canPlace)
+        {
+
           tf.SetScale(new Vec3(0.95f, 0.95f, 0.95f));
           emitTimers[i] = 0.5f;
 
@@ -284,7 +379,7 @@ public class PlantManager : NL_Script
           {
             case "1 banana bread or 3 bananas":
               ent.GetComponent<Transform>().SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-              ent.name = "banana";
+              ent.name = "plant";
               plants.Add(new PlantData
               {
                 entity = ent,
@@ -296,7 +391,7 @@ public class PlantManager : NL_Script
               break;
             case "Sliced sourdough bread on board":
               ent.GetComponent<Transform>().SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-              ent.name = "bread";
+              ent.name = "plant";
               plants.Add(new PlantData
               {
                 entity = ent,
@@ -308,7 +403,7 @@ public class PlantManager : NL_Script
               break;
             case "Snickers bar":
               ent.GetComponent<Transform>().SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-              ent.name = "snickers";
+              ent.name = "plant";
               plants.Add(new PlantData
               {
                 entity = ent,
@@ -320,7 +415,7 @@ public class PlantManager : NL_Script
               break;
             case "apple":
               ent.GetComponent<Transform>().SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-              ent.name = "apple";
+              ent.name = "plant";
               plants.Add(new PlantData
               {
                 entity = ent,
@@ -332,7 +427,7 @@ public class PlantManager : NL_Script
               break;
             case "green apple":
               ent.GetComponent<Transform>().SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-              ent.name = "green apple";
+              ent.name = "plant";
               plants.Add(new PlantData
               {
                 entity = ent,
@@ -344,7 +439,7 @@ public class PlantManager : NL_Script
               break;
             case "materwelon":
               ent.GetComponent<Transform>().SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-              ent.name = "materwelon";
+              ent.name = "plant";
               plants.Add(new PlantData
               {
                 entity = ent,
@@ -387,6 +482,7 @@ public class PlantManager : NL_Script
       }
     }
 
+    UpdatePreview();
     UpdatePlants();
     UpdateBullets();
   }
@@ -396,6 +492,52 @@ public class PlantManager : NL_Script
     // nothing to clean up
   }
   private float Sin(float x) => (float)Math.Sin(x);
+
+  private void UpdatePreview()
+  {
+    Transform previewTransform = preview.GetComponent<Transform>();
+    Vec3 rot = previewTransform.GetRotation();
+    previewTransform.SetRotation(new Vec3(rot.x, rot.y + dt * 0.3f, rot.z));
+
+    ModelComponent previewModel = preview.GetComponent<ModelComponent>();
+    previewModel.modelPath = PlantTypes[currentPlant];
+
+    // check if it's overlapping with an existing plant. If so, hide the preview.
+    bool doesOverlap = false;
+    for (int i = 0; i < plants.Count; ++i)
+    {
+      var plant = plants[i];
+      var plantPos = plant.entity.GetComponent<Transform>().GetPosition();
+      var previewPos = entTransform.GetPosition();
+      float dist = MathF.Sqrt(MathF.Pow(plantPos.x - previewPos.x, 2) + MathF.Pow(plantPos.z - previewPos.z, 2));
+
+      if (dist < 0.5f)
+      {
+        doesOverlap = true;
+        previewModel.modelPath = "wire_line";
+        break;
+      }
+    }
+
+    cursorOnPlant = doesOverlap;
+    if (doesOverlap)
+    {
+      // lerp cursScale x and z to 1f
+      cursScale.x = Lerp(cursScale.x, 1f, dt * 5f);
+      cursScale.z = Lerp(cursScale.z, 1f, dt * 5f);
+    }
+    else
+    {
+      // lerp to 0.8f
+      cursScale.x = Lerp(cursScale.x, 0.8f, dt * 5f);
+      cursScale.z = Lerp(cursScale.z, 0.8f, dt * 5f);
+    }
+    entTransform.SetScale(cursScale);
+  }
+  private float Lerp(float a, float b, float t)
+  {
+    return a + (b - a) * t;
+  }
 
   private void UpdatePlants()
   {
@@ -430,20 +572,20 @@ public class PlantManager : NL_Script
       }
       else if (plant.type == BulletTypes.Watermelon)
       {
-        SpawnBullet(plant, 3);
-        plant.health = 0;
-        plants.RemoveAt(i);
-        plant.entity.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
-        i--;
+        //SpawnBullet(plant, 3);
+        //plant.health = 0;
+        //plants.RemoveAt(i);
+        //plant.entity.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
+        //i--;
         continue;
       }
       else if (plant.type == BulletTypes.GreenApple)
       {
-        SpawnBullet(plant, 3);
-        plant.health = 0;
-        plants.RemoveAt(i);
-        plant.entity.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
-        i--;
+        //SpawnBullet(plant, 3);
+        //plant.health = 0;
+        //plants.RemoveAt(i);
+        //plant.entity.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
+        //i--;
         continue;
       }
       else
@@ -470,7 +612,17 @@ public class PlantManager : NL_Script
       {
         if (plant.type != BulletTypes.Snickers)
         {
-          if (pos.z > plantPos.z - 0.5f && pos.z < plantPos.z + 0.5f)
+          string modelName = zombies[i].GetComponent<ModelComponent>().modelPath;
+          if (modelName == "jack_samba" || modelName == "charles_flexing")
+          {
+            float newY = (pos.z + 0.5f) / 0.9f;
+            if (newY > plantPos.z - 0.5f && newY < plantPos.z + 0.5f)
+            {
+              hasValidTarget = true;
+              break;
+            }
+          }
+          else if (pos.z > plantPos.z - 0.5f && pos.z < plantPos.z + 0.5f)
           {
             hasValidTarget = true;
             break;
@@ -481,8 +633,9 @@ public class PlantManager : NL_Script
           Vec3 toZombie = pos - plantPos;
           float length = MathF.Sqrt(toZombie.x * toZombie.x + toZombie.z * toZombie.z);
 
-          if (length > 0f && toZombie.x > 0f) // only in front
+          if (length > 0f && toZombie.x > -0.25f) // only in front
           {
+            NL_INFO("Shoot!");
             float dot = (toZombie.x / length); // plant's forward is (1, 0, 0), so dot = cos(θ)
             float coneCos = MathF.Cos(0.291f); // ≈ 0.957
 
@@ -513,7 +666,6 @@ public class PlantManager : NL_Script
       return;
     }
 
-    NL_INFO("Index: " + idx);
     var b = bullets[idx];
     b.Active = true;
     b.Speed = 5f;
@@ -542,14 +694,6 @@ public class PlantManager : NL_Script
       {
         b.type = BulletTypes.Snickers2;
       }
-    }
-    if (b.type == BulletTypes.Watermelon)
-    {
-      tf.SetScale(new Vec3(0.7f, 0.7f, 0.7f));
-    }
-    else if (b.type == BulletTypes.GreenApple)
-    {
-      tf.SetScale(new Vec3(0.7f, 0.7f, 0.7f));
     }
   }
 

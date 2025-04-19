@@ -38,10 +38,28 @@ public class Zombie
   public float speed;
   public string type;
   public float ax;
+  public float ay;
+  public float prevX;
+  //public bool touchingPlant = false;
+}
+public enum GameStates
+{
+  MenuControls,
+  Pause,
+  Game,
+  GameOver,
+  Victory
 }
 
 public class GameManager : NL_Script
 {
+  public Entity MenuControlsEntity;
+  public Entity PauseMenuEntity;
+  public Entity GameOverEntity;
+  public Entity VictoryMenuEntity;
+  public Entity resumeTextEntity;
+  public Entity exitTextEntity;
+
   private List<Zombie> zombies = new List<Zombie>();
 
   private ZombieLevel[] levels = new ZombieLevel[5];
@@ -52,6 +70,10 @@ public class GameManager : NL_Script
 
   private Entity ExplodeEntity;
 
+  private GameStates gameState = GameStates.MenuControls;
+  private float timeInMenu = 0f;
+  private int pauseButton = 1;
+
   public override void Init()
   {
     levels[0] = new ZombieLevel
@@ -59,11 +81,10 @@ public class GameManager : NL_Script
       waves = new ZombieWave[]
       {
       new ZombieWave { spawnTime = 2f, count = 1, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
-      new ZombieWave { spawnTime = 10f, count = 2, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
-      new ZombieWave { spawnTime = 20f, count = 3, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
-      new ZombieWave { spawnTime = 21f, count = 1, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
-      new ZombieWave { spawnTime = 30f, count = 4, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = true },
-      new ZombieWave { spawnTime = 31f, count = 3, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
+      new ZombieWave { spawnTime = 12f, count = 2, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 25f, count = 2, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 30f, count = 1, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = true },
+      new ZombieWave { spawnTime = 31f, count = 4, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
       }
     };
     levels[1] = new ZombieLevel
@@ -71,12 +92,52 @@ public class GameManager : NL_Script
       waves = new ZombieWave[]
       {
       new ZombieWave { spawnTime = 2f, count = 5, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
-      new ZombieWave { spawnTime = 3f, count = 6, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
-      new ZombieWave { spawnTime = 4f, count = 7, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
-      new ZombieWave { spawnTime = 5f, count = 8, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
-      new ZombieWave { spawnTime = 7f, count = 40, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = true },
+      new ZombieWave { spawnTime = 15f, count = 3, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 30f, count = 5, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 31f, count = 5, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
+      new ZombieWave { spawnTime = 40f, count = 4, row = -1, type = "charles_flexing", speed = 0.3f, health = 400, bigWave = true },
       }
     };
+    levels[2] = new ZombieLevel
+    {
+      waves = new ZombieWave[]
+      {
+      new ZombieWave { spawnTime = 2f, count = 1, row = -1, type = "charles_flexing", speed = 0.3f, health = 400, bigWave = false },
+      new ZombieWave { spawnTime = 10f, count = 3, row = -1, type = "team_evan", speed = 2f, health = 20, bigWave = false },
+      new ZombieWave { spawnTime = 25f, count = 5, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 31f, count = 5, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
+      new ZombieWave { spawnTime = 40f, count = 4, row = -1, type = "charles_flexing", speed = 0.3f, health = 400, bigWave = true },
+      new ZombieWave { spawnTime = 41f, count = 4, row = -1, type = "team_evan", speed = 2f, health = 20, bigWave = false },
+      }
+    };
+    levels[3] = new ZombieLevel
+    {
+      waves = new ZombieWave[]
+      {
+      new ZombieWave { spawnTime = 2f, count = 3, row = -1, type = "team_evan", speed = 2f, health = 20, bigWave = false },
+      new ZombieWave { spawnTime = 3f, count = 2, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 10f, count = 5, row = -1, type = "jack_samba", speed = 0.4f, health = 150, bigWave = false },
+      new ZombieWave { spawnTime = 25f, count = 5, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
+      new ZombieWave { spawnTime = 38f, count = 3, row = -1, type = "charles_flexing", speed = 0.3f, health = 400, bigWave = false},
+      new ZombieWave { spawnTime = 41f, count = 8, row = -1, type = "jack_samba", speed = 0.4f, health = 150, bigWave = true },
+      }
+    };
+    levels[4] = new ZombieLevel
+    {
+      waves = new ZombieWave[]
+      {
+      new ZombieWave { spawnTime = 2f, count = 5, row = -1, type = "Taylor", speed = 1.2f, health = 5, bigWave = false },
+      new ZombieWave { spawnTime = 3f, count = 10, row = -1, type = "Taylor", speed = 1.2f, health = 5, bigWave = false },
+      new ZombieWave { spawnTime = 4f, count = 15, row = -1, type = "Taylor", speed = 1.2f, health = 5, bigWave = false },
+      new ZombieWave { spawnTime = 25f, count = 5, row = -1, type = "team_travis", speed = 0.4f, health = 100, bigWave = false },
+      new ZombieWave { spawnTime = 26f, count = 5, row = -1, type = "jack_samba", speed = 0.4f, health = 150, bigWave = false },
+      new ZombieWave { spawnTime = 27f, count = 5, row = -1, type = "team_adi", speed = 0.7f, health = 80, bigWave = false },
+      new ZombieWave { spawnTime = 38f, count = 8, row = -1, type = "charles_flexing", speed = 0.3f, health = 400, bigWave = true},
+      new ZombieWave { spawnTime = 41f, count = 8, row = -1, type = "jack_samba", speed = 0.4f, health = 150, bigWave = false },
+      new ZombieWave { spawnTime = 43f, count = 5, row = -1, type = "team_evan", speed = 2f, health = 20, bigWave = false },
+      }
+    };
+
 
     ExplodeEntity = Entity.Create();
     ExplodeEntity.AddComponent<Transform>();
@@ -95,6 +156,177 @@ public class GameManager : NL_Script
 
   public override void Update()
   {
+    switch (gameState)
+    {
+      case GameStates.MenuControls:
+        MenuControlsUpdate();
+        break;
+      case GameStates.Pause:
+        PauseMenuUpdate();
+        break;
+      case GameStates.Game:
+        GameUpdate();
+        break;
+    }
+
+    LerpMenusBack();
+
+    // Update GameState text
+    Entity[] gameStateText = Entity.GetEntitiesByName("GameState");
+    if (gameStateText.Length > 0)
+    {
+      gameStateText[0].GetComponent<TextComponent>().Text = gameState.ToString();
+    }
+  }
+
+  private void LerpMenusBack()
+  {
+    switch (gameState)
+    {
+      case GameStates.MenuControls:
+        break;
+      case GameStates.Pause:
+        break;
+      case GameStates.Game:
+        // Lerp menu and pause menu back to original position
+        Transform menuTr = MenuControlsEntity.GetComponent<Transform>();
+        Vec3 menuPos = menuTr.GetPosition();
+        float newY = Lerp(menuPos.y, 5f, 3f * dt);
+        menuTr.SetPosition(new Vec3(menuPos.x, newY, menuPos.z));
+
+        Transform pauseTr = PauseMenuEntity.GetComponent<Transform>();
+        Vec3 pausePos = pauseTr.GetPosition();
+        newY = Lerp(pausePos.y, 5f, 3f * dt);
+        pauseTr.SetPosition(new Vec3(pausePos.x, newY, pausePos.z));
+
+        break;
+      case GameStates.Victory:
+      {
+        // Lerp menu and pause menu back to original position
+        menuTr = MenuControlsEntity.GetComponent<Transform>();
+        menuPos = menuTr.GetPosition();
+        newY = Lerp(menuPos.y, 5f, 3f * dt);
+        menuTr.SetPosition(new Vec3(menuPos.x, newY, menuPos.z));
+
+        pauseTr = PauseMenuEntity.GetComponent<Transform>();
+        pausePos = pauseTr.GetPosition();
+        newY = Lerp(pausePos.y, 5f, 3f * dt);
+        pauseTr.SetPosition(new Vec3(pausePos.x, newY, pausePos.z));
+
+        Transform victoryTr = VictoryMenuEntity.GetComponent<Transform>();
+        Vec3 victoryPos = victoryTr.GetPosition();
+        float newYVictory = Lerp(victoryPos.y, 0f, 3f * dt);
+        victoryTr.SetPosition(new Vec3(victoryPos.x, newYVictory, victoryPos.z));
+
+        if (NITELITE.Input.GetKeyPressed(Keys.SPACE))
+        {
+            // Back to lobby
+        }
+
+        break;
+      }
+      case GameStates.GameOver:
+      {
+        // Lerp menu and pause menu back to original position
+        menuTr = MenuControlsEntity.GetComponent<Transform>();
+        menuPos = menuTr.GetPosition();
+        newY = Lerp(menuPos.y, 5f, 3f * dt);
+        menuTr.SetPosition(new Vec3(menuPos.x, newY, menuPos.z));
+
+        pauseTr = PauseMenuEntity.GetComponent<Transform>();
+        pausePos = pauseTr.GetPosition();
+        newY = Lerp(pausePos.y, 5f, 3f * dt);
+        pauseTr.SetPosition(new Vec3(pausePos.x, newY, pausePos.z));
+
+        Transform victoryTr = GameOverEntity.GetComponent<Transform>();
+        Vec3 victoryPos = victoryTr.GetPosition();
+        float newYVictory = Lerp(victoryPos.y, 0f, 3f * dt);
+        victoryTr.SetPosition(new Vec3(victoryPos.x, newYVictory, victoryPos.z));
+
+        if (NITELITE.Input.GetKeyPressed(Keys.SPACE))
+        {
+          // Back to lobby
+        }
+
+        break;
+      }
+    }
+  }
+
+  private void MenuControlsUpdate()
+  {
+    timeInMenu += dt;
+
+    Transform menuTr = MenuControlsEntity.GetComponent<Transform>();
+    Vec3 menuPos = menuTr.GetPosition();
+
+    if (NITELITE.Input.GetKeyPressed(Keys.SPACE) && timeInMenu > 2f)
+    {
+      gameState = GameStates.Game;
+    }
+    else
+    {
+      float newY = Lerp(menuPos.y, 0f, 3f * dt);
+      menuTr.SetPosition(new Vec3(menuPos.x, newY, menuPos.z));
+    }
+  }
+
+  private void PauseMenuUpdate()
+  {
+    Transform menuTr = PauseMenuEntity.GetComponent<Transform>();
+    Vec3 menuPos = menuTr.GetPosition();
+
+    if (NITELITE.Input.GetKeyTriggered(Keys.RIGHT))
+    {
+      pauseButton++;
+    }
+    if (NITELITE.Input.GetKeyTriggered(Keys.LEFT))
+    {
+      pauseButton--;
+    }
+
+    pauseButton = Math.Max(0, Math.Min(pauseButton, 1));
+
+    if (NITELITE.Input.GetKeyPressed(Keys.SPACE))
+    {
+      if (pauseButton == 0)
+      {
+        gameState = GameStates.Game;
+      }
+      if (pauseButton == 1)
+      {
+        // Back to lobby
+      }
+    }
+    else
+    {
+      float newY = Lerp(menuPos.y, 0f, 6f * dt);
+      menuTr.SetPosition(new Vec3(menuPos.x, newY, menuPos.z));
+    }
+
+    ModelComponent resumeModel = resumeTextEntity.GetComponent<ModelComponent>();
+    ModelComponent exitModel = exitTextEntity.GetComponent<ModelComponent>();
+
+    if (pauseButton == 0)
+    {
+      resumeModel.tint = new Vec3(0.85f, 0.67f, 0.2f);
+      exitModel.tint = new Vec3(1f, 1f, 1f);
+    }
+    if (pauseButton == 1)
+    {
+      resumeModel.tint = new Vec3(1f, 1f, 1f);
+      exitModel.tint = new Vec3(0.85f, 0.67f, 0.2f);
+    }
+  }
+
+  private void GameUpdate()
+  {
+    if (NITELITE.Input.GetKeyPressed(Keys.P))
+    {
+      gameState = GameStates.Pause;
+      return;
+    }
+
     if (!waitingForBigWave)
     {
       levelTimer += dt;
@@ -119,6 +351,8 @@ public class GameManager : NL_Script
       SpawnWave(level.waves[nextWaveIndex]);
       nextWaveIndex++;
 
+      NL_INFO("Spawning next wave! " + nextWaveIndex);
+
       //Entity[] waveText = Entity.GetEntitiesByName("WaveText");
       //if (waveText.Length > 0)
       //{
@@ -130,44 +364,53 @@ public class GameManager : NL_Script
     for (int i = zombies.Count - 1; i >= 0; --i)
     {
       Zombie zombie = zombies[i];
+      
+      if (zombie.x < 0)
+      {
+        Vec3 zombPos = zombie.entity.GetComponent<Transform>().GetPosition();
+
+        Entity[] mowers = Entity.GetEntitiesByName("mower");
+        bool hitMower = false;
+        for (int j = 0; j < mowers.Length; ++j)
+        {
+          Vec3 mowerPos = mowers[j].GetComponent<Transform>().GetPosition();
+          if (mowerPos.y < 1)
+          {
+            float realZombieY = zombie.y;
+            if (zombie.type == "charles_flexing" || zombie.type == "jack_samba")
+            {
+              realZombieY = (zombie.y + 0.5f) / 0.9f;
+            }
+            if (realZombieY > mowerPos.z - 0.5f && realZombieY < mowerPos.z + 0.5f)
+            {
+              // Mower hit
+              mowers[j].GetComponent<Transform>().SetPosition(new Vec3(mowerPos.x, mowerPos.y + 0.3f, mowerPos.z));
+              zombie.health = 0;
+              hitMower = true;
+              break;
+            }
+          }
+        }
+
+        if (!hitMower)
+        {
+          gameState = GameStates.GameOver;
+        }
+      }
+
       if (zombie.health <= 0)
       {
         zombie.entity.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
         zombies.RemoveAt(i);
         continue;
       }
-      if (zombie.x < 0)
-      {
-        Vec3 zombPos = zombie.entity.GetComponent<Transform>().GetPosition();
-        //zombie.entity.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
-        //zombies.RemoveAt(i);
-
-        Entity[] mowers = Entity.GetEntitiesByName("mower");
-        for (int j = 0; j < mowers.Length; ++j)
-        {
-          Vec3 mowerPos = mowers[j].GetComponent<Transform>().GetPosition();
-          if (mowerPos.y < 1)
-          if (zombPos.z > mowerPos.z - 0.5f && zombPos.z < mowerPos.z + 0.5f)
-          {
-            // Mower hit
-            mowers[j].GetComponent<Transform>().SetPosition(new Vec3(mowerPos.x, mowerPos.y + 0.3f, mowerPos.z));
-            break;
-          }
-        }
-        if (zombie.x < -1)
-        {
-
-        }
-
-        // Check Lawnmowers
-        continue;
-      }
 
       Transform tr = zombie.entity.GetComponent<Transform>();
       Vec3 pos = tr.GetPosition();
+      zombie.prevX = pos.x;
       zombie.x = pos.x - zombie.speed * dt + zombie.ax * dt;
-      zombie.y = pos.z; // row
-      tr.SetPosition(new Vec3(zombie.x, pos.y, pos.z));
+      zombie.y = pos.z + zombie.ay * dt * 60f; // row
+      tr.SetPosition(new Vec3(zombie.x, pos.y, zombie.y));
 
       // lerp ax towards zero
       if (zombie.ax > 0)
@@ -178,6 +421,39 @@ public class GameManager : NL_Script
       {
         zombie.ax = Math.Max(zombie.ax, 0);
       }
+
+      if (zombie.type == "jack_samba")
+      {
+        // lerp ay randomly towards -1 or 1
+        Random rand = new Random();
+        int randomY = rand.Next(0, 2);
+        if (randomY == 0)
+        {
+          zombie.ay = Lerp(zombie.ay, -1, dt);
+        }
+        else
+        {
+          zombie.ay = Lerp(zombie.ay, 1, dt);
+        }
+        
+        float oldY = (zombie.y + 0.5f) / 0.9f;
+        if (oldY < 0)
+        {
+          zombie.ay = -zombie.ay;
+          zombie.y = -0.5f;
+          tr.SetPosition(new Vec3(zombie.x, pos.y, zombie.y));
+        }
+        if (oldY > 4)
+        {
+          zombie.ay = -zombie.ay;
+          zombie.y = 3.1f;
+          tr.SetPosition(new Vec3(zombie.x, pos.y, zombie.y));
+        }
+      }
+      else
+      {
+        zombie.ay = 0;
+      }
     }
 
     // Next level if all waves for this level are complete and no zombies are alive
@@ -185,7 +461,7 @@ public class GameManager : NL_Script
     {
       levelTimer = 0f;
       nextWaveIndex = 0;
-      
+
       if (currentLevel < levels.Length - 1)
       {
         currentLevel++;
@@ -195,12 +471,10 @@ public class GameManager : NL_Script
         {
           levelText[0].GetComponent<TextComponent>().Text = "Level " + (currentLevel + 1) + "/" + levels.Length;
         }
-
-        //Entity[] waveText = Entity.GetEntitiesByName("WaveText");
-        //if (waveText.Length > 0)
-        //{
-        //  waveText[0].GetComponent<TextComponent>().Text = "Wave 1/" + levels[currentLevel].waves.Length;
-        //}
+      }
+      else
+      {
+        gameState = GameStates.Victory;
       }
     }
 
@@ -251,14 +525,18 @@ public class GameManager : NL_Script
         case "team_travis":
           ent.GetComponent<Transform>().SetRotation(new Vec3(0f, -1.57f, 0f));
           break;
-        case "team_charles":
-          ent.GetComponent<Transform>().SetRotation(new Vec3(0f, 4f, 0f));
+        case "charles_flexing":
+          ent.GetComponent<Transform>().SetRotation(new Vec3(4.7f, 4.8f, 0f));
+          ent.GetComponent<Transform>().SetPosition(new Vec3(spawnX, 1, -0.5f + 0.9f * randomY));
+          zombies[zombies.Count - 1].y = -0.5f + 0.9f * randomY;
           break;
         case "team_evan":
           ent.GetComponent<Transform>().SetRotation(new Vec3(0f, -1.57f, 0f));
           break;
-        case "team_jack":
-          ent.GetComponent<Transform>().SetRotation(new Vec3(0f, -1.57f, 0f));
+        case "jack_samba":
+          ent.GetComponent<Transform>().SetRotation(new Vec3(4.7f, 4.8f, 0f));
+          ent.GetComponent<Transform>().SetPosition(new Vec3(spawnX, 1, -0.5f + 0.9f * randomY));
+          zombies[zombies.Count - 1].y = -0.5f + 0.9f * randomY;
           break;
         case "team_adi":
           ent.GetComponent<Transform>().SetRotation(new Vec3(0f, -1.570f, 0f));
@@ -290,7 +568,6 @@ public class GameManager : NL_Script
     {
       Entity bullet = bullets[i];
       Vec3 bulletPos = bullet.GetComponent<Transform>().GetPosition();
-      bool watermelonExplode = false;
 
       for (int j = 0; j < zombies.Count; ++j)
       {
@@ -300,20 +577,29 @@ public class GameManager : NL_Script
 
         Vec3 zombiePos = zombie.entity.GetComponent<Transform>().GetPosition();
 
-        if (bulletPos.x > zombiePos.x - 0.5f && bulletPos.x < zombiePos.x + 0.5f &&
-            bulletPos.z > zombiePos.z - 0.5f && bulletPos.z < zombiePos.z + 0.5f)
+        if (zombie.type == "charles_flexing" || zombie.type == "jack_samba")
         {
-          collided = true;
+          float oldY = (zombiePos.z + 0.5f) / 0.9f;
+          if (bulletPos.x > zombiePos.x - 0.5f && bulletPos.x < zombiePos.x + 0.5f &&
+              bulletPos.z > oldY - 0.5f && bulletPos.z < oldY + 0.5f)
+          {
+            collided = true;
+          }
+        }
+        else
+        {
+          if (bulletPos.x > zombiePos.x - 0.5f && bulletPos.x < zombiePos.x + 0.5f &&
+              bulletPos.z > zombiePos.z - 0.5f && bulletPos.z < zombiePos.z + 0.5f)
+          {
+            collided = true;
+          }
         }
 
         if (collided)
         {
           string path = bullet.GetComponent<ModelComponent>().modelPath;
+          bullet.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
 
-          if (path != "green apple")
-          {
-            bullet.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
-          }
           switch (path)
           {
             case "1 banana bread or 3 bananas":
@@ -329,18 +615,8 @@ public class GameManager : NL_Script
               zombie.health -= 250;
               break;
             case "green apple":
-              Vec3 bulletScale = bullet.GetComponent<Transform>().GetScale() * 0.5f;
-              bullet.GetComponent<Transform>().SetScale(bulletScale);
-              if (bulletScale.x < 0.1f)
-              {
-                bullet.GetComponent<Transform>().SetPosition(new Vec3(-100, 0, 0));
-              }
-              zombie.health -= 10;
-              zombie.ax = 4f;
               break;
             case "materwelon":
-              //zombie.health -= 10;
-              watermelonExplode = true;
               break;
           }
 
@@ -348,16 +624,88 @@ public class GameManager : NL_Script
 
           Vec3 oldScale = zombie.entity.GetComponent<Transform>().GetScale();
           float hp = (float)zombie.health / (float)zombie.originalHealth;
-          float newSX = hp * zombie.originalScale.x;
-          float newSY = hp * zombie.originalScale.y;
-          float newSZ = hp * zombie.originalScale.z;
+          float newSX = 0.2f + 0.8f * hp * zombie.originalScale.x;
+          float newSY = 0.2f + 0.8f * hp * zombie.originalScale.y;
+          float newSZ = 0.2f + 0.8f * hp * zombie.originalScale.z;
           zombie.entity.GetComponent<Transform>().SetScale(new Vec3(newSX, newSY, newSZ));
+        }
+      }
+    }
+
+    Entity[] plants = Entity.GetEntitiesByName("plant");
+
+    for (int i = 0; i < plants.Length; ++i)
+    {
+      Entity plant = plants[i];
+      Vec3 plantPos = plant.GetComponent<Transform>().GetPosition();
+      bool watermelonExplode = false;
+      for (int j = 0; j < zombies.Count; ++j)
+      {
+        Zombie zombie = zombies[j];
+        Vec3 zombiePos = zombie.entity.GetComponent<Transform>().GetPosition();
+
+        bool collided = false;
+
+        if (zombie.type == "charles_flexing" || zombie.type == "jack_samba")
+        {
+          float oldY = (zombiePos.z + 0.5f) / 0.9f;
+          if (plantPos.x > zombiePos.x - 0.5f && plantPos.x < zombiePos.x + 0.5f &&
+              plantPos.z > oldY - 0.5f && plantPos.z < oldY + 0.5f)
+          {
+            collided = true;
+          }
+        }
+        else
+        {
+          if (plantPos.x > zombiePos.x - 0.5f && plantPos.x < zombiePos.x + 0.5f &&
+              plantPos.z > zombiePos.z - 0.5f && plantPos.z < zombiePos.z + 0.5f)
+          {
+            collided = true;
+          }
+        }
+
+        if (collided)
+        {
+          // Stop zombie
+          zombie.entity.GetComponent<Transform>().SetPosition(new Vec3(zombie.prevX, zombiePos.y, zombiePos.z));
+          
+          Transform plantTransform = plant.GetComponent<Transform>();
+          string mn = plant.GetComponent<ModelComponent>().modelPath;
+          if (mn == "materwelon")
+          {
+            watermelonExplode = true;
+          }
+          else if (mn == "green apple")
+          {
+            Vec3 appleScale = plant.GetComponent<Transform>().GetScale() * 0.5f;
+            plantTransform.SetScale(appleScale);
+            if (appleScale.x < 0.1f)
+            {
+              plantTransform.SetPosition(new Vec3(-100, 0, 0));
+            }
+            zombie.health -= 10;
+            zombie.ax = 4f;
+          }
+          else
+          {
+            float shrinkRate = 0.5f; // shrink per second (i.e., 50% per second)
+
+            Vec3 scale = plantTransform.GetScale();
+            scale *= (1.0f - shrinkRate * dt);
+            plantTransform.SetScale(scale);
+
+            if (scale.x < 0.2f)
+            {
+              plantTransform.SetPosition(new Vec3(-100, 0, 0));
+              plantTransform.SetScale(new Vec3(0, 0, 0));
+            }
+          }
         }
       }
 
       if (watermelonExplode)
       {
-        ExplodeEntity.GetComponent<Transform>().SetPosition(bulletPos);
+        ExplodeEntity.GetComponent<Transform>().SetPosition(plantPos);
         ParticleEmitter explodeEmitter = ExplodeEntity.GetComponent<ParticleEmitter>();
         explodeEmitter.duration = 0.5f;
         explodeEmitter.velocity = new Vec3(0f, 0f, 0f);
@@ -378,8 +726,8 @@ public class GameManager : NL_Script
           Zombie zombie = zombies[j];
           Vec3 zombiePos = zombie.entity.GetComponent<Transform>().GetPosition();
 
-          if (bulletPos.x > zombiePos.x - 1.5f && bulletPos.x < zombiePos.x + 1.5f &&
-              bulletPos.z > zombiePos.z - 1.5f && bulletPos.z < zombiePos.z + 1.5f)
+          if (plantPos.x > zombiePos.x - 1.5f && plantPos.x < zombiePos.x + 1.5f &&
+              plantPos.z > zombiePos.z - 1.5f && plantPos.z < zombiePos.z + 1.5f)
           {
             zombie.health -= 250;
             zombie.health = Math.Max(zombie.health, 0);
@@ -413,9 +761,35 @@ public class GameManager : NL_Script
         for (int j = 0; j < zombies.Count; ++j)
         {
           Zombie zombie = zombies[j];
+
+          Transform tr = zombie.entity.GetComponent<Transform>();
+          Vec3 pos = tr.GetPosition();
+          zombie.y = pos.z;
+          bool collided = false;
+
+          if (zombie.type == "charles_flexing" || zombie.type == "jack_samba")
+          {
+            float realZombieY = (zombie.y + 0.5f) / 0.9f;
+
+            // check x and z
+            if (mowerPos.x > pos.x - 0.5f && mowerPos.x < pos.x + 0.5f &&
+                mowerPos.z > realZombieY - 0.5f && mowerPos.z < realZombieY + 0.5f)
+            {
+              collided = true;
+            }
+          }
+          else
+          {
+            // cxheck x and z
+            if (mowerPos.x > pos.x - 0.5f && mowerPos.x < pos.x + 0.5f &&
+                mowerPos.z > zombie.y - 0.5f && mowerPos.z < zombie.y + 0.5f)
+            {
+              collided = true;
+            }
+          }
+
           Vec3 zombiePos = zombie.entity.GetComponent<Transform>().GetPosition();
-          if (mowerPos.x > zombiePos.x - 0.5f && mowerPos.x < zombiePos.x + 0.5f &&
-              mowerPos.z > zombiePos.z - 0.5f && mowerPos.z < zombiePos.z + 0.5f)
+          if (collided)
           {
             // mower hit
             zombie.health = 0;
