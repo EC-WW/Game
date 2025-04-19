@@ -14,6 +14,7 @@ using NITELITE;
 
 public class Console : NL_Script
 {
+  public Entity PlayerEntity;
   public Entity CamEntity;
   public Entity TargetCamera;
   public TextComponent TextPrompt;
@@ -30,6 +31,8 @@ public class Console : NL_Script
   private CameraComponent camComponent;
   private Transform camTransform;
   private Vec3 camPos;
+
+  private FirstPersonController_NEW playerScript;
 
   private CameraComponent targetCamComponent;
   private Transform targetCamTransform;
@@ -48,6 +51,8 @@ public class Console : NL_Script
 
   public bool MinigameActive = false;
 
+  private bool useTargetCamPosition = false;
+
   public override void Init()
   {
     transform = self.GetComponent<Transform>();
@@ -57,6 +62,8 @@ public class Console : NL_Script
 
     targetCamTransform = TargetCamera.GetComponent<Transform>();
     targetCamComponent = TargetCamera.GetComponent<CameraComponent>();
+
+    playerScript = PlayerEntity.GetComponent<FirstPersonController_NEW>();
   }
 
   public override void Update()
@@ -92,6 +99,8 @@ public class Console : NL_Script
 
   private void HandleTransitions()
   {
+    Vec3 targetCamPosition = targetCamTransform.GetPosition();
+
     //trigger the chain of events
     if (!triggered && canTrigger && NITELITE.Input.GetKeyTriggered(Keys.E))
     {
@@ -99,12 +108,14 @@ public class Console : NL_Script
       originalPos = camTransform.GetPosition();
 
       targetDirection = targetCamComponent.facingDirection;
-      targetPosition = targetCamTransform.GetPosition();
+      //targetPosition = targetCamPosition;
+      useTargetCamPosition = true;
 
       ReturnText.Text = "'R' to Return";
 
       dtMult = 1;
       camScript.StopEverything = true;
+      playerScript.StopEverything = true;
       camSequence = true;
       triggered = true;
     }
@@ -114,6 +125,8 @@ public class Console : NL_Script
       followTargetCam = false;
 
       targetDirection = originalFaceDirection;
+
+      useTargetCamPosition = false;
       targetPosition = originalPos;
 
       ReturnText.Text = "";
@@ -124,11 +137,26 @@ public class Console : NL_Script
 
     if (camSequence)
     {
-      //this needs to be changed to actual global position
-      Vec3 diffA = targetPosition - camPos;
+      Vec3 diffA;
+      if (!useTargetCamPosition)
+      {
+        diffA = targetPosition - camPos;
+      }
+      else
+      {
+        diffA = targetCamPosition - camPos;
+      }
+
       if (diffA.Magnitude() > 0.1f)
       {
-        camTransform.SetPosition(LerpVec3(camPos, targetPosition, dt * CamMoveSpeed * dtMult));
+        if (!useTargetCamPosition)
+        {
+          camTransform.SetPosition(LerpVec3(camPos, targetPosition, dt * CamMoveSpeed * dtMult));
+        }
+        else
+        {
+          camTransform.SetPosition(LerpVec3(camPos, targetCamPosition, dt * CamMoveSpeed * dtMult));
+        }
 
         camComponent.facingDirection = LerpVec3(camComponent.facingDirection, targetDirection, dt * CamRotSpeed * dtMult);
 
@@ -142,12 +170,13 @@ public class Console : NL_Script
         if(SameVector(targetPosition, originalPos))
         {
           camScript.StopEverything = false;
+          playerScript.StopEverything = false;
           triggered = false;
         }
         else
         {
           followTargetCam = true;
-          
+
           MinigameActive = true;
         }
       }

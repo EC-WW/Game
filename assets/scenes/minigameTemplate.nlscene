@@ -1,6 +1,35 @@
 {
   "Entities": [
     {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Empty",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "Sr7j-lTVt-xvBC-HCjw"
+    },
+    {
       "Children": [
         {
           "Children": [],
@@ -441,7 +470,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
+              -0.0,
               0.0
             ],
             "scale": [
@@ -1274,7 +1303,7 @@
           "Data": {
             "rotation": [
               0.0,
-              -1.5700000524520874,
+              -1.5700242519378662,
               0.0
             ],
             "scale": [
@@ -1629,7 +1658,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
+              -0.0,
               0.0
             ],
             "scale": [
@@ -1749,7 +1778,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
+              -0.0,
               0.0
             ],
             "scale": [
@@ -1858,14 +1887,14 @@
         {
           "Data": {
             "rotation": [
-              180.39999389648438,
+              -1.8123799562454224,
               0.0,
               0.0
             ],
             "scale": [
               1.0,
-              1.0,
-              1.0
+              0.9999997615814209,
+              0.9999997615814209
             ],
             "translation": [
               -7.66380500793457,
@@ -1913,14 +1942,14 @@
         {
           "Data": {
             "rotation": [
-              180.0,
+              -2.212373733520508,
               -0.0,
               0.0
             ],
             "scale": [
               1.0,
-              1.0,
-              1.0
+              0.9999998807907104,
+              0.9999998807907104
             ],
             "translation": [
               0.0,
@@ -2091,7 +2120,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
+              -0.0,
               0.0
             ],
             "scale": [
@@ -2312,7 +2341,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
+              -0.0,
               0.0
             ],
             "scale": [
@@ -2455,6 +2484,14 @@
                 "Type": 17,
                 "TypeName": "Vec3",
                 "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": true,
+                "Name": "FlipDirectionsForSomeReason",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
               }
             ],
             "Name": "FirstPersonController_NEW"
@@ -2493,5 +2530,5 @@
       "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
-  "SceneHeader": "assets/scenes/minigameTemplate.nlscene"
+  "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\minigameTemplate.nlscene"
 }

@@ -42,7 +42,7 @@ namespace Suika
 
     public override void Init()
     {
-      NITELITE.Window.ToggleCursorLock(true);
+
     }
 
     public override void Update()
@@ -52,11 +52,6 @@ namespace Suika
       DropperMovement();
       CameraFollow();
       CameraRotation();
-
-      if (NITELITE.Input.GetKeyTriggered(Keys.MOUSE_RIGHT))
-      {
-        NITELITE.Window.ToggleCursorLock(false);
-      }
     }
 
     public void YawRotation()

@@ -3678,6 +3678,14 @@
                 "Type": 17,
                 "TypeName": "Vec3",
                 "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "FlipDirectionsForSomeReason",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
               }
             ],
             "Name": "FirstPersonController_NEW"

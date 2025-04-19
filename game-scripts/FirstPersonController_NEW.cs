@@ -31,6 +31,8 @@ public class FirstPersonController_NEW : NL_Script
   public Vec3 maxMovePos;
   public Vec3 minMovePos;
 
+  public bool FlipDirectionsForSomeReason = false;
+
   public override void Init()
   {
     transform = self.GetComponent<Transform>();
@@ -147,8 +149,17 @@ public class FirstPersonController_NEW : NL_Script
     Vec3 forward = new Vec3(MathF.Sin(radians), 0, MathF.Cos(radians));
     Vec3 right = new Vec3(forward.z, 0, -forward.x);
 
-    //calculate movement based on forward and right
-    Vec3 movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
+    Vec3 movement = new Vec3();
+    if (!FlipDirectionsForSomeReason)
+    {
+      //calculate movement based on forward and right
+      movement = (forward * inputDirection.z + right * inputDirection.x) * (dt * MoveSpeed);
+    }
+    else
+    {
+      //calculate movement based on forward and right
+      movement = (forward * -inputDirection.z + right * -inputDirection.x) * (dt * MoveSpeed);
+    }
 
     //please for the love of god
     if (ConfineMovement)

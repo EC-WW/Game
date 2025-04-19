@@ -5876,9 +5876,9 @@
               1.0
             ],
             "translation": [
-              9.262288093566895,
-              3.571619987487793,
-              -2.320760726928711
+              14.456014633178711,
+              4.8119306564331055,
+              -0.7353241443634033
             ]
           },
           "Name": "struct Client::Transform"
@@ -5891,9 +5891,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.967065691947937,
-              "y": -0.18417988717556,
-              "z": -0.1770288050174713
+              "x": -0.9023956060409546,
+              "y": -0.22564849257469177,
+              "z": -0.36775165796279907
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -7111,6 +7111,14 @@
                 "Type": 17,
                 "TypeName": "Vec3",
                 "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "FlipDirectionsForSomeReason",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
               }
             ],
             "Name": "FirstPersonController_NEW"
@@ -7149,5 +7157,5 @@
       "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
-  "SceneHeader": "assets\\scenes\\default.nlscene"
+  "SceneHeader": "assets/scenes/default.nlscene"
 }
