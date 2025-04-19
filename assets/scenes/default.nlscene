@@ -2799,7 +2799,7 @@
                     "translation": [
                       0.0,
                       -0.06999999284744263,
-                      0.9500000476837158
+                      0.9499998092651367
                     ]
                   },
                   "Name": "struct Client::Transform"
@@ -3348,9 +3348,9 @@
               1.0
             ],
             "translation": [
-              -6.625129699707031,
+              -7.799477577209473,
               0.5,
-              3.6605067253112793
+              6.826650142669678
             ]
           },
           "Name": "struct Client::Transform"
@@ -5876,60 +5876,9 @@
               1.0
             ],
             "translation": [
-              -4.214116096496582,
-              2.6297802925109863,
-              6.687559127807617
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad",
-            "shaded": true,
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "MAIN SCENE"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "Text",
-      "Signature": 145,
-      "Tag": "",
-      "UUID": "Jv5s-dbcz-j4l9-H9Pk"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              10.685622215270996,
-              5.051154136657715,
-              -13.99885082244873
+              9.262288093566895,
+              3.571619987487793,
+              -2.320760726928711
             ]
           },
           "Name": "struct Client::Transform"
@@ -5942,9 +5891,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.8211254477500916,
-              "y": -0.2886555790901184,
-              "z": 0.4928770959377289
+              "x": -0.9577231407165527,
+              "y": -0.2556191086769104,
+              "z": -0.13380692899227142
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -7001,7 +6950,7 @@
                 ],
                 "translation": [
                   0.0,
-                  2.0,
+                  1.0,
                   0.0
                 ]
               },
@@ -7200,5 +7149,5 @@
       "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
-  "SceneHeader": "assets\\scenes\\default.nlscene"
+  "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\default.nlscene"
 }

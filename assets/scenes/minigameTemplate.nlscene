@@ -13,50 +13,6 @@
                   0.0
                 ],
                 "scale": [
-                  200.0,
-                  1.0,
-                  200.0
-                ],
-                "translation": [
-                  0.0,
-                  18.644506454467773,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "cube",
-                "shaded": false,
-                "tint": {
-                  "w": 1.0,
-                  "x": 0.014564734883606434,
-                  "y": 0.005355181638151407,
-                  "z": 0.03821653127670288
-                }
-              },
-              "Name": "struct Client::ModelComponent"
-            }
-          ],
-          "Name": "Ceiling",
-          "Signature": 17,
-          "Tag": "",
-          "UUID": "40Wb-ncRh-tgTZ-7mxV"
-        },
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
                   25.0,
                   1.0,
                   25.0
@@ -266,75 +222,6 @@
                 "scale": [
                   0.9999999403953552,
                   7.0,
-                  24.999998092651367
-                ],
-                "translation": [
-                  0.0,
-                  2.0,
-                  12.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "cube",
-                "shaded": false,
-                "tint": {
-                  "w": 1.0,
-                  "x": 0.024775870144367218,
-                  "y": 0.015822136774659157,
-                  "z": 0.047770678997039795
-                }
-              },
-              "Name": "struct Client::ModelComponent"
-            },
-            {
-              "Data": {
-                "activationMode": 0,
-                "halfExtents": [
-                  0.4999999701976776,
-                  3.5,
-                  12.499999046325684
-                ],
-                "layer": 0,
-                "motionType": 0,
-                "position": [
-                  0.0,
-                  2.0,
-                  12.0
-                ],
-                "radius": 0.4999999701976776,
-                "rotation": [
-                  0.0,
-                  1.570105791091919,
-                  0.0
-                ],
-                "shape": 1
-              },
-              "Name": "struct Client::PhysicsComponent"
-            }
-          ],
-          "Name": "Wall",
-          "Signature": 273,
-          "Tag": "",
-          "UUID": "MZBM-fKft-6CNn-WpVx"
-        },
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  1.5699505805969238,
-                  0.0
-                ],
-                "scale": [
-                  0.9999999403953552,
-                  7.0,
                   12.0
                 ],
                 "translation": [
@@ -503,6 +390,50 @@
           "Signature": 17,
           "Tag": "",
           "UUID": "xZRF-zFS2-P7wJ-4wz1"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  25.0,
+                  1.0,
+                  25.0
+                ],
+                "translation": [
+                  0.0,
+                  6.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.05869665369391441,
+                  "y": 0.04559008404612541,
+                  "z": 0.09235668182373047
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cieling",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "RlxB-VX3B-8qrP-Jkfj"
         }
       ],
       "Components": [
@@ -1366,6 +1297,452 @@
       "UUID": "sWKc-q8Qm-p93Q-5cJR"
     },
     {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.07500000298023224,
+                  0.30000001192092896,
+                  1.0
+                ],
+                "translation": [
+                  -0.2206232249736786,
+                  0.026575326919555664,
+                  -0.5200004577636719
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.18471336364746094,
+                  "z": 0.18471336364746094
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Game Title"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "GameTitle",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "BST5-w8vl-T0sl-CBN0"
+        },
+        {
+          "Children": [
+            {
+              "Children": [],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      -0.0,
+                      0.0
+                    ],
+                    "scale": [
+                      1.0199999809265137,
+                      1.0889999866485596,
+                      5.0
+                    ],
+                    "translation": [
+                      7.2479248046875e-05,
+                      0.0,
+                      0.414825439453125
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "quad",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                }
+              ],
+              "Name": "TextFrame",
+              "Signature": 17,
+              "Tag": "",
+              "UUID": "Tvsf-lnbt-C5Hb-xsCC"
+            }
+          ],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1415927410125732,
+                  0.006370114628225565,
+                  3.1415927410125732
+                ],
+                "scale": [
+                  0.6000114679336548,
+                  0.3499999940395355,
+                  0.0999981164932251
+                ],
+                "translation": [
+                  0.014999985694885254,
+                  0.0,
+                  -0.4623069763183594
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextFrame",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "3FKl-X5dD-QnS3-nkCV"
+        },
+        {
+          "Children": [
+            {
+              "Children": [
+                {
+                  "Children": [],
+                  "Components": [
+                    {
+                      "Data": {
+                        "rotation": [
+                          0.0,
+                          -0.0,
+                          0.0
+                        ],
+                        "scale": [
+                          1.1000001430511475,
+                          1.100000023841858,
+                          5.0
+                        ],
+                        "translation": [
+                          7.2479248046875e-05,
+                          0.0,
+                          0.41481781005859375
+                        ]
+                      },
+                      "Name": "struct Client::Transform"
+                    },
+                    {
+                      "Data": {
+                        "diagetic": true,
+                        "materialSetID": 4294967295,
+                        "modelPath": "quad",
+                        "shaded": false,
+                        "tint": {
+                          "w": 1.0,
+                          "x": 0.30573248863220215,
+                          "y": 0.30573248863220215,
+                          "z": 0.30573248863220215
+                        }
+                      },
+                      "Name": "struct Client::ModelComponent"
+                    }
+                  ],
+                  "Name": "TextFrame",
+                  "Signature": 17,
+                  "Tag": "",
+                  "UUID": "tTlC-PSZv-m3Tc-0p0v"
+                }
+              ],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      3.140000104904175,
+                      0.0
+                    ],
+                    "scale": [
+                      0.800000011920929,
+                      0.800000011920929,
+                      0.1428571492433548
+                    ],
+                    "translation": [
+                      0.0,
+                      0.007105976343154907,
+                      -0.44418686628341675
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "cube",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                }
+              ],
+              "Name": "TextFrame",
+              "Signature": 17,
+              "Tag": "",
+              "UUID": "FD6d-vbF9-jRqR-h9zt"
+            }
+          ],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.5,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.17499999701976776,
+                  0.699999988079071,
+                  0.699999988079071
+                ],
+                "translation": [
+                  0.0,
+                  0.6299999952316284,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.08954725414514542,
+                  "y": 0.19455072283744812,
+                  "z": 0.3471337556838989
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Cube",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "Mmx6-SCHz-bX4h-HDJf"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.5,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.07500000298023224,
+                  0.30000001192092896,
+                  0.25000008940696716
+                ],
+                "translation": [
+                  0.008356813341379166,
+                  0.833436131477356,
+                  -0.3097953796386719
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.9652115702629089,
+                  "z": 0.2197452187538147
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": ""
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "Prompt",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "W9Gg-16qR-h9Bm-CVsh"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              4.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              -1.0,
+              12.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": false,
+            "tint": {
+              "w": 1.0,
+              "x": 0.08032780885696411,
+              "y": 0.10143949836492538,
+              "z": 0.25477707386016846
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "CamEntity",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Data": "NfQt-QzM1-vT7m-tcFh",
+                "Name": "TargetCamera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Data": "W9Gg-16qR-h9Bm-CVsh",
+                "Name": "TextPrompt",
+                "Size": 8,
+                "Type": 18,
+                "TypeName": "TextComponent",
+                "isComponent": true
+              },
+              {
+                "Align": 4,
+                "Data": 3.0,
+                "Name": "DistanceCheck",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.800000011920929,
+                "Name": "CamMoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 2.0,
+                "Name": "CamRotSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "4rJh-DNhB-zdvb-tgkj",
+                "Name": "ReturnText",
+                "Size": 8,
+                "Type": 18,
+                "TypeName": "TextComponent",
+                "isComponent": true
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "MinigameActive",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              }
+            ],
+            "Name": "Console"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Console",
+      "Signature": 81,
+      "Tag": "",
+      "UUID": "Kxfl-l4Th-sTgB-qkNs"
+    },
+    {
       "Children": [],
       "Components": [
         {
@@ -1376,29 +1753,29 @@
               0.0
             ],
             "scale": [
-              1.0,
-              1.0,
+              0.05000000074505806,
+              0.05000000074505806,
               1.0
             ],
             "translation": [
-              -4.214116096496582,
-              2.6297802925109863,
-              6.687559127807617
+              -0.1550000011920929,
+              -0.40176883339881897,
+              1.0206761360168457
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "diagetic": true,
+            "diagetic": false,
             "materialSetID": 4294967295,
             "modelPath": "quad",
             "shaded": true,
             "tint": {
               "w": 1.0,
               "x": 1.0,
-              "y": 0.0,
-              "z": 0.0
+              "y": 1.0,
+              "z": 1.0
             }
           },
           "Name": "struct Client::ModelComponent"
@@ -1406,15 +1783,15 @@
         {
           "Data": {
             "fontPath": "Baloo-Regular.ttf",
-            "text": "MINIGAME SCENE"
+            "text": ""
           },
           "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "Text",
+      "Name": "ReturnText",
       "Signature": 145,
       "Tag": "",
-      "UUID": "Jv5s-dbcz-j4l9-H9Pk"
+      "UUID": "4rJh-DNhB-zdvb-tgkj"
     },
     {
       "Children": [],
@@ -1432,9 +1809,9 @@
               1.0
             ],
             "translation": [
-              0.672922670841217,
-              4.80825138092041,
-              -8.470909118652344
+              3.8252298831939697,
+              4.523428916931152,
+              -2.80037784576416
             ]
           },
           "Name": "struct Client::Transform"
@@ -1447,9 +1824,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.31904831528663635,
-              "y": -0.7383177876472473,
-              "z": -0.6400367617607117
+              "x": -0.49232369661331177,
+              "y": -0.22109952569007874,
+              "z": 0.8741172552108765
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -1481,7 +1858,7 @@
         {
           "Data": {
             "rotation": [
-              0.0,
+              180.39999389648438,
               0.0,
               0.0
             ],
@@ -1491,58 +1868,44 @@
               1.0
             ],
             "translation": [
-              0.0,
-              2.5543248653411865,
-              3.5321850776672363
+              -7.66380500793457,
+              3.3636810779571533,
+              5.327057361602783
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "cube",
-            "shaded": true,
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": 0.006983700208365917,
+              "y": -3.454296179256041e-26,
+              "z": 0.9999756217002869
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
             }
           },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              0.5,
-              0.5,
-              0.5
-            ],
-            "layer": 1,
-            "motionType": 2,
-            "position": [
-              0.0,
-              2.5543248653411865,
-              3.5321850776672363
-            ],
-            "radius": 0.5,
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
+          "Name": "struct Client::CameraComponent"
         }
       ],
-      "Name": "Cube",
-      "Signature": 273,
+      "Name": "TargetCamera",
+      "Signature": 3,
       "Tag": "",
-      "UUID": "XqPg-CHTl-jKGh-z5Vl"
+      "UUID": "NfQt-QzM1-vT7m-tcFh"
     },
     {
       "Children": [],
@@ -1570,9 +1933,9 @@
         {
           "Data": {
             "clearColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "x": 0.01568627543747425,
+              "y": 0.003921568859368563,
+              "z": 0.03921568766236305
             },
             "direction": {
               "x": -4.76837158203125e-07,
@@ -1931,7 +2294,7 @@
                 ],
                 "translation": [
                   0.0,
-                  2.0,
+                  1.0,
                   0.0
                 ]
               },
@@ -2130,5 +2493,5 @@
       "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
-  "SceneHeader": "assets/scenes/minigameTemplate.nlscene"
+  "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\minigameTemplate.nlscene"
 }

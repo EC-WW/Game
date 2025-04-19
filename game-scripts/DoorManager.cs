@@ -1,10 +1,10 @@
 /**
-/ file:   TaylorTest.cs
+/ file:   DoorManager.cs
 / author: taylor.cadwallader
-/ date:   April 16, 2025
+/ date:   April 18, 2025
 / Copyright (c) 2024 DigiPen (USA) Corporation. 
 / 
-/ brief:  Taylor does what Taylor wants in here.
+/ brief:  Handles logic for the exiting door sequence.
 **/
 using System;
 using System.Collections.Generic;

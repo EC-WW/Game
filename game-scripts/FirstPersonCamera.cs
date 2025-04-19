@@ -105,6 +105,9 @@ public class FirstPersonCamera : NL_Script
     newCamRot += new Vec3(Math.Clamp(NITELITE.Input.MouseDelta.x * MouseSensitivityX, -maxRotationFrame, maxRotationFrame),
                           -NITELITE.Input.MouseDelta.y * MouseSensitivityY, 0f);
 
+    // Clamp pitch immediately after applying mouse delta
+    newCamRot.y = Math.Clamp(newCamRot.y, MinPitch, MaxPitch);
+
     float rotationX = camera.rotation.x;
 
     //fix infinite spin bug
@@ -128,10 +131,7 @@ public class FirstPersonCamera : NL_Script
 
   private void CameraFollow()
   {
-    Vec3 playerPos = Player.GetPosition();
-    Vec3 followPos = FollowPoint.GetPosition();
-    //follow point is a child object of the player that essentially is being used as just an offset
-    transform.SetPosition(playerPos + followPos);
+    transform.SetPosition(FollowPoint.GetGlobalPosition());
   }
 
   public override void Exit()

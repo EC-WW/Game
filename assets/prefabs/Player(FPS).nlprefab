@@ -17,7 +17,7 @@
             ],
             "translation": [
               0.0,
-              2.0,
+              1.0,
               0.0
             ]
           },
@@ -45,7 +45,7 @@
         ],
         "translation": [
           0.0,
-          -0.5,
+          -0.5000029802322388,
           0.0
         ]
       },
@@ -102,6 +102,82 @@
             "Size": 1,
             "Type": 2,
             "TypeName": "System.Boolean"
+          },
+          {
+            "Align": 1,
+            "Data": true,
+            "Name": "ConfineMovement",
+            "Size": 1,
+            "Type": 2,
+            "TypeName": "System.Boolean"
+          },
+          {
+            "Align": 4,
+            "Children": [
+              {
+                "Align": 4,
+                "Data": 11.0,
+                "Name": "x",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "y",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 11.0,
+                "Name": "z",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "maxMovePos",
+            "Size": 12,
+            "Type": 17,
+            "TypeName": "Vec3",
+            "isComponent": false
+          },
+          {
+            "Align": 4,
+            "Children": [
+              {
+                "Align": 4,
+                "Data": -11.0,
+                "Name": "x",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.0,
+                "Name": "y",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": -11.0,
+                "Name": "z",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "minMovePos",
+            "Size": 12,
+            "Type": 17,
+            "TypeName": "Vec3",
+            "isComponent": false
           }
         ],
         "Name": "FirstPersonController_NEW"
@@ -120,7 +196,7 @@
         "motionType": 2,
         "position": [
           0.0,
-          -0.5,
+          -0.5000029802322388,
           0.0
         ],
         "radius": 0.25,

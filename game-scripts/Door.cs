@@ -1,10 +1,10 @@
 /**
-/ file:   TaylorTest.cs
+/ file:   Door.cs
 / author: taylor.cadwallader
-/ date:   April 16, 2025
+/ date:   April 17, 2025
 / Copyright (c) 2024 DigiPen (USA) Corporation. 
 / 
-/ brief:  Taylor does what Taylor wants in here.
+/ brief:  Handles logic for the entering door sequence of individual doors.
 **/
 using System;
 using System.Collections.Generic;
@@ -117,7 +117,7 @@ public class Door : NL_Script
 
         // Manually invert the direction if needed
         Vec3 flippedDir = new Vec3(lookDir.x, lookDir.y, lookDir.z);
-        camComponent.facingDirection = flippedDir;
+        camComponent.facingDirection = LerpVec3(camComponent.facingDirection, flippedDir, dt * CamARotSpeed * dtMult);
 
         dtMult += dt;
       }

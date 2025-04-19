@@ -1,10 +1,10 @@
 /**
-/ file:   TaylorTest.cs
+/ file:   FollowEntity.cs
 / author: taylor.cadwallader
-/ date:   April 16, 2025
+/ date:   April 17, 2025
 / Copyright (c) 2024 DigiPen (USA) Corporation. 
 / 
-/ brief:  Taylor does what Taylor wants in here.
+/ brief:  Used to make the attached entity match the position of another entity.
 **/
 using System;
 using System.Collections.Generic;
