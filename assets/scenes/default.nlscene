@@ -6773,65 +6773,6 @@
       "UUID": "mB1t-97lW-WFQD-tzDl"
     },
     {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              3.8160312175750732,
-              6.1518049240112305,
-              -4.35383939743042
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "clearColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "direction": {
-              "x": -0.19798697531223297,
-              "y": -0.3862573802471161,
-              "z": 0.90106201171875
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
-        }
-      ],
-      "Name": "EditorCamera",
-      "Signature": 11,
-      "Tag": "",
-      "UUID": "SVF6-Lmgw-wLDd-b7M2"
-    },
-    {
       "Children": [
         {
           "Children": [],
@@ -8067,7 +8008,66 @@
       "Signature": 321,
       "Tag": "",
       "UUID": "HKP4-1Hzd-tgCL-PnRd"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              3.8160312175750732,
+              6.1518049240112305,
+              -4.35383939743042
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": -0.19798697531223297,
+              "y": -0.3862573802471161,
+              "z": 0.90106201171875
+            },
+            "editorCamera": 1,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {},
+          "Name": "struct Client::HideComponent"
+        }
+      ],
+      "Name": "EditorCamera",
+      "Signature": 11,
+      "Tag": "",
+      "UUID": "SVF6-Lmgw-wLDd-b7M2"
     }
   ],
-  "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\default.nlscene"
+  "SceneHeader": "C:\\Code\\Game\\\\assets\\scenes\\default.nlscene"
 }

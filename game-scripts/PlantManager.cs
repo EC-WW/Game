@@ -164,6 +164,9 @@ public class PlantManager : NL_Script
     applePrice = int.Parse(appleCost.GetComponent<TextComponent>().Text.Substring(1));
     gApplePrice = int.Parse(gAppleCost.GetComponent<TextComponent>().Text.Substring(1));
     watermelonPrice = int.Parse(watermelonCost.GetComponent<TextComponent>().Text.Substring(1));
+
+    // log prices
+    NL_INFO("Banana price: " + bananaPrice);
   }
 
   public override void Update()

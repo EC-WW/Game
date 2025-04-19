@@ -8984,108 +8984,6 @@
           "Data": {
             "rotation": [
               0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              -100.0,
-              0.0,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "quad",
-            "shaded": true,
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": "0"
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "GameState",
-      "Signature": 145,
-      "Tag": "",
-      "UUID": "pjvR-PBp1-lq6F-2zcn"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              -0.0,
-              0.0
-            ],
-            "scale": [
-              0.05000000074505806,
-              0.05000000074505806,
-              1.0
-            ],
-            "translation": [
-              0.5,
-              -0.5,
-              1.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "diagetic": false,
-            "materialSetID": 4294967295,
-            "modelPath": "quad",
-            "shaded": true,
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "fontPath": "Baloo-Regular.ttf",
-            "text": ""
-          },
-          "Name": "struct Client::TextComponent"
-        }
-      ],
-      "Name": "zzReturnText",
-      "Signature": 145,
-      "Tag": "",
-      "UUID": "4rJh-DNhB-zdvb-tgkj"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
               -0.0,
               0.0
             ],
@@ -9411,7 +9309,7 @@
               "Name": "struct Client::ModelComponent"
             }
           ],
-          "Name": "Cube",
+          "Name": "smt",
           "Signature": 17,
           "Tag": "",
           "UUID": "Mmx6-SCHz-bX4h-HDJf"
@@ -9611,48 +9509,91 @@
               1.0
             ],
             "translation": [
-              -0.6890688538551331,
-              6.740100383758545,
-              -19.19938087463379
+              -100.0,
+              0.0,
+              0.0
             ]
           },
           "Name": "struct Client::Transform"
         },
         {
           "Data": {
-            "clearColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "direction": {
-              "x": 0.23447687923908234,
-              "y": -0.4016571342945099,
-              "z": 0.9829384088516235
-            },
-            "editorCamera": 1,
-            "farPlane": 2000.0,
-            "fov": 0.8726646304130554,
-            "main": false,
-            "nearPlane": 0.009999999776482582,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
             }
           },
-          "Name": "struct Client::CameraComponent"
+          "Name": "struct Client::ModelComponent"
         },
         {
-          "Data": {},
-          "Name": "struct Client::HideComponent"
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
+          },
+          "Name": "struct Client::TextComponent"
         }
       ],
-      "Name": "EditorCamera",
-      "Signature": 11,
+      "Name": "GameState",
+      "Signature": 145,
       "Tag": "",
-      "UUID": "SVF6-Lmgw-wLDd-b7M2"
+      "UUID": "pjvR-PBp1-lq6F-2zcn"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806,
+              1.0
+            ],
+            "translation": [
+              0.5,
+              -0.5,
+              1.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": false,
+            "materialSetID": 4294967295,
+            "modelPath": "quad",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": ""
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "zzReturnText",
+      "Signature": 145,
+      "Tag": "",
+      "UUID": "4rJh-DNhB-zdvb-tgkj"
     },
     {
       "Children": [],
@@ -9935,6 +9876,496 @@
       "Signature": 65,
       "Tag": "",
       "UUID": "XVbl-Jv2R-HMpN-hLXt"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              11.01099967956543,
+              -31.375999450683594,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              3.677861452102661,
+              6.291597843170166,
+              -5.1742939949035645
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "direction": {
+              "x": -0.003403536044061184,
+              "y": -0.7337693572044373,
+              "z": 0.6793901324272156
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 0.8726646304130554,
+            "main": false,
+            "nearPlane": 0.009999999776482582,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "1V9d-HTfn-Kvh0-kTWZ",
+                "Name": "Camera",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Data": 5.0,
+                "Name": "moveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "lookSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "CameraController"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Camera",
+      "Signature": 67,
+      "Tag": "",
+      "UUID": "1V9d-HTfn-Kvh0-kTWZ"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              -2.212373733520508,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              0.9999998807907104,
+              0.9999998807907104
+            ],
+            "translation": [
+              4.29062557220459,
+              3.415178060531616,
+              -20.907859802246094
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "clearColor": {
+              "x": 0.01568627543747425,
+              "y": 0.003921568859368563,
+              "z": 0.03921568766236305
+            },
+            "direction": {
+              "x": -4.76837158203125e-07,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "editorCamera": 0,
+            "farPlane": 2000.0,
+            "fov": 1.0471975803375244,
+            "main": true,
+            "nearPlane": 0.10000000149011612,
+            "roll": 0.0,
+            "up": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            }
+          },
+          "Name": "struct Client::CameraComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "rngN-pX16-5hZZ-Kh6B",
+                "Name": "FollowPoint",
+                "Size": 8,
+                "Type": 18,
+                "TypeName": "Transform",
+                "isComponent": true
+              },
+              {
+                "Align": 8,
+                "Data": "HKP4-1Hzd-tgCL-PnRd",
+                "Name": "Player",
+                "Size": 8,
+                "Type": 18,
+                "TypeName": "Transform",
+                "isComponent": true
+              },
+              {
+                "Align": 4,
+                "Data": 0.25,
+                "Name": "LerpValue",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.25,
+                "Name": "InitialLerp",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "MaxLerp",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": 0.25,
+                "Name": "BobFrequency",
+                "Size": 8,
+                "Type": 13,
+                "TypeName": "System.Double"
+              },
+              {
+                "Align": 8,
+                "Data": 0.1,
+                "Name": "BobAmplitude",
+                "Size": 8,
+                "Type": 13,
+                "TypeName": "System.Double"
+              },
+              {
+                "Align": 4,
+                "Data": 0.10000000149011612,
+                "Name": "MouseSensitivityX",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.07500000298023224,
+                "Name": "MouseSensitivityY",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": -60.0,
+                "Name": "MinPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 70.0,
+                "Name": "MaxPitch",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 40.0,
+                "Name": "LerpSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 50.0,
+                "Name": "maxRotationFrame",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "StopEverything",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              }
+            ],
+            "Name": "FirstPersonCamera"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "zzCamera(FPS)",
+      "Signature": 67,
+      "Tag": "",
+      "UUID": "gH8L-RCG0-h40N-Rl2D"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "CamFollow",
+          "Signature": 1,
+          "Tag": "",
+          "UUID": "rngN-pX16-5hZZ-Kh6B"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              2.0,
+              0.5
+            ],
+            "translation": [
+              3.707515001296997,
+              1.415175437927246,
+              -20.907859802246094
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "usePhysics",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Data": -10.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 14.0,
+                "Name": "JumpForce",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 4.099999904632568,
+                "Name": "Gravity",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "camEnt",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "StopEverything",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 1,
+                "Data": true,
+                "Name": "ConfineMovement",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 15.291000366210938,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": -9.907999992370605,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "maxMovePos",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": -6.298999786376953,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": -31.908000946044922,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "minMovePos",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3",
+                "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": true,
+                "Name": "FlipDirectionsForSomeReason",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              }
+            ],
+            "Name": "FirstPersonController_NEW"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              0.25,
+              1.0,
+              0.25
+            ],
+            "layer": 1,
+            "motionType": 2,
+            "position": [
+              3.707515001296997,
+              1.415175437927246,
+              -20.907859802246094
+            ],
+            "radius": 0.25,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "zzPlayer(FPS)",
+      "Signature": 321,
+      "Tag": "",
+      "UUID": "HKP4-1Hzd-tgCL-PnRd"
     },
     {
       "Children": [
@@ -10885,8 +11316,8 @@
         {
           "Data": {
             "rotation": [
-              11.01099967956543,
-              -31.375999450683594,
+              0.0,
+              0.0,
               0.0
             ],
             "scale": [
@@ -10895,9 +11326,9 @@
               1.0
             ],
             "translation": [
-              3.677861452102661,
-              6.291597843170166,
-              -5.1742939949035645
+              4.222135066986084,
+              5.562711238861084,
+              -14.776031494140625
             ]
           },
           "Name": "struct Client::Transform"
@@ -10910,11 +11341,11 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.003403536044061184,
-              "y": -0.7337693572044373,
-              "z": 0.6793901324272156
+              "x": -0.1018429771065712,
+              "y": -0.2573736310005188,
+              "z": 1.0515986680984497
             },
-            "editorCamera": 0,
+            "editorCamera": 1,
             "farPlane": 2000.0,
             "fov": 0.8726646304130554,
             "main": false,
@@ -10929,446 +11360,15 @@
           "Name": "struct Client::CameraComponent"
         },
         {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "1V9d-HTfn-Kvh0-kTWZ",
-                "Name": "Camera",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Data": 5.0,
-                "Name": "moveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 50.0,
-                "Name": "lookSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              }
-            ],
-            "Name": "CameraController"
-          },
-          "Name": "struct Client::Script"
+          "Data": {},
+          "Name": "struct Client::HideComponent"
         }
       ],
-      "Name": "Camera",
-      "Signature": 67,
+      "Name": "EditorCamera",
+      "Signature": 11,
       "Tag": "",
-      "UUID": "1V9d-HTfn-Kvh0-kTWZ"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              -2.212373733520508,
-              -0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              0.9999998807907104,
-              0.9999998807907104
-            ],
-            "translation": [
-              4.29062557220459,
-              3.415178060531616,
-              -20.907859802246094
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "clearColor": {
-              "x": 0.01568627543747425,
-              "y": 0.003921568859368563,
-              "z": 0.03921568766236305
-            },
-            "direction": {
-              "x": -4.76837158203125e-07,
-              "y": 0.0,
-              "z": 1.0
-            },
-            "editorCamera": 0,
-            "farPlane": 2000.0,
-            "fov": 1.0471975803375244,
-            "main": true,
-            "nearPlane": 0.10000000149011612,
-            "roll": 0.0,
-            "up": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": 0.0
-            }
-          },
-          "Name": "struct Client::CameraComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "rngN-pX16-5hZZ-Kh6B",
-                "Name": "FollowPoint",
-                "Size": 8,
-                "Type": 18,
-                "TypeName": "Transform",
-                "isComponent": true
-              },
-              {
-                "Align": 8,
-                "Data": "HKP4-1Hzd-tgCL-PnRd",
-                "Name": "Player",
-                "Size": 8,
-                "Type": 18,
-                "TypeName": "Transform",
-                "isComponent": true
-              },
-              {
-                "Align": 4,
-                "Data": 0.25,
-                "Name": "LerpValue",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.25,
-                "Name": "InitialLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 10.0,
-                "Name": "MaxLerp",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 8,
-                "Data": 0.25,
-                "Name": "BobFrequency",
-                "Size": 8,
-                "Type": 13,
-                "TypeName": "System.Double"
-              },
-              {
-                "Align": 8,
-                "Data": 0.1,
-                "Name": "BobAmplitude",
-                "Size": 8,
-                "Type": 13,
-                "TypeName": "System.Double"
-              },
-              {
-                "Align": 4,
-                "Data": 0.10000000149011612,
-                "Name": "MouseSensitivityX",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.07500000298023224,
-                "Name": "MouseSensitivityY",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": -60.0,
-                "Name": "MinPitch",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 70.0,
-                "Name": "MaxPitch",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 40.0,
-                "Name": "LerpSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 50.0,
-                "Name": "maxRotationFrame",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "StopEverything",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              }
-            ],
-            "Name": "FirstPersonCamera"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "zzCamera(FPS)",
-      "Signature": 67,
-      "Tag": "",
-      "UUID": "gH8L-RCG0-h40N-Rl2D"
-    },
-    {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  1.0,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            }
-          ],
-          "Name": "CamFollow",
-          "Signature": 1,
-          "Tag": "",
-          "UUID": "rngN-pX16-5hZZ-Kh6B"
-        }
-      ],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              -0.0,
-              0.0
-            ],
-            "scale": [
-              0.5,
-              2.0,
-              0.5
-            ],
-            "translation": [
-              3.707515001296997,
-              1.415175437927246,
-              -20.907859802246094
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "usePhysics",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 4,
-                "Data": -10.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 14.0,
-                "Name": "JumpForce",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 4.099999904632568,
-                "Name": "Gravity",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 8,
-                "Data": "gH8L-RCG0-h40N-Rl2D",
-                "Name": "camEnt",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "StopEverything",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 1,
-                "Data": true,
-                "Name": "ConfineMovement",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 15.291000366210938,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": -9.907999992370605,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "maxMovePos",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": -6.298999786376953,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": -31.908000946044922,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "minMovePos",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3",
-                "isComponent": false
-              },
-              {
-                "Align": 1,
-                "Data": true,
-                "Name": "FlipDirectionsForSomeReason",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              }
-            ],
-            "Name": "FirstPersonController_NEW"
-          },
-          "Name": "struct Client::Script"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              0.25,
-              1.0,
-              0.25
-            ],
-            "layer": 1,
-            "motionType": 2,
-            "position": [
-              3.707515001296997,
-              1.415175437927246,
-              -20.907859802246094
-            ],
-            "radius": 0.25,
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
-        }
-      ],
-      "Name": "zzPlayer(FPS)",
-      "Signature": 321,
-      "Tag": "",
-      "UUID": "HKP4-1Hzd-tgCL-PnRd"
+      "UUID": "SVF6-Lmgw-wLDd-b7M2"
     }
   ],
-  "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\pvz.nlscene"
+  "SceneHeader": "C:\\Code\\Game\\\\assets\\scenes\\pvz.nlscene"
 }
