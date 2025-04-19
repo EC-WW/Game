@@ -32,6 +32,15 @@ namespace FlappyBird
         running = true;
         self.GetComponent<PhysicsComponent>().Velocity = new Vec3(0, 5, 0);
       }
+
+      if(self.GetComponent<Transform>().GetPosition().y < -2 || self.GetComponent<Transform>().GetPosition().y > 9)
+      {
+        PipeCollision c = new PipeCollision();
+        Events.Signal(ref c);
+
+        self.GetComponent<PhysicsComponent>().Velocity = new Vec3(0, 0, 0);
+        self.GetComponent<Transform>().SetPosition(new Vec3(0, 2.5f, 20));
+      }
     }
 
     public override void Exit()
