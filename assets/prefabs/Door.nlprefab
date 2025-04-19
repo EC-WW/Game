@@ -42,7 +42,7 @@
       "Name": "Frame_L",
       "Signature": 17,
       "Tag": "",
-      "UUID": "F3qd-TgDg-Lchb-w16w"
+      "UUID": "FkJS-hxgg-XZH8-t3c8"
     },
     {
       "Children": [],
@@ -86,7 +86,7 @@
       "Name": "Frame_R",
       "Signature": 17,
       "Tag": "",
-      "UUID": "gqDG-VhFz-4v0R-xHZL"
+      "UUID": "g0rJ-5XfH-jrMD-S9W2"
     },
     {
       "Children": [],
@@ -130,7 +130,7 @@
       "Name": "Frame_T",
       "Signature": 17,
       "Tag": "",
-      "UUID": "jdWw-G72V-prfV-Z3SB"
+      "UUID": "QTfN-sRPQ-Wh3L-PhcH"
     },
     {
       "Children": [],
@@ -174,7 +174,7 @@
       "Name": "Carpet(Light)",
       "Signature": 17,
       "Tag": "",
-      "UUID": "jL6h-xSm7-hPd8-Vrwc"
+      "UUID": "JCCw-225V-v4ZN-vQdM"
     },
     {
       "Children": [],
@@ -218,7 +218,7 @@
       "Name": "Carpet(Dark)",
       "Signature": 17,
       "Tag": "",
-      "UUID": "g9jV-777w-LLVQ-tRb2"
+      "UUID": "0xkg-njBp-b7VQ-JxsL"
     },
     {
       "Children": [],
@@ -247,7 +247,7 @@
       "Name": "Point_A",
       "Signature": 1,
       "Tag": "",
-      "UUID": "71v1-Gm1H-vfRS-5RVC"
+      "UUID": "5WKh-xKk6-1STQ-gwbm"
     },
     {
       "Children": [
@@ -294,7 +294,7 @@
                 "Fields": [
                   {
                     "Align": 8,
-                    "Data": "minigameTemplate",
+                    "Data": "default",
                     "Name": "SceneName",
                     "Size": 8,
                     "Type": 14,
@@ -321,7 +321,7 @@
                   },
                   {
                     "Align": 8,
-                    "Data": "sWKc-q8Qm-p93Q-5cJR",
+                    "Data": "QbT2-bMKF-qXKv-RkC3",
                     "Name": "MainParent",
                     "Size": 8,
                     "Type": 18,
@@ -330,7 +330,7 @@
                   },
                   {
                     "Align": 8,
-                    "Data": "Pw3l-bJZv-BlZm-PT0s",
+                    "Data": "V4kH-rWT3-PDpn-f3b8",
                     "Name": "DoorParent",
                     "Size": 8,
                     "Type": 18,
@@ -339,7 +339,7 @@
                   },
                   {
                     "Align": 8,
-                    "Data": "sNv4-P77G-6c6L-WLHG",
+                    "Data": "nBbT-04kN-PcZR-gcN5",
                     "Name": "TextPrompt",
                     "Size": 8,
                     "Type": 18,
@@ -431,7 +431,7 @@
                   },
                   {
                     "Align": 8,
-                    "Data": "71v1-Gm1H-vfRS-5RVC",
+                    "Data": "5WKh-xKk6-1STQ-gwbm",
                     "Name": "CamPointA",
                     "Size": 8,
                     "Type": 18,
@@ -440,7 +440,7 @@
                   },
                   {
                     "Align": 8,
-                    "Data": "2nR0-7zFH-7ZmL-3pP6",
+                    "Data": "MCwv-pq6B-rWw7-8qTK",
                     "Name": "CamPointB",
                     "Size": 8,
                     "Type": 18,
@@ -464,7 +464,7 @@
           "Name": "Door",
           "Signature": 81,
           "Tag": "",
-          "UUID": "qGQR-wgZD-K2qK-T6Zr"
+          "UUID": "10df-QJfh-jKjG-Q66S"
         },
         {
           "Children": [],
@@ -515,7 +515,7 @@
           "Name": "Prompt",
           "Signature": 145,
           "Tag": "",
-          "UUID": "sNv4-P77G-6c6L-WLHG"
+          "UUID": "nBbT-04kN-PcZR-gcN5"
         },
         {
           "Children": [
@@ -561,7 +561,7 @@
               "Name": "TextFrame",
               "Signature": 17,
               "Tag": "",
-              "UUID": "ft4J-BjBk-4JNl-9CT5"
+              "UUID": "7C62-7QL1-cQm4-tqs0"
             }
           ],
           "Components": [
@@ -604,7 +604,7 @@
           "Name": "TextFrame",
           "Signature": 17,
           "Tag": "",
-          "UUID": "KFg0-2m7m-B7zq-79ZB"
+          "UUID": "NWnc-gjDp-CSVw-hpNv"
         },
         {
           "Children": [
@@ -650,7 +650,7 @@
               "Name": "TextFrame",
               "Signature": 17,
               "Tag": "",
-              "UUID": "gvLM-rPTX-znt0-zCNp"
+              "UUID": "FtCG-TrNR-jwXq-9DCf"
             }
           ],
           "Components": [
@@ -693,7 +693,7 @@
           "Name": "TextFrame",
           "Signature": 17,
           "Tag": "",
-          "UUID": "wjfX-Djmx-xZ7v-Vp3T"
+          "UUID": "fkpH-j5cM-j2jC-TtQ3"
         },
         {
           "Children": [],
@@ -736,7 +736,7 @@
             {
               "Data": {
                 "fontPath": "Baloo-Regular.ttf",
-                "text": "The Breakroom"
+                "text": "???"
               },
               "Name": "struct Client::TextComponent"
             }
@@ -744,7 +744,7 @@
           "Name": "DoorTitle",
           "Signature": 145,
           "Tag": "",
-          "UUID": "fx4h-0lDG-zd7t-D51P"
+          "UUID": "K53R-1vvd-C9pc-vD0m"
         }
       ],
       "Components": [
@@ -772,7 +772,7 @@
       "Name": "DoorParent",
       "Signature": 1,
       "Tag": "",
-      "UUID": "Pw3l-bJZv-BlZm-PT0s"
+      "UUID": "V4kH-rWT3-PDpn-f3b8"
     },
     {
       "Children": [],
@@ -801,7 +801,7 @@
       "Name": "Point_B",
       "Signature": 1,
       "Tag": "",
-      "UUID": "2nR0-7zFH-7ZmL-3pP6"
+      "UUID": "MCwv-pq6B-rWw7-8qTK"
     }
   ],
   "Components": [
@@ -809,7 +809,7 @@
       "Data": {
         "rotation": [
           0.0,
-          0.0,
+          3.140000104904175,
           0.0
         ],
         "scale": [
@@ -818,16 +818,16 @@
           1.0
         ],
         "translation": [
-          -7.425000190734863,
+          12.0,
           0.5,
-          -1.0
+          -2.0
         ]
       },
       "Name": "struct Client::Transform"
     }
   ],
-  "Name": "GameDoor",
+  "Name": "Door",
   "Signature": 1,
   "Tag": "",
-  "UUID": "sWKc-q8Qm-p93Q-5cJR"
+  "UUID": "QbT2-bMKF-qXKv-RkC3"
 }

@@ -314,8 +314,8 @@
                     "tint": {
                       "w": 1.0,
                       "x": 0.7843137383460999,
-                      "y": 0.7843137383460999,
-                      "z": 0.7843137383460999
+                      "y": 0.5882353186607361,
+                      "z": 0.5882353186607361
                     }
                   },
                   "Name": "struct Client::ModelComponent"
@@ -325,7 +325,7 @@
                     "Fields": [
                       {
                         "Align": 8,
-                        "Data": "minigameTemplate",
+                        "Data": "Suika",
                         "Name": "SceneName",
                         "Size": 8,
                         "Type": 14,
@@ -767,7 +767,7 @@
                 {
                   "Data": {
                     "fontPath": "Baloo-Regular.ttf",
-                    "text": "The Breakroom"
+                    "text": "Suika"
                   },
                   "Name": "struct Client::TextComponent"
                 }
@@ -840,7 +840,7 @@
           "Data": {
             "rotation": [
               0.0,
-              -0.800000011920929,
+              -0.7850000262260437,
               0.0
             ],
             "scale": [
@@ -849,15 +849,15 @@
               1.0
             ],
             "translation": [
-              -6.0995774269104,
+              -8.0,
               0.5,
-              -8.477343559265137
+              -12.0
             ]
           },
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "GameDoor",
+      "Name": "DoorSuika",
       "Signature": 1,
       "Tag": "",
       "UUID": "sWKc-q8Qm-p93Q-5cJR"
@@ -1690,7 +1690,7 @@
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "MainDoor",
+      "Name": "DoorxMain",
       "Signature": 1,
       "Tag": "",
       "UUID": "HCFz-jhdk-FDLk-z6TX"
@@ -1980,8 +1980,8 @@
                     "tint": {
                       "w": 1.0,
                       "x": 0.7843137383460999,
-                      "y": 0.7843137383460999,
-                      "z": 0.7843137383460999
+                      "y": 0.5882353186607361,
+                      "z": 0.5882353186607361
                     }
                   },
                   "Name": "struct Client::ModelComponent"
@@ -2433,7 +2433,7 @@
                 {
                   "Data": {
                     "fontPath": "Baloo-Regular.ttf",
-                    "text": "The Breakroom"
+                    "text": "Plants v Zombs"
                   },
                   "Name": "struct Client::TextComponent"
                 }
@@ -2515,15 +2515,15 @@
               1.0
             ],
             "translation": [
-              -7.425000190734863,
+              -12.0,
               0.5,
-              -1.0
+              -2.0
             ]
           },
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "GameDoor",
+      "Name": "DoorPVZ",
       "Signature": 1,
       "Tag": "",
       "UUID": "DXpr-s5tJ-v3cV-qwFx"
@@ -2813,8 +2813,8 @@
                     "tint": {
                       "w": 1.0,
                       "x": 0.7843137383460999,
-                      "y": 0.7843137383460999,
-                      "z": 0.7843137383460999
+                      "y": 0.5882353186607361,
+                      "z": 0.5882353186607361
                     }
                   },
                   "Name": "struct Client::ModelComponent"
@@ -3266,7 +3266,7 @@
                 {
                   "Data": {
                     "fontPath": "Baloo-Regular.ttf",
-                    "text": "The Breakroom"
+                    "text": "Flappy Bird"
                   },
                   "Name": "struct Client::TextComponent"
                 }
@@ -3339,7 +3339,7 @@
           "Data": {
             "rotation": [
               0.0,
-              0.699999988079071,
+              0.7850000262260437,
               0.0
             ],
             "scale": [
@@ -3348,15 +3348,15 @@
               1.0
             ],
             "translation": [
-              -7.799477577209473,
+              -8.0,
               0.5,
-              6.826650142669678
+              8.0
             ]
           },
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "GameDoor",
+      "Name": "DoorFlappyB",
       "Signature": 1,
       "Tag": "",
       "UUID": "4888-Sc99-ZBjF-7Krk"
@@ -3526,9 +3526,9 @@
                 "shaded": false,
                 "tint": {
                   "w": 1.0,
-                  "x": 0.8196078538894653,
-                  "y": 0.09019608050584793,
-                  "z": 0.09019608050584793
+                  "x": 0.09019608050584793,
+                  "y": 0.8196078538894653,
+                  "z": 0.16470588743686676
                 }
               },
               "Name": "struct Client::ModelComponent"
@@ -3570,9 +3570,9 @@
                 "shaded": false,
                 "tint": {
                   "w": 1.0,
-                  "x": 0.21568627655506134,
-                  "y": 0.03529411926865578,
-                  "z": 0.03529411926865578
+                  "x": 0.03529411926865578,
+                  "y": 0.21568627655506134,
+                  "z": 0.054901961237192154
                 }
               },
               "Name": "struct Client::ModelComponent"
@@ -3645,9 +3645,9 @@
                     "shaded": false,
                     "tint": {
                       "w": 1.0,
-                      "x": 0.7843137383460999,
+                      "x": 0.5882353186607361,
                       "y": 0.7843137383460999,
-                      "z": 0.7843137383460999
+                      "z": 0.5882353186607361
                     }
                   },
                   "Name": "struct Client::ModelComponent"
@@ -3657,7 +3657,7 @@
                     "Fields": [
                       {
                         "Align": 8,
-                        "Data": "minigameTemplate",
+                        "Data": "Credits",
                         "Name": "SceneName",
                         "Size": 8,
                         "Type": 14,
@@ -3675,7 +3675,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "Red",
+                        "Data": "Green",
                         "Name": "HallColor",
                         "Size": 8,
                         "Type": 14,
@@ -4099,7 +4099,7 @@
                 {
                   "Data": {
                     "fontPath": "Baloo-Regular.ttf",
-                    "text": "The Breakroom"
+                    "text": "Credits Room"
                   },
                   "Name": "struct Client::TextComponent"
                 }
@@ -4181,15 +4181,15 @@
               1.0
             ],
             "translation": [
-              -0.8342804908752441,
+              0.0,
               0.5,
-              10.513408660888672
+              12.0
             ]
           },
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "GameDoor",
+      "Name": "DoorCredits",
       "Signature": 1,
       "Tag": "",
       "UUID": "bz1X-bklG-1SfZ-Dncs"
@@ -4238,7 +4238,7 @@
           "Name": "Frame_L",
           "Signature": 17,
           "Tag": "",
-          "UUID": "T4ML-CRX2-MLCg-W9TV"
+          "UUID": "sPfK-bxZZ-p0XH-n570"
         },
         {
           "Children": [],
@@ -4282,7 +4282,7 @@
           "Name": "Frame_R",
           "Signature": 17,
           "Tag": "",
-          "UUID": "Tk2G-G7jp-22TW-Cr4m"
+          "UUID": "1n8g-m4nX-LxV3-7qRF"
         },
         {
           "Children": [],
@@ -4326,7 +4326,7 @@
           "Name": "Frame_T",
           "Signature": 17,
           "Tag": "",
-          "UUID": "lRDv-cqRW-Q1pC-mM90"
+          "UUID": "CtX6-pXKv-PjHb-N6jq"
         },
         {
           "Children": [],
@@ -4370,7 +4370,7 @@
           "Name": "Carpet(Light)",
           "Signature": 17,
           "Tag": "",
-          "UUID": "80FH-5s3w-f8Km-V47d"
+          "UUID": "Xv7q-nQGC-KjxW-BMNS"
         },
         {
           "Children": [],
@@ -4414,7 +4414,7 @@
           "Name": "Carpet(Dark)",
           "Signature": 17,
           "Tag": "",
-          "UUID": "n3Z8-zx49-3R9F-x24T"
+          "UUID": "8DdJ-RRdT-hb7F-48cd"
         },
         {
           "Children": [],
@@ -4443,7 +4443,7 @@
           "Name": "Point_A",
           "Signature": 1,
           "Tag": "",
-          "UUID": "zVkG-lv74-wcMm-GW8L"
+          "UUID": "Ls9p-XqbP-KlkJ-KmQq"
         },
         {
           "Children": [
@@ -4490,7 +4490,7 @@
                     "Fields": [
                       {
                         "Align": 8,
-                        "Data": "minigameTemplate",
+                        "Data": "default",
                         "Name": "SceneName",
                         "Size": 8,
                         "Type": 14,
@@ -4517,7 +4517,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "Qtt4-sHRX-H5T0-b5qZ",
+                        "Data": "tDt6-w0Xw-nhTZ-w433",
                         "Name": "MainParent",
                         "Size": 8,
                         "Type": 18,
@@ -4526,7 +4526,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "MMB2-kqQ8-NC9v-TXm9",
+                        "Data": "Q1kj-6t5k-TkP9-NKKM",
                         "Name": "DoorParent",
                         "Size": 8,
                         "Type": 18,
@@ -4535,7 +4535,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "WgJ8-4pqw-vxfZ-GRhh",
+                        "Data": "hwSM-KjL4-p9jD-szQR",
                         "Name": "TextPrompt",
                         "Size": 8,
                         "Type": 18,
@@ -4627,7 +4627,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "zVkG-lv74-wcMm-GW8L",
+                        "Data": "Ls9p-XqbP-KlkJ-KmQq",
                         "Name": "CamPointA",
                         "Size": 8,
                         "Type": 18,
@@ -4636,7 +4636,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "Xdcs-w7dk-Hqtl-ks1s",
+                        "Data": "vXDf-Kz73-NjRm-pfNS",
                         "Name": "CamPointB",
                         "Size": 8,
                         "Type": 18,
@@ -4660,7 +4660,7 @@
               "Name": "Door",
               "Signature": 81,
               "Tag": "",
-              "UUID": "zCwQ-tr3f-1jvM-TGW6"
+              "UUID": "369v-7LDJ-72lR-cMtJ"
             },
             {
               "Children": [],
@@ -4711,7 +4711,7 @@
               "Name": "Prompt",
               "Signature": 145,
               "Tag": "",
-              "UUID": "WgJ8-4pqw-vxfZ-GRhh"
+              "UUID": "hwSM-KjL4-p9jD-szQR"
             },
             {
               "Children": [
@@ -4757,7 +4757,7 @@
                   "Name": "TextFrame",
                   "Signature": 17,
                   "Tag": "",
-                  "UUID": "NPqw-NNqz-JrSw-68sB"
+                  "UUID": "G2fZ-zR96-TL3z-rZ3T"
                 }
               ],
               "Components": [
@@ -4800,7 +4800,7 @@
               "Name": "TextFrame",
               "Signature": 17,
               "Tag": "",
-              "UUID": "nk1k-TcCv-3N71-cdqF"
+              "UUID": "VHBc-0Jzd-LzFN-w9T6"
             },
             {
               "Children": [
@@ -4846,7 +4846,7 @@
                   "Name": "TextFrame",
                   "Signature": 17,
                   "Tag": "",
-                  "UUID": "pq5D-XgtW-Qw1c-m7MX"
+                  "UUID": "37kn-8LP5-6HPV-JG6M"
                 }
               ],
               "Components": [
@@ -4889,7 +4889,7 @@
               "Name": "TextFrame",
               "Signature": 17,
               "Tag": "",
-              "UUID": "KqmN-lzrW-Zgcp-r4fb"
+              "UUID": "c82k-ZMsl-3jN7-9sSp"
             },
             {
               "Children": [],
@@ -4932,7 +4932,7 @@
                 {
                   "Data": {
                     "fontPath": "Baloo-Regular.ttf",
-                    "text": "The Breakroom"
+                    "text": "???"
                   },
                   "Name": "struct Client::TextComponent"
                 }
@@ -4940,7 +4940,7 @@
               "Name": "DoorTitle",
               "Signature": 145,
               "Tag": "",
-              "UUID": "lcCK-fXWC-ZzlW-xBGm"
+              "UUID": "m8Tg-bLPj-4SmD-6xkB"
             }
           ],
           "Components": [
@@ -4968,7 +4968,7 @@
           "Name": "DoorParent",
           "Signature": 1,
           "Tag": "",
-          "UUID": "MMB2-kqQ8-NC9v-TXm9"
+          "UUID": "Q1kj-6t5k-TkP9-NKKM"
         },
         {
           "Children": [],
@@ -4997,7 +4997,7 @@
           "Name": "Point_B",
           "Signature": 1,
           "Tag": "",
-          "UUID": "Xdcs-w7dk-Hqtl-ks1s"
+          "UUID": "vXDf-Kz73-NjRm-pfNS"
         }
       ],
       "Components": [
@@ -5005,7 +5005,7 @@
           "Data": {
             "rotation": [
               0.0,
-              -4.400000095367432,
+              3.9200000762939453,
               0.0
             ],
             "scale": [
@@ -5014,18 +5014,18 @@
               1.0
             ],
             "translation": [
-              6.070000648498535,
+              8.0,
               0.5,
-              7.41855525970459
+              -12.0
             ]
           },
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "GameDoor",
+      "Name": "Door?",
       "Signature": 1,
       "Tag": "",
-      "UUID": "Qtt4-sHRX-H5T0-b5qZ"
+      "UUID": "tDt6-w0Xw-nhTZ-w433"
     },
     {
       "Children": [
@@ -5071,7 +5071,7 @@
           "Name": "Frame_L",
           "Signature": 17,
           "Tag": "",
-          "UUID": "hvvM-GcwC-tCDF-SsQz"
+          "UUID": "FkJS-hxgg-XZH8-t3c8"
         },
         {
           "Children": [],
@@ -5115,7 +5115,7 @@
           "Name": "Frame_R",
           "Signature": 17,
           "Tag": "",
-          "UUID": "cd1S-TVRd-bNvt-038V"
+          "UUID": "g0rJ-5XfH-jrMD-S9W2"
         },
         {
           "Children": [],
@@ -5159,7 +5159,7 @@
           "Name": "Frame_T",
           "Signature": 17,
           "Tag": "",
-          "UUID": "vCcm-ZMkB-FwDT-X2fn"
+          "UUID": "QTfN-sRPQ-Wh3L-PhcH"
         },
         {
           "Children": [],
@@ -5203,7 +5203,7 @@
           "Name": "Carpet(Light)",
           "Signature": 17,
           "Tag": "",
-          "UUID": "g5Rb-MXTr-VJ2l-GqNS"
+          "UUID": "JCCw-225V-v4ZN-vQdM"
         },
         {
           "Children": [],
@@ -5247,7 +5247,7 @@
           "Name": "Carpet(Dark)",
           "Signature": 17,
           "Tag": "",
-          "UUID": "chhD-sSW8-NFP1-22Kb"
+          "UUID": "0xkg-njBp-b7VQ-JxsL"
         },
         {
           "Children": [],
@@ -5276,7 +5276,7 @@
           "Name": "Point_A",
           "Signature": 1,
           "Tag": "",
-          "UUID": "DWXp-28jK-QtVD-Z6cW"
+          "UUID": "5WKh-xKk6-1STQ-gwbm"
         },
         {
           "Children": [
@@ -5323,7 +5323,7 @@
                     "Fields": [
                       {
                         "Align": 8,
-                        "Data": "minigameTemplate",
+                        "Data": "default",
                         "Name": "SceneName",
                         "Size": 8,
                         "Type": 14,
@@ -5350,7 +5350,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "xnSZ-HB3t-VSgf-Ps76",
+                        "Data": "QbT2-bMKF-qXKv-RkC3",
                         "Name": "MainParent",
                         "Size": 8,
                         "Type": 18,
@@ -5359,7 +5359,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "xcq2-HPr6-M5MZ-2wQG",
+                        "Data": "V4kH-rWT3-PDpn-f3b8",
                         "Name": "DoorParent",
                         "Size": 8,
                         "Type": 18,
@@ -5368,7 +5368,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "Z1Fd-QQhF-vCZ7-VsNQ",
+                        "Data": "nBbT-04kN-PcZR-gcN5",
                         "Name": "TextPrompt",
                         "Size": 8,
                         "Type": 18,
@@ -5460,7 +5460,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "DWXp-28jK-QtVD-Z6cW",
+                        "Data": "5WKh-xKk6-1STQ-gwbm",
                         "Name": "CamPointA",
                         "Size": 8,
                         "Type": 18,
@@ -5469,7 +5469,7 @@
                       },
                       {
                         "Align": 8,
-                        "Data": "2BTz-37K3-bdJV-FbjM",
+                        "Data": "MCwv-pq6B-rWw7-8qTK",
                         "Name": "CamPointB",
                         "Size": 8,
                         "Type": 18,
@@ -5493,7 +5493,7 @@
               "Name": "Door",
               "Signature": 81,
               "Tag": "",
-              "UUID": "xbw8-1HdQ-NMxG-FZBK"
+              "UUID": "10df-QJfh-jKjG-Q66S"
             },
             {
               "Children": [],
@@ -5544,7 +5544,7 @@
               "Name": "Prompt",
               "Signature": 145,
               "Tag": "",
-              "UUID": "Z1Fd-QQhF-vCZ7-VsNQ"
+              "UUID": "nBbT-04kN-PcZR-gcN5"
             },
             {
               "Children": [
@@ -5590,7 +5590,7 @@
                   "Name": "TextFrame",
                   "Signature": 17,
                   "Tag": "",
-                  "UUID": "S2bK-gXmB-tbMF-V707"
+                  "UUID": "7C62-7QL1-cQm4-tqs0"
                 }
               ],
               "Components": [
@@ -5633,7 +5633,7 @@
               "Name": "TextFrame",
               "Signature": 17,
               "Tag": "",
-              "UUID": "r6Ds-HpJ7-06C1-74l3"
+              "UUID": "NWnc-gjDp-CSVw-hpNv"
             },
             {
               "Children": [
@@ -5679,7 +5679,7 @@
                   "Name": "TextFrame",
                   "Signature": 17,
                   "Tag": "",
-                  "UUID": "1zBh-FT9m-HjsW-75GD"
+                  "UUID": "FtCG-TrNR-jwXq-9DCf"
                 }
               ],
               "Components": [
@@ -5722,7 +5722,7 @@
               "Name": "TextFrame",
               "Signature": 17,
               "Tag": "",
-              "UUID": "bwxs-hfWK-pq8k-nKnb"
+              "UUID": "fkpH-j5cM-j2jC-TtQ3"
             },
             {
               "Children": [],
@@ -5765,7 +5765,7 @@
                 {
                   "Data": {
                     "fontPath": "Baloo-Regular.ttf",
-                    "text": "The Breakroom"
+                    "text": "???"
                   },
                   "Name": "struct Client::TextComponent"
                 }
@@ -5773,7 +5773,7 @@
               "Name": "DoorTitle",
               "Signature": 145,
               "Tag": "",
-              "UUID": "7FfB-NZsT-mkXS-Vkbz"
+              "UUID": "K53R-1vvd-C9pc-vD0m"
             }
           ],
           "Components": [
@@ -5801,7 +5801,7 @@
           "Name": "DoorParent",
           "Signature": 1,
           "Tag": "",
-          "UUID": "xcq2-HPr6-M5MZ-2wQG"
+          "UUID": "V4kH-rWT3-PDpn-f3b8"
         },
         {
           "Children": [],
@@ -5830,7 +5830,7 @@
           "Name": "Point_B",
           "Signature": 1,
           "Tag": "",
-          "UUID": "2BTz-37K3-bdJV-FbjM"
+          "UUID": "MCwv-pq6B-rWw7-8qTK"
         }
       ],
       "Components": [
@@ -5838,7 +5838,7 @@
           "Data": {
             "rotation": [
               0.0,
-              -3.5999999046325684,
+              3.140000104904175,
               0.0
             ],
             "scale": [
@@ -5847,18 +5847,851 @@
               1.0
             ],
             "translation": [
-              10.951181411743164,
+              12.0,
               0.5,
-              -0.2335035800933838
+              -2.0
             ]
           },
           "Name": "struct Client::Transform"
         }
       ],
-      "Name": "GameDoor",
+      "Name": "Door?",
       "Signature": 1,
       "Tag": "",
-      "UUID": "xnSZ-HB3t-VSgf-Ps76"
+      "UUID": "QbT2-bMKF-qXKv-RkC3"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  4.0,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  0.0,
+                  -0.02000001072883606,
+                  -0.9950000047683716
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.09872609376907349,
+                  "y": 0.06344560533761978,
+                  "z": 0.02861170284450054
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Frame_L",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "6SGq-Wn7n-FQb8-B4mP"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  4.0,
+                  0.10000000149011612
+                ],
+                "translation": [
+                  0.0,
+                  -0.02000001072883606,
+                  0.9950000047683716
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.09872609376907349,
+                  "y": 0.06344560533761978,
+                  "z": 0.02861170284450054
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Frame_R",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "9zBQ-L2FR-cm03-SBjk"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  0.10999999940395355,
+                  2.0999999046325684
+                ],
+                "translation": [
+                  0.0,
+                  1.934999942779541,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.09872609376907349,
+                  "y": 0.06344560533761978,
+                  "z": 0.02861170284450054
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Frame_T",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "4633-rfdZ-BSMs-bnPS"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  1.5700000524520874,
+                  0.0
+                ],
+                "scale": [
+                  1.5,
+                  1.5,
+                  1.7999999523162842
+                ],
+                "translation": [
+                  0.40000009536743164,
+                  -1.9800000190734863,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "semicircle",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.8196078538894653,
+                  "y": 0.09019608050584793,
+                  "z": 0.09019608050584793
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Carpet(Light)",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "gP6G-kMq9-57VH-kN58"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  1.5699505805969238,
+                  0.0
+                ],
+                "scale": [
+                  1.899999976158142,
+                  1.0,
+                  2.200000047683716
+                ],
+                "translation": [
+                  0.5,
+                  -1.9900000095367432,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "semicircle",
+                "shaded": false,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.21568627655506134,
+                  "y": 0.03529411926865578,
+                  "z": 0.03529411926865578
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "Carpet(Dark)",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "rkxP-7ZSZ-Z6pl-JrSf"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "translation": [
+                  4.5,
+                  0.5,
+                  4.76837158203125e-07
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "Point_A",
+          "Signature": 1,
+          "Tag": "",
+          "UUID": "jzwW-R6Vs-3LMR-w17r"
+        },
+        {
+          "Children": [
+            {
+              "Children": [],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      -0.0,
+                      0.0
+                    ],
+                    "scale": [
+                      0.20000000298023224,
+                      3.9000000953674316,
+                      1.8949999809265137
+                    ],
+                    "translation": [
+                      0.0,
+                      -0.06999999284744263,
+                      0.9500000476837158
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "cube",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 0.7843137383460999,
+                      "y": 0.7843137383460999,
+                      "z": 0.7843137383460999
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                },
+                {
+                  "Data": {
+                    "Fields": [
+                      {
+                        "Align": 8,
+                        "Data": "default",
+                        "Name": "SceneName",
+                        "Size": 8,
+                        "Type": 14,
+                        "TypeName": "System.String",
+                        "isComponent": false
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "E",
+                        "Name": "DoorPrompt",
+                        "Size": 8,
+                        "Type": 14,
+                        "TypeName": "System.String",
+                        "isComponent": false
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "Red",
+                        "Name": "HallColor",
+                        "Size": 8,
+                        "Type": 14,
+                        "TypeName": "System.String",
+                        "isComponent": false
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "Qz7v-hvM3-FbFp-ZXz6",
+                        "Name": "MainParent",
+                        "Size": 8,
+                        "Type": 18,
+                        "TypeName": "Transform",
+                        "isComponent": true
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "dw26-njB4-grWf-STLF",
+                        "Name": "DoorParent",
+                        "Size": 8,
+                        "Type": 18,
+                        "TypeName": "Transform",
+                        "isComponent": true
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "TV5w-VHbR-J7cS-47L4",
+                        "Name": "TextPrompt",
+                        "Size": 8,
+                        "Type": 18,
+                        "TypeName": "TextComponent",
+                        "isComponent": true
+                      },
+                      {
+                        "Align": 4,
+                        "Data": 4.5,
+                        "Name": "DistanceCheck",
+                        "Size": 4,
+                        "Type": 12,
+                        "TypeName": "System.Single"
+                      },
+                      {
+                        "Align": 4,
+                        "Children": [
+                          {
+                            "Align": 4,
+                            "Data": 0.0,
+                            "Name": "x",
+                            "Size": 4,
+                            "Type": 12,
+                            "TypeName": "System.Single"
+                          },
+                          {
+                            "Align": 4,
+                            "Data": 2.799999952316284,
+                            "Name": "y",
+                            "Size": 4,
+                            "Type": 12,
+                            "TypeName": "System.Single"
+                          },
+                          {
+                            "Align": 4,
+                            "Data": 0.0,
+                            "Name": "z",
+                            "Size": 4,
+                            "Type": 12,
+                            "TypeName": "System.Single"
+                          }
+                        ],
+                        "Name": "OpenedRotation",
+                        "Size": 12,
+                        "Type": 17,
+                        "TypeName": "Vec3",
+                        "isComponent": false
+                      },
+                      {
+                        "Align": 4,
+                        "Data": 0.8999999761581421,
+                        "Name": "CamAMoveSpeed",
+                        "Size": 4,
+                        "Type": 12,
+                        "TypeName": "System.Single"
+                      },
+                      {
+                        "Align": 4,
+                        "Data": 2.0,
+                        "Name": "CamARotSpeed",
+                        "Size": 4,
+                        "Type": 12,
+                        "TypeName": "System.Single"
+                      },
+                      {
+                        "Align": 4,
+                        "Data": 0.4000000059604645,
+                        "Name": "CamBMoveSpeed",
+                        "Size": 4,
+                        "Type": 12,
+                        "TypeName": "System.Single"
+                      },
+                      {
+                        "Align": 4,
+                        "Data": 1.5,
+                        "Name": "OpenSpeed",
+                        "Size": 4,
+                        "Type": 12,
+                        "TypeName": "System.Single"
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "gH8L-RCG0-h40N-Rl2D",
+                        "Name": "CamEntity",
+                        "Size": 8,
+                        "Type": 17,
+                        "TypeName": "NITELITE.Entity",
+                        "isComponent": false
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "jzwW-R6Vs-3LMR-w17r",
+                        "Name": "CamPointA",
+                        "Size": 8,
+                        "Type": 18,
+                        "TypeName": "Transform",
+                        "isComponent": true
+                      },
+                      {
+                        "Align": 8,
+                        "Data": "MJ7X-Hpjn-28MJ-N9B2",
+                        "Name": "CamPointB",
+                        "Size": 8,
+                        "Type": 18,
+                        "TypeName": "Transform",
+                        "isComponent": true
+                      },
+                      {
+                        "Align": 1,
+                        "Data": false,
+                        "Name": "NeverEnter",
+                        "Size": 1,
+                        "Type": 2,
+                        "TypeName": "System.Boolean"
+                      }
+                    ],
+                    "Name": "Door"
+                  },
+                  "Name": "struct Client::Script"
+                }
+              ],
+              "Name": "Door",
+              "Signature": 81,
+              "Tag": "",
+              "UUID": "Jc8L-P6Jj-grwl-w0Lf"
+            },
+            {
+              "Children": [],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      -1.5699505805969238,
+                      0.0
+                    ],
+                    "scale": [
+                      0.30000001192092896,
+                      0.30000001192092896,
+                      0.9999999403953552
+                    ],
+                    "translation": [
+                      0.11999988555908203,
+                      0.029326140880584717,
+                      1.5502889156341553
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "quad",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 1.0,
+                      "y": 0.9652115702629089,
+                      "z": 0.2197452187538147
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                },
+                {
+                  "Data": {
+                    "fontPath": "Baloo-Regular.ttf",
+                    "text": ""
+                  },
+                  "Name": "struct Client::TextComponent"
+                }
+              ],
+              "Name": "Prompt",
+              "Signature": 145,
+              "Tag": "",
+              "UUID": "TV5w-VHbR-J7cS-47L4"
+            },
+            {
+              "Children": [
+                {
+                  "Children": [],
+                  "Components": [
+                    {
+                      "Data": {
+                        "rotation": [
+                          0.0,
+                          -0.0,
+                          0.0
+                        ],
+                        "scale": [
+                          1.1000001430511475,
+                          1.100000023841858,
+                          5.0
+                        ],
+                        "translation": [
+                          7.2479248046875e-05,
+                          0.0,
+                          0.41481781005859375
+                        ]
+                      },
+                      "Name": "struct Client::Transform"
+                    },
+                    {
+                      "Data": {
+                        "diagetic": true,
+                        "materialSetID": 4294967295,
+                        "modelPath": "quad",
+                        "shaded": false,
+                        "tint": {
+                          "w": 1.0,
+                          "x": 0.30573248863220215,
+                          "y": 0.30573248863220215,
+                          "z": 0.30573248863220215
+                        }
+                      },
+                      "Name": "struct Client::ModelComponent"
+                    }
+                  ],
+                  "Name": "TextFrame",
+                  "Signature": 17,
+                  "Tag": "",
+                  "UUID": "N4lr-gg11-21Fr-DwMC"
+                }
+              ],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      1.5699505805969238,
+                      0.0
+                    ],
+                    "scale": [
+                      0.30000001192092896,
+                      0.30000001192092896,
+                      0.10000000149011612
+                    ],
+                    "translation": [
+                      0.05951881408691406,
+                      0.0,
+                      1.5156090259552002
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "cube",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                }
+              ],
+              "Name": "TextFrame",
+              "Signature": 17,
+              "Tag": "",
+              "UUID": "kCwh-r5Vq-XCzx-gqhm"
+            },
+            {
+              "Children": [
+                {
+                  "Children": [],
+                  "Components": [
+                    {
+                      "Data": {
+                        "rotation": [
+                          0.0,
+                          -0.0,
+                          0.0
+                        ],
+                        "scale": [
+                          1.0299999713897705,
+                          1.0999999046325684,
+                          5.0
+                        ],
+                        "translation": [
+                          7.2479248046875e-05,
+                          0.0,
+                          0.414825439453125
+                        ]
+                      },
+                      "Name": "struct Client::Transform"
+                    },
+                    {
+                      "Data": {
+                        "diagetic": true,
+                        "materialSetID": 4294967295,
+                        "modelPath": "quad",
+                        "shaded": false,
+                        "tint": {
+                          "w": 1.0,
+                          "x": 1.0,
+                          "y": 1.0,
+                          "z": 1.0
+                        }
+                      },
+                      "Name": "struct Client::ModelComponent"
+                    }
+                  ],
+                  "Name": "TextFrame",
+                  "Signature": 17,
+                  "Tag": "",
+                  "UUID": "R427-nnfB-63Fk-24h0"
+                }
+              ],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      1.5700242519378662,
+                      0.0
+                    ],
+                    "scale": [
+                      0.800000011920929,
+                      0.15000000596046448,
+                      0.10000000894069672
+                    ],
+                    "translation": [
+                      0.059999942779541016,
+                      0.9821336269378662,
+                      1.0
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "cube",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                }
+              ],
+              "Name": "TextFrame",
+              "Signature": 17,
+              "Tag": "",
+              "UUID": "J77W-FcXp-wHpV-FW1Z"
+            },
+            {
+              "Children": [],
+              "Components": [
+                {
+                  "Data": {
+                    "rotation": [
+                      0.0,
+                      -1.5700242519378662,
+                      0.0
+                    ],
+                    "scale": [
+                      0.07999999821186066,
+                      0.07999999821186066,
+                      1.0
+                    ],
+                    "translation": [
+                      0.11999988555908203,
+                      0.9850000143051147,
+                      0.675000011920929
+                    ]
+                  },
+                  "Name": "struct Client::Transform"
+                },
+                {
+                  "Data": {
+                    "diagetic": true,
+                    "materialSetID": 4294967295,
+                    "modelPath": "quad",
+                    "shaded": false,
+                    "tint": {
+                      "w": 1.0,
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  },
+                  "Name": "struct Client::ModelComponent"
+                },
+                {
+                  "Data": {
+                    "fontPath": "Baloo-Regular.ttf",
+                    "text": "???"
+                  },
+                  "Name": "struct Client::TextComponent"
+                }
+              ],
+              "Name": "DoorTitle",
+              "Signature": 145,
+              "Tag": "",
+              "UUID": "gqKC-T1T1-QMTf-mC5m"
+            }
+          ],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.0,
+                  -0.9500000476837158
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "DoorParent",
+          "Signature": 1,
+          "Tag": "",
+          "UUID": "dw26-njB4-grWf-STLF"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "translation": [
+                  -19.75,
+                  0.5,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "Point_B",
+          "Signature": 1,
+          "Tag": "",
+          "UUID": "MJ7X-Hpjn-28MJ-N9B2"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              2.3499999046325684,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              8.0,
+              0.5,
+              8.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "Door?",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "Qz7v-hvM3-FbFp-ZXz6"
     },
     {
       "Children": [],
@@ -5876,9 +6709,9 @@
               1.0
             ],
             "translation": [
-              14.006507873535156,
-              13.848090171813965,
-              6.683108329772949
+              3.007366895675659,
+              13.346024513244629,
+              -14.212427139282227
             ]
           },
           "Name": "struct Client::Transform"
@@ -5891,9 +6724,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.6812868118286133,
-              "y": -0.4740179479122162,
-              "z": -0.5581227540969849
+              "x": -0.1778901070356369,
+              "y": -0.5626388788223267,
+              "z": 0.8075269460678101
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -5918,85 +6751,6 @@
       "Signature": 11,
       "Tag": "",
       "UUID": "SVF6-Lmgw-wLDd-b7M2"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.8999999761581421,
-              0.0
-            ],
-            "scale": [
-              20.0,
-              2.0,
-              20.0
-            ],
-            "translation": [
-              -1.4390392303466797,
-              -2.5,
-              -67.22227478027344
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "baseColor": {
-              "x": 0.10000000149011612,
-              "y": 0.10000000149011612,
-              "z": 0.10000000149011612
-            },
-            "heightmapFilename": "Lobby_HM.png",
-            "peakColor": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "visibleBase": true
-          },
-          "Name": "struct Client::HeightmapComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "HKP4-1Hzd-tgCL-PnRd",
-                "Name": "Player",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Data": 10.0,
-                "Name": "Xf",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 0.20000000298023224,
-                "Name": "ScaleRate",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              }
-            ],
-            "Name": "LobbyHeightmap"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "Heightmap",
-      "Signature": 97,
-      "Tag": "",
-      "UUID": "mB1t-97lW-WFQD-tzDl"
     },
     {
       "Children": [],
@@ -6174,6 +6928,310 @@
       "Signature": 67,
       "Tag": "",
       "UUID": "gH8L-RCG0-h40N-Rl2D"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "CamFollow",
+          "Signature": 1,
+          "Tag": "",
+          "UUID": "rngN-pX16-5hZZ-Kh6B"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              2.0,
+              0.5
+            ],
+            "translation": [
+              0.0,
+              -0.5,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "usePhysics",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Data": -10.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 14.0,
+                "Name": "JumpForce",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 4.099999904632568,
+                "Name": "Gravity",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "camEnt",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "StopEverything",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "ConfineMovement",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "maxMovePos",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "minMovePos",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3",
+                "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "FlipDirectionsForSomeReason",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              }
+            ],
+            "Name": "FirstPersonController_NEW"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              0.25,
+              1.0,
+              0.25
+            ],
+            "layer": 1,
+            "motionType": 2,
+            "position": [
+              0.0,
+              -0.5,
+              0.0
+            ],
+            "radius": 0.25,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "Player(FPS)",
+      "Signature": 321,
+      "Tag": "",
+      "UUID": "HKP4-1Hzd-tgCL-PnRd"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.8999999761581421,
+              0.0
+            ],
+            "scale": [
+              20.0,
+              2.0,
+              20.0
+            ],
+            "translation": [
+              -1.4390392303466797,
+              -2.5999999046325684,
+              -67.22227478027344
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.10000000149011612,
+              "y": 0.10000000149011612,
+              "z": 0.10000000149011612
+            },
+            "heightmapFilename": "Lobby_HM.png",
+            "peakColor": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "visibleBase": true
+          },
+          "Name": "struct Client::HeightmapComponent"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "HKP4-1Hzd-tgCL-PnRd",
+                "Name": "Player",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Data": 10.0,
+                "Name": "Xf",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 0.20000000298023224,
+                "Name": "ScaleRate",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              }
+            ],
+            "Name": "LobbyHeightmap"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "Heightmap",
+      "Signature": 97,
+      "Tag": "",
+      "UUID": "mB1t-97lW-WFQD-tzDl"
     },
     {
       "Children": [
@@ -7009,223 +8067,6 @@
       "Signature": 65,
       "Tag": "",
       "UUID": "gfNr-rzcZ-FgvP-RKNr"
-    },
-    {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  1.0,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            }
-          ],
-          "Name": "CamFollow",
-          "Signature": 1,
-          "Tag": "",
-          "UUID": "rngN-pX16-5hZZ-Kh6B"
-        }
-      ],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              0.5,
-              2.0,
-              0.5
-            ],
-            "translation": [
-              0.0,
-              -0.5,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "usePhysics",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 4,
-                "Data": -10.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 14.0,
-                "Name": "JumpForce",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 4.099999904632568,
-                "Name": "Gravity",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 8,
-                "Data": "gH8L-RCG0-h40N-Rl2D",
-                "Name": "camEnt",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "StopEverything",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "ConfineMovement",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "maxMovePos",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "minMovePos",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3",
-                "isComponent": false
-              }
-            ],
-            "Name": "FirstPersonController_NEW"
-          },
-          "Name": "struct Client::Script"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              0.25,
-              1.0,
-              0.25
-            ],
-            "layer": 1,
-            "motionType": 2,
-            "position": [
-              0.0,
-              -0.5,
-              0.0
-            ],
-            "radius": 0.25,
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
-        }
-      ],
-      "Name": "Player(FPS)",
-      "Signature": 321,
-      "Tag": "",
-      "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
   "SceneHeader": "assets/scenes/default.nlscene"

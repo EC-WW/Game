@@ -5361,13 +5361,13 @@
                   0.0
                 ],
                 "scale": [
-                  0.15000000596046448,
-                  0.15000000596046448,
-                  0.15000000596046448
+                  0.0,
+                  0.0,
+                  0.0
                 ],
                 "translation": [
-                  2.715271472930908,
-                  2.040832757949829,
+                  -2.170862913131714,
+                  2.0062780380249023,
                   5.0
                 ]
               },
@@ -5391,15 +5391,15 @@
             {
               "Data": {
                 "fontPath": "Baloo-Regular.ttf",
-                "text": "Space to place fruit"
+                "text": "Wave 1/6"
               },
               "Name": "struct Client::TextComponent"
             }
           ],
-          "Name": "Text",
+          "Name": "WaveText",
           "Signature": 145,
           "Tag": "",
-          "UUID": "qjJ2-Mnj7-5xrJ-Sl6J"
+          "UUID": "ZXpV-CDvb-8jMr-HW6g"
         },
         {
           "Children": [],
@@ -5412,14 +5412,14 @@
                   0.0
                 ],
                 "scale": [
-                  0.15000000596046448,
-                  0.15000000596046448,
-                  0.15000000596046448
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
                 ],
                 "translation": [
-                  -2.1812150478363037,
-                  2.031352996826172,
-                  5.0
+                  -3.396273136138916,
+                  -2.4193639755249023,
+                  5.952476978302002
                 ]
               },
               "Name": "struct Client::Transform"
@@ -5442,15 +5442,15 @@
             {
               "Data": {
                 "fontPath": "Baloo-Regular.ttf",
-                "text": "WASD to move Cursor"
+                "text": "$50"
               },
               "Name": "struct Client::TextComponent"
             }
           ],
-          "Name": "Text",
+          "Name": "bananaCost",
           "Signature": 145,
           "Tag": "",
-          "UUID": "q1tD-MVfc-B0GD-FdCk"
+          "UUID": "HJ09-Zjc0-ZDwk-H7PK"
         },
         {
           "Children": [],
@@ -5463,13 +5463,268 @@
                   0.0
                 ],
                 "scale": [
-                  0.15000000596046448,
-                  0.15000000596046448,
-                  0.15000000596046448
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
                 ],
                 "translation": [
-                  0.3033507764339447,
-                  2.029064893722534,
+                  -1.9150316715240479,
+                  -2.4193639755249023,
+                  5.952476978302002
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "$50"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "breadCost",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "RgmF-4Xr2-Wjmg-X9hS"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  -0.531828761100769,
+                  -2.4193639755249023,
+                  5.952476978302002
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "$100"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "snickersCost",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "F6zs-NqJ8-4GZw-KfDd"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  0.9828583598136902,
+                  -2.4193639755249023,
+                  5.952476978302002
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "$25"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "appleCost",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "P6Qh-6HMz-9N3W-K4vD"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  2.6027708053588867,
+                  -2.4193639755249023,
+                  5.952476978302002
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "$50"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "gAppleCost",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "3kjB-WGmz-W6lT-7NPb"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  4.118422985076904,
+                  -2.4193639755249023,
+                  5.952476978302002
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "$150"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "watermelonCost",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "KQWn-r1pN-hvx9-NzGt"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.20000000298023224
+                ],
+                "translation": [
+                  -4.146307945251465,
+                  1.7194626331329346,
                   5.0
                 ]
               },
@@ -5493,46 +5748,67 @@
             {
               "Data": {
                 "fontPath": "Baloo-Regular.ttf",
-                "text": "Arrows to select fruit"
+                "text": "Money: $0"
               },
               "Name": "struct Client::TextComponent"
             }
           ],
-          "Name": "Text",
+          "Name": "MoneyText",
           "Signature": 145,
           "Tag": "",
-          "UUID": "Gj8m-FD00-8BSJ-pBrp"
-        }
-      ],
-      "Components": [
+          "UUID": "MqDn-2Lqd-Qrn0-VJ9s"
+        },
         {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              1.0,
-              1.0,
-              1.0
-            ],
-            "translation": [
-              0.0,
-              0.0,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        }
-      ],
-      "Name": "Controls",
-      "Signature": 1,
-      "Tag": "",
-      "UUID": "nwp9-ZBH5-NJRH-PJmg"
-    },
-    {
-      "Children": [
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -3.7771692276000977,
+                  1.5141794681549072,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "($5/s)"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "MoneyPerSecond",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "Z7qG-lSFC-Hx1r-FR7Z"
+        },
         {
           "Children": [],
           "Components": [
@@ -5582,7 +5858,7 @@
           "Name": "LevelText",
           "Signature": 145,
           "Tag": "",
-          "UUID": "MqDn-2Lqd-Qrn0-VJ9s"
+          "UUID": "LpTS-3C2X-Rpxc-mgwX"
         },
         {
           "Children": [],
@@ -5595,13 +5871,13 @@
                   0.0
                 ],
                 "scale": [
-                  0.0,
-                  0.0,
-                  0.0
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.20000000298023224
                 ],
                 "translation": [
-                  -2.170862913131714,
-                  2.0062780380249023,
+                  3.108896255493164,
+                  1.9397666454315186,
                   5.0
                 ]
               },
@@ -5625,15 +5901,15 @@
             {
               "Data": {
                 "fontPath": "Baloo-Regular.ttf",
-                "text": "Wave 1/6"
+                "text": "'P' to Pause"
               },
               "Name": "struct Client::TextComponent"
             }
           ],
-          "Name": "WaveText",
+          "Name": "PauseText",
           "Signature": 145,
           "Tag": "",
-          "UUID": "ZXpV-CDvb-8jMr-HW6g"
+          "UUID": "lRhM-FNZ3-gtwT-7C33"
         }
       ],
       "Components": [
@@ -5662,6 +5938,1799 @@
       "Signature": 1,
       "Tag": "",
       "UUID": "SvVD-xMqc-8pNp-8x8S"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  -26.577749252319336,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 2.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "plant",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "Bfvs-MxBj-dVQL-qsXL"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  -100.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "acceleration": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "accelerationVariation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "angularVelocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                },
+                "drag": 0.10000000149011612,
+                "duration": 5.0,
+                "emissionAccumulator": 0.0,
+                "emissionRate": 0.0,
+                "fadeStyle": "FADE_OUT",
+                "isActive": true,
+                "isBillboard": false,
+                "isDiagetic": true,
+                "isTextured": false,
+                "lifeTime": 2.0,
+                "looping": true,
+                "maxParticles": 1000,
+                "modelPath": "quad",
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "simulationAccumulator": 0.0,
+                "sizeBegin": 1.0,
+                "sizeEnd": 0.009999999776482582,
+                "sizeVariation": 0.20000000298023224,
+                "spawnCount": 0,
+                "textureIndex": 0,
+                "texturePath": "particle",
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                "velocity": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "velocityVariation": {
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
+                }
+              },
+              "Name": "struct Client::ParticleEmitter"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "bullet",
+          "Signature": 21,
+          "Tag": "",
+          "UUID": "pgC6-Cj9s-cdCx-MKFH"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "weird reqs",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "GbQx-fKXZ-TdZq-jSsC"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.0,
+                  2.5,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "zK6J-RWbm-Pzz1-5bvg"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.275000095367432,
+                  2.700000047683716,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.099999904632568
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "CkF4-Lcn7-Vk9X-6bXL"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.4900966882705688,
+                  -0.34678611159324646,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7877477407455444,
+                  "y": 0.9904458522796631,
+                  "z": 0.4510629177093506
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Goal: Stop us from stealing the plushie!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "Csxt-XQQG-rWtz-HkJL"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.5265611410140991,
+                  -0.5338336229324341,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9168986082077026,
+                  "y": 0.9745222926139832,
+                  "z": 0.8038257360458374
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Press 'Space' when you're ready to start!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "sNXC-sGPW-qCjn-bRXw"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.27320313453674316,
+                  0.26130804419517517,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Arrows to select Fruit"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "6Wmq-wFNQ-njh9-95qH"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.11166965961456299,
+                  0.047839365899562836,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Space to place Fruit"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "PL5C-7r2S-wkVN-VHjG"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.27320313453674316,
+                  0.4644854664802551,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "WASD to move Cursor"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "btjH-SJ5g-t75Q-J1wm"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.3256391286849976,
+                  0.4729965925216675,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.2962891161441803,
+                  "y": 0.2793216407299042,
+                  "z": 0.8121019005775452
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Controls:"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "1Ng3-Jwwm-WdMh-H4Qd"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.3256391286849976,
+                  0.7661607265472412,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.2675158977508545,
+                  "z": 0.2675158977508545
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Welcome to Fruits vs Team NiteLite!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "Fnzv-39Q8-WrS8-L84t"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              5.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "MenuControls",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "MtKB-sqr9-pL79-P07q"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.4900966882705688,
+                  -0.15993547439575195,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7877477407455444,
+                  "y": 0.9904458522796631,
+                  "z": 0.4510629177093506
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Goal: Stop us from stealing the plushie!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "fTCS-SBMd-79bm-NP55"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.27320313453674316,
+                  0.29864275455474854,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Arrows to select Fruit"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "VsNJ-DnxQ-t7d3-4cB0"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.11166965961456299,
+                  0.08517411351203918,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Space to place Fruit"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "DFPg-0qVQ-pxmc-tKHw"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.27320313453674316,
+                  0.5018202066421509,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "WASD to move Cursor"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "6HjP-V2vK-V3ng-G2sm"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.3256391286849976,
+                  0.5103313326835632,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.2962891161441803,
+                  "y": 0.2793216407299042,
+                  "z": 0.8121019005775452
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Controls:"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "FKt2-vq6w-ghDx-JjjV"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.44137418270111084,
+                  0.7661607265472412,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.2675158977508545,
+                  "z": 0.2675158977508545
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Game Paused!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "Lxgs-V3Mc-lTTq-Q1gb"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  0.14361143112182617,
+                  -0.5338336229324341,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9168986082077026,
+                  "y": 0.9745222926139832,
+                  "z": 0.8038257360458374
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Back to Lobby"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ExitText",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "S6XT-z9kd-GFWg-TSDj"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.1425132751464844,
+                  -0.5338336229324341,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9168986082077026,
+                  "y": 0.9745222926139832,
+                  "z": 0.8038257360458374
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Resume"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ResumeText",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "f537-XLhR-PMNd-6l8c"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.0,
+                  2.5,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "FZ3n-93jP-dBxV-7sr0"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.275000095367432,
+                  2.700000047683716,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.099999904632568
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "lZXW-kwbp-JcPG-0Jxn"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              5.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "PauseMenu",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "V9d6-zxF9-49Sf-gfp2"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.3309372663497925,
+                  0.04648083448410034,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.7877477407455444,
+                  "y": 0.9904458522796631,
+                  "z": 0.4510629177093506
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "The plush will remain safe for now..."
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "TMZP-kb66-GQl4-v55j"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.8447754383087158,
+                  0.28600800037384033,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.2962891161441803,
+                  "y": 0.2793216407299042,
+                  "z": 0.8121019005775452
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Congratulations on completeting the minigame!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "gs52-CL4n-VH4H-0m1L"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -0.3436397612094879,
+                  0.7661607265472412,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.2675158977508545,
+                  "z": 0.2675158977508545
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Victory!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "82MX-l6GH-FSX7-JKl4"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.2187883853912354,
+                  -0.5338336229324341,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9607843160629272,
+                  "y": 0.9400061368942261,
+                  "z": 0.254325270652771
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Press 'space' to go back to Lobby"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ExitText",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "G6qB-nbVt-lqTm-fVTz"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.0,
+                  2.5,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "MhNh-vlLF-z709-c3lf"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.275000095367432,
+                  2.700000047683716,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.099999904632568
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "k61Z-XhB7-5NJd-skDs"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              5.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "VictoryMenu",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "vSlD-bh8c-3G1n-LRqP"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.30000001192092896,
+                  0.30000001192092896,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  -0.9351552724838257,
+                  0.6730102300643921,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 0.2675158977508545,
+                  "z": 0.2675158977508545
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Game Over!"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ControlInstructions",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "Wvld-C07X-P9Rz-lhv7"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.12999999523162842
+                ],
+                "translation": [
+                  -1.2187883853912354,
+                  -0.5338336229324341,
+                  3.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "quad",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.9607843160629272,
+                  "y": 0.9400061368942261,
+                  "z": 0.254325270652771
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            },
+            {
+              "Data": {
+                "fontPath": "Baloo-Regular.ttf",
+                "text": "Press 'space' to go back to Lobby"
+              },
+              "Name": "struct Client::TextComponent"
+            }
+          ],
+          "Name": "ExitText",
+          "Signature": 145,
+          "Tag": "",
+          "UUID": "CzHB-w38G-wd96-1pw8"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.0,
+                  2.5,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "m81X-JKQ0-VzrG-3whD"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.275000095367432,
+                  2.700000047683716,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  0.13025346398353577,
+                  5.099999904632568
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": false,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "TextBackdrop",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "Ff3H-mCmq-15qT-jhzH"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              0.0,
+              5.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        }
+      ],
+      "Name": "GameOverMenu",
+      "Signature": 1,
+      "Tag": "",
+      "UUID": "PH4L-TshC-hklt-BpNr"
     },
     {
       "Children": [],
@@ -5740,9 +7809,60 @@
               1.0
             ],
             "translation": [
-              2.6952011585235596,
-              6.087650775909424,
-              -6.622095584869385
+              -100.0,
+              0.0,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "quad",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        },
+        {
+          "Data": {
+            "fontPath": "Baloo-Regular.ttf",
+            "text": "0"
+          },
+          "Name": "struct Client::TextComponent"
+        }
+      ],
+      "Name": "GameState",
+      "Signature": 145,
+      "Tag": "",
+      "UUID": "pjvR-PBp1-lq6F-2zcn"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "translation": [
+              4.138894081115723,
+              9.265874862670898,
+              -20.036657333374023
             ]
           },
           "Name": "struct Client::Transform"
@@ -5755,9 +7875,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.005292206536978483,
-              "y": -0.5062645077705383,
-              "z": 0.9092779755592346
+              "x": -0.2872433066368103,
+              "y": -0.34167733788490295,
+              "z": 0.9818366765975952
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -5782,6 +7902,524 @@
       "Signature": 11,
       "Tag": "",
       "UUID": "SVF6-Lmgw-wLDd-b7M2"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.04000000283122063,
+                  0.15000000596046448,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  0.3981797695159912,
+                  0.5263051986694336,
+                  0.2861666679382324
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "F3XL-8N3P-LlMh-8W3r"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.135207414627075,
+                  1.5700242519378662,
+                  3.0159435482346453e-07
+                ],
+                "scale": [
+                  0.040000006556510925,
+                  0.15000003576278687,
+                  0.2500000298023224
+                ],
+                "translation": [
+                  -0.279976487159729,
+                  0.5258912444114685,
+                  -0.4249684810638428
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "G3Gd-FTLD-M6bw-WXCc"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1352076530456543,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.04000000283122063,
+                  0.15000002086162567,
+                  0.30000004172325134
+                ],
+                "translation": [
+                  0.3981797695159912,
+                  0.526737630367279,
+                  -0.2924056053161621
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "qksw-NpcL-vwhH-43Sg"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.135207414627075,
+                  1.5700242519378662,
+                  3.0159435482346453e-07
+                ],
+                "scale": [
+                  0.04000000283122063,
+                  0.15000003576278687,
+                  0.2500000298023224
+                ],
+                "translation": [
+                  0.2863899767398834,
+                  0.5258912444114685,
+                  -0.4249684810638428
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "0LLd-RlKQ-qbfV-jtcS"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  3.1352076530456543,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.04000000283122063,
+                  0.15000002086162567,
+                  0.30000004172325134
+                ],
+                "translation": [
+                  -0.3942514657974243,
+                  0.5267006754875183,
+                  -0.29819679260253906
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "7Lxb-f7r8-rpkc-M4qg"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.04000000283122063,
+                  0.15000000596046448,
+                  0.30000001192092896
+                ],
+                "translation": [
+                  -0.3942514657974243,
+                  0.5263051986694336,
+                  0.2919580340385437
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "V2TV-PWWZ-wd1P-r2NB"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  1.570105791091919,
+                  0.0
+                ],
+                "scale": [
+                  0.04000000283122063,
+                  0.15000000596046448,
+                  0.25
+                ],
+                "translation": [
+                  -0.279976487159729,
+                  0.5263051986694336,
+                  0.4187321960926056
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "nTjb-jH53-Hjkt-tGL2"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  1.570105791091919,
+                  0.0
+                ],
+                "scale": [
+                  0.03999999910593033,
+                  0.15000000596046448,
+                  0.25
+                ],
+                "translation": [
+                  0.2863899767398834,
+                  0.5263051986694336,
+                  0.4187321960926056
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "cube",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "curs",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "cxxz-tp9V-ShVD-0hWK"
+        },
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "translation": [
+                  0.0,
+                  0.7033149600028992,
+                  -0.01025903970003128
+                ]
+              },
+              "Name": "struct Client::Transform"
+            },
+            {
+              "Data": {
+                "diagetic": true,
+                "materialSetID": 4294967295,
+                "modelPath": "1 banana bread or 3 bananas",
+                "shaded": true,
+                "tint": {
+                  "w": 1.0,
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              "Name": "struct Client::ModelComponent"
+            }
+          ],
+          "Name": "preview",
+          "Signature": 17,
+          "Tag": "",
+          "UUID": "GNVJ-s9Dd-P7zm-N2HN"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929
+            ],
+            "translation": [
+              0.0,
+              0.1690152883529663,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "acceleration": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "accelerationVariation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocityVariation": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 5.0
+            },
+            "drag": 0.10000000149011612,
+            "duration": 5.0,
+            "emissionAccumulator": 0.0,
+            "emissionRate": 10.0,
+            "fadeStyle": "FADE_OUT",
+            "isActive": true,
+            "isBillboard": false,
+            "isDiagetic": true,
+            "isTextured": false,
+            "lifeTime": 2.0,
+            "looping": true,
+            "maxParticles": 1000,
+            "modelPath": "quad",
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "simulationAccumulator": 0.0,
+            "sizeBegin": 1.0,
+            "sizeEnd": 0.009999999776482582,
+            "sizeVariation": 0.20000000298023224,
+            "spawnCount": 0,
+            "textureIndex": 0,
+            "texturePath": "particle",
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "velocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "velocityVariation": {
+              "x": 5.0,
+              "y": 5.0,
+              "z": 5.0
+            }
+          },
+          "Name": "struct Client::ParticleEmitter"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 8,
+                "Data": "sgqJ-hL5P-SjTz-GRFp",
+                "Name": "ent",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 8,
+                "Data": "ZPQM-JzPG-KTRV-8Hcf",
+                "Name": "highlight",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              }
+            ],
+            "Name": "PlantManager"
+          },
+          "Name": "struct Client::Script"
+        }
+      ],
+      "Name": "cursor",
+      "Signature": 69,
+      "Tag": "",
+      "UUID": "sgqJ-hL5P-SjTz-GRFp"
     },
     {
       "Children": [
@@ -6044,7 +8682,7 @@
               "Name": "struct Client::ModelComponent"
             }
           ],
-          "Name": "selectionHighlight",
+          "Name": "selectionHighlight1",
           "Signature": 17,
           "Tag": "",
           "UUID": "ZPQM-JzPG-KTRV-8Hcf"
@@ -6255,146 +8893,10 @@
           "Name": "struct Client::Script"
         }
       ],
-      "Name": "ZombieManager",
+      "Name": "GameManager",
       "Signature": 65,
       "Tag": "",
       "UUID": "HCBp-CDVH-nvqP-skCk"
-    },
-    {
-      "Children": [],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              3.1415927410125732,
-              0.0,
-              3.1415927410125732
-            ],
-            "scale": [
-              0.5,
-              0.5,
-              0.5
-            ],
-            "translation": [
-              0.0,
-              0.75,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "acceleration": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "accelerationVariation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "angularVelocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "angularVelocityVariation": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 5.0
-            },
-            "drag": 0.10000000149011612,
-            "duration": 5.0,
-            "emissionAccumulator": 0.0,
-            "emissionRate": 0.0,
-            "fadeStyle": "FADE_OUT",
-            "isActive": true,
-            "isBillboard": false,
-            "isDiagetic": true,
-            "isTextured": false,
-            "lifeTime": 2.0,
-            "looping": false,
-            "maxParticles": 1000,
-            "modelPath": "quad",
-            "rotation": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "simulationAccumulator": 0.0,
-            "sizeBegin": 1.0,
-            "sizeEnd": 0.009999999776482582,
-            "sizeVariation": 0.20000000298023224,
-            "spawnCount": 0,
-            "textureIndex": 0,
-            "texturePath": "particle",
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            },
-            "velocity": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "velocityVariation": {
-              "x": 5.0,
-              "y": 5.0,
-              "z": 5.0
-            }
-          },
-          "Name": "struct Client::ParticleEmitter"
-        },
-        {
-          "Data": {
-            "diagetic": true,
-            "materialSetID": 4294967295,
-            "modelPath": "Cat Plushy",
-            "shaded": true,
-            "tint": {
-              "w": 1.0,
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          },
-          "Name": "struct Client::ModelComponent"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 8,
-                "Data": "pFbX-j2Qf-rck5-rNfm",
-                "Name": "ent",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 8,
-                "Data": "ZPQM-JzPG-KTRV-8Hcf",
-                "Name": "highlight",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              }
-            ],
-            "Name": "PlantManager"
-          },
-          "Name": "struct Client::Script"
-        }
-      ],
-      "Name": "PlantPlacer",
-      "Signature": 85,
-      "Tag": "",
-      "UUID": "pFbX-j2Qf-rck5-rNfm"
     }
   ],
   "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\pvz.nlscene"
