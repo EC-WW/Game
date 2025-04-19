@@ -2177,9 +2177,9 @@
                 "shaded": true,
                 "tint": {
                   "w": 1.0,
-                  "x": 0.9117206335067749,
-                  "y": 1.0,
-                  "z": 0.18471336364746094
+                  "x": 0.18471336364746094,
+                  "y": 0.704004168510437,
+                  "z": 1.0
                 }
               },
               "Name": "struct Client::ModelComponent"
@@ -2615,9 +2615,9 @@
               1.0
             ],
             "translation": [
-              -0.1550000011920929,
-              -0.40176883339881897,
-              1.0206761360168457
+              0.5,
+              -0.5,
+              1.0
             ]
           },
           "Name": "struct Client::Transform"
@@ -2717,9 +2717,9 @@
               1.0
             ],
             "translation": [
-              4.682049751281738,
-              2.2416841983795166,
-              0.17822809517383575
+              1.800751805305481,
+              1.7977125644683838,
+              5.975855350494385
             ]
           },
           "Name": "struct Client::Transform"
@@ -2732,9 +2732,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": -0.30306342244148254,
-              "y": -0.15532025694847107,
-              "z": 0.9882398247718811
+              "x": -0.008366349153220654,
+              "y": -0.17214150726795197,
+              "z": 1.0309555530548096
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -2759,231 +2759,6 @@
       "Signature": 11,
       "Tag": "",
       "UUID": "SVF6-Lmgw-wLDd-b7M2"
-    },
-    {
-      "Children": [
-        {
-          "Children": [],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  1.0,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            }
-          ],
-          "Name": "CamFollow",
-          "Signature": 1,
-          "Tag": "",
-          "UUID": "rngN-pX16-5hZZ-Kh6B"
-        }
-      ],
-      "Components": [
-        {
-          "Data": {
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "scale": [
-              0.5,
-              2.0,
-              0.5
-            ],
-            "translation": [
-              0.0,
-              -0.5000029802322388,
-              0.0
-            ]
-          },
-          "Name": "struct Client::Transform"
-        },
-        {
-          "Data": {
-            "Fields": [
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "usePhysics",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 4,
-                "Data": -10.0,
-                "Name": "MoveSpeed",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 14.0,
-                "Name": "JumpForce",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 4,
-                "Data": 4.099999904632568,
-                "Name": "Gravity",
-                "Size": 4,
-                "Type": 12,
-                "TypeName": "System.Single"
-              },
-              {
-                "Align": 8,
-                "Data": "gH8L-RCG0-h40N-Rl2D",
-                "Name": "camEnt",
-                "Size": 8,
-                "Type": 17,
-                "TypeName": "NITELITE.Entity",
-                "isComponent": false
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "StopEverything",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 1,
-                "Data": true,
-                "Name": "ConfineMovement",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": 11.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 11.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "maxMovePos",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3",
-                "isComponent": false
-              },
-              {
-                "Align": 4,
-                "Children": [
-                  {
-                    "Align": 4,
-                    "Data": -11.0,
-                    "Name": "x",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": 0.0,
-                    "Name": "y",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  },
-                  {
-                    "Align": 4,
-                    "Data": -11.0,
-                    "Name": "z",
-                    "Size": 4,
-                    "Type": 12,
-                    "TypeName": "System.Single"
-                  }
-                ],
-                "Name": "minMovePos",
-                "Size": 12,
-                "Type": 17,
-                "TypeName": "Vec3",
-                "isComponent": false
-              },
-              {
-                "Align": 1,
-                "Data": false,
-                "Name": "FlipDirectionsForSomeReason",
-                "Size": 1,
-                "Type": 2,
-                "TypeName": "System.Boolean"
-              }
-            ],
-            "Name": "FirstPersonController_NEW"
-          },
-          "Name": "struct Client::Script"
-        },
-        {
-          "Data": {
-            "activationMode": 0,
-            "halfExtents": [
-              0.25,
-              1.0,
-              0.25
-            ],
-            "layer": 1,
-            "motionType": 2,
-            "position": [
-              0.0,
-              -0.5000029802322388,
-              0.0
-            ],
-            "radius": 0.25,
-            "rotation": [
-              0.0,
-              0.0,
-              0.0
-            ],
-            "shape": 1
-          },
-          "Name": "struct Client::PhysicsComponent"
-        }
-      ],
-      "Name": "Player(FPS)",
-      "Signature": 321,
-      "Tag": "",
-      "UUID": "HKP4-1Hzd-tgCL-PnRd"
     },
     {
       "Children": [],
@@ -3048,7 +2823,7 @@
             "radius": 0.5,
             "rotation": [
               0.0,
-              1.5688432455062866,
+              1.568783164024353,
               0.0
             ],
             "shape": 1
@@ -3581,6 +3356,231 @@
       "Signature": 65,
       "Tag": "",
       "UUID": "PQ9g-0J3T-cGcw-dzSg"
+    },
+    {
+      "Children": [
+        {
+          "Children": [],
+          "Components": [
+            {
+              "Data": {
+                "rotation": [
+                  0.0,
+                  -0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "translation": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              },
+              "Name": "struct Client::Transform"
+            }
+          ],
+          "Name": "CamFollow",
+          "Signature": 1,
+          "Tag": "",
+          "UUID": "rngN-pX16-5hZZ-Kh6B"
+        }
+      ],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.5,
+              2.0,
+              0.5
+            ],
+            "translation": [
+              0.0,
+              -0.5000029802322388,
+              0.0
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "Fields": [
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "usePhysics",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Data": -10.0,
+                "Name": "MoveSpeed",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 14.0,
+                "Name": "JumpForce",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 4,
+                "Data": 4.099999904632568,
+                "Name": "Gravity",
+                "Size": 4,
+                "Type": 12,
+                "TypeName": "System.Single"
+              },
+              {
+                "Align": 8,
+                "Data": "gH8L-RCG0-h40N-Rl2D",
+                "Name": "camEnt",
+                "Size": 8,
+                "Type": 17,
+                "TypeName": "NITELITE.Entity",
+                "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "StopEverything",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 1,
+                "Data": true,
+                "Name": "ConfineMovement",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": 11.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 11.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "maxMovePos",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3",
+                "isComponent": false
+              },
+              {
+                "Align": 4,
+                "Children": [
+                  {
+                    "Align": 4,
+                    "Data": -11.0,
+                    "Name": "x",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": 0.0,
+                    "Name": "y",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  },
+                  {
+                    "Align": 4,
+                    "Data": -11.0,
+                    "Name": "z",
+                    "Size": 4,
+                    "Type": 12,
+                    "TypeName": "System.Single"
+                  }
+                ],
+                "Name": "minMovePos",
+                "Size": 12,
+                "Type": 17,
+                "TypeName": "Vec3",
+                "isComponent": false
+              },
+              {
+                "Align": 1,
+                "Data": false,
+                "Name": "FlipDirectionsForSomeReason",
+                "Size": 1,
+                "Type": 2,
+                "TypeName": "System.Boolean"
+              }
+            ],
+            "Name": "FirstPersonController_NEW"
+          },
+          "Name": "struct Client::Script"
+        },
+        {
+          "Data": {
+            "activationMode": 0,
+            "halfExtents": [
+              0.25,
+              1.0,
+              0.25
+            ],
+            "layer": 1,
+            "motionType": 2,
+            "position": [
+              0.0,
+              -0.5000029802322388,
+              0.0
+            ],
+            "radius": 0.25,
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "shape": 1
+          },
+          "Name": "struct Client::PhysicsComponent"
+        }
+      ],
+      "Name": "Player(FPS)",
+      "Signature": 321,
+      "Tag": "",
+      "UUID": "HKP4-1Hzd-tgCL-PnRd"
     }
   ],
   "SceneHeader": "C:\\Users\\tcadd\\Desktop\\NL_Game\\\\assets\\scenes\\comeon.nlscene"
