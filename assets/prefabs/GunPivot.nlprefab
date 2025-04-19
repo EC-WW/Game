@@ -1,0 +1,74 @@
+{
+  "Children": [
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              0.01,
+              0.01,
+              20.0
+            ],
+            "translation": [
+              0.0,
+              0.0,
+              -11
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "diagetic": true,
+            "materialSetID": 4294967295,
+            "modelPath": "cube",
+            "shaded": true,
+            "tint": {
+              "w": 1.0,
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "Name": "struct Client::ModelComponent"
+        }
+      ],
+      "Name": "GunShot",
+      "Signature": 17,
+      "Tag": "",
+      "UUID": "GNMp-74TK-WLT4-Qxmt"
+    }
+  ],
+  "Components": [
+    {
+      "Data": {
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translation": [
+          0.0,
+          2.5,
+          0.0
+        ]
+      },
+      "Name": "struct Client::Transform"
+    }
+  ],
+  "Name": "GunPivot",
+  "Signature": 1,
+  "Tag": "",
+  "UUID": "2JMv-PMr8-bRRl-JhP9"
+}
