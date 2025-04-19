@@ -31,7 +31,7 @@ public class ScrollingCredits : NL_Script
     if (!consoleScript.MinigameActive) return;
 
     Vec3 myPos = transform.GetPosition();
-    transform.SetPosition(new Vec3(myPos.x, myPos.y++ * ScrollSpeed *  dt, myPos.z));
+    transform.SetPosition(new Vec3(myPos.x, myPos.y +=1 * ScrollSpeed *  dt, myPos.z));
   }
 
   public override void Exit()

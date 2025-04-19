@@ -1758,9 +1758,9 @@
               1.0
             ],
             "translation": [
-              -0.1550000011920929,
-              -0.40176883339881897,
-              1.0206761360168457
+              0.5,
+              -0.5,
+              1.0
             ]
           },
           "Name": "struct Client::Transform"
@@ -1809,9 +1809,9 @@
               1.0
             ],
             "translation": [
-              -1.6251249313354492,
-              3.8344783782958984,
-              3.2860562801361084
+              -4.393756866455078,
+              -31.04304313659668,
+              -5.808251857757568
             ]
           },
           "Name": "struct Client::Transform"
@@ -1824,9 +1824,9 @@
               "z": 0.0
             },
             "direction": {
-              "x": 0.16775985062122345,
-              "y": -0.23571114242076874,
-              "z": 0.9954615235328674
+              "x": -0.1942058503627777,
+              "y": 0.3625262677669525,
+              "z": 0.9749820232391357
             },
             "editorCamera": 1,
             "farPlane": 2000.0,
@@ -1863,14 +1863,14 @@
               0.0
             ],
             "scale": [
-              2.0,
-              1.0,
-              2.0
+              10.0,
+              20.0,
+              10.0
             ],
             "translation": [
-              -16.33646011352539,
-              -15.233343124389648,
-              53.42259216308594
+              -63.997291564941406,
+              -96.5694580078125,
+              64.88175201416016
             ]
           },
           "Name": "struct Client::Transform"
@@ -1878,9 +1878,9 @@
         {
           "Data": {
             "baseColor": {
-              "x": 0.10000000149011612,
-              "y": 0.10000000149011612,
-              "z": 0.10000000149011612
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
             },
             "heightmapFilename": "iceland_heightmap.png",
             "peakColor": {
@@ -1897,6 +1897,52 @@
       "Signature": 33,
       "Tag": "",
       "UUID": "KwBW-ZrCq-P60h-X9lr"
+    },
+    {
+      "Children": [],
+      "Components": [
+        {
+          "Data": {
+            "rotation": [
+              -1.5700000524520874,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              25.0,
+              10.0,
+              15.0
+            ],
+            "translation": [
+              -63.997291564941406,
+              372.39154052734375,
+              486.75494384765625
+            ]
+          },
+          "Name": "struct Client::Transform"
+        },
+        {
+          "Data": {
+            "baseColor": {
+              "x": 0.0,
+              "y": 0.20000000298023224,
+              "z": 0.30000001192092896
+            },
+            "heightmapFilename": "iceland_heightmap.png",
+            "peakColor": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "visibleBase": true
+          },
+          "Name": "struct Client::HeightmapComponent"
+        }
+      ],
+      "Name": "Heightmap",
+      "Signature": 33,
+      "Tag": "",
+      "UUID": "2BW9-prXK-P282-dQpr"
     },
     {
       "Children": [],
@@ -1979,9 +2025,9 @@
         {
           "Data": {
             "clearColor": {
-              "x": 0.01568627543747425,
-              "y": 0.003921568859368563,
-              "z": 0.03921568766236305
+              "x": 0.0,
+              "y": 0.20000000298023224,
+              "z": 0.2980392277240753
             },
             "direction": {
               "x": -4.76837158203125e-07,
@@ -2425,7 +2471,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "kMVx-cpn0-9TDX-BB9g"
             },
             {
               "Children": [],
@@ -2527,7 +2573,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "Rrk0-hJVf-zKpn-224S"
             },
             {
               "Children": [],
@@ -2629,7 +2675,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "hn1z-9tT1-P96s-pjVZ"
             },
             {
               "Children": [],
@@ -2731,7 +2777,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "LzqD-ffWp-CK3l-Qnj0"
             }
           ],
           "Components": [
@@ -2748,9 +2794,9 @@
                   1.0
                 ],
                 "translation": [
-                  0.0,
-                  -3.395160675048828,
-                  0.0
+                  1.9073486328125e-06,
+                  -5.962062835693359,
+                  -0.000133514404296875
                 ]
               },
               "Name": "struct Client::Transform"
@@ -2885,7 +2931,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "JLcB-jLHs-NchS-76w9"
             }
           ],
           "Components": [
@@ -2902,9 +2948,9 @@
                   1.0
                 ],
                 "translation": [
-                  0.0,
-                  -16.395160675048828,
-                  0.0
+                  1.9073486328125e-06,
+                  -18.96197509765625,
+                  -0.000133514404296875
                 ]
               },
               "Name": "struct Client::Transform"
@@ -2935,7 +2981,7 @@
           "Name": "Designers",
           "Signature": 145,
           "Tag": "",
-          "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+          "UUID": "lQbx-DsR5-SLGl-8lcz"
         },
         {
           "Children": [
@@ -3039,7 +3085,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "grtk-vSbf-3gkS-1XlV"
             },
             {
               "Children": [],
@@ -3141,7 +3187,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "jN8L-fHLx-Bbb1-kglg"
             }
           ],
           "Components": [
@@ -3158,9 +3204,9 @@
                   1.0
                 ],
                 "translation": [
-                  0.0,
-                  -24.86090087890625,
-                  0.0
+                  1.9073486328125e-06,
+                  -27.42770767211914,
+                  -0.000133514404296875
                 ]
               },
               "Name": "struct Client::Transform"
@@ -3244,7 +3290,7 @@
               "Name": "Line2",
               "Signature": 145,
               "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+              "UUID": "kJ1J-Dnr9-QskT-b2fP"
             }
           ],
           "Components": [
@@ -3261,9 +3307,9 @@
                   1.0
                 ],
                 "translation": [
-                  0.0,
-                  -35.81476974487305,
-                  0.0
+                  1.9073486328125e-06,
+                  -43.10146713256836,
+                  -0.00023651123046875
                 ]
               },
               "Name": "struct Client::Transform"
@@ -3294,7 +3340,7 @@
           "Name": "President",
           "Signature": 145,
           "Tag": "",
-          "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
+          "UUID": "6jTP-6Qbk-Kc4q-027N"
         },
         {
           "Children": [
@@ -3364,9 +3410,9 @@
                   1.0
                 ],
                 "translation": [
-                  0.0,
-                  -40.30500030517578,
-                  0.0
+                  1.9073486328125e-06,
+                  -47.59174728393555,
+                  -0.00023651123046875
                 ]
               },
               "Name": "struct Client::Transform"
@@ -3398,109 +3444,6 @@
           "Signature": 145,
           "Tag": "",
           "UUID": "6LMX-T98g-7v6w-tmDJ"
-        },
-        {
-          "Children": [
-            {
-              "Children": [],
-              "Components": [
-                {
-                  "Data": {
-                    "rotation": [
-                      0.0,
-                      -0.0,
-                      0.0
-                    ],
-                    "scale": [
-                      0.5,
-                      0.5,
-                      1.0
-                    ],
-                    "translation": [
-                      0.0,
-                      -1.5,
-                      0.0
-                    ]
-                  },
-                  "Name": "struct Client::Transform"
-                },
-                {
-                  "Data": {
-                    "diagetic": true,
-                    "materialSetID": 4294967295,
-                    "modelPath": "quad",
-                    "shaded": true,
-                    "tint": {
-                      "w": 1.0,
-                      "x": 1.0,
-                      "y": 1.0,
-                      "z": 1.0
-                    }
-                  },
-                  "Name": "struct Client::ModelComponent"
-                },
-                {
-                  "Data": {
-                    "fontPath": "Baloo-Regular.ttf",
-                    "text": "*Insert copyright stuff here*"
-                  },
-                  "Name": "struct Client::TextComponent"
-                }
-              ],
-              "Name": "Line2",
-              "Signature": 145,
-              "Tag": "",
-              "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
-            }
-          ],
-          "Components": [
-            {
-              "Data": {
-                "rotation": [
-                  0.0,
-                  -0.0,
-                  0.0
-                ],
-                "scale": [
-                  1.0,
-                  1.0,
-                  1.0
-                ],
-                "translation": [
-                  0.0,
-                  -46.58480453491211,
-                  0.0
-                ]
-              },
-              "Name": "struct Client::Transform"
-            },
-            {
-              "Data": {
-                "diagetic": true,
-                "materialSetID": 4294967295,
-                "modelPath": "quad",
-                "shaded": true,
-                "tint": {
-                  "w": 1.0,
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-                }
-              },
-              "Name": "struct Client::ModelComponent"
-            },
-            {
-              "Data": {
-                "fontPath": "Baloo-Regular.ttf",
-                "text": "Copyrights"
-              },
-              "Name": "struct Client::TextComponent"
-            }
-          ],
-          "Name": "Copyrights",
-          "Signature": 145,
-          "Tag": "",
-          "UUID": "\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000-\u0000\u0000\u0000\u0000"
         }
       ],
       "Components": [
@@ -3512,13 +3455,13 @@
               0.0
             ],
             "scale": [
-              1.0,
-              1.0,
+              0.699999988079071,
+              0.699999988079071,
               1.0
             ],
             "translation": [
-              -3.0,
-              -8.009358406066895,
+              -10.0,
+              -10.132787704467773,
               30.0
             ]
           },
@@ -3529,7 +3472,7 @@
             "Fields": [
               {
                 "Align": 4,
-                "Data": 1.0,
+                "Data": 2.5,
                 "Name": "ScrollSpeed",
                 "Size": 4,
                 "Type": 12,
@@ -3537,7 +3480,7 @@
               },
               {
                 "Align": 8,
-                "Data": "null",
+                "Data": "Kxfl-l4Th-sTgB-qkNs",
                 "Name": "Console",
                 "Size": 8,
                 "Type": 17,
